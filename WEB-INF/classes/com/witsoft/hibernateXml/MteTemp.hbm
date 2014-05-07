@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue May 09 11:46:41 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="MteTemp" table="MTE_TEMP">
+    
+		<composite-id>
+			<key-property column="SWID" length="16" name="Swid"
+				type="string" />
+			<key-property column="BRNO" length="16" name="Brno"
+				type="string" />
+		</composite-id>
+ 
+         <property name="rfno" column="RFNO" type="java.lang.String" />
+        <property name="prid" column="PRID" type="java.lang.String" />
+        <property name="swno" column="SWNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Fri Dec 02 14:18:29 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsEbrg" table="vi_ds_EBRG">
+ 
+ 
+        <composite-id class="ViDsEbrgPK" name="Id">
+			<key-property column="ADNO" length="16" name="adno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+ 
+        <property name="rgdt" column="RGDT" type="java.lang.String" />
+         <property name="clno" column="CLNO" type="java.lang.String" />
+        <property name="clnm" column="CLNM" type="java.lang.String" />
+        <property name="utno" column="UTNO" type="java.lang.String" />
+        <property name="aeno" column="AENO" type="java.lang.Short" />
+        <property name="ngit" column="NGIT" type="java.lang.Short" />
+        <property name="lcno" column="LCNO" type="java.lang.String" />
+        <property name="mtbk" column="MTBK" type="java.lang.String" />
+        <property name="isdt" column="ISDT" type="java.lang.String" />
+        <property name="ismd" column="ISMD" type="java.lang.String" />
+        <property name="rvdt" column="RVDT" type="java.lang.String" />
+        <property name="rvcm" column="RVCM" type="java.lang.String" />
+        <property name="mkts" column="MKTS" type="java.lang.String" />
+        <property name="isad" column="ISAD" type="java.lang.String" />
+        <property name="mkeb" column="MKEB" type="java.lang.String" />
+        <property name="tlbk" column="TLBK" type="java.lang.String" />
+        <property name="tlrf" column="TLRF" type="java.lang.String" />
+        <property name="fprf" column="FPRF" type="java.lang.String" />
+        <property name="bfe1" column="BFE1" type="java.lang.String" />
+        <property name="bfe2" column="BFE2" type="java.lang.String" />
+        <property name="bfe3" column="BFE3" type="java.lang.String" />
+        <property name="bfe4" column="BFE4" type="java.lang.String" />
+        <property name="tfbk" column="TFBK" type="java.lang.String" />
+        <property name="dlcy" column="DLCY" type="java.lang.String" />
+        <property name="dlam" column="DLAM" type="java.lang.Float" />
+        <property name="tlp1" column="TLP1" type="java.lang.Short" />
+        <property name="tlp2" column="TLP2" type="java.lang.Short" />
+        <property name="mksb" column="MKSB" type="java.lang.String" />
+        <property name="mkrv" column="MKRV" type="java.lang.String" />
+        <property name="mkcf" column="MKCF" type="java.lang.String" />
+        <property name="mkan" column="MKAN" type="java.lang.String" />
+        <property name="mktr" column="MKTR" type="java.lang.String" />
+        <property name="sutp" column="SUTP" type="java.lang.String" />
+        <property name="tenr" column="TENR" type="java.lang.Short" />
+        <property name="epdt" column="EPDT" type="java.lang.String" />
+        <property name="shdt" column="SHDT" type="java.lang.String" />
+        <property name="cndt" column="CNDT" type="java.lang.String" />
+        <property name="cldt" column="CLDT" type="java.lang.String" />
+        <property name="lcst" column="LCST" type="java.lang.String" />
+        <property name="stcd" column="STCD" type="java.lang.String" />
+        <property name="cntp" column="CNTP" type="java.lang.String" />
+        <property name="tram" column="TRAM" type="java.lang.Float" />
+        <property name="tstp" column="TSTP" type="java.lang.String" />
+        <property name="chfr" column="CHFR" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="mtdt" column="MTDT" type="java.lang.String" />
+        <property name="sp20" column="SP20" type="java.lang.String" />
+        <property name="sac1" column="SAC1" type="java.lang.String" />
+        <property name="sac2" column="SAC2" type="java.lang.String" />
+        <property name="sac3" column="SAC3" type="java.lang.String" />
+        <property name="blav" column="BLAV" type="java.lang.Float" />
+        <property name="gstp" column="GSTP" type="java.lang.String" />
+        <property name="strn" column="STRN" type="java.lang.String" />
+        <property name="corp" column="CORP" type="java.lang.String" />
+        <property name="stno" column="STNO" type="java.lang.String" />
+        <property name="dtno" column="DTNO" type="java.lang.String" />
+        <property name="nat" column="NAT" type="java.lang.String" />
+        <property name="natp" column="NATP" type="java.lang.String" />
+        <property name="chco" column="CHCO" type="java.lang.String" />
+        <property name="chcy" column="CHCY" type="java.lang.String" />
+        <property name="caam" column="CAAM" type="java.lang.Float" />
+        <property name="tltp" column="TLTP" type="java.lang.String" />
+        <property name="taam" column="TAAM" type="java.lang.Float" />
+        <property name="mgid" column="MGID" type="java.lang.String" />
+        <property name="ngdt" column="NGDT" type="java.lang.String" />
+        <property name="ngam" column="NGAM" type="java.lang.Float" />
+        <property name="ngac" column="NGAC" type="java.lang.String" />
+        <property name="ngin" column="NGIN" type="java.lang.Float" />
+        <property name="yhcy" column="YHCY" type="java.lang.String" />
+        <property name="dwbk" column="DWBK" type="java.lang.String" />
+        <property name="apnm" column="APNM" type="java.lang.String" />
+        <property name="uutp" column="UUTP" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

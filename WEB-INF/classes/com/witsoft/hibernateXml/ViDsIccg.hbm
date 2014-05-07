@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Dec 01 15:47:32 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsIccg" table="vi_ds_ICCG">
+
+		<composite-id class="VICPK" name="Id">
+			<key-property column="ICNO" length="16" name="icno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+		<property name="ardt" column="ARDT" type="java.lang.String" />
+		<property name="bpdt" column="BPDT" type="java.lang.String" />
+     	<property name="clno" column="CLNO" type="java.lang.String" />
+     	<property name="ocbk" column="OCBK" type="java.lang.String" />
+     	<property name="ocno" column="OCNO" type="java.lang.String" />
+     	<property name="drnm" column="DRNM" type="java.lang.String" />
+     	<property name="pstp" column="PSTP" type="java.lang.String" />
+		<property name="tenr" column="TENR" type="java.lang.Short" />
+        <property name="ivno" column="IVNO" type="java.lang.String" />
+		<property name="chcy" column="CHCY" type="java.lang.String" />
+		<property name="dlam" column="DLAM" type="java.lang.Float" />
+		<property name="dudt" column="DUDT" type="java.lang.String" />
+		<property name="rfno" column="RFNO" type="java.lang.String"/>
+		<property name="dldt" column="DLDT" type="java.lang.String"/>
+		<property name="usid" column="USID" type="java.lang.String" />
+		
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emlmmsp" table="EMLMMSP">
+
+    	<composite-id >
+			<key-property column="CLNO" name="Clno" type="string"/>
+			<key-property column="BRNO" name="Brno" type="string"/>
+		</composite-id>
+
+		<property column="LCAM" length="53" name="Lcam" not-null="false"
+			type="java.lang.Float" />
+		<property column="LCDK" length="53" name="Lcdk" not-null="false"
+			type="java.lang.Float" />
+		<property column="OCOB" length="53" name="Ocob" not-null="false"
+			type="java.lang.Float" />
+		<property column="CCPDCYNO" length="2" name="Ccpdcyno"
+			not-null="false" type="string" />
+		<property column="LCOBCYNO" length="2" name="Lcobcyno"
+			not-null="false" type="string" />
+		<property column="LCAMBLAN" length="53" name="Lcamblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="OCOBBLAN" length="53" name="Ocobblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="EBOBBLAN" length="53" name="Ebobblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="LCDKBLAN" length="53" name="Lcdkblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="CCPD" length="53" name="Ccpd" not-null="false"
+			type="java.lang.Float" />
+		<property column="OCOBCYNO" length="2" name="Ocobcyno"
+			not-null="false" type="string" />
+		<property column="ELDBCYNO" length="2" name="Eldbcyno"
+			not-null="false" type="string" />
+		<property column="EBOB" length="53" name="Ebob" not-null="false"
+			type="java.lang.Float" />
+		<property column="EBOBCYNO" length="2" name="Ebobcyno"
+			not-null="false" type="string" />
+		<property column="LCDKCYNO" length="2" name="Lcdkcyno"
+			not-null="false" type="string" />
+		<property column="LCOBBLAN" length="53" name="Lcobblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="LCAMCYNO" length="2" name="Lcamcyno"
+			not-null="false" type="string" />
+		<property column="UTNO" length="10" name="Utno" not-null="false"
+			type="string" />
+
+		<property column="ELDBBLAN" length="53" name="Eldbblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="CCPDBLAN" length="53" name="Ccpdblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="ELDB" length="53" name="Eldb" not-null="false"
+			type="java.lang.Float" />
+		<property column="LCOB" length="53" name="Lcob" not-null="false"
+			type="java.lang.Float" />
+
+
+	</class>
+</hibernate-mapping>

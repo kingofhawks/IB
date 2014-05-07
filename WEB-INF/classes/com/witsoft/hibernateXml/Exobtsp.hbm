@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Exobtsp" table="EXOBTSP">
+
+		<composite-id class="ExobtspPK" name="Id">
+			<key-property column="RFNO" name="Rfno" length="16"
+				type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="CKDT" length="8" name="Ckdt" not-null="false"
+			type="string" />
+		<property column="FNTP" length="1" name="Fntp" not-null="false"
+			type="string" />
+		<property column="USST" length="1" name="Usst" not-null="false"
+			type="string" />
+		<property column="OBRT" length="53" name="Obrt" not-null="false"
+			type="java.lang.Float" />
+		<property column="TSRF" length="16" name="Tsrf" not-null="false"
+			type="string" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<property column="NAT" length="5" name="Nat" not-null="false"
+			type="string" />
+		<property column="CKGT" length="128" name="Ckgt"
+			not-null="false" type="string" />
+		<property column="ACNO" length="36" name="Acno" not-null="false"
+			type="string" />
+		<property column="CKID" length="6" name="Ckid" not-null="false"
+			type="string" />
+		<property column="USID" length="16" name="Usid" not-null="false"
+			type="string" />
+		<property column="EXDT" length="8" name="Exdt" not-null="false"
+			type="string" />
+		<property column="CKST" length="1" name="Ckst" not-null="false"
+			type="string" />
+		<property column="INNO" length="2" name="Inno" not-null="false"
+			type="string" />
+		<property column="DLDT" length="8" name="Dldt" not-null="true"
+			type="string" />
+		<property column="EVNO" length="35" name="Evno" not-null="false"
+			type="string" />
+		<property column="EXRT" length="53" name="Exrt" not-null="false"
+			type="java.lang.Float" />
+		<property column="OBDY" length="5" name="Obdy" not-null="false"
+			type="java.lang.Short" />
+		<property column="NATP" length="8" name="Natp" not-null="false"
+			type="string" />
+		<property column="OBIN" length="53" name="Obin" not-null="false"
+			type="java.lang.Float" />
+		<property column="EXCY" length="2" name="Excy" not-null="false"
+			type="string" />
+		<property column="TLAM" length="53" name="Tlam" not-null="false"
+			type="java.lang.Float" />
+		<property column="GTST" length="1" name="Gtst" not-null="false"
+			type="string" />
+		<property column="GTID" length="6" name="Gtid" not-null="false"
+			type="string" />
+		<property column="PRID" length="4" name="Prid" not-null="false"
+			type="string" />
+		<property column="CLNO" length="13" name="Clno" not-null="false"
+			type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="CHAM" length="53" name="Cham" not-null="false"
+			type="java.lang.Float" />
+		<property column="OBAM" length="53" name="Obam" not-null="false"
+			type="java.lang.Float" />
+		<property column="MGID" length="30" name="Mgid" not-null="false"
+			type="string" />
+		<property column="TAAM" length="53" name="Taam" not-null="false"
+			type="java.lang.Float" />
+		<property column="OBAC" length="36" name="Obac" not-null="false"
+			type="string" />
+		<property column="MTDT" length="8" name="Mtdt" not-null="false"
+			type="string" />
+		<property column="EXAM" length="53" name="Exam" not-null="false"
+			type="java.lang.Float" />
+		<property column="CKNO" length="10" name="Ckno" not-null="false"
+			type="string" />
+		<property column="CAAM" length="53" name="Caam" not-null="false"
+			type="java.lang.Float" />
+		<property column="GTDT" length="8" name="Gtdt" not-null="false"
+			type="string" />
+		<property column="OBCY" length="2" name="Obcy" not-null="false"
+			type="string" />
+		<property column="PRAM" length="53" name="Pram" not-null="false"
+			type="java.lang.Float" />
+		<property column="PAAM" length="53" name="Paam" not-null="false"
+			type="java.lang.Float" />
+	</class>
+</hibernate-mapping>

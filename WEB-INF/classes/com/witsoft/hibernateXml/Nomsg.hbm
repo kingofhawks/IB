@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Wed Sep 21 14:27:45 PDT 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="Nomsg" table="NOMSG">
+		<id name="brno" column="brno" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+
+		<property name="usid" column="usid" type="java.lang.String"
+			not-null="true" />
+		<property name="ugid" column="ugid" type="java.lang.String"
+			not-null="false" />
+		<property name="rlid" column="rlid" type="java.lang.String"
+			not-null="false" />
+		<!-- 业务流水号-->
+		<property name="rfno" column="rfno" type="java.lang.String"
+			not-null="false" />
+		<!-- 信用证编号-->
+		<property name="tsrf" column="tsrf" type="java.lang.String"
+			not-null="false" />
+
+		<!--通知编号编号-->
+		<property name="adno" column="adno" length="16"
+			type="java.lang.String" not-null="false" />
+
+
+		<!--提货担保号-->
+		<property name="sgno" column="sgno" length="16"
+			type="java.lang.String" not-null="false" />
+
+		<!--进口来单号-->
+		<property name="ibno" column="ibno" length="16"
+			type="java.lang.String" not-null="false" />
+
+		<!--进口代收号-->
+		<property name="icno" column="icno" length="16"
+			type="java.lang.String" not-null="false" />
+
+		<!--议付编号		出口寄单收汇-->
+		<property name="bpno" column="bpno" length="16"
+			type="java.lang.String" not-null="false" />
+
+		<!--出口托收编号-->
+		<property name="ocno" column="ocno" length="16"
+			type="java.lang.String" not-null="false" />
+
+		<!--光票托收编号-->
+		<property name="ccno" column="ccno" length="16"
+			type="java.lang.String" not-null="false" />
+			
+	    <!--借据编号-->
+        <property name="evno" column="evno" length="16"
+			type="java.lang.String" not-null="false" />
+
+        <!--电文编号-->
+        <property name="swit" column="swit" length="16"
+			type="java.lang.String" not-null="false" />
+			
+			<!--用户编号-->
+        <property name="clno" column="clno" length="20"
+			type="java.lang.String" not-null="false" />
+			
+		<property name="acno" column="acno" length="10"
+			type="java.lang.String" not-null="false" />
+
+         <!--单证编号-->
+        <property name="rpid" column="rpid" length="10"
+			type="java.lang.String"/>
+			
+         <!--汇入汇款编号-->
+		 <property name="irno" column="irno" length="16"
+			type="java.lang.String"/>
+		<!--汇出汇款编号-->	
+		<property name="orno" column="orno" length="16"
+			type="java.lang.String"/>	
+	</class>
+
+</hibernate-mapping>

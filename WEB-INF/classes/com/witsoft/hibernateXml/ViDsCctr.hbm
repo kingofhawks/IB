@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Sat Dec 03 20:30:48 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsCctr" table="vi_ds_CCTR">
+
+
+		<composite-id class="VCCPK" name="Id">
+			<key-property column="CCNO" length="16" name="ccno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+		<property name="rgdt" column="RGDT" type="java.lang.String" />
+		<property name="icbk" column="ICBK" type="java.lang.String" />
+		<property name="icrf" column="ICRF" type="java.lang.String" />
+		<property name="cyno" column="CYNO" type="java.lang.String" />
+		<property name="amts" column="AMTS" type="java.lang.Float" />
+		<property name="psdt" column="PSDT" type="java.lang.String" />
+		<property name="clno" column="CLNO" type="java.lang.String" />
+		<property name="pre1" column="PRE1" type="java.lang.String" />
+		<property name="pre2" column="PRE2" type="java.lang.String" />
+		<property name="pre3" column="PRE3" type="java.lang.String" />
+		<property name="pre4" column="PRE4" type="java.lang.String" />
+		<property name="ccst" column="CCST" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

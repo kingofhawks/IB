@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Jun 13 09:54:44 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsViewReport" table="vi_ds_VIEWREPORT">
+    
+       <composite-id >
+			<key-property column="id"   name="id" type="java.lang.String" />
+			<key-property column="id_2" name="id_2" type="java.lang.String" />
+		</composite-id>
+ 
+        <property name="name" column="name" type="java.lang.String" />
+        <property name="cnname" column="cnname" type="java.lang.String" />
+        <property name="remark" column="remark" type="java.lang.String" />
+        <property name="step" column="step" type="java.lang.String"/>
+        <property name="reportid" column="reportId" type="java.lang.String" />
+        <property name="businessno" column="businessNo" type="java.lang.String" />
+        <property name="prid" column="prid" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

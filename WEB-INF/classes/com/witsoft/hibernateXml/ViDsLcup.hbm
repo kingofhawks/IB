@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Nov 24 17:36:48 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsLcup" table="vi_ds_LCUP">
+    
+        <composite-id class="VLCPK" name="Id">
+			<key-property column="LCNO" length="16" name="lcno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+        <property name="apdt" column="APDT" type="java.lang.String" />
+        <property name="apno" column="APNO" type="java.lang.String" />
+        <property name="utno" column="UTNO" type="java.lang.String" />
+        <property name="inno" column="INNO" type="java.lang.String" />
+        <property name="lctp" column="LCTP" type="java.lang.String" />
+        <property name="ismd" column="ISMD" type="java.lang.String" />
+        <property name="isdt" column="ISDT" type="java.lang.String" />
+        <property name="epdt" column="EPDT" type="java.lang.String" />
+        <property name="pcep" column="PCEP" type="java.lang.String" />
+        <property name="mkef" column="MKEF" type="java.lang.String" />
+        <property name="efdt" column="EFDT" type="java.lang.String" />
+        <property name="adl1" column="ADL1" type="java.lang.String" />
+        <property name="adl2" column="ADL2" type="java.lang.String" />
+        <property name="adl3" column="ADL3" type="java.lang.String" />
+        <property name="adl4" column="ADL4" type="java.lang.String" />
+        <property name="bfct" column="BFCT" type="java.lang.String" />
+        <property name="adbk" column="ADBK" type="java.lang.String" />
+        <property name="fpst" column="FPST" type="java.lang.String" />
+        <property name="rlno" column="RLNO" type="java.lang.String" />
+        <property name="lccy" column="LCCY" type="java.lang.String" />
+        <property name="lcam" column="LCAM" type="java.lang.Float" />
+        <property name="tlp1" column="TLP1" type="java.lang.Short" />
+        <property name="tlp2" column="TLP2" type="java.lang.Short" />
+        <property name="mxam" column="MXAM" type="java.lang.Float" />
+        <property name="blav" column="BLAV" type="java.lang.Float" />
+        <property name="mksb" column="MKSB" type="java.lang.String" />
+        <property name="tras" column="TRAS" type="java.lang.String" />
+        <property name="part" column="PART" type="java.lang.String" />
+        <property name="mkis" column="MKIS" type="java.lang.String" />
+        <property name="tris" column="TRIS" type="java.lang.String" />
+        <property name="mktr" column="MKTR" type="java.lang.String" />
+        <property name="tfbk" column="TFBK" type="java.lang.String" />
+        <property name="shdt" column="SHDT" type="java.lang.String" />
+        <property name="shfm" column="SHFM" type="java.lang.String" />
+        <property name="shto" column="SHTO" type="java.lang.String" />
+        <property name="sutp" column="SUTP" type="java.lang.String" />
+        <property name="tenr" column="TENR" type="java.lang.Short" />
+        <property name="ustp" column="USTP" type="java.lang.String" />
+        <property name="avbk" column="AVBK" type="java.lang.String" />
+        <property name="dwbk" column="DWBK" type="java.lang.String" />
+        <property name="rmbk" column="RMBK" type="java.lang.String" />
+        <property name="rmtp" column="RMTP" type="java.lang.String" />
+        <property name="cfbk" column="CFBK" type="java.lang.String" />
+        <property name="gstp" column="GSTP" type="java.lang.String" />
+        <property name="psbl" column="PSBL" type="java.lang.Float" />
+        <property name="dfam" column="DFAM" type="java.lang.Float" />
+        <property name="dfpn" column="DFPN" type="java.lang.Float" />
+        <property name="rlit" column="RLIT" type="java.lang.Short" />
+        <property name="crno" column="CRNO" type="java.lang.String" />
+        <property name="amsq" column="AMSQ" type="java.lang.Short" />
+        <property name="blsq" column="BLSQ" type="java.lang.Short" />
+        <property name="sgsq" column="SGSQ" type="java.lang.Short" />
+        <property name="trsq" column="TRSQ" type="java.lang.Short" />
+        <property name="ibct" column="IBCT" type="java.lang.Short" />
+        <property name="sgct" column="SGCT" type="java.lang.Short" />
+        <property name="mgac" column="MGAC" type="java.lang.String" />
+        <property name="tstp" column="TSTP" type="java.lang.String" />
+        <property name="cndt" column="CNDT" type="java.lang.String" />
+        <property name="cldt" column="CLDT" type="java.lang.String" />
+        <property name="lcst" column="LCST" type="java.lang.String" />
+        <property name="stcd" column="STCD" type="java.lang.String" />
+        <property name="rvrf" column="RVRF" type="java.lang.String" />
+        <property name="fnno" column="FNNO" type="java.lang.String" />
+        <property name="cltp" column="CLTP" type="java.lang.String" />
+        <property name="prpy" column="PRPY" type="java.lang.Float" />
+        <property name="prdt" column="PRDT" type="java.lang.String" />
+        <property name="chfr" column="CHFR" type="java.lang.String" />
+        <property name="pyam" column="PYAM" type="java.lang.Float" />
+        <property name="rnam" column="RNAM" type="java.lang.Float" />
+        <property name="sp20" column="SP20" type="java.lang.String" />
+        <property name="sac1" column="SAC1" type="java.lang.String" />
+        <property name="sac2" column="SAC2" type="java.lang.String" />
+        <property name="sac3" column="SAC3" type="java.lang.String" />
+        <property name="blng" column="BLNG" type="java.lang.Float" />
+        <property name="trpc" column="TRPC" type="java.lang.String" />
+        <property name="mtbk" column="MTBK" type="java.lang.String" />
+        <property name="lgfg" column="LGFG" type="java.lang.String" />
+        <property name="mgrt" column="MGRT" type="java.lang.Float" />
+        <property name="mgam" column="MGAM" type="java.lang.Float" />
+        <property name="mgdt" column="MGDT" type="java.lang.String" />
+        <property name="mgrf" column="MGRF" type="java.lang.String" />
+        <property name="mgc2" column="MGC2" type="java.lang.String" />
+        <property name="accy" column="ACCY" type="java.lang.String" />
+        <property name="acy2" column="ACY2" type="java.lang.String" />
+        <property name="mam2" column="MAM2" type="java.lang.Float" />
+        <property name="ismg" column="ISMG" type="java.lang.String" />
+        <property name="gdtp" column="GDTP" type="java.lang.String" />
+        <property name="mt46" column="MT46" type="java.lang.String" />
+        <property name="mt47" column="MT47" type="java.lang.String" />
+        <property name="uutp" column="UUTP" type="java.lang.String" />
+        <property name="ckno" column="CKNO" type="java.lang.String" />
+        <property name="mgcltact" column="MGCLTACT" type="java.lang.String" />
+        <property name="mgcltact2" column="MGCLTACT2" type="java.lang.String" />
+        <property name="mgcltamt" column="MGCLTAMT" type="java.lang.Float" />
+        <property name="mgcltamt2" column="MGCLTAMT2" type="java.lang.Float" />
+        <property name="mgcltcur" column="MGCLTCUR" type="java.lang.String" />
+        <property name="mgcltcur2" column="MGCLTCUR2" type="java.lang.String" />
+        <property name="accyno" column="ACCYNO" type="java.lang.String" />
+        <property name="accyno1" column="ACCYNO1" type="java.lang.String" />
+        <property name="qlfg" column="QLFG" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property column="DLDT" name="Dldt" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

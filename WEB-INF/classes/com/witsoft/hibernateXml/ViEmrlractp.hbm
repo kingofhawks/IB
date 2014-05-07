@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Wed Dec 21 11:53:30 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViEmrlractp" table="vi_EMRLRACTP">
+
+		<composite-id>
+			<key-property column="rlid" name="rlid" type="long" />
+			<key-property column="prid" name="prid" type="string" />
+			<key-property column="brno" name="brno" type="string" />
+		</composite-id>
+
+		<property name="panm" column="panm" type="java.lang.String" />
+		<property name="rsnm" column="rsnm" type="java.lang.String" />
+		<property name="operAuid" column="OPER_AUID"
+			type="java.lang.String" not-null="true" />
+		<property name="chceAuid" column="CHCE_AUID"
+			type="java.lang.String" not-null="true" />
+		<property name="grntAuid" column="GRNT_AUID"
+			type="java.lang.String" not-null="true" />
+		<property name="amgrAuid" column="AMGR_AUID"
+			type="java.lang.String" not-null="true" />
+	</class>
+
+</hibernate-mapping>

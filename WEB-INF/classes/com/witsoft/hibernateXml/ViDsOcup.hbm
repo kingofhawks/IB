@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Aug 15 14:55:04 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsOcup" table="vi_ds_OCUP">
+    
+        <composite-id class="VOCPK" name="Id">
+			<key-property column="OCNO" length="16" name="ocno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+ 
+        <property name="clno" column="clno" type="java.lang.String" />
+        <property name="psdt" column="psdt" type="java.lang.String" />
+        <property name="cyno" column="cyno" type="java.lang.String" />
+        <property name="amts" column="amts" type="java.lang.Float" />
+        <property name="adsn" column="adsn" type="java.lang.String" />
+        <property name="adam" column="adam" type="java.lang.Float" />
+        <property name="upam" column="upam" type="java.lang.Float" />
+        <property name="pstp" column="pstp" type="java.lang.String" />
+        <property name="psdy" column="psdy" type="java.lang.Short" />
+        <property name="icbk" column="icbk" type="java.lang.String" />
+        <property name="blpy" column="blpy" type="java.lang.String" />
+        <property name="ime1" column="ime1" type="java.lang.String" />
+        <property name="ivno" column="ivno" type="java.lang.String" />
+        <property name="caam" column="caam" type="java.lang.Float" />
+        <property name="taam" column="taam" type="java.lang.Float" />
+        <property name="usid" column="usid" type="java.lang.String" />
+        <property name="dldt" column="dldt" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

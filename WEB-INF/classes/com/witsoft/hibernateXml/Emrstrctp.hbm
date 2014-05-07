@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emrstrctp" table="EMRSTRCTP">
+		<id column="PRID" name="Prid" type="string">
+			<generator class="assigned" />
+		</id>
+		<property column="RSIS" length="10" name="Rsis" not-null="false"
+			type="string" />
+		<property column="RSAM" length="10" name="Rsam" not-null="false"
+			type="string" />
+		<property column="RSOS" length="10" name="Rsos" not-null="false"
+			type="string" />
+		<property column="STAT" length="1" name="Stat" not-null="false"
+			type="string" />
+		<property column="RSLY" length="10" name="Rsly" not-null="false"
+			type="integer" />
+		<property column="RSTS" length="1" name="Rsts" not-null="false"
+			type="string" />
+		<property column="PAID" length="4" name="Paid" not-null="false"
+			type="string" />
+		<property column="RSUP" length="10" name="Rsup" not-null="false"
+			type="string" />
+		<property column="RSST" length="10" name="Rsst" not-null="false"
+			type="integer" />
+		<property column="RSDC" length="10" name="Rsdc" not-null="false"
+			type="string" />
+		<property column="RSTP" length="10" name="Rstp" not-null="false"
+			type="integer" />
+		<property column="PANM" length="30" name="Panm" not-null="false"
+			type="string" />
+		<property column="RSNM" length="30" name="Rsnm" not-null="false"
+			type="string" />
+		<property column="RSSS" name="Rsss" not-null="false"
+			type="string" />
+		<property column="RSTT" length="10" name="Rstt" not-null="false"
+			type="string" />
+		<property column="RSUS" name="Rsus" not-null="false"
+			type="string" />
+		<property column="RSIM" length="10" name="Rsim" not-null="false"
+			type="integer" />
+		<property column="RSCM" name="Rscm" not-null="false"
+			type="string" />
+		<property column="RSOR" length="10" name="Rsor" not-null="true"
+			type="integer" />
+		<property column="URL" length="200" name="Url" not-null="true"
+			type="string" />
+	</class>
+</hibernate-mapping>

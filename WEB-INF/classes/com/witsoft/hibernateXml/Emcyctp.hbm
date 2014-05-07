@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emcyctp" table="EMCYCTP">
+
+		<id column="CYNO" name="Cyno" type="string">
+			<generator class="assigned" />
+		</id>
+		<property column="USID" length="6" name="Usid" not-null="false"
+			type="string" />
+		<property column="MTDT" length="8" name="Mtdt" not-null="false"
+			type="string" />
+		<property column="CYNM" length="12" name="Cynm" not-null="false"
+			type="string" />
+		<property column="CYCD" length="3" name="Cycd" not-null="false"
+			type="string" />
+		<property column="MNNM" length="20" name="Mnnm" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="DMIT" length="53" name="Dmit" not-null="false"
+			type="java.lang.Float" />
+	</class>
+</hibernate-mapping>

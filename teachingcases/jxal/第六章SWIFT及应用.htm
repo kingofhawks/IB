@@ -1,0 +1,2747 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=GB2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./第六章SWIFT及应用.files/filelist.xml">
+<link rel=Edit-Time-Data href="./第六章SWIFT及应用.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>第六章SWIFT及应用</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>影影</o:Author>
+  <o:LastAuthor>y</o:LastAuthor>
+  <o:Revision>20</o:Revision>
+  <o:TotalTime>47</o:TotalTime>
+  <o:Created>2007-11-27T14:14:00Z</o:Created>
+  <o:LastSaved>2007-11-27T14:25:00Z</o:LastSaved>
+  <o:Pages>28</o:Pages>
+  <o:Words>2988</o:Words>
+  <o:Characters>17032</o:Characters>
+  <o:Company>北京林业大学</o:Company>
+  <o:Lines>141</o:Lines>
+  <o:Paragraphs>34</o:Paragraphs>
+  <o:CharactersWithSpaces>20916</o:CharactersWithSpaces>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+ /* Page Definitions */
+@page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:549003380;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1442506342 552123762 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:39.6pt;
+	mso-level-number-position:left;
+	margin-left:39.6pt;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:579558664;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-302060872 470872846 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:japanese-counting;
+	mso-level-text:%1、;
+	mso-level-tab-stop:21.6pt;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l2
+	{mso-list-id:1301420398;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-522929038 249708766 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:39.6pt;
+	mso-level-number-position:left;
+	margin-left:39.6pt;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050">
+  <o:colormenu v:ext="edit" fillcolor="none"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.55pt;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:16.0pt;font-family:宋体'>第六章<span lang=EN-US>SWIFT及应用<o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:14.0pt;font-family:宋体;color:#003366;background:#D9D9D9;
+mso-shading:white;mso-pattern:gray-15 auto'>章节重点<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:宋体'>6.1 环球银行电信协会（SWIFT）背景简介<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>由于国际银行业之间经济活动日益频繁，账务往来与日俱增，传统的手工处理手段无法满足客户的要求，为了适应瞬息万变的市场发展，客户要求在一个国家内，甚至世界范围内的转账结算与资金清算能迅速完成。所以，从上世纪<span
+lang=EN-US>60年代末70年代初，欧洲七家银行就酝酿建立一个国际通信系统以提供国际间金融数据及其他信息的快速传递服务，开始对通用的国际金融电文交换处理程序进行可行性研究。研究结果表明，应该建立一个国际化的金融处理系统，该系统要能正确、安全、低成本和快速地传递标准的国际资金调拨信息。到1973年5月，来自美国、加拿大和欧洲的15个国家的239家银行宣布正式成立SWIFT，其总部设在比利时的布鲁塞尔，它是为了解决各国金融通信不能适应国际间支付清算的快速增长而设立的非盈利性组织，负责设计、建立和管理SWIFT国际网络，以便在该组织成员间进行国际金融信息的传输和确定路由。从1974年开始设计计算机网络系统，1977年夏，完成了环球同业金融电信网络(SWIFT网络)系统的各项建设和开发工作，并正式投入运营。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>该组织创立之后，其成员银行数逐年迅速增加。从<span
+lang=EN-US>1987年开始，非银行的金融机构，包括经纪人、投资公司、证券公司和证券交易所等，开始使用 SWIFT。目前该网络已遍布全球206个国家和地区的8,000多家金融机构，提供金融行业安全报文传输服务与相关接口软件，支持80多个国家和地区的实时支付清算系统。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:415.5pt;
+ height:100.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=134
+src="./第六章SWIFT及应用.files/image002.jpg" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>1980年SWIFT联接到香港。我国的中国银行于1983年加入SWIFT，是SWIFT组织的第1034家成员行，并于1985年5月正式开通使用，成为我国与国际金融标准接轨的重要里程碑。之后，我国的各国有商业银行及上海和深圳的证券交易所，也先后加入SWIFT。进入90年代后，除国有商业银行外，中国所有可以办理国际银行业务的外资和侨资银行以及地方性银行纷纷加入SWIFT。SWIFT的使用也从总行逐步扩展到分行。1995年，
+SWIFT在北京电报大楼和上海长话大楼设立了SWIFT访问点SAP(SWIFT Access Point)，它们分别与新加坡和香港的SWIFT区域处理中心主节点连接，为用户提供自动路由选择。为更好地为亚太地区用户服务，SWIFT于1994
+年在香港设立了除美国和荷兰之外的第三个支持中心，这样，中国用户就可得到SWIFT支持中心讲中文的员工的技术服务。SWIFT还在全球17个地点设有办事处，其2000名的专业人员来自55个国家，其中北京办事处于1999年成立。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>20世纪90年代开始，中国所有可以办理国际金融业务的国有商业银行、外资和侨资银行以及地方银行纷纷加入SWIFT，SWIFT发报量增长很快，传统的电传方式收发电报正在逐年下降。1996年中国SWIFT发报增长率为42.2%，在SWIFT全球增长率排名第一，中国银行在SWIFT前40家大用户中排名34位。目前，中国银行每日SWIFT发报量达3万多笔，采用SWIFT方式进行收发电报已占到全行电讯总收付量的90%。很多银行建立了SWIFT网络，使其分行也可以使用SWIFT，同时各应用系统与SWIFT有应用接口。SWIFT网络是国际结算、收付清算、外汇资金买卖、国际汇兑等各种业务系统的通讯主渠道，部分业务实现了自动化处理。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1027" type="#_x0000_t75" style='width:6in;height:408.75pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=576 height=545
+src="./第六章SWIFT及应用.files/image004.jpg" v:shapes="_x0000_i1027"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:6in;height:266.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=576 height=355
+src="./第六章SWIFT及应用.files/image006.jpg" v:shapes="_x0000_i1028"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:宋体'>6.2 SWIFT的服务内容<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>全世界金融数据传输、文件传输、直通处理<span
+lang=EN-US>STP(straight through process)、撮合,清算和净额支付服务、操作信息服务、软件服务、认证技术服务、客户培训和24小时技术支持。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT自投入运行以来，以其高效、可靠、低廉和完善的服务，在促进世界贸易的发展，加速全球范围内的货币流通和国际金融结算，促进国际金融业务的现代化和规范化方面发挥了积极的作用。我国的中国银行、中国农业银行、中国工商银行、中国建设银行、交通银行、中信实业银行等已成为环球银行金融通信协会的会员。这也就是为什么PP只支持电汇这几家国内银行的原因。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT的设计能力是每天传输1100万条电文，而当前每日传送500万条电文，这些电文划拨的资金以万亿美元计，它依靠的便是其提供的240种以上电文标准。SWIFT的电文标准格式，已经成为国际银行间数据交换的标准语言。这里面用于区分各家银行的代码，就是“SWIFT
+Code”，依靠SWIFT Code便会将相应的款项准确的汇入指定的银行。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:宋体'>6.3 SWIFT特点 <o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>1.SWIFT需要会员资格。我国的大多数专业银行都是其成员。
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>2.SWIFT的费用较低。同样多的内容，SWIFT的费用只有TELEX（电传）的18%左右，只有CABLE（电报）的2.5%左右。各银行申请加入SWIFT之组织，依规定要缴纳会费（早期会员需缴178万比利时法郎，目前已降至40万比利时法郎）外，尚需投资经SWIFT总部核可之计算机软件之硬设备，尔后使用只需分摊成本费，每笔约30比利时法郎。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>3.SWIFT的安全性较高。SWIFT的密押比电传的密押可靠性强、保密性高，且具有较高的自动化。
+SWIFT是银行间之通讯工具，涉及资金移转，安全之重要性不言可喻。其安全控制方法有四： <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT系自成严密专用的通讯网路，使用者仅限于银行金融界之会员，因非公共网络，他人无法进入此网络，对安全性之提升大有助益。
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT信息的传递过程中均以乱码执行，讯息不易被第三者译码窃取。
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT发电，收电作业均有使用者代号(User
+I/D)及密码(Password)控制，以保障信息传递之安全性，各银行必须使用经SWIFT总部检查合格之计算机软件设备。且电文资料输入，至少须经过两层不同层次之控管作业。
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT之往来电文除○、三、九类以外，均须「全文」加押，往来同业应先交换密码，定时更换密码。较Telex仅对交易日期、币别、金额加押，SWIFT密码控制更为严谨。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>4.SWIFT的格式具有标准化。对于SWIFT电文，SWIFT组织有着统一的要求和格式。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-family:宋体'>6.4 SWIFT电文表示方式<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.4.1 SWIFT电文格式分类<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>SWIFT电文格式分类是由SWIFT标准格式部门与银行共同开发的，并经过董事会<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>批准通过。<span
+lang=EN-US>SWIFT电文根据银行的实际运作共划分为10大类。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>第I类:客户汇票与支票(Customer
+Transfers Cheques ) ;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>第2类:银行头寸调拨(Financial
+Institution Transfers );<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>第3类:外汇买卖和存放款(Foreign
+Exchange ..);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>第4类:托收(Collections
+, Cash Letters );<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>第S类:证券(Securities
+);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp; </span><span style="mso-spacerun:
+yes">&nbsp;&nbsp;</span>第6类:贵金属和辛迪加(Precious Metals and Syndication ) ;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>第7类:跟单信用证和保函(Documentary
+Credits and Guarantees) ;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>第<span lang=EN-US>8类:旅行支票(Travellers Cheques);<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>第<span lang=EN-US>9类:银行账务(Statement..);<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>第<span
+lang=EN-US>10类:SWIFT系统电报。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>其中，每一类(( Category)包含若干组(Group )，每一组又包含若干格式(Type)。每个<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>电报格式代号由<span lang=EN-US>3位数字组成。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>例如:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span><span style="mso-spacerun: yes">&nbsp;</span>MTl x x客户汇款与支票类<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>MT10 x客户汇款与支票类客户汇款组<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>MTl l x客户汇款与支票类支票组<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>MT100客户汇款格式<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>MT110支票通知<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>此外，还设有公共组(Common Group):<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n90费用、利息和其他调整的通知<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n91要求支付利息、费用和其他支出<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n92要求注销<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n95查询<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n96答复<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n98约定格式<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n99自由格式<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>公共组可以与任何一类电报格式套用，如MT192—要求取消一笔客户汇款。公<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>共组的电报格式与加押类电报格式套用为加押电报，否则便为非加押电报。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.4.2 SWIFT电报结构<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>SWIFT电报结构由5部分组成，各部分开头均以大括号标注。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>{1:Basic Header Block}基本报头<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>{2 : Application Header Block}应用报头<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>{3 : User Header Block}用户报头<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>{4 : Text Block}电报正文<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>{5:Trailer Block}报尾<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>(一)基本报头<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>基本报头由以下<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>6个部分构成:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;</span><!--[if gte vml 1]><v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:349.5pt;height:45.75pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=466 height=61
+src="./第六章SWIFT及应用.files/image008.jpg" v:shapes="_x0000_i1029"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>其中：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>a.“1”表示基本报头的数据块标识符。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>b.应用程序标识符，用以识别接收或发送电报的应用程序。其有效选择为：F,FIN<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>( Financial Application)包括全部用户间的业务电报和FIN系统电报;A,
+AFC ( Application<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>Control)包括GPA系统电报和命令;L, LTC ( LogicalTerminal
+Control)包括Login .Login Ac-<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>knowledge ment等对话控制命令，GPA=APC十LTC.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:15.75pt;mso-char-indent-count:1.5;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;</span>c，应用程序协议数据单元标识符(APDU)，由2位数字组成，用以识别发送或接收<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>的数据类型。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>d，逻辑终端地址(Logical Terminal Address )，由收报行/发报行的SWIFT银行识别代<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>码加上终端代码共<span lang=EN-US>12位字符组成。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>e.对话序号(Session Number)，由4位数字组成，从0001一9999循环使用。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>f.电报接收/发送序号，由6位数字组成，从000001一999999循环使用。发报序号<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>即<span lang=EN-US>ISN(Input Sequence Number)，收报序号即OSN(Output
+Sequence Number) .<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>(二)应用报头<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+style='font-family:宋体'>应用报头包括输人和输出两个方面<span lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l0 level1 lfo2;tab-stops:list 39.6pt'><![if !supportLists]><span
+lang=EN-US style='font-family:宋体'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='font-family:宋体'>输入<span lang=EN-US>(Input
+Message )。输人的构成是:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1030"
+ type="#_x0000_t75" style='width:322.5pt;height:49.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=430 height=66
+src="./第六章SWIFT及应用.files/image010.jpg" v:shapes="_x0000_i1030"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>其中<span lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>a. &quot;2”表示应用报头数据块标识符。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>b.“I&quot;表示输入标识符。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>c.报文类别(Message Type)，由3位数字组成，用以说明被输人电文(发电)的业务<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>d.接收地址，即由12位字符组成的收报行逻辑终端地址代码。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>e.电报优先级，该字符规定电报传送的优先级，可有以下3种选择:S=SYSTEM，系<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>统电报，只限于用户对系统的发报<span lang=EN-US>;U=<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>URGENT，加急电报，用于用户之间的业务电报<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>N=NORMAL,普通电报，用于用户之间的业务电报。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;</span>f.传递监控，只用于FIN用户间的业务电报。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;</span>g.失效时限，其使用只限于FIN用户间的业务电报。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>2.输出(Output Message) .输出的构成是:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1031" type="#_x0000_t75"
+ style='width:406.5pt;height:41.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=542 height=55
+src="./第六章SWIFT及应用.files/image012.jpg" v:shapes="_x0000_i1031"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp; </span>其中:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>a.&quot;2&quot;表示应用报头数据块标识符。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>b.字母“o&quot;表示输出标识符。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>c.报头类别(Message Type)，由3位数字组成，表示被输出电文(收电)的业务类型。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>d.输人时间(Input Time )，表示发报行发报的当地时间，若该电报为系统报，则输入时间为标准时(GMT)。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>e.电报输人参号(Message Input Reference, MIR)，由一组28位的字符串构成，包括电报输人日期、发报行的逻辑终端标识符和分支代码、对话序号和发报序号。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>f.输出日期(Output Date )，表示收报行的收报日期(当地时间)。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>g.输出时间(Output Time )，表示收报行收报的当地时间。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>h.电报优先级(Priority)，发报行输入电文时选用的优先级在FIN的输出应用报头中显示。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>(三)用户报头<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>用户报头为<span lang=EN-US>3种报头中的可选项，只适用于FIN用户间的业务电报。它使发报人可设置一个有关该报的专用参号，并显示在输出报文、收发报确认以及与之有关的系统报文中。用户报头中用户参号(MUR)部分可用作SWIFT一I电报寻索的选择依据。用户报头由两部分组成，如使用，至少选择其中一项。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1032"
+ type="#_x0000_t75" style='width:267pt;height:47.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image013.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=356 height=63
+src="./第六章SWIFT及应用.files/image014.jpg" v:shapes="_x0000_i1032"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp; </span>其中:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>a.“ 3”表示用户报头数据块标识符。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>b.银行业务优先级(Banking Priority)。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>c.电报用户参号(Message User Reference, MUR)。标识符，&quot;108”为一可供用户设置其专用参号的由16位字符组成的自由格式字段。如未选用此项，在系统存储中，电报正文中的20项(T'RN)将被自动抄入此项以供寻索用，但TRN不作为MUR显示在输出报文中。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;
+</span>(四)电报正文<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:5.0gd;line-height:150%'><span
+style='font-family:宋体'>电报正文被置于<span lang=EN-US>SWTFT电报结构的第4部分。数据块标识符用“4&quot;标出，首尾用大括号标出。与FIN用户业务相比较，GPA电报或FIN系统报的不同之处在于，电报正文<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:31.5pt;mso-char-indent-count:3.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>每一字段如同报文数据块<span
+lang=EN-US>(BLOCK4)的子块，首尾也用括号标出。以未送达警告( NT010)为例:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1033"
+ type="#_x0000_t75" style='width:356.25pt;height:34.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=475 height=46
+src="./第六章SWIFT及应用.files/image016.jpg" v:shapes="_x0000_i1033"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1034"
+ type="#_x0000_t75" style='width:357pt;height:85.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=476 height=114
+src="./第六章SWIFT及应用.files/image018.jpg" v:shapes="_x0000_i1034"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;</span>(五)报尾<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>在SWIFT电报中，报尾部分作监督控制用，或表示特殊情况下系统对电报的处理，<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>或传达某些特殊的附加信息。报尾可由用户或系统添加。报尾被置于<span
+lang=EN-US>SWIFT电报的<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>第<span lang=EN-US>5部分(BLOCK 5 )。每一报尾以3个字母代码开始，随后为引导和报尾自身的信息。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:31.5pt;mso-char-indent-count:3.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>(六)电报参号<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:52.8pt;mso-char-indent-count:5.03;
+mso-char-indent-size:10.45pt;line-height:150%'><span style='font-family:宋体'>以中国银行收报为例<span
+lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1035"
+ type="#_x0000_t75" style='width:401.25pt;height:54pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=535 height=72
+src="./第六章SWIFT及应用.files/image020.jpg" v:shapes="_x0000_i1035"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l2 level1 lfo3;tab-stops:list 39.6pt'><![if !supportLists]><span
+lang=EN-US style='font-family:宋体'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='font-family:宋体'>电报输人参号<span lang=EN-US>(MIR)，指发报行的有关参号。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1036"
+ type="#_x0000_t75" style='width:311.25pt;height:43.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=415 height=58
+src="./第六章SWIFT及应用.files/image022.jpg" v:shapes="_x0000_i1036"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>其中<span lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>a.电报输入日期。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>b.收报行逻辑终端地址代码。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>c.输入/输出对话序号。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>d.收报序号。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>2.电报输出参号(MOR )，指收报行的有关参号。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1037"
+ type="#_x0000_t75" style='width:299.25pt;height:39.75pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=399 height=53
+src="./第六章SWIFT及应用.files/image024.jpg" v:shapes="_x0000_i1037"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>其中<span lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>a.电报输出日期。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>b.发报行逻辑终端地址代码。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>e.输入/输出对话序号。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>d.发报序号。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>3.电报用户参号(MUR)。电报用户参号由发报行人选用并显示在业务电报的用户<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>报头中。标号<span lang=EN-US>(108:)为可选项，未选用MUR的电报在寻索时可用电报正文中20项<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>TRN代替。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>(七)确认<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>所有SWIFT电报(包括SYS, GPAT和FIN电报)均按正确的输入/输出序号被逐一<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>确认。确认的基本报头，无论肯定或否定<span lang=EN-US>(ACK/NCK)均标明原报的参号与终端标识。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>这主要包括两个部分<span lang=EN-US>:电报确认和用户电报确认。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>电报确认(ACK/NCK)是由系统发给输入终端以证实电报被接受与否并在其SP的<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>安全存储。其中，<span lang=EN-US>ACK电报正文包括3个方面，177:电报被接收的日期、时间;451:接收<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>指示符<span lang=EN-US>o=接受;108:输人电报的MUR(若选用)。而NCK电报正文包括4部分，177:电<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>报被拒绝的日期、时间<span lang=EN-US>;451:接收指示符1=拒绝;405:拒绝原因(错误代码和标号);<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>108:输人电报的MUR(如选用)。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>用户电报确认(IAK/INK )，由用户终端自动发至SWIFT确认每一份GPA和FIN输<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>出电报的接收。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'>SWIFT报文由一些项目(Field )组成，每一种报文格式(Message Type，简称MT)规定<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>了由哪些项目组成，每一个项目又严格规定由多少字母、多少数字或多少字符组成，这<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>些规定的表示方法及含义如下<span lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>n:只表示数字;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>a:只表示字母;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>θ:数字或字母;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>×:表示sWIFT电信中允许出现任何一个字符(包括10个数字、26个字母、有关标<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+style='font-family:宋体'>点符号、空格键、回车键和跳行键<span lang=EN-US>);<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>* :行数。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>例如:2n表示最多填入2位数字;3a表示必须填入3个字母;4* 35×表示所填入<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>的内容最多<span lang=EN-US>4行，每行最多35个字符。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>在一份SWIFT报文中，有些规定项目是必不可少的，称为必选项目(Mandatory<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>Field)。有些规定项目可以由操作员根据业务需要确定是否选用，这些项目称为可选项<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>目<span lang=EN-US>(Optional Field )。我们将用“M”来表示必选项目，用“O”表示可选项目。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>项目代号由2位数字或2位数字加一个小写字母后缀组成，该小写字母后缀在某<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>一份报文中必须由某一个规定的大写字母替换，例如<span lang=EN-US>:项目“52a&quot;，该项目在某一份报文<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>中可能成为“<span lang=EN-US>52A&quot;，在另一份报文中就可能成为“52B&quot;。带上不同的大写字母后缀，其<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>含义和用法就不一样。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>(二)关于货币的表示方法<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>SWIFT中的货币符号一律采用国际标准符号(见表6-3）：<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1038"
+ type="#_x0000_t75" style='width:393.75pt;height:118.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image025.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=525 height=158
+src="./第六章SWIFT及应用.files/image026.jpg" v:shapes="_x0000_i1038"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>(三)关于日期的表示方法<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>SWIFT报文中的日期用6位数字表示，规则为:YYMMDD，即年、月、日。例如<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:31.5pt;mso-char-indent-count:3.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>050110表示2005年1月10日<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;</span>(四)关于数字的表示方法<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>SWIFT报文中，数字的表示方法与常规写法有所不同，举例如下(见表6-4):<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1039"
+ type="#_x0000_t75" style='width:409.5pt;height:97.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image027.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=546 height=130
+src="./第六章SWIFT及应用.files/image028.jpg" v:shapes="_x0000_i1039"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>（五）关于关系人的表示方法<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>SWIFT报文格式中有9个关系人识别，项目“56&quot;、
+&quot; 59”是客户项目，其余均是金融机构或称为银行项目(见表6-5):<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1040"
+ type="#_x0000_t75" style='width:414.75pt;height:227.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image029.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=303
+src="./第六章SWIFT及应用.files/image030.jpg" v:shapes="_x0000_i1040"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.06gd;text-indent:10.5pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:
+宋体'>其中，项目“<span lang=EN-US>50&quot;中的第一行不能出现账号。项目“59”中的第一行视具体情况加列一<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:31.5pt;mso-char-indent-count:3.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>账号，该账号的开户人必须是项目所要表示的关系人。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:10.55pt;mso-char-indent-count:1.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.4.3 其他应注意的方面<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:10.5pt;mso-char-indent-count:1.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>1.项目表示方式<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:2.0gd;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;
+line-height:150%;mso-layout-grid-align:none'><span lang=EN-US style='font-family:
+宋体'>SWIFT由项目(FIELD)组成，如：59 BENEFICIARY（受益人），就是一个项目，59是项目的代号，可以是两位数字表示，也可以两位数字加上字母来表示，如51a
+APPLICANT（申请人）。不同的代号，表示不同的含义。项目还规定了一定的格式，各种SWIFT电文都必须按照这种格式表示。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:2.0gd;text-align:left;
+text-indent:21.0pt;mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;
+line-height:150%;mso-layout-grid-align:none'><span style='font-family:宋体'>在<span
+lang=EN-US>SWIFT电文中，一些项目是必选项目（MANDATORY FIELD)，一些项目是可选项目（OPTIONAL FIELD)，必选项目是必须要具备的，如：31D
+DATE AND PLACE OF EXPIRY（信用证有效期），可选项目是另外增加的项目，并不一定每个信用证都有的，如：39B MAXIMUM CREDIT
+AMOUNT（信用证最大限制金额）。 <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>2.日期表示方式<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT电文的日期表示为：YYMMDD（年月日）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>如：<span lang=EN-US>1999年5月12日，表示为：990512；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>2000年3月15日，表示为：000315；<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>2001年12月9日，表示为：011209。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>3.数字表示方式<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>在<span lang=EN-US>SWIFT电文中，数字不使用分格号，小数点用逗号“，”来表示<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>如：<span lang=EN-US>5，152，286.36
+表示为：5152286，36；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>4/5 表示为：0，8；<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>5% 表示为：5
+PERCENT<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>4.货币表示方式<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>澳大利亚元：<span
+lang=EN-US>AUD；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>奥地利元：<span lang=EN-US>ATS；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>比利时法郎：<span
+lang=EN-US>BEF；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>加拿大元：<span lang=EN-US>CAD；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>人民币元：<span lang=EN-US>CNY；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>丹麦克朗：<span lang=EN-US>DKK；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>德国马克：<span lang=EN-US>DEM；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>荷兰盾：<span lang=EN-US>NLG；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>芬兰马克：<span lang=EN-US>FIM；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>法国法郎：<span lang=EN-US>FRF；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>港元：<span lang=EN-US>HKD；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>意大利里拉：<span
+lang=EN-US>ITL；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>日元：<span lang=EN-US>JPY；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>挪威克朗：<span lang=EN-US>NOK；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>英镑：<span lang=EN-US>GBP；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>瑞典克朗：<span lang=EN-US>SEK；<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>美元：<span lang=EN-US>USD<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.4.4 应用<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.06gd;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'>6.4.4.1
+SWIFT在贸易汇款中的使用<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:
+宋体'>1.MT100客户汇款<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>MT100客户汇款(MT100 Customer
+Transfer)格式见表6-6<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1041" type="#_x0000_t75"
+ style='width:412.5pt;height:273pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image031.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=550 height=364
+src="./第六章SWIFT及应用.files/image032.jpg" v:shapes="_x0000_i1041"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>该报文用于银行在应用SWIFT处理客户汇款时所使用的报文格式，表6-6内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>56a:中间行。该项目列明中间行，该项目内容中可能出现中间行在某清算系统中的识别代码。例如，//CP(后跟3位数字):中间行在纽约银行同业清算系统(即CHIPS
+)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>成员号码；<span lang=EN-US>//FW(后跟9位数字):中间行在美国联储系统的路由号码;//BL(后跟8位<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>数字<span lang=EN-US>:中间行在德国的银行号码。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>71A:费用负担。该项目用以下形式之一表明费用由谁负担。BEN:费用由收款人负担;OUR:费用由发报行负担。若报文未使用该项目，即表示由收款人负担可能产生的费用。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>72:附言。附言应包括这样一些内容:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>(1)该项目中的每一项附言之前都必须冠以代码表明该附言是给谁的，除非附言使<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>用代码。如，<span lang=EN-US>/REC/ . . .:下列附言系给收报行;/INT/...:下列附言系给中间行;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>/ACC/. . .:下列附言系给账户行;/BNH/ . . .:下列附言系给受益人。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>(2)如果报文中有关项目未列明该交易过程中涉及的有关银行，此处应加以说明。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>(3)付款及通知方式。如可能出现的代码有，/BENONOY/:付给收款人本人;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>/CHEQUE/:通过支票付款;/HOLD/收款人前来取款，验明身份后付款。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>(4)对该笔汇款的说明。如可能出现的代码有，/INTRACOM/:此系同一集团内部<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>两个公司之间的付款<span lang=EN-US>;/CORPTRAD/:此系公司之间贸易结算的付款。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:
+宋体'>2.MT100客户汇款的SWIFT应用<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>(一)汇款行与解付行之间存在直接账户关系<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>FRANZ CO. LTD.指示OESTERREICHISCHE LAENDERBANK,
+VIENNA向JANSSEN CO. LTD.在ALGEMENE BANK NEDERLAND ,AMSTERDAM开立的欧元账户支付EURI 958.47(假设该两家银行之间存在直接欧元账户关系)，如下图6-1所示。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>SWIFT报文:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>MT100<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>TRANSACTION REFERENCE NUMBER: 20: 49493//DEV<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>VALUE DATE/CURRENCYCODE/AMOUNT: 32A: 910527
+EUR1958, 47<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>ORDERING CUSTOMER:50:JANSSEN CO .LTD。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>BENEFICIARY CUSTOMER: 59: JANSSEN CO .LTD
+.EDEBOERSTR.AAT27 STERDAM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1042" type="#_x0000_t75"
+ style='width:415.5pt;height:210pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image033.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=280
+src="./第六章SWIFT及应用.files/image034.jpg" v:shapes="_x0000_i1042"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>(二)汇款行与解付行之间有账户关系，并指定解付行用以偿付的账户<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>FRANZ. CO .LTD.指示OESTERREICHISCHE
+LAENDERBANK, VIENNA向JANSSEN<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>CO .LTD.在ALGEMENE BANK NEDERLAND
+, AMSTERDAM开立的欧元账户支付4月12<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>日发票<span lang=EN-US>18042项下货款EUR 1958假设发报行在收报行开有多个账户，此时发报行要<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span style='font-family:宋体'>求对方使用<span lang=EN-US>219-4290555-81账户用以偿还)。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>在本例中，其图示同图6-1，其报文(SWIFT)如下:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>MT100<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>TRANSACTION REFERENCE NUMBER: 20 :494932/DEV<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>VALUE DATE/CURRENGYCODE/AMOUNT:32A:910527
+EUR1958,47<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ORDERING CUSTOMER: 50:FRANZ CO .LTD.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>SENDER’S CORRESPONDENT: 53B:/219一4290555一8/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp; </span>BENEFICIARY CUSTOMER: 59:JANSSEN CO .LTD
+.LEDEBOERSTRAAT 27 MSTER-<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'>DAM<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.6pt;text-indent:21.6pt;line-height:
+150%'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>DETAILS OF PAYMENT:70: /RFB/ZNV
+18042一910412<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>SWIFT信用证中英文式样分别见表6-7、表6-8.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1043" type="#_x0000_t75"
+ style='width:415.5pt;height:245.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image035.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=327
+src="./第六章SWIFT及应用.files/image036.jpg" v:shapes="_x0000_i1043"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1044" type="#_x0000_t75"
+ style='width:414pt;height:246pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image037.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=552 height=328
+src="./第六章SWIFT及应用.files/image038.jpg" v:shapes="_x0000_i1044"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.4.4.2 <span
+style="mso-spacerun: yes">&nbsp;&nbsp;</span>SWIFT在跟单托收中的使用<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:10.5pt;mso-char-indent-count:1.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>托收结算主要有以下几种<span
+lang=EN-US>SWIFT电文格式。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'>1.MT400付款通知<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>MT400付款通知（MT400 Advice of Payment）见表6-9。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>本报文是由代收行发给托收行，或由代收行的分行发给托收行或托收行的分行，亦<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>可以由代收行发给另一家代收行，用来通知托收款项下的付款或部分付款以及该托收<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>款项的结算。除非报文中另有明确表述，发报行和收报行之间建有账户关系并将用于<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>该业务的结算。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1045" type="#_x0000_t75"
+ style='width:415.5pt;height:146.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image039.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=195
+src="./第六章SWIFT及应用.files/image040.jpg" v:shapes="_x0000_i1045"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1046" type="#_x0000_t75"
+ style='width:423pt;height:112.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image041.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=564 height=150
+src="./第六章SWIFT及应用.files/image042.jpg" v:shapes="_x0000_i1046"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp; </span>表6-9内有关参数的说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>32a:代收金额。该项目内容包括托收委托书上列明的到期日及付款人已支付或应<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>付的本币币别和金额，其表现形式有<span
+lang=EN-US>3种:当项目代号为“32A”时，表明到期日已经确<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>定<span
+lang=EN-US>;当项目代号为“32B&quot;时，表示还无法确定到期日;当项目代号为“32K&quot;时，表示到期<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>日在某一段时期后，如<span
+lang=EN-US>32K : D060ST USD 10 000，即见票后60天，语句中“ST”表示“见票<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>后”，它还可用下列代码替换，表示“在……时间后”<span
+lang=EN-US>,BE—开出汇票后，CC—在货物清关后，GA--货物到达后，ID—在发票日期后等。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>71B:该项目列明已从代收总额中扣除的费用。该项目只有在该费用货币与托收金<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>额一致时使用，可能出现的代码有，<span
+lang=EN-US>/AGENT/:代理商佣金;/TELECHAR/:电信费用;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>/COMM/:我行费用;/CORCOM/:我代理行费用;/DISC/:商业折扣;/INSVR/:保险费;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>/POST/:邮费;/STAMP/:印花税。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>72:附言。该项目可能出现的代码有，/BNF/:下列附言给收费行;/REC/:下列附言<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>给收报行<span
+lang=EN-US>;/TELEBEN/:请用快捷的有效电信方式通知收款行;/PHONBEN/:请用电话<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>通知收款行<span
+lang=EN-US>;/ALCHAREF/:付款人拒付所有费用;/OVCHAREF/:付款人拒付我方费<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>用<span
+lang=EN-US>;/UCHAREF/:付款人拒付你方费用。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>73:附加金额细目。该项目内容是对加在代收本金上金额的解释，且该项目只有在<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>该金额货币与托收金额的货币一致时使用。其可能出现的代码有，<span
+lang=EN-US>/INTEREST/:代收<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>金额的利息<span
+lang=EN-US>;/RETCOMM/:代收行支付的手续费。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'>2.MT410确认<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>MT410确认(MT 410
+Acknowledcement)见表7-2。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>本报文是由代收行发送给托收行，或由一家代收行发给另一家代收行，用来确认收到<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>托收委托书的报文格式，除非另有表述，该报文表示代收行将按照委托书承办该业务。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1047" type="#_x0000_t75" style='width:415.5pt;
+ height:160.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image043.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=214
+src="./第六章SWIFT及应用.files/image044.jpg" v:shapes="_x0000_i1047"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>表<span lang=EN-US>6-10内有关参数说明:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:1.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>72:附言。该项目可能出现以下代码，/DRAWEE/:关于付款人的情况不详，请提供<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0gd;line-height:150%'><span
+style='font-family:宋体'>更详细情况<span lang=EN-US>;/FORWARD/:我行已将该托收业务转我……分行，请接洽该分行。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'><span style="mso-spacerun:
+yes">&nbsp; </span>3.MT412承兑通知<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>MT412承兑通知(MT412
+Advice of Acceptance)见表6-11。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>本报文是由代收行发送给托收行，或由代收行发送给另一家代收行，用来通知收报<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>行某托收委托书项下的一笔或多笔汇款已承兑的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1048" type="#_x0000_t75" style='width:414.75pt;
+ height:163.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image045.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=218
+src="./第六章SWIFT及应用.files/image046.jpg" v:shapes="_x0000_i1048"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>表<span
+lang=EN-US>6-11内有关参数说明:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>72:附言。该项目可能出现下列代码，/REC/:下列附言给收报行;/ALCHAREF/:付款人拒付所有费用;/DOMTCIL/:该托收业务已由……(银行)处理;/HOLDING/:已承兑<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>汇票现由我们保管，到期将根据你行要求提示并要求付款<span
+lang=EN-US>;/OVCHAREF/:付款人拒付<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>我行费用<span
+lang=EN-US>;/SENDING/:承兑汇票已航邮你行;/UCHAREF/:付款人拒付你行费用。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>4.MT420查询<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp; </span>MT420查询(MT420 TRACER)见表6-12。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>本报文是由托收行发给代收行，或由代收行发给另一家代收行，用来查询托收项下<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>寄出单据的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1049" type="#_x0000_t75" style='width:415.5pt;
+ height:226.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image047.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=302
+src="./第六章SWIFT及应用.files/image048.jpg" v:shapes="_x0000_i1049"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp; </span><b style='mso-bidi-font-weight:
+normal'>5.MT422通知单据情况并要求给予指示<o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>MT422通知单据情况并要求给予指示(MT422
+Advice of Fate and Request for Instructions)见表6-13。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>本报文是由代收行发送给托收行，或由一家代收行发送给另一家代收行，用来通知<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>收报行关于代收行收到的托收单据情况。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1050" type="#_x0000_t75"
+ style='width:415.5pt;height:208.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image049.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=554 height=278
+src="./第六章SWIFT及应用.files/image050.jpg" v:shapes="_x0000_i1050"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>表6-13内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>75:查询，该项目列明有关托收的查询。一些常见的查询可用下列代号表示:/1/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>WE APPEAR NOT TO HAVE BEEN DEBITED SO FAR;/14/WE CANNOT
+TRACE THIS<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>TRANSACTION, PLEASE SEND DETAILS;/IS/MAY WE RELEASE THE
+DOCUMENTS TO<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>THE DRAWEE FREE OF PAYMENT;/16/WE HAVE NOT RECEIVED YOUR
+CONFIRMA-<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>TION TO DATE o<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>76:答复，该项目用于答复与本托收业务有关的查询。一些常见的答复可用下列代<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>号表示<span lang=EN-US>:/1/WE HEREBY CONFIRM THAT l}E
+CARRIED OUT YOUR ORDER ON...(日<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>期<span lang=EN-US>);/2/WE HEREBY CONFIRM THAT THE
+TRANSACTION HAS BEEN EFFECTED AND<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>ADVISED ON . . .(日期);/10/WE AUTHORISE YOU TO DEBIT OUR
+ACCOUNT。该项目还<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>可能出现下列代码<span lang=EN-US>:/ARRIVCEP/:保证于货到后承兑;/ARRIVPAY/:保证于货到后付<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>款<span lang=EN-US>;/DRAWEE/:付款人情况不详，请提供详情;/INFNOCEP/:付款人声明已将未承兑的<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>原因告知出票人<span lang=EN-US>;/PROMIPAY/:承诺付款。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'>6.MT430修改托收指示<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>MT430修改托收指示(MT430 Amendment of Instruction)见表6-14。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>本报文是由托收行发给代收行，或由一家代收行发送给另一家代收行，用来修改托<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>收指示的报文格式。该报文分为两部分<span lang=EN-US>:第一部分，有关被修改的托收情况和对原托收<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>委托书中的到期日、货币及金额的修改<span lang=EN-US>;第二部分，对付款人的修改及对托收指示其他<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>部分的修改。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:5.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1051" type="#_x0000_t75"
+ style='width:5in;height:228pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image051.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=480 height=304
+src="./第六章SWIFT及应用.files/image052.jpg" v:shapes="_x0000_i1051"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>表6-14内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>74:修改内容。除到期日、货币、金额的修改，其他修改内容均列入此项目。在该项<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>目中可能出现下列代码，<span lang=EN-US>/CLOSE/:请将该托收项下的单据退给我行，结束该笔业务;
+<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>/FREE/:请将单据交给……不论对方是否付款;/HOLDCEP/:在付款人承兑后，请保留<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span
+style='font-family:宋体'>汇票，于到期日提示收款<span lang=EN-US>;/SENDCEP/:在付款人承兑后，请将该汇票航邮我行。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'>7.MT456拒付通知<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>MT456拒付通知(MT4S6
+Advice of Dishonor)见表6-15。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>本报文是由账户行发送给开户行，用来通知由于报文中列明的原因，某托收进账<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>单项下的某票据已被拒付，发报行已借记收报行的报文格式。在该通知中，还将列明<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>发报行已将被拒付的票据退给托收进账单的寄发行，或者已向付款人重新提示要求付款。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1052" type="#_x0000_t75"
+ style='width:414pt;height:286.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image053.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=552 height=382
+src="./第六章SWIFT及应用.files/image054.jpg" v:shapes="_x0000_i1052"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>表6-15内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>71B:费用。该项目对发报行就所拒付票据收取的费用给予解释。其可能出现的代<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:5.0gd;line-height:150%'><span
+style='font-family:宋体'>码是，<span lang=EN-US>/AGENT/:代理商佣金;/TELECHAR/:电信费用;/COMM/:我行费用;/CORCOM/:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:5.0gd;line-height:150%'><span
+style='font-family:宋体'>我代理行费用<span lang=EN-US>;/DISC/商业折扣;/INSUR/:保险费;/POST/:邮费;/STAMP/:印花税;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:5.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>/WAREHOUS/:码头费及仓储费。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.4.4.3 SWIFT在信用证结算中的使用<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>随着电讯技术的发展，全电开证得到了普遍的应用。银行在应用<span
+lang=EN-US>SWIFT做全电开证时，有以下几种电文格式：<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp; </span><b
+style='mso-bidi-font-weight:normal'><span style="mso-spacerun:
+yes">&nbsp;&nbsp;</span>1.MT700/701开立跟单信用证<o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT700/701开立跟单信用证(MT700/701 ISSUE OF A DOCUMENTARY CREDIT)见表6-16、表6-17。这是由开证行发送给通知行，用来列明发报行(开证行)开立的跟单信<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>用证条款的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1053"
+ type="#_x0000_t75" style='width:414.75pt;height:141pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image055.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=188
+src="./第六章SWIFT及应用.files/image056.jpg" v:shapes="_x0000_i1053"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1054" type="#_x0000_t75"
+ style='width:414pt;height:285pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image057.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=552 height=380
+src="./第六章SWIFT及应用.files/image058.jpg" v:shapes="_x0000_i1054"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%'><span
+style='font-family:宋体'>续表<span lang=EN-US> <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=right style='text-align:right;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%'><span
+lang=EN-US style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1055"
+ type="#_x0000_t75" style='width:414.75pt;height:502.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image059.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=670
+src="./第六章SWIFT及应用.files/image060.jpg" v:shapes="_x0000_i1055"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp; </span>表6-17内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>40A:跟单信用证形式。该项目内容总共有6种填法，IRREVOCABLE:不可撤销跟单信用证；REVOCABLE:可撤销跟单信用证;IRREVOCABLE
+TRANSFERABLE:不可撤销可转让跟单信用证;REVOCABLE TRANSFERABLE:可撤销可转让跟单信用证; IRREVOCABLE
+STANDBY:不可撤销备用信用证;REVOCABLE STANDBY:可撤销备用信用证。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>41A:有关银行及信用证兑付方式。该项目列明被授权对该证付款、承兑或议付的<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>银行及该信用证的兑付方式。其具体内容是<span
+lang=EN-US>:<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>(1)银行表示方法:当项目代号为“41A&quot;时，银行用SWIFT名址码表示;当项目代号<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>为“<span
+lang=EN-US>41D&quot;时，银行用行名地址表示;如果信用证为自由议付信用证时，该项目代号应为<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>“<span
+lang=EN-US>41D&quot;，银行用“ANY BANK IN . . .(地名/国名)”表示;如果该信用证为自由议付信用证，而且对议付地点也无限制时，该项目代号应为“41
+D&quot;，银行用“ANY BANK&quot;表示。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>(2)兑付方式表示方法，BY PAYMENT:即期付款;BY ACCEPTANCE:远期承兑;BY<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>NEGOTIATION:议付;BY DEF PAYMENT:迟期付款;BY MIXED PAYMENT混合付款。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>49:保兑指示。该项目内容可能出现下列某一代码，CONFIRM:要求收报行保兑该<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>信用证<span
+lang=EN-US>; MAY ADD:收报行可以对信用证加具保兑;WITHOUT:不要求收报行保兑该信用证。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>72:附言。该项目可能出现的代码，/PHONBEN/:请用电话通知受益人;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>/TELEBEN/:请用快捷有效的电信方式通知受益人，包括SWIFT、传真、电报、电传。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>2.MT705跟单信用证的预先通知<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;
+</span>MT705跟单信用证的预先通知(MTT05 PREADVICE OF A DOCUMENTARY CREDIT)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>见表<span
+lang=EN-US> 6-18。本报文是由开证行发送给通知行，用来简要地通知跟单信用证内容的报文格式。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1056" type="#_x0000_t75"
+ style='width:401.25pt;height:141.75pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image061.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=535 height=189
+src="./第六章SWIFT及应用.files/image062.jpg" v:shapes="_x0000_i1056"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%'><span
+style='font-family:宋体'>续表<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1057" type="#_x0000_t75"
+ style='width:414.75pt;height:308.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image063.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=411
+src="./第六章SWIFT及应用.files/image064.jpg" v:shapes="_x0000_i1057"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>3.MT707跟单信用证的修改<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT707跟单信用证的修改(MT707 AMENDMENT T4 A DOCUMENTARY CREDIT)见表6-19。本报文可以由开证行发送给一家通知行，也可以由一家通知行发送给另一家<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>通知行或由转让行发送给一家通知行，用来通知收报行有关由发报行或第三家银行开<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>立的跟单信用证条款修改内容的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1058" type="#_x0000_t75"
+ style='width:401.25pt;height:78pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image065.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=535 height=104
+src="./第六章SWIFT及应用.files/image066.jpg" v:shapes="_x0000_i1058"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1059" type="#_x0000_t75"
+ style='width:414.75pt;height:449.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image067.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=599
+src="./第六章SWIFT及应用.files/image068.jpg" v:shapes="_x0000_i1059"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp; </span>4.<b
+style='mso-bidi-font-weight:normal'>MT710/711 通知由第三家银行开立的跟单信用证<o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT710/711通知由第三家银行开立的跟单信用证(MT710/711 ADVICE OF A THIRD BANK’S DOCUMENTARY
+CREDIT)见表6-20、表6-21.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1060" type="#_x0000_t75"
+ style='width:373.5pt;height:465pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image069.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=498 height=620
+src="./第六章SWIFT及应用.files/image070.jpg" v:shapes="_x0000_i1060"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1061" type="#_x0000_t75"
+ style='width:414.75pt;height:321.75pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image071.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=429
+src="./第六章SWIFT及应用.files/image072.jpg" v:shapes="_x0000_i1061"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1062" type="#_x0000_t75"
+ style='width:410.25pt;height:165pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image073.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=547 height=220
+src="./第六章SWIFT及应用.files/image074.jpg" v:shapes="_x0000_i1062"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>5.MT720/721跟单信用证的转让<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT720/721跟单信用证的转让(MT720/721 TRANSFER OF A DOCUMENTARY CREDIT)见表6-22、表6-23。本报文是在受益人要求将跟单信用证转让给第二受益人时，由被授权通知该跟单信用证转让的银行发送给通知第二受益人的银行，用以通知所转让<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>的跟单信用证的全部或部分条款的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1063" type="#_x0000_t75"
+ style='width:372.75pt;height:379.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image075.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=497 height=506
+src="./第六章SWIFT及应用.files/image076.jpg" v:shapes="_x0000_i1063"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1064" type="#_x0000_t75"
+ style='width:414.75pt;height:359.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image077.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=479
+src="./第六章SWIFT及应用.files/image078.jpg" v:shapes="_x0000_i1064"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1065" type="#_x0000_t75"
+ style='width:411pt;height:154.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image079.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=548 height=206
+src="./第六章SWIFT及应用.files/image080.jpg" v:shapes="_x0000_i1065"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>6.MTT30确认<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT730确认(MT730 ACKNOWLEDGEMENT)见表6-24。本报文是由通知行发给开<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>证行或另一个通知行，用来确认收到跟单信用证的报文格式。需要时，该报文也可以指<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>明其报文已按要求通知受益人或另一家银行。该报文格式也可用来说明银行费用。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1066" type="#_x0000_t75"
+ style='width:373.5pt;height:153pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image081.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=498 height=204
+src="./第六章SWIFT及应用.files/image082.jpg" v:shapes="_x0000_i1066"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>7.MT732单据已被接受的通知<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT732单据已被接受的通知(MT732 ADVICE OF DISCHARGE)见表6-25。这是由<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>开证行发给付款行<span
+lang=EN-US>/议付行/承兑行，或由付款行/承兑行/议付行发给寄出单据的银行，<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>用来通知收到的不符单据已被接受的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1067" type="#_x0000_t75"
+ style='width:393pt;height:123.75pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image083.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=524 height=165
+src="./第六章SWIFT及应用.files/image084.jpg" v:shapes="_x0000_i1067"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>8.MT734拒付通知<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT734拒付通知(MT734 ADVICE OF REFUSAL)见表6-26。这是由开证行发给寄<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>单行，或由被指定付款<span lang=EN-US>/承兑/议付的银行发给寄单行，用来向收报行通知发报行认为单据表面上与信用证条款不符，故以不符点为由而拒绝接受单据的报文格式。发报行也<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>可说明代为保管单据听候处理，或已退还收报行。该报文也可用来要求退款。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1068" type="#_x0000_t75"
+ style='width:372.75pt;height:196.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image085.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=497 height=262
+src="./第六章SWIFT及应用.files/image086.jpg" v:shapes="_x0000_i1068"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>表6-26内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>33a:要求支付的总金额。该项目列明发报行要求支付的货币和总金额(包括费<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>用<span
+lang=EN-US>)，若要求支付的总金额已被借记，该项目代号则为“33A&quot;，并在该项目中加列起息<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span style='font-family:宋体'>日<span
+lang=EN-US>;如果要求支付总金额，该项目代号则为“33B&quot;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>77B:单据的处理。该项目列明有关单据处理的情况。此处可能使用以下代码:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>/HOLD/:代为保管单据，听候处理;/RETURN/:单据已退贵行。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:2.0;
+mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>9.MT740偿付授权<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:10.5pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>MT740偿付授权(MT740 AUTHORISATION TO REIMBURSE)见表6-27。这是由开证行发给偿付行，用来要求收报行偿付跟单信用证项下的付款或议付款项的报文格式。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:10.5pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1069" type="#_x0000_t75"
+ style='width:372.75pt;height:302.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image087.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=497 height=403
+src="./第六章SWIFT及应用.files/image088.jpg" v:shapes="_x0000_i1069"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:10.5pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:10.55pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.55pt;line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>10.MT742索偿<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:10.5pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT742索偿( MT742 REIMBURSEMENT CLAIM)见表6-28。本报文是由付款行或议付行发给被授权偿付的银行，就付款或议付的款项进行索偿的报文格式。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;text-indent:10.5pt;mso-char-indent-count:
+1.0;mso-char-indent-size:10.5pt;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1070" type="#_x0000_t75"
+ style='width:382.5pt;height:77.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image089.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=510 height=103
+src="./第六章SWIFT及应用.files/image090.jpg" v:shapes="_x0000_i1070"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1071" type="#_x0000_t75"
+ style='width:414.75pt;height:235.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image091.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=314
+src="./第六章SWIFT及应用.files/image092.jpg" v:shapes="_x0000_i1071"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:宋体'>11.MT747修改偿付授权<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
+</span>MT747修改偿付授权(MT747 AMENDMENT TO AN AUTHORISATION TO REIM-<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'>BURSE)见表6-29。本报文是由发出偿付授权的银行(开证行)发送给偿付行，用来通<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:2.0gd;line-height:150%'><span
+style='font-family:宋体'>知收报行关于修改与偿付授权相关的信用证条款的报文格式。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:3.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1072" type="#_x0000_t75"
+ style='width:414pt;height:170.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image093.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=552 height=227
+src="./第六章SWIFT及应用.files/image094.jpg" v:shapes="_x0000_i1072"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.0gd;line-height:150%'><span lang=EN-US
+style='font-family:宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1073" type="#_x0000_t75"
+ style='width:414pt;height:131.25pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image095.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=552 height=175
+src="./第六章SWIFT及应用.files/image096.jpg" v:shapes="_x0000_i1073"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>12.MT750通知不符点<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp; </span>MT750通知不符点(MT750 ADVICE
+OF DISCREPANCY)见表6-30。这是由接收交<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>单的银行发送给开证行，或发送给被指定付款<span
+lang=EN-US>/承兑/议付的银行，用来通知收报行有关<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>提交的单据与信用证不符的报文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1074" type="#_x0000_t75" style='width:387pt;
+ height:214.5pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image097.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=516 height=286
+src="./第六章SWIFT及应用.files/image098.jpg" v:shapes="_x0000_i1074"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'>13.MT752授权付款、承兑或议付<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>MT752授权付款、承兑或议付(MT752
+AUTHORISATION TO PAY, ACCEPT OR NEGO-<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>TIATE)见表6-31。这是由开证行发送给付款行/承兑行/议付行，用来答复用MT750<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>报文格式或其他方式发送的授权付款<span
+lang=EN-US>/承兑/议付的请求，通知收报行所提交的单据除<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>了先前列明的不符点以外没有其他不符的情况下，可以对其进行付款<span
+lang=EN-US>/承兑/议付的报<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>文格式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><!--[if gte vml 1]><v:shape id="_x0000_i1075" type="#_x0000_t75" style='width:396pt;
+ height:207pt'>
+ <v:imagedata src="./第六章SWIFT及应用.files/image099.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=528 height=276
+src="./第六章SWIFT及应用.files/image100.jpg" v:shapes="_x0000_i1075"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>表6-31内有关参数说明:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span>23:报文功能进一步识别。该项目列明该报文的目的，该项目内容为下列代码之<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>一<span
+lang=EN-US>:ACCEPT:授权承兑汇票;;DEBIT:授权借记开证行账户;NEGOTIATE:授权议付有关不<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>符点单据<span
+lang=EN-US>;REIMBURSE:授权提交单据的银行索偿;REMTITED:该报文被用来时提交单<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='font-family:宋体'>据银行付款<span
+lang=EN-US>;SEE72:详见项目“72&quot;。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.1pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.55pt;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:14.0pt;font-family:宋体;color:#003366;background:#D9D9D9;
+mso-shading:white;mso-pattern:gray-15 auto'>疑点难点<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>1.跟单信用证开证（MT700）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 20
+DOCUMENTARY CREDIT NUMBER（信用证号码）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 23
+REFERENCE TO PRE-ADVICE（预先通知号码）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>如果信用证是采取预先通知的方式，该项目内应该填入<span
+lang=EN-US>&quot;PREADV/&quot;，再加上预先通知的编号或日期。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 27
+SEQUENCE OF TOTAL（电文页次）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+31C DATE OF ISSUE（开证日期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>如果这项没有填，则开证日期为电文的发送日期。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US>
+31D DATE AND PLACE OF EXPIRY（信用证有效期和有效地点）该日期为最后交单的日期。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US>
+32B CURRENCY CODE, AMOUNT（信用证结算的货币和金额）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+39A PERCENTAGE CREDIT AMOUNT TOLERANCE（信用证金额上下浮动允许的最大范围）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>该项目的表示方法较为特殊，数值表示百分比的数值，如：<span
+lang=EN-US>5/5，表示上下浮动最大为5%。39B与39A不能同时出现。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+39B MAXIMUM CREDIT AMOUNT（信用证最大限制金额）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>39B与39A不能同时出现。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选 <span lang=EN-US>39C
+ADDITIONAL AMOUNTS COVERED（额外金额）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>表示信用证所涉及的保险费、利息、运费等金额。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US>
+40A FORM OF DOCUMENTARY CREDIT（跟单信用证形式）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>跟单信用证有六种形式：<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><span
+style="mso-spacerun: yes">&nbsp;</span>(1) IRREVOCABLE（不可撤销跟单信用证）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><span
+style="mso-spacerun: yes">&nbsp;</span>(2) REVOCABLE（可撤销跟单信用证）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><span
+style="mso-spacerun: yes">&nbsp;</span>(3) IRREVOCABLE TRANSFERABLE（不可撤销可转让跟单信用证）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><span
+style="mso-spacerun: yes">&nbsp;</span>(4) REVOCABLE TRANSFERABLE（可撤销可转让跟单信用证）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><span
+style="mso-spacerun: yes">&nbsp;</span>(5) IRREVOCABLE STANDBY（不可撤销备用信用证）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><span
+style="mso-spacerun: yes">&nbsp;</span>(6) REVOCABLE STANDBY（可撤销备用信用证）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US>
+41a AVAILABLE WITH...BY...（指定的有关银行及信用证兑付的方式）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>（<span lang=EN-US>1） 指定银行作为付款、承兑、议付。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>（<span lang=EN-US>2） 兑付的方式有5种：BY
+PAYMENT（即期付款）；BY ACCEPTANCE（远期承兑）；BY NEGOTIATION（议付）；BY DEF PAYMENT（迟期付款）；BY
+MIXED PAYMENT（混合付款）。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>（<span lang=EN-US>3） 如果是自由议付信用证，对该信用证的议付地点不做限制，该项目代号为：41D，内容为：ANY
+BANK IN... <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+42a DRAWEE（汇票付款人）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必须与<span lang=EN-US>42C同时出现。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+42C DRAFTS AT...（汇票付款日期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必须与<span lang=EN-US>42a同时出现。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+42M MIXED PAYMENT DETAILS（混合付款条款）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+42P DEFERRED PAYMENT DETAILS（迟期付款条款）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+43P PARTIAL SHIPMENTS（分装条款）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>表示该信用证的货物是否可以分批装运。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选 <span lang=EN-US>43T
+TRANSSHIPMENT（转运条款）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>表示该信用证是直接到达，还是通过转运到达。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44A LOADING ON BOARD/DISPATCH/TAKING IN CHARGE AT/FORM（装船、发运和接收监管的地点） <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44B FOR TRANSPORTATION TO...（货物发运的最终地） <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44C LATEST DATE OF SHIPMENT（最后装船期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>装船的最迟的日期。<span
+lang=EN-US>44C与44D不能同时出现。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44D SHIPMENT PERIOD（船期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>44C与44D不能同时出现。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+45A DESCRIPTION OF GOODS AND/OR SERVICES（货物描述）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>货物的情况、价格条款。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+46A DOCUMENTS REQUIRED（单据要求）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>各种单据的要求<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+47A ADDITIONAL CONDITIONS（特别条款）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 48
+PERIOD FOR PRESENTATION（交单期限）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>表明开立运输单据后多少天内交单。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 49
+CONFIRMATION INSTRUCTIONS（保兑指示）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>其中<span lang=EN-US>,
+CONFIRM ：要求保兑行保兑该信用证<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>MAY ADD ：收报行可以对该信用证加具保兑。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>WITHOUT ：不要求收报行保兑该信用证。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 50
+APPLICANT（信用证开证申请人）一般为进口商。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+51a APPLICANT BANK（信用证开证的银行）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+53A REIMBURSEMENT BANK（偿付行）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+57a &quot;ADVISE THROUGH&quot; BANK（通知行）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 59
+BENEFICIARY（信用证的受益人）一般为出口商。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+71B CHARGES（费用情况）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>表明费用是否有受益人（出口商）出，如果没有这一条，表示除了议付费、转让费<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>以外，其他各种费用由开出信用证的申请人（进口商）出。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 72
+SENDER TO RECEIVER INFORMATION（附言）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 78
+INSTRUCTION TO THE PAYING/ACCEPTING/NEGOTIATING BANK<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>（给付款行、承兑行、议付行的指示）<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>2.信用证修改（MT707）<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 20
+SENDER'S REFERENCE（信用证号码）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 21
+RECEIVER'S REFERENCE（收报行编号）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>发电文的银行不知道收报行的编号，填写<span
+lang=EN-US>&quot;NONREF&quot;。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 23
+ISSUING BANK'S REFERENCE（开证行的号码）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+26E NUMBER OF AMENDMENT(修改次数）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>该信用证修改的次数，要求按顺序排列。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 30
+DATE OF AMENDMENT（修改日期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>如果信用证修改没填这项，修改日期就是发报日期。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+31C DATE OF ISSUE（开证日期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>如果这项没有填，则开证日期为电文的发送日期。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+31E NEW DATE OF EXPIRY（信用证新的有效期）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>信用证修改的有效期。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+32B INCREASE OF DOCUMENTARY CREDIT AMOUNT（信用证金额的增加）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+33B DECREASE OF DOCUMENTARY CREDIT AMOUNT(信用证金额的减少）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+34B NEW DOCUMENTARY CREDIT AMOUNT AFTER AMENDMENT（信用证修改后的金额）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+39A PERCENTAGE CREDIT AMOUNT TOLERANCE（信用证金额上下浮动允许的最大范围的修改）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>该项目的表示方法较为特殊，数值表示百分比的数值，如：<span
+lang=EN-US>5/5，表示上下浮动最大<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>为<span lang=EN-US>5%。39B与39A不能同时出现。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+39B MAXIMUM CREDIT AMOUNT（信用证最大限制金额的修改）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>39B与39A不能同时出现。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+39C ADDITIONAL AMOUNTS COVERED（额外金额的修改）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>表示信用证所涉及的保险费、利息、运费等金额的修改。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44A LOADING ON BOARD/DISPATCH/TAKING IN CHARGE AT/FORM（装船、发运和接收监管的地点的修改） <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44B FOR TRANSPORTATION TO...（货物发运的最终地的修改） <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44C LATEST DATE OF SHIPMENT（最后装船期的修改）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>修改装船的最迟的日期。<span
+lang=EN-US>44C与44D不能同时出现。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+44D SHIPMENT PERIOD（装船期的修改）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>44C与44D不能同时出现。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US>
+52a APPLICANT BANK（信用证开证的银行）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>必选<span lang=EN-US> 59
+BENEFICIARY(BEFORE THIS AMENDMENT)（信用证的受益人）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>该项目为原信用证的受益人，如果要修改信用证的受益人，则需要在<span
+lang=EN-US>79 NARRATIVE<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>（修改详述）中写明。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 72
+SENDER TO RECEIVER INFORMATION（附言）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>/BENCON/ ：要求收报行通知发报行受益人是否接受该信用证的修改。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>/PHONBEN/ ：请电话通知受益人（列出受益人的电话号码）。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>/TELEBEN/ ：用快捷有效的电讯方式通知受益人。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>可选<span lang=EN-US> 78
+NARRATIVE（修改详述）<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>详细的修改内容。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT提供用户完成金融交易之电文，按电文种类第一位数字分为九大类：
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>System
+Message系统电文 <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Customer
+Transfers客户汇款 <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Bank
+Transfers银行汇款 <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Foreign
+Exchange/loans/Deposit外汇及放款/存款交易 <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Collections托收
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Securities有价证券电文
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Documentary
+Credits跟单信用状 <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Special
+Payment Mechansim特别付款方法(结构)(旅行支票) <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>Special
+Messages特殊电文 <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>用来开发或修改信用状交易的<span
+lang=EN-US>Formate代号为700。 <o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.1pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.55pt;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;font-family:宋体;color:#003366;
+background:#D9D9D9;mso-shading:white;mso-pattern:gray-15 auto'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;
+mso-layout-grid-align:none'><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:14.0pt;font-family:宋体;color:#003366;background:#D9D9D9;
+mso-shading:white;mso-pattern:gray-15 auto'>实际运用应该注意的问题<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>1查询银行SWIFT码的方式<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>SWIFT Code是由该协会提出并被国际标准化组织(International
+Organization for Standardization,缩写ISO)通过的银行识别代码，其原名是BIC (Bank Indentifier
+Code)，但是BIC这个名字意思太泛，担心有人理解成别的银行识别代码系统，故渐渐大家约定俗成地把BIC叫作SWIFT Code了。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>每个银行<span lang=EN-US>(包括每个分行、支行)都有一个代码，是由银行名称的英文缩写和总行所在地的英文缩写(也有用数字加字母表示某城市的)以及该分行所在地的代码(字母、数字或混合)组成。在国际上，银行的SWIFT
+Code 都是统一的格式，例如：BKCHCNBJ110，1-4位为一家银行的统一代码(中国银行为BKCH)，5-6位代表国家代码(中国为CN)，7-8位代表城市代码(北京为BJ)，110代表北京市分行。其中总行的SWIFT
+Code没有所在地代码，位数为8位(如中国银行总行BKCHCNBJ)，其余都为11位。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>要查询某家银行的<span
+lang=EN-US>SWIFT Code，推荐的方式是(1)直接去银行询问工作人员，(2)可以打电话咨询。当然第三种不在推荐之列的，就是在网上查询！登陆环球银行电信协会网站便可查询任意一个银行的SWIFT
+Code。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>附带说一下，除了<span
+lang=EN-US>SWIFT Code，在美国还有 Routing Number，也称作 Routing Transit Number 或 ABA
+Number，它是由ABA(美国银行家协会)在美联储监管和协助下提出的金融机构识别码，很多金融机构都有一个，主要用于和银行相关的交易，转帐，清算等的路由确认，由9位值(不是数！8位内容加1个校验码)构成。我们收到的美国支票，通常在其正面左下角都印有上该银行的Routing
+Number。<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>查询银行<span lang=EN-US>SWIFT码，首先进入SWIFT的官方网站：http://www.swift.com/biconline/<o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span style='font-family:宋体'>查找办法：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>(1) 精确查找，进入网站后，如果你知道银行的SWIFT代码(BIC
+Code)或机构关键字(Institution keyword)，可以做快速查找它的信息，<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'>(2)若不太清楚，那么就可进入另一个查询页面，进行详细的查找，点击下方的位置即可进入。<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+mso-char-indent-count:2.0;mso-char-indent-size:10.5pt;line-height:150%;
+mso-layout-grid-align:none'><span lang=EN-US style='font-family:宋体'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

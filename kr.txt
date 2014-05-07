@@ -1,0 +1,3 @@
+сю╩Ы
+
+native2ascii -encoding gb2312 file1 file2

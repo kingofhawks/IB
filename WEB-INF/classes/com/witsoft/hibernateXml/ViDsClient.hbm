@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Jan 12 16:00:42 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsClient" table="vi_ds_CLIENT">
+
+		<id column="CLNO" name="clno" type="string">
+			<generator class="assigned" />
+		</id>
+
+		<property name="utno" column="UTNO" type="java.lang.String" />
+		<property name="brno" column="BRNO" type="java.lang.String" />
+		<property name="inno" column="INNO" type="java.lang.String" />
+		<property name="cltp" column="CLTP" type="java.lang.String" />
+		<property name="tmfg" column="TMFG" type="java.lang.String" />
+		<property name="clnm" column="CLNM" type="java.lang.String" />
+		<property name="egnm" column="EGNM" type="java.lang.String" />
+		<property name="chcy" column="CHCY" type="java.lang.String" />
+		<property name="chac" column="CHAC" type="java.lang.String" />
+		<property name="adl1" column="ADL1" type="java.lang.String" />
+		<property name="adl2" column="ADL2" type="java.lang.String" />
+		<property name="adl3" column="ADL3" type="java.lang.String" />
+		<property name="adl4" column="ADL4" type="java.lang.String" />
+		<property name="ega1" column="EGA1" type="java.lang.String" />
+		<property name="ega2" column="EGA2" type="java.lang.String" />
+		<property name="ega3" column="EGA3" type="java.lang.String" />
+		<property name="ega4" column="EGA4" type="java.lang.String" />
+		<property name="tlno" column="TLNO" type="java.lang.String" />
+		<property name="txno" column="TXNO" type="java.lang.String" />
+		<property name="fxno" column="FXNO" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+		<property name="mtdt" column="MTDT" type="java.lang.String" />
+		<property name="stcd" column="STCD" type="java.lang.String" />
+		<property name="sp20" column="SP20" type="java.lang.String" />
+		<property name="trhs" column="TRHS" type="java.lang.String" />
+		<property name="skno" column="SKNO" type="java.lang.String" />
+		<property name="idno" column="IDNO" type="java.lang.String" />
+		<property name="mkjh" column="MKJH" type="java.lang.String" />
+		<property name="jhac" column="JHAC" type="java.lang.String" />
+		<property name="lcamcyno" column="LCAMCYNO"
+			type="java.lang.String" />
+		<property name="lcam" column="LCAM" type="java.lang.Float" />
+		<property name="lcamblan" column="LCAMBLAN"
+			type="java.lang.Float" />
+		<property name="lcobcyno" column="LCOBCYNO"
+			type="java.lang.String" />
+		<property name="lcob" column="LCOB" type="java.lang.Float" />
+		<property name="lcobblan" column="LCOBBLAN"
+			type="java.lang.Float" />
+		<property name="lcdkcyno" column="LCDKCYNO"
+			type="java.lang.String" />
+		<property name="lcdk" column="LCDK" type="java.lang.Float" />
+		<property name="lcdkblan" column="LCDKBLAN"
+			type="java.lang.Float" />
+		<property name="ebobcyno" column="EBOBCYNO"
+			type="java.lang.String" />
+		<property name="ebob" column="EBOB" type="java.lang.Float" />
+		<property name="ebobblan" column="EBOBBLAN"
+			type="java.lang.Float" />
+		<property name="ocobcyno" column="OCOBCYNO"
+			type="java.lang.String" />
+		<property name="ocob" column="OCOB" type="java.lang.Float" />
+		<property name="ocobblan" column="OCOBBLAN"
+			type="java.lang.Float" />
+		<property name="ccpdcyno" column="CCPDCYNO"
+			type="java.lang.String" />
+		<property name="ccpd" column="CCPD" type="java.lang.Float" />
+		<property name="ccpdblan" column="CCPDBLAN"
+			type="java.lang.Float" />
+		<property name="eldbcyno" column="ELDBCYNO"
+			type="java.lang.String" />
+		<property name="eldb" column="ELDB" type="java.lang.Float" />
+		<property name="eldbblan" column="ELDBBLAN"
+			type="java.lang.Float" />
+		<property name="mkno" column="MKNO" type="java.lang.String" />
+		<property name="id" column="ID" type="java.lang.String" />
+		<property name="acno" column="ACNO" type="java.lang.String"
+			not-null="true" />
+	</class>
+
+</hibernate-mapping>

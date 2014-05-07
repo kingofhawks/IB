@@ -1,0 +1,195 @@
+<html>
+<head><title></title>
+<style type="text/css">
+<!--
+.flowChart_css {
+	font-size: 12px;
+}
+.inputScore {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF0000;
+	border: 1px solid #999999;
+	background-color: #F3FAFA;
+	line-height: 18px;
+	text-indent: 5px;
+	background-position: center center;
+}
+.inputCommment{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 24px;
+}
+-->
+</style>
+</head>
+
+
+<body>
+<script language="javascript">
+function choose(searchvalue1)
+{  
+ var prids = searchvalue1;
+ var firstprid=searchvalue1.substr(0,4);
+ for(n=1;n<=4;n++)
+ {	
+	var c_id="id"+n;
+	var SvgMainMapDoc=id1.getSVGDocument();   /*获取DOM*/
+	SvgObj=SvgMainMapDoc.getElementById(c_id);  /*获取elemnet指针 获取名称XX的名*/
+	SvgObj1=SvgObj.getChildNodes;  /*获取子节点*/
+	         for(iCount=1;iCount<((SvgObj1.length)-1);iCount+=2)
+   	          {	
+		            if(SvgObj1.item(iCount).getAttribute("name")==firstprid)/*item(序号)来访问其子节点,逐个判断其name属性的值是否跟要查询的值相同*/
+					   {  
+    			          SvgObj.getStyle().setProperty("visibility","show");  
+					      n=5;
+					      iCount=30;
+					      return(c_id);
+					      break;  
+					    }
+                }
+         }		   
+}
+</script>
+    
+    <script language="javascript">
+  function search(searchvalue1,searchvalue2)
+   {
+     var prids=searchvalue1;
+	 var obj = new Object();
+         obj.name="在流程图中，红色代表当前操作，蓝色代表已做的操作，金色代表下一步要进行的操作。";
+         window.showModalDialog("prompt_svg.htm",obj, "scrollbars=yes;resizable=no;help=no;status=no;dialogTop=300; dialogLeft=220;dialogWidth=580px;dialogHeight=120px;");
+	 var c_id1=choose(prids);
+	 var SvgMainMapDoc=id1.getSVGDocument();   /*获取DOM*/
+	     SvgObj=SvgMainMapDoc.getElementById(c_id1);  /*获取elemnet指针 获取名称XX的名*/
+	     SvgObj1=SvgObj.getChildNodes;  /*获取子节点*/
+     var char1=String();
+         char1=document.forms[0].prids.value;
+	     char_len=char1.length;
+     var color2=String(); /*获取color*/
+     var color2=document.forms[0].colors.value;
+         color2_len=color2.length;   
+	
+     for(count=0;count<char_len;count+=5)
+      {
+		char2=char1.substr(count,4); /*取四个字符__一个prid,即当前操作*/
+		num=color2.indexOf("_");  /* 从零开始*/
+		if(num==-1)
+		{
+	         for(iCount=1;iCount<((SvgObj1.length)-1);iCount+=2)
+   	              {	
+				  
+		            if(SvgObj1.item(iCount).getAttribute("name")==char2)/*item(序号)来访问其子节点,逐个判断其name属性的值是否跟要查询的值相同*/
+	                   {
+                          SvgStyle1=SvgObj1.item(iCount).getStyle();  
+                          SvgStyle1.setProperty('fill','none'); 
+			              SvgStyle1.setProperty('stroke',color2);  
+			            }
+						
+                   }
+		}
+		else
+		{
+	    color1=color2.substring(0,num); /*当前prid的color*/ /*num为剩余串中——所在的位置*/
+		count_c=color1.length;  /*当前prid对应的颜色*/
+	    num_2=color2.length-count_c;  /*剩余串的长度*/
+	    color2=color2.substring(num+1,color2.length);  /*剩余的字符串*/
+	         for(iCount=1;iCount<((SvgObj1.length)-1);iCount+=2)
+   	              {	
+		            if(SvgObj1.item(iCount).getAttribute("name")==char2)/*item(序号)来访问其子节点,逐个判断其name属性的值是否跟要查询的值相同*/
+	                   {
+                          SvgStyle1=SvgObj1.item(iCount).getStyle();  
+                          SvgStyle1.setProperty('fill','none'); 
+			              SvgStyle1.setProperty('stroke',color1);  
+			            }
+                   }
+             }
+	    }
+}
+</script>
+    
+    
+    <script language="javascript">
+  i=1;
+  j=0;
+  k=0;
+  function enlarger(searchvalue1)
+  {
+    var prids = searchvalue1;
+    var c_id1=choose(prids);
+	var SvgMainMapDoc = id1.getSVGDocument();  
+    var curView = SvgMainMapDoc.getElementById(c_id1);
+    var curZoom = SvgMainMapDoc.documentElement.currentScale;
+	i = i*1.05;
+    curView.setAttribute("transform","translate("+j+" "+k+") scale("+ curZoom*i+")");
+    }
+</script>
+    
+    <script language="javascript">
+  i=1;
+  j=0;
+  k=0;
+  function smaller(searchvalue1)
+  {
+    var prids = searchvalue1;
+    var c_id1=choose(prids);
+	var SvgMainMapDoc = id1.getSVGDocument();  
+    var curView = SvgMainMapDoc.getElementById(c_id1);
+    var curZoom = SvgMainMapDoc.documentElement.currentScale;
+	i = i*0.9;
+	j=0;
+	k=0;
+    curView.setAttribute("transform","translate("+j+" "+k+") scale("+ curZoom*i+")");
+    }
+</script>
+    
+    
+    <script language="javascript">
+function comeback(searchvalue1)
+{
+    var prids=searchvalue1;
+    var c_id1=choose(prids);
+	j=0;
+	k=0;
+    i=1;
+	var SvgMainMapDoc = id1.getSVGDocument();  
+    var curView = SvgMainMapDoc.getElementById(c_id1);
+    var curZoom = SvgMainMapDoc.documentElement.currentScale;
+    curView.setAttribute("transform","translate("+j+" "+k+") scale("+ curZoom*i+")");
+}
+</script>
+<div align="center">
+    <embed name='id1' pluginspage='http://www.adobe.com/svg/viewer/install/' align='middle' src='/IB/flowChart/flowChart.svg' width='800px' height='620px'  type='image/svg+xml'>
+</div>
+<form name="searchvalue">
+<input type="hidden" name="prids" value="LCOP_ELAD_LCUP"  size="12">
+<input type="hidden" name="colors" value="blue_red_teal"  size="12"> 
+<script language="javascript">
+search(document.forms[0].prids.value,document.forms[0].colors.value);
+</script>
+<input type="button" value="放大" name="enlarge" onClick='enlarger(document.forms[0].prids.value)'>
+<input type="button" value="缩小" name="smaller" onClick='smaller(document.forms[0].prids.value)'>
+<input type="button" value="还原" name="comeback" onClick='comeback(document.forms[0].prids.value)'>
+<input type="button" value="关闭" name="closesvg" onClick='window.close()'>
+<span class="flowChart_css">&nbsp;&nbsp;&nbsp;&nbsp;如果流程图不能显示，请<a href="/IB/flowChart/SVGView.exe">单击此处</a>，下载安装文件。</span>
+</form>
+<form name="content" >
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    
+    <tr>
+        <td width="14%" height="30" align="right" class="flowChart_css">建议评分为：</td>
+        <td width="86%" class="flowChart_css">
+            <input name="textfield" type="text" class="inputScore" value="90" size="5">
+        分</td>
+    </tr>
+    <tr>
+        <td height="34" align="right" class="flowChart_css">评语：</td>
+        <td class="flowChart_css">
+            <textarea name="textarea" cols="80" rows="4" class="flowChart_css">国际结算系统开发到现在为止，从前C/S版获取的需求已完全实现，并根据教学做了少许改动；系统上线后，经过客户反馈的信息，发现系统针对教学的一些不足之处</textarea>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

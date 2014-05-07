@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="Excctsp" table="EXCCTSP">
+
+		<composite-id class="ExcctspPK" name="Id">
+			<key-property column="RFNO" name="Rfno" length="16"
+				type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="CORP" length="1" name="Corp" not-null="false"
+			type="string" />
+		<property column="CKDT" length="8" name="Ckdt" not-null="false"
+			type="string" />
+		<property column="USST" length="1" name="Usst" not-null="false"
+			type="string" />
+		<property column="PRE3" length="35" name="Pre3" not-null="false"
+			type="string" />
+		<property column="TLCY" length="2" name="Tlcy" not-null="false"
+			type="string" />
+		<property column="BYRT" length="53" name="Byrt" not-null="false"
+			type="java.lang.Float" />
+		<property column="TRMO" length="60" name="Trmo" not-null="false"
+			type="string" />
+		<property column="SBNO" length="22" name="Sbno" not-null="false"
+			type="string" />
+		<property column="STAC" length="36" name="Stac" not-null="false"
+			type="string" />
+		<property column="CNCD" length="2" name="Cncd" not-null="false"
+			type="string" />
+		<property column="SHTP" length="1" name="Shtp" not-null="false"
+			type="string" />
+		<property column="NAT" length="5" name="Nat" not-null="false"
+			type="string" />
+		<property column="CHCY" length="2" name="Chcy" not-null="false"
+			type="string" />
+		<property column="DKTH" length="1" name="Dkth" not-null="false"
+			type="string" />
+		<property column="CKID" length="6" name="Ckid" not-null="false"
+			type="string" />
+		<property column="STAM" length="53" name="Stam" not-null="false"
+			type="java.lang.Float" />
+		<property column="ICBK" length="11" name="Icbk" not-null="false"
+			type="string" />
+		<property column="PRE1" length="35" name="Pre1" not-null="false"
+			type="string" />
+		<property column="ICRF" length="16" name="Icrf" not-null="false"
+			type="string" />
+		<property column="STCY" length="2" name="Stcy" not-null="false"
+			type="string" />
+		<property column="EXRT" length="53" name="Exrt" not-null="false"
+			type="java.lang.Float" />
+		<property column="TLTP" length="4" name="Tltp" not-null="false"
+			type="string" />
+		<property column="RMAC" length="36" name="Rmac" not-null="false"
+			type="string" />
+		<property column="NATP" length="8" name="Natp" not-null="false"
+			type="string" />
+		<property column="REAM" length="53" name="Ream" not-null="false"
+			type="java.lang.Float" />
+		<property column="ZTBR" length="5" name="Ztbr" not-null="false"
+			type="string" />
+		<property column="CCUS" length="1" name="Ccus" not-null="false"
+			type="string" />
+		<property column="CGAC" length="36" name="Cgac" not-null="false"
+			type="string" />
+		<property column="GTST" length="1" name="Gtst" not-null="false"
+			type="string" />
+		<property column="PRID" length="4" name="Prid" not-null="false"
+			type="string" />
+		<property column="CYNO" length="2" name="Cyno" not-null="false"
+			type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="CHCO" length="2" name="Chco" not-null="false"
+			type="string" />
+		<property column="CHTP" length="4" name="Chtp" not-null="false"
+			type="string" />
+		<property column="RSRF" length="8" name="Rsrf" not-null="false"
+			type="string" />
+		<property column="PRE2" length="35" name="Pre2" not-null="false"
+			type="string" />
+		<property column="DTN2" length="9" name="Dtn2" not-null="false"
+			type="string" />
+		<property column="MGID" length="30" name="Mgid" not-null="false"
+			type="string" />
+		<property column="CCNO" length="16" name="Ccno" not-null="false"
+			type="string" />
+		<property column="STRN" length="1" name="Strn" not-null="false"
+			type="string" />
+		<property column="RSDT" length="8" name="Rsdt" not-null="false"
+			type="string" />
+		<property column="BLNO" length="16" name="Blno" not-null="false"
+			type="string" />
+		<property column="EXAM" length="53" name="Exam" not-null="false"
+			type="java.lang.Float" />
+		<property column="FNNO" length="16" name="Fnno" not-null="false"
+			type="string" />
+		<property column="NOAC" length="1" name="Noac" not-null="false"
+			type="string" />
+		<property column="CKNO" length="10" name="Ckno" not-null="false"
+			type="string" />
+		<property column="CAAM" length="53" name="Caam" not-null="false"
+			type="java.lang.Float" />
+		<property column="TSAM" length="53" name="Tsam" not-null="false"
+			type="java.lang.Float" />
+		<property column="PAAM" length="53" name="Paam" not-null="false"
+			type="java.lang.Float" />
+		<property column="AMTS" length="53" name="Amts" not-null="false"
+			type="java.lang.Float" />
+		<property column="PRE4" length="35" name="Pre4" not-null="false"
+			type="string" />
+		<property column="BLTP" length="1" name="Bltp" not-null="false"
+			type="string" />
+		<property column="CSAM" length="53" name="Csam" not-null="false"
+			type="java.lang.Float" />
+		<property column="CRDT" length="8" name="Crdt" not-null="false"
+			type="string" />
+		<property column="CCMD" length="1" name="Ccmd" not-null="false"
+			type="string" />
+		<property column="DCAM" length="53" name="Dcam" not-null="false"
+			type="java.lang.Float" />
+		<property column="USDT" length="8" name="Usdt" not-null="false"
+			type="string" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<property column="CKGT" length="128" name="Ckgt"
+			not-null="false" type="string" />
+		<property column="TSTP" length="4" name="Tstp" not-null="false"
+			type="string" />
+		<property column="CHFR" length="1" name="Chfr" not-null="false"
+			type="string" />
+		<property column="INAM" length="53" name="Inam" not-null="false"
+			type="java.lang.Float" />
+		<property column="USID" length="16" name="Usid" not-null="false"
+			type="string" />
+		<property column="INAC" length="36" name="Inac" not-null="false"
+			type="string" />
+		<property column="DTN1" length="9" name="Dtn1" not-null="false"
+			type="string" />
+		<property column="CKST" length="1" name="Ckst" not-null="false"
+			type="string" />
+		<property column="INNO" length="2" name="Inno" not-null="false"
+			type="string" />
+		<property column="DLDT" length="8" name="Dldt" not-null="true"
+			type="string" />
+		<property column="ACBK" length="11" name="Acbk" not-null="false"
+			type="string" />
+		<property column="SLRT" length="53" name="Slrt" not-null="false"
+			type="java.lang.Float" />
+		<property column="ZTAC" length="36" name="Ztac" not-null="false"
+			type="string" />
+		<property column="PSDT" length="8" name="Psdt" not-null="false"
+			type="string" />
+		<property column="PDAM" length="53" name="Pdam" not-null="false"
+			type="java.lang.Float" />
+		<property column="EXR2" length="53" name="Exr2" not-null="false"
+			type="java.lang.Float" />
+		<property column="GTID" length="6" name="Gtid" not-null="false"
+			type="string" />
+		<property column="TYTP" length="4" name="Tytp" not-null="false"
+			type="string" />
+		<property column="BLAN" length="53" name="Blan" not-null="false"
+			type="java.lang.Float" />
+		<property column="DTNO" length="16" name="Dtno" not-null="false"
+			type="string" />
+		<property column="TLFR" length="1" name="Tlfr" not-null="false"
+			type="string" />
+		<property column="RSPR" length="4" name="Rspr" not-null="false"
+			type="string" />
+		<property column="CLNO" length="13" name="Clno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="TAAM" length="53" name="Taam" not-null="false"
+			type="java.lang.Float" />
+		<property column="BBAM" length="53" name="Bbam" not-null="false"
+			type="java.lang.Float" />
+		<property column="CNCD2" length="16" name="Cncd2"
+			not-null="false" type="string" />
+		<property column="LSPN" length="1" name="Lspn" not-null="false"
+			type="string" />
+		<property column="THAC" length="36" name="Thac" not-null="false"
+			type="string" />
+		<property column="BLCN" length="5" name="Blcn" not-null="false"
+			type="java.lang.Short" />
+		<property column="GTDT" length="8" name="Gtdt" not-null="false"
+			type="string" />
+		
+	</class>
+</hibernate-mapping>

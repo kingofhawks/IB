@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emdlbkp" table="EMDLBKP">
+
+		<id name="Bkno" column="BKNO" type="string">
+			<generator class="assigned" />
+		</id>
+
+		<property column="SWGL" length="1" name="Swgl" not-null="false"
+			type="string" />
+		<property column="SWFG" length="1" name="Swfg" not-null="false"
+			type="string" />
+		<property column="PSNM" length="10" name="Psnm" not-null="false"
+			type="string" />
+		<property column="CMTX" length="20" name="Cmtx" not-null="false"
+			type="string" />
+		<property column="ADDL" length="30" name="Addl" not-null="false"
+			type="string" />
+		<property column="CNCD" length="2" name="Cncd" not-null="false"
+			type="string" />
+		<property column="SWNO" length="11" name="Swno" not-null="false"
+			type="string" />
+		<property column="DONO" length="4" name="Dono" not-null="false"
+			type="string" />
+		<property column="SEXG" length="8" name="Sexg" not-null="false"
+			type="string" />
+		<property column="CKID" length="6" name="Ckid" not-null="false"
+			type="string" />
+		<property column="CBNM" length="40" name="Cbnm" not-null="false"
+			type="string" />
+		<property column="CLFG" length="1" name="Clfg" not-null="false"
+			type="string" />
+		<property column="CTBR" length="5" name="Ctbr" not-null="false"
+			type="string" />
+		<property column="LEVL" length="3" name="Levl" not-null="false"
+			type="string" />
+		<property column="AUFG" length="1" name="Aufg" not-null="false"
+			type="string" />
+		<property column="CTDT" length="8" name="Ctdt" not-null="false"
+			type="string" />
+		<property column="WRNO" length="4" name="Wrno" not-null="false"
+			type="string" />
+		<property column="PSTL" length="20" name="Pstl" not-null="false"
+			type="string" />
+		<property column="SVLD" length="8" name="Svld" not-null="false"
+			type="string" />
+		<property column="HONO" length="11" name="Hono" not-null="false"
+			type="string" />
+		<property column="EBNM" length="80" name="Ebnm" not-null="false"
+			type="string" />
+		<property column="TLFG" length="1" name="Tlfg" not-null="false"
+			type="string" />
+		<property column="BKNM" length="40" name="Bknm" not-null="false"
+			type="string" />
+		<property column="ADD2" length="35" name="Add2" not-null="false"
+			type="string" />
+		<property column="SMFG" length="1" name="Smfg" not-null="false"
+			type="string" />
+		<property column="CMFA" length="20" name="Cmfa" not-null="false"
+			type="string" />
+		<property column="CMTL" length="20" name="Cmtl" not-null="false"
+			type="string" />
+		<property column="SEDT" length="12" name="Sedt" not-null="false"
+			type="string" />
+		<property column="MTDT" length="8" name="Mtdt" not-null="false"
+			type="string" />
+		<property column="SWKM" length="12" name="Swkm" not-null="false"
+			type="string" />
+		<property column="CPUD" length="6" name="Cpud" not-null="false"
+			type="string" />
+		<property column="LVCS" length="3" name="Lvcs" not-null="false"
+			type="string" />
+		<property column="FNDT" length="8" name="Fndt" not-null="false"
+			type="string" />
+		<property column="HOCN" length="2" name="Hocn" not-null="false"
+			type="string" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<property column="USID" length="6" name="Usid" not-null="false"
+			type="string" />
+		<property column="BKID" length="8" name="Bkid" not-null="false"
+			type="string" />
+		<property column="CKST" length="1" name="Ckst" not-null="false"
+			type="string" />
+		<property column="TLAS" length="5" name="Tlas" not-null="false"
+			type="string" />
+		<property column="TKTL" length="1" name="Tktl" not-null="false"
+			type="string" />
+		<property column="ADD3" length="35" name="Add3" not-null="false"
+			type="string" />
+		<property column="BKTP" length="4" name="Bktp" not-null="false"
+			type="string" />
+		<property column="IDFG" length="1" name="Idfg" not-null="false"
+			type="string" />
+		<property column="TKSW" length="1" name="Tksw" not-null="false"
+			type="string" />
+		<property column="ACMK" length="1" name="Acmk" not-null="false"
+			type="string" />
+		<property column="SEFT" length="8" name="Seft" not-null="false"
+			type="string" />
+		<property column="ADD1" length="35" name="Add1" not-null="false"
+			type="string" />
+		<property column="CNNM" length="20" name="Cnnm" not-null="false"
+			type="string" />
+		<property column="ADD4" length="35" name="Add4" not-null="false"
+			type="string" />
+		<property column="STNO" length="4" name="Stno" not-null="false"
+			type="string" />
+		<property column="BKST" length="1" name="Bkst" not-null="false"
+			type="string" />
+			
+			<one-to-one name="bankbrno" class="com.witsoft.hibernate.Bankbrno"
+		cascade="all" />	
+			
+			
+	</class>
+
+
+
+</hibernate-mapping>

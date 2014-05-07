@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emclact" table="EMCLACT">
+		<composite-id class="EmclactPK" name="Id">
+			<key-property column="CLNO" name="Clno" type="string" />
+			<key-property column="ACNO" name="Acno" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="ITCD" length="9" name="Itcd" not-null="false"
+			type="string" />
+		<property column="ACTP" length="4" name="Actp" not-null="false"
+			type="string" />
+		<property column="CYCD" length="3" name="Cycd" not-null="false"
+			type="string" />
+		<property column="CYNO" length="2" name="Cyno" not-null="false"
+			type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="CLID" length="16" name="Clid" not-null="false"
+			type="string" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="INNO" length="2" name="Inno" not-null="false"
+			type="string" />
+		<property column="ITEM" length="9" name="Item" not-null="false"
+			type="string" />
+		<property column="OLBL" length="53" name="Olbl" not-null="false"
+			type="java.lang.Float" />
+			
+	</class>
+</hibernate-mapping>

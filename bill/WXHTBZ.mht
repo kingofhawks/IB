@@ -1,0 +1,1339 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link href="/IB/common/default.css" rel="stylesheet" type="text/css">
+<link rel=File-List href="WXHTBZ.files/filelist.xml">
+<title>SALES CONFIRMATION</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>&#21335;&#20140;&#19990;&#26684;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496;</o:Author>
+  <o:LastAuthor>robin.xiao</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>369</o:TotalTime>
+  <o:Created>2006-03-07T09:58:00Z</o:Created>
+  <o:LastSaved>2006-06-12T01:03:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>848</o:Words>
+  <o:Characters>4835</o:Characters>
+  <o:Company>DESUNSOFT</o:Company>
+  <o:Lines>40</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5672</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 &#30917;</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ 
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h2
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h3
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h4
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	font-size:16.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:11.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	line-height:11.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	color:black;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 2.0cm 2.0cm 2.0cm;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:\666E\901A\8868\683C;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'
+scroll=yes>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoTitle><span lang=EN-US>SALES CONFIRMATION</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid'>
+  <td width=56 rowspan=3 valign=top style='width:42.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>&#21334;&#26041;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Seller:<o:p></o:p></span></b></p>
+  </td>
+  <td width=402 rowspan=3 valign=top style='width:301.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=100 valign=top style='width:74.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman"'>NO.:<o:p></o:p></span></h1>
+  </td>
+  <td width=99 valign=top style='width:74.55pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;page-break-inside:avoid'>
+  <td width=100 valign=top style='width:74.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman"'>DATE:<o:p></o:p></span></h1>
+  </td>
+  <td width=99 valign=top style='width:74.55pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;page-break-inside:avoid'>
+  <td width=100 valign=top style='width:74.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman"'>SIGNED IN:<o:p></o:p></span></h1>
+  </td>
+  <td width=99 rowspan=3 valign=top style='width:74.55pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;page-break-inside:avoid'>
+  <td width=56 rowspan=2 valign=top style='width:42.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>&#20080;&#26041;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Buyer:<o:p></o:p></span></b></p>
+  </td>
+  <td width=402 rowspan=2 valign=top style='width:301.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=100 valign=top style='width:74.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman"'><o:p>&nbsp;</o:p></span></h1>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;page-break-inside:avoid'>
+  <td width=100 valign=top style='width:74.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:
+  "Times New Roman"'><o:p>&nbsp;</o:p></span></h1>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td width=657 colspan=4 valign=top style='width:492.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span style='font-size:9.0pt;mso-bidi-font-size:12.0pt;font-family:
+  SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>&#32463;&#20080;&#21334;&#21452;&#26041;&#21516;&#24847;&#25104;&#20132;&#19979;&#21015;&#21830;&#21697;&#65292;&#35746;&#31435;&#26465;&#27454;&#22914;&#19979;&#65306;</span><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt;letter-spacing:
+  -.1pt'>This contract is made by and agreed between the BUYER and SELLER, in
+  accordance with the terms and conditions stipulated below.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><b><span lang=EN-US><o:p>&nbsp;</o:p></span></b></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=194 valign=top style='width:145.55pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><span class=GramE><b><span style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>&#21787;</span></b></span><b><span
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>&#22836;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=405 valign=top style='width:303.9pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <h4 style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  style='font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman"'>&#21517;&#31216;&#21450;&#35268;&#26684;</span><span
+  lang=EN-US style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h4>
+  </td>
+  <td width=145 valign=top style='width:108.8pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>&#25968;&#37327;</span></b><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=111 valign=top style='width:83.05pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>&#21333;&#20215;</span></b><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=129 valign=top style='width:96.7pt;border:none;border-top:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>&#37329;&#39069;</span></b><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=194 valign=top style='width:145.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'>Marks and Numbers<o:p></o:p></span></b></p>
+  </td>
+  <td width=405 valign=top style='width:303.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <h4 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman"'>Description
+  of goods<o:p></o:p></span></h4>
+  </td>
+  <td width=145 valign=top style='width:108.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'>Quantity<o:p></o:p></span></b></p>
+  </td>
+  <td width=111 valign=top style='width:83.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'>Unit Price<o:p></o:p></span></b></p>
+  </td>
+  <td width=129 valign=top style='width:96.7pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h4 style='line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman"'>Amount<o:p></o:p></span></h4>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=194 valign=top style='width:145.55pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-right-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=405 valign=top style='width:303.9pt;border:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=145 valign=top style='width:108.8pt;border:none;border-left:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=111 valign=top style='width:83.05pt;border:none;border-left:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=129 valign=top style='width:96.7pt;border:none;border-left:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width=194 valign=top style='width:145.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=405 valign=top style='width:303.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=145 valign=top style='width:108.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=111 valign=top style='width:83.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=129 valign=top style='width:96.7pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=92 valign=top style='width:68.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>&#24635;&#20540;</span></b><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>TOTAL:<o:p></o:p></span></b></p>
+  </td>
+  <td width=641 valign=top style='width:480.5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td width=92 valign=top style='width:68.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+  mso-line-height-rule:exactly'><b><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=641 valign=top style='width:480.5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='line-height:1.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Transshipment
+  (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#36716;&#36816;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=31 valign=top style='width:23.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#9633;</span></p>
+  </td>
+  <td width=126 valign=top style='width:94.3pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Allowed (</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20801;&#35768;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>)</span></p>
+  </td>
+  <td width=31 valign=top style='width:23.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#9633;</span></p>
+  </td>
+  <td width=491 valign=top style='width:368.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>not
+  allowed (</span><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#19981;&#20801;&#35768;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>) </span></p>
+  </td>
+  <td width=53 valign=top style='width:40.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;font-family:Wingdings;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>&thorn;</span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Partial
+  shipments (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20998;&#25209;&#35013;&#36816;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=31 valign=top style='width:23.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#9633;</span></p>
+  </td>
+  <td width=126 valign=top style='width:94.3pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Allowed (</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20801;&#35768;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>)</span></p>
+  </td>
+  <td width=31 valign=top style='width:23.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#9633;</span></p>
+  </td>
+  <td width=491 valign=top style='width:368.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>not
+  allowed (</span><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#19981;&#20801;&#35768;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>) </span></p>
+  </td>
+  <td width=53 valign=top style='width:40.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;font-family:Wingdings;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>&thorn;</span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Shipment
+  date (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#35013;&#36816;&#26399;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Insurance
+  (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20445;&#38505;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#30001;</span><span lang=EN-US style='font-size:
+  9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#25353;&#21457;&#31080;&#37329;&#39069;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>110%</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#25237;&#20445;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#38505;</span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt'>&#65292;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#21478;&#21152;&#20445;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  class=GramE><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#38505;&#33267;</span></span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20026;&#27490;&#12290;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  class=GramE><span lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:
+  0pt'>to</span></span><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'> be covered by the ___ FOR 110% of the invoice value
+  covering ___ additional ___ from ___ to ___.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Terms of
+  payment (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20184;&#27454;&#26465;&#20214;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  text-indent:-14.2pt;line-height:11.0pt;mso-line-height-rule:exactly;
+  tab-stops:14.2pt;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#9633;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20080;&#26041;&#19981;&#36831;&#20110;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#24180;</span><span lang=EN-US style='font-size:
+  9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span style='font-size:
+  9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#26376;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#26085;&#21069;&#23558;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>100%</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#30340;&#36135;&#27454;&#29992;&#21363;&#26399;&#27719;&#31080;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>/</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#30005;&#27719;&#36865;&#25269;&#21334;&#26041;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>The buyers shall pay 100% of the sales proceeds through
+  sight(demand) draft/by T/T remittance to the sellers not later than ___<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  text-indent:-14.2pt;line-height:11.0pt;mso-line-height-rule:exactly;
+  tab-stops:14.2pt;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#9633;</span><span lang=EN-US style='font-size:
+  9.0pt;color:black;mso-font-kerning:0pt'><span style='mso-tab-count:1'>&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20080;&#26041;&#39035;&#20110;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#24180;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#26376;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#26085;&#21069;&#36890;&#36807;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#38134;&#34892;&#24320;&#20986;&#20197;&#21334;&#26041;&#20026;&#21463;&#30410;&#20154;&#30340;&#19981;&#21487;&#25764;&#28040;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span class=GramE><span style='font-size:9.0pt;font-family:
+  SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#26399;&#20449;&#29992;&#35777;</span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#65292;&#24182;&#27880;&#26126;&#22312;&#19978;&#36848;&#35013;&#36816;&#26085;&#26399;&#21518;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#20869;&#22312;&#20013;&#22269;&#35758;&#20184;&#26377;&#25928;&#65292;&#20449;&#29992;&#35777;&#39035;&#27880;&#26126;&#21512;&#21516;&#32534;&#21495;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>The buyers shall issue an
+  irrevocable L/C at ___ sight through __ in favor of the sellers prior to ___
+  indicating L/C shall be valid in <st1:place w:st="on"><st1:country-region
+   w:st="on">China</st1:country-region></st1:place> through negotiation within
+  ___ day after the shipment effected, the L/C must mention the Contract
+  Number.</span></p>
+  <p class=MsoNormal style='tab-stops:14.2pt'><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#9633;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20184;&#27454;&#20132;&#21333;&#65306;&#20080;&#26041;&#24212;&#23545;&#21334;&#26041;&#24320;&#20855;&#30340;&#20197;&#20080;&#26041;&#20026;&#20184;&#27454;&#20154;&#30340;&#35265;&#31080;&#21518;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#20184;&#27454;&#36319;&#21333;&#27719;&#31080;&#65292;&#20184;&#27454;&#26102;&#20132;&#21333;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>Documents against payment:(D/P)</span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>The buyers shall duly make the
+  payment against documentary draft made out to the buyers at ___ sight by the
+  sellers.</span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#9633;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#25215;&#20817;&#20132;&#21333;&#65306;&#20080;&#26041;&#24212;&#23545;&#21334;&#26041;&#24320;&#20855;&#30340;&#20197;&#20080;&#26041;&#20026;&#20184;&#27454;&#20154;&#30340;&#35265;&#31080;&#21518;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#25215;&#20817;&#36319;&#21333;&#27719;&#31080;&#65292;&#25215;&#20817;&#20132;&#21333;&#12290;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>Documents against acceptance:(D/A)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:14.2pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:
+  0pt'>The buyers shall duly accept the documentary draft made out to the
+  buyers at ___ days by the sellers.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Documents
+  required (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#21333;&#25454;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#21334;&#26041;&#24212;&#23558;&#19979;&#21015;&#21333;&#25454;&#25552;&#20132;&#38134;&#34892;&#35758;&#20184;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>/</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#25176;&#25910;&#12290;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>The
+  sellers shall present the following documents required for
+  negotiation/collection to the banks.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt'>&#9633;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#25972;&#22871;&#27491;&#26412;&#28165;&#27905;&#25552;&#21333;&#12290;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>Full set of clean on Board Ocean Bills of Lading.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt'>&#9633;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#21830;&#19994;&#21457;&#31080;&#19968;&#24335;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20221;&#12290;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>Signed commercial invoice in ___ copies.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#9633;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#35013;&#31665;&#21333;&#25110;&#37325;&#37327;&#21333;&#19968;&#24335;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20221;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>Packing list/weight memo in ___
+  copies.</span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#9633;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#30001;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#31614;&#21457;&#30340;&#36136;&#37327;&#19982;&#25968;&#37327;&#35777;&#26126;&#20070;&#19968;&#24335;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20221;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>Certificate of quantity and quality in ___ copies
+  issued by ___.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt'>&#9633;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20445;&#38505;&#21333;&#19968;&#24335;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20221;&#12290;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>Insurance policy in ___ copies.</span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt'>&#9633;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp; </span></span><span style='font-size:9.0pt;
+  font-family:SimSun;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman";color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#30001;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#31614;&#21457;&#30340;&#20135;&#22320;&#35777;&#19968;&#24335;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20221;&#12290;</span><span lang=EN-US
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:14.2pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:
+  0pt'>Certificate of Origin in ___ copies issued by ___.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'>Shipping advice</span></b><b><span style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'> </span></b><b><span style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>(</span></b><b><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#35013;&#36816;&#36890;&#30693;</span></b><b><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13;height:37.75pt'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:37.75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#19968;&#26086;&#35013;&#36816;&#23436;&#27605;&#65292;&#21334;&#26041;&#24212;&#21363;&#30005;&#21578;&#20080;&#26041;&#21512;&#21516;&#21495;&#12289;&#21830;&#21697;&#21495;&#12289;&#24050;&#35013;&#36733;&#25968;&#37327;&#12289;&#21457;&#31080;&#24635;&#37329;&#39069;&#12289;&#27611;&#37325;&#12289;&#36816;&#36755;&#24037;&#20855;&#21517;&#31216;&#21450;&#21551;&#36816;&#26085;&#26399;&#31561;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>The
+  sellers shall immediately, upon the completion of the loading of the goods,
+  advise the buyers of the Contract No, names of commodity, loaded quantity,
+  invoice values, gross weight, names of vessel and shipment date by TLX/FAX.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Inspection
+  and Claims (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#26816;&#39564;&#19982;&#32034;&#36180;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15;height:163.55pt'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:163.55pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;tab-stops:14.2pt;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>1.<span style='mso-tab-count:1'>&nbsp;&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#21334;&#26041;&#22312;&#21457;&#36135;&#21069;&#30001;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'> ___ </span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#26816;&#39564;&#26426;&#26500;&#23545;&#36135;&#29289;&#30340;&#21697;&#36136;&#12289;&#35268;&#26684;&#21644;&#25968;&#37327;&#36827;&#34892;&#26816;&#39564;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#65292;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#24182;&#20986;&#20855;&#26816;&#39564;&#35777;&#26126;&#20070;&#12290;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>The buyers shall have the
+  qualities, specifications, quantities of the goods carefully inspected by the
+  ___ Inspection Authority, which shall issue Inspection Certificate before
+  shipment.</span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  text-indent:-14.2pt;line-height:11.0pt;mso-line-height-rule:exactly;
+  tab-stops:14.2pt;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'>2.</span><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'><span style='mso-tab-count:1'>&nbsp;&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#36135;&#29289;&#21040;&#36798;<span class=GramE>&#30446;&#30340;&#21475;&#23736;</span>&#21518;&#65292;&#20080;&#26041;&#21487;&#22996;&#25176;&#24403;&#22320;&#30340;&#21830;&#21697;&#26816;&#39564;&#26426;&#26500;&#23545;&#36135;&#29289;&#36827;&#34892;&#22797;&#26816;&#12290;&#22914;&#26524;&#21457;&#29616;&#36135;&#29289;&#26377;&#25439;&#22351;&#12289;&#27531;&#32570;&#25110;&#35268;&#26684;&#12289;&#25968;&#37327;&#19982;&#21512;&#21516;&#35268;&#23450;&#19981;&#31526;&#65292;&#20080;&#26041;&#39035;&#20110;&#36135;&#21040;<span
+  class=GramE>&#30446;&#30340;&#21475;&#23736;</span>&#30340;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#20869;&#20973;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#26816;&#39564;&#26426;&#26500;&#20986;&#20855;&#30340;&#26816;&#39564;&#35777;&#26126;&#20070;&#21521;&#21334;&#26041;&#32034;&#36180;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent><span lang=EN-US>The buyers have right to have the
+  goods inspected by the local commodity inspection authority after the arrival
+  of the goods at the port of destination if the goods are found
+  damaged/short/their specifications and quantities not in compliance with that
+  specified in the contract, the buyers shall lodge claims against the sellers
+  based on the Inspection Certificate issued by the Commodity Inspection
+  Authority within ___ days after the goods arrival at the destination.</span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  text-indent:-14.2pt;line-height:11.0pt;mso-line-height-rule:exactly;
+  tab-stops:14.2pt;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'>3.</span><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'><span style='mso-tab-count:1'>&nbsp;&nbsp; </span></span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#22914;&#20080;&#26041;&#25552;&#20986;&#32034;&#36180;&#65292;&#20961;&#23646;&#21697;&#36136;&#24322;&#35758;&#39035;&#20110;&#36135;&#21040;<span
+  class=GramE>&#30446;&#30340;&#21475;&#23736;</span>&#20043;&#36215;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> __ </span><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#20869;&#25552;&#20986;&#65307;&#20961;<span
+  class=GramE>&#23646;&#25968;&#37327;</span>&#24322;&#35758;&#39035;&#20110;&#36135;&#21040;<span
+  class=GramE>&#30446;&#30340;&#21475;&#23736;</span>&#20043;&#26085;&#36215;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#22825;&#20869;&#25552;&#20986;&#12290;&#23545;&#25152;&#36135;&#29289;&#25152;&#25552;&#20219;&#20309;&#24322;&#35758;&#24212;&#30001;&#20445;&#38505;&#20844;&#21496;&#12289;&#36816;&#36755;&#20844;&#21496;&#25110;&#37038;&#36882;&#26426;&#26500;&#36127;&#36131;&#30340;&#65292;&#21334;&#26041;&#19981;&#36127;&#20219;&#20309;&#36131;&#20219;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:14.2pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=EN-US style='font-size:9.0pt;color:black;
+  mso-font-kerning:0pt'>The claims, if any regarding to the quality of the
+  goods, shall be lodged within ___ days after arrival of the goods at the
+  destination, if any regarding to the quantities of the goods, shall be lodged
+  within ___ days after arrival of the goods at the destination. The sellers
+  shall not take any responsibility if any claims concerning the shipping goods
+  is up to the responsibility of Insurance Company/Transportation Company/Post
+  Office.<b><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Force
+  Majeure (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20154;&#21147;&#19981;&#21487;&#25239;&#25298;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#22914;&#22240;&#20154;&#21147;&#19981;&#21487;&#25239;&#25298;&#30340;&#21407;&#22240;&#36896;&#25104;&#26412;&#21512;&#21516;&#20840;&#37096;&#25110;&#37096;&#20998;&#19981;&#33021;&#23653;&#32422;&#65292;&#21334;&#26041;&#27010;&#19981;&#36127;&#36131;&#20294;&#21334;&#26041;&#24212;&#23558;&#19978;&#36848;&#21457;&#29983;&#30340;&#24773;&#20917;&#21450;&#26102;&#36890;&#30693;&#20080;&#26041;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>The
+  sellers shall not hold any responsibility for partial or total
+  non-performance of this contract due to Force Majeure.But the sellers <span
+  class=GramE>advise</span> the buyers on time of such occurrence.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;mso-font-kerning:0pt'>Disputes settlement (</span></b><b><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'>&#20105;&#35758;&#20043;&#35299;&#20915;&#26041;&#24335;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText><span style='font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>&#20961;&#22240;&#25191;&#34892;&#26412;&#21512;&#32422;&#25110;&#26377;&#20851;&#26412;&#21512;&#32422;&#25152;&#21457;&#29983;&#30340;&#19968;&#20999;&#20105;&#25191;&#65292;&#21452;&#26041;&#24212;&#21327;&#21830;&#35299;&#20915;&#12290;&#22914;&#26524;&#21327;&#21830;&#19981;&#33021;&#24471;&#21040;&#35299;&#20915;&#65292;&#24212;&#25552;&#20132;&#20210;&#35009;&#12290;&#20210;&#35009;&#22320;&#28857;&#22312;&#34987;&#21578;&#26041;&#25152;&#22312;&#22269;&#20869;&#65292;&#25110;&#32773;&#22312;&#21452;&#26041;&#21516;&#24847;&#30340;&#31532;&#19977;&#22269;&#12290;&#20210;&#35009;&#35009;&#20915;&#26159;&#32456;&#23616;&#30340;&#65292;&#23545;&#21452;&#26041;&#37117;&#26377;&#32422;&#26463;&#21147;&#65292;&#20210;&#35009;&#36153;&#29992;&#30001;&#36133;&#35785;&#26041;&#25215;&#25285;&#12290;</span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-font-kerning:0pt'>All disputes in
+  connection with this contract of the execution thereof shall be amicably
+  settled through negotiation. In case no amicable settlement can be reached
+  between the two parties, the case under dispute shall be submitted to
+  arbitration, which shall be held in the country where the defendant resides,
+  or in third country agreed by both parties. The decision of the arbitration
+  shall be accepted as final and binding upon both parties. The Arbitration
+  Fees shall be borne by the losing party.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Law
+  application (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#27861;&#24459;&#36866;&#29992;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#26412;&#21512;&#21516;&#20043;&#31614;&#35746;&#22320;&#65292;&#25110;&#21457;&#29983;&#20105;&#35758;&#26102;&#36135;&#29289;&#25152;&#22312;&#22320;&#22312;&#20013;&#21326;&#20154;&#27665;&#20849;&#21644;&#22269;&#22659;&#20869;&#25110;&#34987;&#35785;&#20154;&#20026;&#20013;&#22269;&#27861;&#20154;&#30340;&#65292;&#36866;&#29992;&#20013;&#21326;&#20154;&#27665;&#20849;&#21644;&#22269;&#27861;&#24459;&#65292;&#38500;&#27492;&#35268;&#23450;&#22806;&#65292;&#36866;&#29992;&#12298;&#32852;&#21512;&#22269;&#22269;&#38469;&#36135;&#29289;&#38144;&#21806;&#20844;&#32422;&#12299;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>It will
+  be governed by the law of the People's Republic of China under the
+  circumstances that the contract is signed or the goods while the disputes
+  arising are in the People's Republic of China or the defendant is Chinese
+  legal person, otherwise it is governed by Untied Nations Convention on
+  Contract for the International Sale of Goods.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#26412;&#21512;&#21516;&#20351;&#29992;&#30340;&#20215;&#26684;&#26415;&#35821;&#31995;&#26681;&#25454;&#22269;&#38469;&#21830;&#20250;&#12298;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Incoterms
+  1990</span><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#12299;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#12290;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>The terms
+  in the contract based on INCOTERMS 1990 of the International Chamber of
+  Commerce.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>Versions
+  (</span></b><b><span style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman";color:black;
+  mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#25991;&#23383;</span></b><b><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>):</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#26412;&#21512;&#21516;&#20013;&#12289;&#33521;&#20004;&#31181;&#25991;&#23383;&#20855;&#26377;&#21516;&#31561;&#27861;&#24459;&#25928;&#21147;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#65292;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#22312;&#25991;&#23383;&#35299;&#37322;&#19978;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#65292;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#33509;&#26377;&#24322;&#35758;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt'>&#65292;</span><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#20197;&#20013;&#25991;&#35299;&#37322;&#20026;&#20934;&#12290;</span><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>This
+  contract is made out in both Chinese and English of which version is equally effective.
+  Conflicts between these two languages arising therefrom, if any, shall be
+  subject to Chinese version.</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:24;mso-yfti-lastrow:yes'>
+  <td width=733 colspan=5 valign=top style='width:549.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:11.0pt;
+  mso-line-height-rule:exactly;mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:9.0pt;font-family:SimSun;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman";color:black;mso-font-kerning:0pt;
+  mso-ansi-language:ZH-CN'>&#26412;&#21512;&#21516;&#20849;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'> ___ </span><span style='font-size:9.0pt;font-family:SimSun;
+  mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+  color:black;mso-font-kerning:0pt;mso-ansi-language:ZH-CN'>&#20221;&#65292;&#33258;&#21452;&#26041;&#20195;&#34920;&#31614;&#23383;&#65288;&#30422;&#31456;&#65289;&#20043;&#26085;&#36215;&#29983;&#25928;&#12290;</span><span
+  style='font-size:9.0pt;color:black;mso-font-kerning:0pt;mso-ansi-language:
+  ZH-CN'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;color:black;mso-font-kerning:0pt'>This
+  contract is in copies, effective since being <span class=GramE>singed/sealed</span>
+  by both parties.</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:
+ 0cm 4.55pt 0cm 4.55pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=359 valign=top style='width:269.3pt;padding:0cm 4.55pt 0cm 4.55pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+  line-height:12.0pt;layout-grid-mode:char'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>The
+  Buyer<o:p></o:p></span></b></p>
+  </td>
+  <td width=359 valign=top style='width:269.3pt;padding:0cm 4.55pt 0cm 4.55pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+  line-height:12.0pt;layout-grid-mode:char'><b style='mso-bidi-font-weight:
+  normal'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>The
+  Seller<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td width=359 valign=top style='width:269.3pt;padding:0cm 4.55pt 0cm 4.55pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=359 valign=top style='width:269.3pt;padding:0cm 4.55pt 0cm 4.55pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

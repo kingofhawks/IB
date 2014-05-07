@@ -1,0 +1,25 @@
+<script language="javascript">
+switch (type)
+{
+	case "text":
+		(this.style.width=="auto") ? this.style.width = "180px" :"" ;
+		(this.disabled||this.readOnly) ? this.style.backgroundColor='E6E6E6' : "";
+		autocomplete='off';
+		this.style.border="1px solid #000";
+        break;
+		
+    case "submit":
+		  this.style.border="1px solid #336699";
+		  this.style.cursor= "hand";
+		  this.style.padding="1px";
+		  this.style.margin="1px 4px 1px 4px";
+		  this.style.fontSize="12px";
+		  this.style.filter="progid:DXImageTransform.Microsoft.Gradient(startColorStr=#FFFFFF, endColorStr=#9DD3FF, gradientType=0)";
+		   break;
+		  
+	case "password":
+		this.style.border="1px solid #000";
+		break;
+	default:
+}
+</script>

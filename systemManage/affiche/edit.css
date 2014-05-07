@@ -1,0 +1,36 @@
+body{behavior: url('/IB/common/mouse.htc')}
+.Btn
+{
+BACKGROUND-COLOR: #E1F4EE;
+BORDER-BOTTOM: buttonface 1px solid;
+BORDER-LEFT: buttonface 1px solid;
+BORDER-RIGHT: buttonface 1px solid;
+BORDER-TOP: buttonface 1px solid;
+HEIGHT: 20px;
+WIDTH: 20px
+}
+.TBGen2
+{
+width:55px;
+HEIGHT: 22px;
+}
+.TBGen
+{
+width:55px;
+HEIGHT: 22px;
+}
+.TBGen3
+{
+width:115px;
+HEIGHT: 22px;
+}
+
+div.sele_div_122{border:1px solid #000000; width:115px; height:18px; clip:rect(0px,113px,17px,0px);overflow:hidden;}
+.select_122{position:relative; margin:-2px;width:118px;border:0px;behavior:url('/IB/common/select.htc'); }
+div.sele_div_80{border:1px solid #000000; width:75px; height:18px; clip:rect(0px,72px,17px,0px);overflow:hidden;}
+.select_80{position:relative; margin:-2px;width:78px;border:0px;behavior:url('/IB/common/select.htc'); }
+
+.contentA
+{
+BACKGROUND-COLOR: #E1F4EE;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Aug 24 10:21:18 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="Emextfp" table="EMEXTFP">
+
+		<id name="id" column="CYNO" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+
+		<property name="cycd" column="CYCD" type="java.lang.String" />
+		<property name="exut" column="EXUT" type="java.lang.Short" />
+		<property name="cuby" column="CUBY" type="java.lang.Float" />
+		<property name="cusl" column="CUSL" type="java.lang.Float" />
+		<property name="meby" column="MEBY" type="java.lang.Float" />
+		<property name="mesl" column="MESL" type="java.lang.Float" />
+		<property name="mdpr" column="MDPR" type="java.lang.Float" />
+		<property name="enpr" column="ENPR" type="java.lang.Float" />
+		<property name="sbut" column="SBUT" type="java.lang.Float" />
+		<property name="sbrd" column="SBRD" type="java.lang.String" />
+		<property name="debt" column="DEBT" type="java.lang.String" />
+		<property name="inrt" column="INRT" type="java.lang.Double" />
+		<property name="txpc" column="TXPC" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

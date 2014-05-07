@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Apr 11 09:16:13 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="Fcsdtsdjb" table="FCSDTSDJB">
+		<id name="id" column="ID" type="java.lang.Long">
+			<generator class="assigned" />
+		</id>
+
+		<property name="psdt" column="PSDT" type="java.lang.String" />
+		<property name="cety" column="CETY" type="java.lang.String" />
+		<property name="ocno" column="OCNO" type="java.lang.String" />
+		<property name="icacno" column="ICACNO" type="java.lang.String" />
+		<property name="icbk" column="ICBK" type="java.lang.String" />
+		<property name="ocbk" column="OCBK" type="java.lang.String" />
+		<property name="ocacno" column="OCACNO" type="java.lang.String" />
+		<property name="amts" column="AMTS" type="java.lang.String" />
+		<property name="acdt" column="ACDT" type="java.lang.String" />
+		<property name="gtdt" column="GTDT" type="java.lang.String" />
+		<property name="sign" column="SIGN" type="java.lang.String" />
+		<property name="sgdt" column="SGDT" type="java.lang.String" />
+		<property name="remk" column="REMK" type="java.lang.String" />
+		<property name="field1" column="FIELD1" type="java.lang.String" />
+		<property name="field2" column="FIELD2" type="java.lang.String" />
+		<property name="field3" column="FIELD3" type="java.lang.String" />
+		<property name="field4" column="FIELD4" type="java.lang.String" />
+		<property name="brno" column="BRNO" type="java.lang.String" />
+		<property name="rfno" column="RFNO" type="java.lang.String" />
+
+		<property name="dldt" column="DLDT" type="java.lang.String" />
+		<property name="prid" column="PRID" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

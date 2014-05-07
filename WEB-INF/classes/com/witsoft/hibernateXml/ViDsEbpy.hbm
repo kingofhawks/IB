@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Fri Dec 02 14:18:15 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsEbpy" table="vi_ds_EBPY">
+
+		<composite-id class="VEBPK" name="Id">
+			<key-property column="BPNO" length="16" name="bpno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+		<property name="dlcy" column="DLCY" type="java.lang.String" />
+		<property name="yhcy" column="YHCY" type="java.lang.String" />
+		<property name="dlam" column="DLAM" type="java.lang.Float" />
+		<property name="clno" column="CLNO" type="java.lang.String" />
+		<property name="obam" column="OBAM" type="java.lang.Float" />
+		<property name="ngrt" column="NGRT" type="java.lang.Float" />
+		<property name="ngdt" column="NGDT" type="java.lang.String" />
+		<property name="obac" column="OBAC" type="java.lang.String" />
+		<property name="ckno" column="CKNO" type="java.lang.String" />
+		<property name="evno" column="EVNO" type="java.lang.String" />
+		<property name="evn1" column="EVN1" type="java.lang.String" />
+		<property name="dbam" column="DBAM" type="java.lang.Float" />
+		<property name="dbrt" column="DBRT" type="java.lang.Float" />
+		<property name="dbdt" column="DBDT" type="java.lang.String" />
+		<property name="dbac" column="DBAC" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

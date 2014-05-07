@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1503bfdc-33c8-46f4-8b1c-bd1e85075894" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/1.doc" afterPath="$PROJECT_DIR$/bill/doc/1.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/10.doc" afterPath="$PROJECT_DIR$/bill/doc/10.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/11.doc" afterPath="$PROJECT_DIR$/bill/doc/11.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/12.doc" afterPath="$PROJECT_DIR$/bill/doc/12.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/13.doc" afterPath="$PROJECT_DIR$/bill/doc/13.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/14.doc" afterPath="$PROJECT_DIR$/bill/doc/14.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/15.doc" afterPath="$PROJECT_DIR$/bill/doc/15.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/16.doc" afterPath="$PROJECT_DIR$/bill/doc/16.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/17.doc" afterPath="$PROJECT_DIR$/bill/doc/17.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/18.doc" afterPath="$PROJECT_DIR$/bill/doc/18.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/19.doc" afterPath="$PROJECT_DIR$/bill/doc/19.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/2.doc" afterPath="$PROJECT_DIR$/bill/doc/2.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/20.doc" afterPath="$PROJECT_DIR$/bill/doc/20.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/21.doc" afterPath="$PROJECT_DIR$/bill/doc/21.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/22.doc" afterPath="$PROJECT_DIR$/bill/doc/22.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/23.doc" afterPath="$PROJECT_DIR$/bill/doc/23.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/24.doc" afterPath="$PROJECT_DIR$/bill/doc/24.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/25.doc" afterPath="$PROJECT_DIR$/bill/doc/25.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/26.doc" afterPath="$PROJECT_DIR$/bill/doc/26.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/27.doc" afterPath="$PROJECT_DIR$/bill/doc/27.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/28.doc" afterPath="$PROJECT_DIR$/bill/doc/28.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/29.doc" afterPath="$PROJECT_DIR$/bill/doc/29.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/3.doc" afterPath="$PROJECT_DIR$/bill/doc/3.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/30.doc" afterPath="$PROJECT_DIR$/bill/doc/30.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/31.doc" afterPath="$PROJECT_DIR$/bill/doc/31.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/32.doc" afterPath="$PROJECT_DIR$/bill/doc/32.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/33.doc" afterPath="$PROJECT_DIR$/bill/doc/33.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/34.doc" afterPath="$PROJECT_DIR$/bill/doc/34.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/35.doc" afterPath="$PROJECT_DIR$/bill/doc/35.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/36.doc" afterPath="$PROJECT_DIR$/bill/doc/36.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/37.doc" afterPath="$PROJECT_DIR$/bill/doc/37.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/38.doc" afterPath="$PROJECT_DIR$/bill/doc/38.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/39.doc" afterPath="$PROJECT_DIR$/bill/doc/39.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/4.doc" afterPath="$PROJECT_DIR$/bill/doc/4.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/40.doc" afterPath="$PROJECT_DIR$/bill/doc/40.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/5.doc" afterPath="$PROJECT_DIR$/bill/doc/5.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/6.doc" afterPath="$PROJECT_DIR$/bill/doc/6.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/7.doc" afterPath="$PROJECT_DIR$/bill/doc/7.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/8.doc" afterPath="$PROJECT_DIR$/bill/doc/8.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/doc/9.doc" afterPath="$PROJECT_DIR$/bill/doc/9.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/images/Thumbs.db" afterPath="$PROJECT_DIR$/guide/images/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teachingcases/images/Thumbs.db" afterPath="$PROJECT_DIR$/teachingcases/images/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNmain.swf" afterPath="$PROJECT_DIR$/UNmain.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/balance_1.gif" afterPath="$PROJECT_DIR$/images/balance_1.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu/deeptree.htc" afterPath="$PROJECT_DIR$/menu/deeptree.htc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flowchart.gif" afterPath="$PROJECT_DIR$/images/flowchart.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/login_top.gif" afterPath="$PROJECT_DIR$/images/login_top.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logoTitle.gif" afterPath="$PROJECT_DIR$/images/logoTitle.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo_s.gif" afterPath="$PROJECT_DIR$/images/logo_s.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.swf" afterPath="$PROJECT_DIR$/main.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/images/main_top.jpg" afterPath="$PROJECT_DIR$/guide/images/main_top.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teachingcases/images/main_top.jpg" afterPath="$PROJECT_DIR$/teachingcases/images/main_top.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/top_left.gif" afterPath="$PROJECT_DIR$/images/top_left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/top_title.gif" afterPath="$PROJECT_DIR$/images/top_title.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/zd_title.gif" afterPath="$PROJECT_DIR$/images/zd_title.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/100.jsp" afterPath="$PROJECT_DIR$/telegramText/100.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/103.jsp" afterPath="$PROJECT_DIR$/telegramText/103.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/110.jsp" afterPath="$PROJECT_DIR$/telegramText/110.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/192.jsp" afterPath="$PROJECT_DIR$/telegramText/192.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/202.jsp" afterPath="$PROJECT_DIR$/telegramText/202.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/205.jsp" afterPath="$PROJECT_DIR$/telegramText/205.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/299.jsp" afterPath="$PROJECT_DIR$/telegramText/299.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/400.jsp" afterPath="$PROJECT_DIR$/telegramText/400.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/410.jsp" afterPath="$PROJECT_DIR$/telegramText/410.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/412.jsp" afterPath="$PROJECT_DIR$/telegramText/412.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/420.jsp" afterPath="$PROJECT_DIR$/telegramText/420.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/430.jsp" afterPath="$PROJECT_DIR$/telegramText/430.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/456.jsp" afterPath="$PROJECT_DIR$/telegramText/456.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/499.jsp" afterPath="$PROJECT_DIR$/telegramText/499.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/700.jsp" afterPath="$PROJECT_DIR$/telegramText/700.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/701.jsp" afterPath="$PROJECT_DIR$/telegramText/701.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/705.jsp" afterPath="$PROJECT_DIR$/telegramText/705.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/707.jsp" afterPath="$PROJECT_DIR$/telegramText/707.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/710.jsp" afterPath="$PROJECT_DIR$/telegramText/710.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/711.jsp" afterPath="$PROJECT_DIR$/telegramText/711.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/720.jsp" afterPath="$PROJECT_DIR$/telegramText/720.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/721.jsp" afterPath="$PROJECT_DIR$/telegramText/721.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/730.jsp" afterPath="$PROJECT_DIR$/telegramText/730.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/732.jsp" afterPath="$PROJECT_DIR$/telegramText/732.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/734.jsp" afterPath="$PROJECT_DIR$/telegramText/734.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/740.jsp" afterPath="$PROJECT_DIR$/telegramText/740.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/742.jsp" afterPath="$PROJECT_DIR$/telegramText/742.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/747.jsp" afterPath="$PROJECT_DIR$/telegramText/747.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/750.jsp" afterPath="$PROJECT_DIR$/telegramText/750.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/752.jsp" afterPath="$PROJECT_DIR$/telegramText/752.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/760.jsp" afterPath="$PROJECT_DIR$/telegramText/760.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/799.jsp" afterPath="$PROJECT_DIR$/telegramText/799.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/999.jsp" afterPath="$PROJECT_DIR$/telegramText/999.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DCCRG-AC.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DCCRG-AC.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DCCRG-AD.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DCCRG-AD.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DCCRG-CL.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DCCRG-CL.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DEBRG-EN.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DEBRG-EN.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DEBRG-RM.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DEBRG-RM.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DELAD-AD.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DELAD-AD.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DELUP-AM.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DELUP-AM.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DIBDR-DR.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DIBDR-DR.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DIBRG-AB.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DIBRG-AB.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DIBRT-RT.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DIBRT-RT.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DIBUB-AD.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DIBUB-AD.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DIRRG-RE.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DIRRG-RE.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DLCOP-GR.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DLCOP-GR.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DOCRG-IN.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DOCRG-IN.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DSGRG-CS.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DSGRG-CS.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DSGRG-DO.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DSGRG-DO.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DSGRG-MR.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DSGRG-MR.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/DSGTR-RD.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/DSGTR-RD.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/outwardCollection/FaChuShouDaoTuoShouDengJiBu.jsp" afterPath="$PROJECT_DIR$/lc/outwardCollection/FaChuShouDaoTuoShouDengJiBu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/importLC/LC/KaiZhengShenQingShu.jsp" afterPath="$PROJECT_DIR$/lc/importLC/LC/KaiZhengShenQingShu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A1.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A1.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A2.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A3.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A3.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A4.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A4.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A5.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A5.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A6.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A6.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A7.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A7.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A8.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A8.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A9.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-A9.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B1.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B1.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B2.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B3.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B3.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B4.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B4.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B5.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B5.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B6.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B6.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B7.jsp" afterPath="$PROJECT_DIR$/inputDocuments/jsp/LCOPU-B7.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/grade/SystemAuthorization.jsp" afterPath="$PROJECT_DIR$/systemManage/grade/SystemAuthorization.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/exportLC/exportLC/XinYongZhengTongZhiYiFuDengJiBu.jsp" afterPath="$PROJECT_DIR$/lc/exportLC/exportLC/XinYongZhengTongZhiYiFuDengJiBu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShenQingShu.jsp" afterPath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShenQingShu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShu.jsp" afterPath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/negotiation/invoiceGathering/XinYongZhengYiFu_WeiTuoShouKuanShenQingShu.jsp" afterPath="$PROJECT_DIR$/lc/negotiation/invoiceGathering/XinYongZhengYiFu_WeiTuoShouKuanShenQingShu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/inwardRemittance/annulDossierDetail.jsp" afterPath="$PROJECT_DIR$/remittance/inwardRemittance/annulDossierDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/outwardRemittance/annulDossierDetail.jsp" afterPath="$PROJECT_DIR$/remittance/outwardRemittance/annulDossierDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" afterPath="$PROJECT_DIR$/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" afterPath="$PROJECT_DIR$/remittance/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" afterPath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/bills.jsp" afterPath="$PROJECT_DIR$/system/bills.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/casetop.jsp" afterPath="$PROJECT_DIR$/case/casetop.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu/deeptreeconfig.xml" afterPath="$PROJECT_DIR$/menu/deeptreeconfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/inwardRemittance/hangAccountRelievePay.jsp" afterPath="$PROJECT_DIR$/remittance/inwardRemittance/hangAccountRelievePay.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/header.jsp" afterPath="$PROJECT_DIR$/common/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/index.htm" afterPath="$PROJECT_DIR$/guide/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/lex/index.htm" afterPath="$PROJECT_DIR$/help/lex/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jsp" afterPath="$PROJECT_DIR$/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/index.jsp" afterPath="$PROJECT_DIR$/lc/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/inwardRemittance/inwardRemittanceDetail.jsp" afterPath="$PROJECT_DIR$/remittance/inwardRemittance/inwardRemittanceDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/lex/left.html" afterPath="$PROJECT_DIR$/help/lex/left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/load.jsp" afterPath="$PROJECT_DIR$/load.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/login.htm" afterPath="$PROJECT_DIR$/guide/login.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.jsp" afterPath="$PROJECT_DIR$/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.jsp" afterPath="$PROJECT_DIR$/menu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/outwardRemittance/outwardRemittanceDetail.jsp" afterPath="$PROJECT_DIR$/remittance/outwardRemittance/outwardRemittanceDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/readme.txt" afterPath="$PROJECT_DIR$/guide/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/grade/result.jsp" afterPath="$PROJECT_DIR$/systemManage/grade/result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/inwardRemittance/returnRemittance.jsp" afterPath="$PROJECT_DIR$/remittance/inwardRemittance/returnRemittance.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/popedomManage/rightsManage.jsp" afterPath="$PROJECT_DIR$/systemManage/popedomManage/rightsManage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flowChart/showFlowChart.jsp" afterPath="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/outwardRemittance/stopPayment.jsp" afterPath="$PROJECT_DIR$/remittance/outwardRemittance/stopPayment.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/studentOperation.htm" afterPath="$PROJECT_DIR$/guide/studentOperation.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/systemManage.htm" afterPath="$PROJECT_DIR$/guide/systemManage.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/teacherOperation.htm" afterPath="$PROJECT_DIR$/guide/teacherOperation.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegramText/temp.jsp" afterPath="$PROJECT_DIR$/telegramText/temp.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top.jsp" afterPath="$PROJECT_DIR$/top.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/treeCase.jsp" afterPath="$PROJECT_DIR$/treeCase.jsp" />
+    </list>
+    <ignored path="IB.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/hibernate.cfg.xml" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399267594468" ignored="false" />
+    <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399337049593" ignored="false" />
+    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399382047037" ignored="false" />
+    <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399423453185" ignored="false" />
+    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399433361479" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="IB" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="48" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-1.0754716">
+              <folding>
+                <marker date="1399343767187" expanded="true" signature="561:584" placeholder="{...}" />
+                <marker date="1399343767187" expanded="false" signature="3017:3034" placeholder="..." />
+                <marker date="1399343767187" expanded="true" signature="13821:13838" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/top.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="176" column="107" selection-start="7079" selection-end="7114" vertical-scroll-proportion="-3.9433963">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="63" selection-start="4423" selection-end="4423" vertical-scroll-proportion="0.34857142">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradeList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="734" selection-end="738" vertical-scroll-proportion="-6.178571">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="68" selection-start="870" selection-end="870" vertical-scroll-proportion="-2.0357144">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/WEB-INF/classes/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/common/header.jsp" />
+        <option value="$USER_HOME$/Documents/Tencent Files/2054958070/FileRecv/DBConfig.java" />
+        <option value="$PROJECT_DIR$/index.jsp" />
+        <option value="$PROJECT_DIR$/top.jsp" />
+        <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="last_opened_file_path" value="E:/Workspace/bootstrap" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\images" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1503bfdc-33c8-46f4-8b1c-bd1e85075894" name="Default" comment="" />
+      <created>1399266077725</created>
+      <updated>1399266077725</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21869488" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32019705" sideWeight="0.33509701" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958949" sideWeight="0.49911818" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32019705" sideWeight="0.44620812" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/2054958070/FileRecv/DBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1728#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="54" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-4.928571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treeCase.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="417" selection-end="417" vertical-scroll-proportion="0.26206896">
+          <folding>
+            <marker date="1219226876062" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1219226876062" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1219226876062" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="68" selection-start="247" selection-end="247" vertical-scroll-proportion="0.31353134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/jquery/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="84245" selection-end="84245" vertical-scroll-proportion="0.22352941">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bootstrap-3.1.1/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="87" selection-start="506" selection-end="506" vertical-scroll-proportion="-107.747055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="68" selection-start="870" selection-end="870" vertical-scroll-proportion="-2.0357144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/font-awesome-4.0.3/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="734" selection-end="738" vertical-scroll-proportion="-6.178571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="48" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-1.0754716">
+          <folding>
+            <marker date="1399343767187" expanded="true" signature="561:584" placeholder="{...}" />
+            <marker date="1399343767187" expanded="false" signature="3017:3034" placeholder="..." />
+            <marker date="1399343767187" expanded="true" signature="13821:13838" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="javaeeDummy://JavaeeElement:/c15183e6//IB/web/Web/Facet">
+      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="32" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.5661538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_backup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="107" selection-start="7079" selection-end="7114" vertical-scroll-proportion="-3.9433963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/date/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="245" selection-end="283" vertical-scroll-proportion="0.2828784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="63" selection-start="4423" selection-end="4423" vertical-scroll-proportion="0.34857142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

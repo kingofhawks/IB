@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Sat Jan 06 10:21:20 CST 2007                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Statics" table="STATICS">
+ 
+    <composite-id>
+	   <key-property column="options" name="options" type="java.lang.String" />
+	   <key-property column="values1" name="values1" type="java.lang.String" />
+	   <key-property column="values2" name="values2" type="java.lang.String" />
+	</composite-id>
+
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Jun 01 15:52:51 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Xyz" table="XYZ">
+        <id name="id" column="ID" type="java.lang.Long">
+            <generator class="assigned"/>
+        </id>
+ 
+        <property name="isdt" column="ISDT" type="java.lang.String" />
+        <property name="lcno" column="LCNO" type="java.lang.String" />
+        <property name="apnm" column="APNM" type="java.lang.String" />
+        <property name="apad" column="APAD" type="java.lang.String" />
+        <property name="apcd" column="APCD" type="java.lang.String" />
+        <property name="apno" column="APNO" type="java.lang.String" />
+        <property name="apbk" column="APBK" type="java.lang.String" />
+        <property name="clnonm" column="CLNONM" type="java.lang.String" />
+        <property name="adl1" column="ADL1" type="java.lang.String" />
+        <property name="clpscd" column="CLPSCD" type="java.lang.String" />
+        <property name="clno" column="CLNO" type="java.lang.String" />
+        <property name="bebk" column="BEBK" type="java.lang.String" />
+        <property name="lcam" column="LCAM" type="java.lang.String" />
+        <property name="lcambig" column="LCAMBIG" type="java.lang.String" />
+        <property name="pcep" column="PCEP" type="java.lang.String" />
+        <property name="epdt" column="EPDT" type="java.lang.String" />
+        <property name="adbknm" column="ADBKNM" type="java.lang.String" />
+        <property name="adbk" column="ADBK" type="java.lang.String" />
+        <property name="transway" column="TRANSWAY" type="java.lang.String" />
+        <property name="part" column="PART" type="java.lang.String" />
+        <property name="partX" column="PART_X" type="java.lang.String" />
+        <property name="partD" column="PART_D" type="java.lang.String" />
+        <property name="tras" column="TRAS" type="java.lang.String" />
+        <property name="trasX" column="TRAS_X" type="java.lang.String" />
+        <property name="trasD" column="TRAS_D" type="java.lang.String" />
+        <property name="shfm" column="SHFM" type="java.lang.String" />
+        <property name="shto" column="SHTO" type="java.lang.String" />
+        <property name="shdt" column="SHDT" type="java.lang.String" />
+        <property name="crno" column="CRNO" type="java.lang.String" />
+        <property name="gstp" column="GSTP" type="java.lang.String" />
+        <property name="psbl" column="PSBL" type="java.lang.String" />
+        <property name="sutp" column="SUTP" type="java.lang.String" />
+        <property name="stupsigh" column="STUPSIGH" type="java.lang.String" />
+        <property name="stupexte" column="STUPEXTE" type="java.lang.String" />
+        <property name="stuppaid" column="STUPPAID" type="java.lang.String" />
+        <property name="ngbk" column="NGBK" type="java.lang.String" />
+        <property name="sight" column="SIGHT" type="java.lang.String" />
+        <property name="sighttime" column="SIGHTTIME" type="java.lang.String" />
+        <property name="bevo" column="BEVO" type="java.lang.String" />
+        <property name="isbkak" column="ISBKAK" type="java.lang.String" />
+        <property name="pscd" column="PSCD" type="java.lang.String" />
+        <property name="tel" column="TEL" type="java.lang.String" />
+        <property name="fax" column="FAX" type="java.lang.String" />
+        <property name="telex" column="TELEX" type="java.lang.String" />
+        <property name="neno" column="NENO" type="java.lang.String" />
+        <property name="sign" column="SIGN" type="java.lang.String" />
+        <property name="handle" column="HANDLE" type="java.lang.String" />
+        <property name="checker" column="CHECKER" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+        <property name="field3" column="Field3" type="java.lang.String" />
+        <property name="field4" column="Field4" type="java.lang.String" />
+        <property name="brno" column="BRNO" type="java.lang.String" />
+        <property name="rfno" column="RFNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="prid" column="PRID" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emzhdzb" table="EMZHDZB">
+		<composite-id class="EmzhdzbPK" name="Id">
+			<key-property column="BRNO" name="Brno" type="string" />
+			<key-property column="ACNO" name="Acno" type="string" />
+		</composite-id>
+
+		<property column="ITCD" length="5" name="Itcd" not-null="false"
+			type="string" />
+		<property column="ACNM" length="40" name="Acnm" not-null="false"
+			type="string" />
+		<property column="ACTP" length="4" name="Actp" not-null="false"
+			type="string" />
+		<property column="ACSQ" length="8" name="Acsq" not-null="false"
+			type="string" />
+<!--		<property column="CYNO" length="2" name="Cyno" not-null="true"-->
+<!--			type="string" />-->
+		<property column="TLBR" length="16" name="Tlbr" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+<!--		<property column="ITEM" length="9" name="Item" not-null="true"-->
+<!--			type="string" />-->
+			
+			
+		<many-to-one column="CYNO" name="Cyno" class="com.witsoft.hibernate.Emcyctp"/>
+		<many-to-one column="ITEM" name="Item" class="com.witsoft.hibernate.Emitemno"/>	
+			
+			
+	</class>
+</hibernate-mapping>

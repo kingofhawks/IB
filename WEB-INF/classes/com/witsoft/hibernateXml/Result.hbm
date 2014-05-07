@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Sat Dec 10 13:55:08 PST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Result" table="result">
+        <id name="prsm" column="prsm" type="java.lang.String">
+        <generator class="assigned" />
+        </id>
+ 
+        <property name="brno" column="brno" type="java.lang.String" />
+        <property name="usid" column="usid" type="java.lang.String" />
+        <property name="prid" column="prid" type="java.lang.String" />
+        <property name="tabid" column="tabid" type="java.lang.String" />
+        <property name="tltp" column="tltp" type="java.lang.String" />
+        <property name="letp" column="letp" type="java.lang.String" />
+        <property name="prtm" column="prtm" type="java.util.Date" />
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,60 @@
+body {
+	margin-left: 0px;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 0px;
+}
+P { text-indent: 2em ;	font-family:"Times New Roman", Times, serif;font-size:12px;line-height:22px;}
+.font_red{
+    font-size:12px;	font-family:"Times New Roman", Times, serif;color: #AA1300;
+}
+.font_red2{
+    font-size:12px;	font-family:"Times New Roman", Times, serif;color: red;
+}
+.content{
+	font-family:"Times New Roman", Times, serif;font-size:12px;	line-height:22px;
+}
+.title_green
+{
+FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #006600; }	
+.title_14
+{
+FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; }	
+A.tilte1:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR:#000000; TEXT-DECORATION: none; 
+}
+A.tilte1:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000;  TEXT-DECORATION: none; 
+}
+A.tilte1:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #FF6600; TEXT-DECORATION: underline;
+}
+
+A.a1:link {
+	 FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: none
+}
+A.a1:visited {
+	 FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: none
+}
+A.a1:hover {
+	 FONT-SIZE: 12px; COLOR: #FF6600; TEXT-DECORATION: underline
+}
+A.a:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.a:visited {
+	 FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.a:hover {
+	FONT-SIZE: 12px; COLOR: #0000FF; TEXT-DECORATION: underline
+}
+A.copy:link {
+	FONT-SIZE: 12px; COLOR: #333399; TEXT-DECORATION: none
+}
+A.copy:visited {
+	FONT-SIZE: 12px; COLOR: #333399; TEXT-DECORATION: none
+}
+A.copy:hover {
+	FONT-SIZE: 12px; COLOR: #333399; TEXT-DECORATION: underline
+}
+
+.kuang {
+	border: 1px solid #666666;font-family:"Times New Roman", Times, serif;font-size:12px;	line-height:22px;
+}

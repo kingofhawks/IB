@@ -1,0 +1,11 @@
+<deeptreeconfig sLeftFrameHeight="84">
+<TopXMLSrc>tree.do</TopXMLSrc>
+    <TreeLabel>HangZhou XinMing Information Technology Co., Ltd.</TreeLabel>
+    <StartPage>/</StartPage>
+    <ErrorPage>/</ErrorPage>
+    <ContentTarget>mainFrame</ContentTarget>
+    <TreeId>HangZhou XinMing Information Technology Co., Ltd.</TreeId>
+    <TreeRootPath>welcome.jsp</TreeRootPath>
+    <Locale>cn</Locale>
+    <LocaleTextDirection>LTR</LocaleTextDirection>
+</deeptreeconfig>

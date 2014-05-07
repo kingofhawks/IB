@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emclmgp" table="EMCLMGP">
+		
+		<composite-id >
+			<key-property column="CLNO" name="Clno" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="LCDK" length="53" name="Lcdk" not-null="false"
+			type="java.lang.Float" />
+		<property column="OCOB" length="53" name="Ocob" not-null="false"
+			type="java.lang.Float" />
+		<property column="FXNO" length="20" name="Fxno" not-null="false"
+			type="string" />
+		<property column="ADL2" length="60" name="Adl2" not-null="false"
+			type="string" />
+		<property column="ADL4" length="20" name="Adl4" not-null="false"
+			type="string" />
+		<property column="JHAC" length="36" name="Jhac" not-null="false"
+			type="string" />
+		<property column="IDNO" length="18" name="Idno" not-null="false"
+			type="string" />
+		<property column="EGA3" length="35" name="Ega3" not-null="false"
+			type="string" />
+		<property column="CHCY" length="2" name="Chcy" not-null="false"
+			type="string" />
+		<property column="OCOBBLAN" length="53" name="Ocobblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="OCOBCYNO" length="2" name="Ocobcyno"
+			not-null="false" type="string" />
+		<property column="ELDBCYNO" length="2" name="Eldbcyno"
+			not-null="false" type="string" />
+		<property column="EBOB" length="53" name="Ebob" not-null="false"
+			type="java.lang.Float" />
+		<property column="SKNO" length="9" name="Skno" not-null="false"
+			type="string" />
+		<property column="TRHS" name="Trhs" not-null="false"
+			type="string" />
+		<property column="EGA4" length="35" name="Ega4" not-null="false"
+			type="string" />
+		<property column="LCOBBLAN" length="53" name="Lcobblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="CHAC" length="36" name="Chac" not-null="false"
+			type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="EGNM" length="60" name="Egnm" not-null="false"
+			type="string" />
+		<property column="MTDT" length="8" name="Mtdt" not-null="false"
+			type="string" />
+		<property column="EGA2" length="35" name="Ega2" not-null="false"
+			type="string" />
+		<property column="ELDB" length="53" name="Eldb" not-null="false"
+			type="java.lang.Float" />
+		<property column="ADL3" length="20" name="Adl3" not-null="false"
+			type="string" />
+		<property column="EGA1" length="35" name="Ega1" not-null="false"
+			type="string" />
+		<property column="LCAM" length="53" name="Lcam" not-null="false"
+			type="java.lang.Float" />
+		<property column="CCPDCYNO" length="2" name="Ccpdcyno"
+			not-null="false" type="string" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<property column="MKJH" length="1" name="Mkjh" not-null="false"
+			type="string" />
+		<property column="LCOBCYNO" length="2" name="Lcobcyno"
+			not-null="false" type="string" />
+		<property column="LCAMBLAN" length="53" name="Lcamblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="TXNO" length="20" name="Txno" not-null="false"
+			type="string" />
+		<property column="EBOBBLAN" length="53" name="Ebobblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="USID" length="6" name="Usid" not-null="false"
+			type="string" />
+		<property column="LCDKBLAN" length="53" name="Lcdkblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="CLNM" length="62" name="Clnm" not-null="false"
+			type="string" />
+		<property column="CCPD" length="53" name="Ccpd" not-null="false"
+			type="java.lang.Float" />
+		<property column="INNO" length="2" name="Inno" not-null="false"
+			type="string" />
+		<property column="EBOBCYNO" length="2" name="Ebobcyno"
+			not-null="false" type="string" />
+		<property column="LCDKCYNO" length="2" name="Lcdkcyno"
+			not-null="false" type="string" />
+		<property column="LCAMCYNO" length="2" name="Lcamcyno"
+			not-null="false" type="string" />
+		<property column="ELDBBLAN" length="53" name="Eldbblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="CLTP" length="3" name="Cltp" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="TLNO" length="20" name="Tlno" not-null="false"
+			type="string" />
+		<property column="CCPDBLAN" length="53" name="Ccpdblan"
+			not-null="false" type="java.lang.Float" />
+		<property column="MKNO" length="12" name="Mkno" not-null="false"
+			type="string" />
+		<property column="LCOB" length="53" name="Lcob" not-null="false"
+			type="java.lang.Float" />
+		<property column="ADL1" length="40" name="Adl1" not-null="false"
+			type="string" />
+		<property column="TMFG" length="1" name="Tmfg" not-null="false"
+			type="string" />
+
+	</class>
+</hibernate-mapping>

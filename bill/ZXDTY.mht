@@ -1,0 +1,613 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="ZXDTY.files/filelist.xml">
+<title>&#35013;&#31665;&#21333;</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>&#21335;&#20140;&#19990;&#26684;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496;</o:Author>
+  <o:LastAuthor>Administrator</o:LastAuthor>
+  <o:Revision>11</o:Revision>
+  <o:TotalTime>46</o:TotalTime>
+  <o:Created>2006-03-07T09:59:00Z</o:Created>
+  <o:LastSaved>2006-11-07T02:27:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>71</o:Words>
+  <o:Characters>406</o:Characters>
+  <o:Company>DESUNSOFT</o:Company>
+  <o:Lines>3</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>476</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 &#30917;</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all
+href="/IB/common/default.css">
+<style>
+<!--
+ /* Font Definitions */
+   @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;
+	mso-believe-normal-left:yes;}
+h1
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h2
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h3
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h5
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-noshow:yes;
+	mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;
+	font-weight:bold;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:23.55pt 1.0cm 1.0cm 1.0cm;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:\666E\901A\8868\683C;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:\7F51\683C\578B;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:1.5pt;}
+</style>
+<![endif]>
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation;
+margin-left:1.5pt;margin-top:1.5pt;margin-right:1.5pt;margin-bottom:1.5pt'
+scroll=yes>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoCaption style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>PACKING LIST</span></p>
+
+<div>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="96%"
+ style='width:96.32%;border-collapse:collapse;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid'>
+  <td width=270 rowspan=4 valign=top style='width:202.2pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>TO:<o:p></o:p></span></b></p>
+  </td>
+  <td width=238 rowspan=4 valign=top style='width:178.5pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________</span></p>
+  </td>
+  <td width=238 valign=top style='width:178.5pt;padding:0cm 1.4pt 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>INVOICE
+  NO.:<o:p></o:p></span></b></p>
+  </td>
+  <td width=202 valign=top style='width:151.65pt;padding:0cm 0cm 0cm 1.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________<b><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;page-break-inside:avoid'>
+  <td width=238 valign=top style='width:178.5pt;padding:0cm 1.4pt 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>INVOICE
+  DATE:</span></b></p>
+  </td>
+  <td width=202 valign=top style='width:151.65pt;padding:0cm 0cm 0cm 1.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;page-break-inside:avoid'>
+  <td width=238 valign=top style='width:178.5pt;padding:0cm 1.4pt 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>S/C NO.:<o:p></o:p></span></b></p>
+  </td>
+  <td width=202 valign=top style='width:151.65pt;padding:0cm 0cm 0cm 1.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________<b><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;page-break-inside:avoid'>
+  <td width=238 valign=top style='width:178.5pt;padding:0cm 1.4pt 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>S/C DATE:</span></b></p>
+  </td>
+  <td width=202 valign=top style='width:151.65pt;padding:0cm 0cm 0cm 1.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;page-break-inside:avoid'>
+  <td width=270 style='width:202.2pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+  lang=EN-US>FROM:<o:p></o:p></span></b></p>
+  </td>
+  <td width=238 style='width:178.5pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+  lang=EN-US>______________________</span></p>
+  </td>
+  <td width=238 valign=top style='width:178.5pt;padding:0cm 1.4pt 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>TO:<o:p></o:p></span></b></p>
+  </td>
+  <td width=202 valign=top style='width:151.65pt;padding:0cm 0cm 0cm 1.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes;page-break-inside:avoid'>
+  <td width=270 style='width:202.2pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+  lang=EN-US>Letter of Credit No.:<o:p></o:p></span></b></p>
+  </td>
+  <td width=238 style='width:178.5pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+  lang=EN-US>______________________</span></p>
+  </td>
+  <td width=238 valign=top style='width:178.5pt;padding:0cm 1.4pt 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><b><span lang=EN-US>Date of
+  Shipment:<o:p></o:p></span></b></p>
+  </td>
+  <td width=202 valign=top style='width:151.65pt;padding:0cm 0cm 0cm 1.4pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt'><span lang=EN-US>______________________</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+0cm;margin-left:2.85pt;margin-bottom:.0001pt;layout-grid-mode:char'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <thead>
+  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+   <td width=162 rowspan=2 style='width:121.7pt;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:
+   solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;padding:
+   0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Marks and Numbers<o:p></o:p></span></b></p>
+   </td>
+   <td width=279 style='width:209.2pt;border-top:solid windowtext 1.0pt;
+   border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+   mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+   mso-border-left-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+   padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Number and kind of package<o:p></o:p></span></b></p>
+   </td>
+   <td width=137 rowspan=2 style='width:102.65pt;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Quantity<o:p></o:p></span></b></p>
+   </td>
+   <td width=131 rowspan=2 style='width:98.1pt;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>PACKAGE<o:p></o:p></span></b></p>
+   </td>
+   <td width=82 rowspan=2 style='width:61.75pt;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>G.W<o:p></o:p></span></b></p>
+   </td>
+   <td width=85 rowspan=2 style='width:63.4pt;border:solid windowtext 1.0pt;
+   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+   solid windowtext .5pt;padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>N.W<o:p></o:p></span></b></p>
+   </td>
+   <td width=108 rowspan=2 style='width:81.2pt;border-top:solid windowtext 1.0pt;
+   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+   mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+   mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+   padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Meas.<o:p></o:p></span></b></p>
+   </td>
+  </tr>
+  <tr style='mso-yfti-irow:1'>
+   <td width=279 valign=top style='width:209.2pt;border-top:none;border-left:
+   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+   mso-border-left-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+   mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+   padding:0cm 0cm 0cm 0cm'>
+   <p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.85pt;
+   margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:center;
+   line-height:11.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+   style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>Description of goods<o:p></o:p></span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;height:14.35pt'>
+  <td width=162 valign=top style='width:121.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0cm 0cm 0cm 0cm;height:14.35pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+  char'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=279 valign=top style='width:209.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 0cm 0cm 0cm;height:14.35pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+  char'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=137 valign=top style='width:102.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 0cm 0cm 0cm;height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=131 valign=top style='width:98.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 0cm 0cm 0cm;height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=82 valign=top style='width:61.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 0cm 0cm 0cm;height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=85 valign=top style='width:63.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 0cm 0cm 0cm;height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=108 valign=top style='width:81.2pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
+  9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+0cm;margin-left:2.85pt;margin-bottom:.0001pt;layout-grid-mode:char'><a
+name=Delete0><span lang=EN-US><o:p>&nbsp;</o:p></span></a></p>
+
+<span style='mso-bookmark:Delete0'></span>
+
+<div>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.35pt'>
+  <td width=340 valign=top style='width:255.3pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+  char'><b><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=105 valign=top style='width:78.5pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <h3 align=right style='margin-top:0cm;margin-right:2.85pt;margin-bottom:0cm;
+  margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;line-height:12.0pt;
+  layout-grid-mode:char'><span lang=EN-US style='mso-fareast-font-family:"Times New Roman"'>Total:<o:p></o:p></span></h3>
+  </td>
+  <td width=138 valign=top style='width:103.5pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=130 valign=top style='width:97.85pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=83 valign=top style='width:62.35pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=78 valign=top style='width:58.15pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+  char'><b><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td width=110 valign=top style='width:82.35pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:2.85pt;
+  margin-bottom:0cm;margin-left:2.85pt;margin-bottom:.0001pt;text-align:right;
+  line-height:12.0pt;layout-grid-mode:char'><b><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;page-break-inside:avoid;
+  height:14.35pt'>
+  <td width=984 colspan=7 valign=top style='width:738.0pt;padding:0cm 0cm 0cm 0cm;
+  height:14.35pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+  char'><b><span lang=EN-US>SAY TOTAL:<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p class=MsoNormal style='margin-right:2.85pt;layout-grid-mode:char'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=718 valign=top style='width:538.6pt;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+  0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+  char'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:2.85pt;margin-bottom:
+0cm;margin-left:2.85pt;margin-bottom:.0001pt;line-height:12.0pt;layout-grid-mode:
+char'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

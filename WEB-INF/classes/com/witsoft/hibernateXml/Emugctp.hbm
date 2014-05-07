@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emugctp" table="EMUGCTP">
+		<composite-id>
+			<key-property column="UGID" name="Ugid" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+		
+		<property column="UGDS" length="30" name="Ugds" type="string" />
+		<property column="UGNM" length="16" name="Ugnm" not-null="false"
+			type="string" />
+		<property column="MKUS" length="16" name="Mkus" not-null="false"
+			type="string" />
+
+	</class>
+</hibernate-mapping>

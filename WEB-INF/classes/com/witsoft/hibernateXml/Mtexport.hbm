@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Jul 04 16:20:51 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Mtexport" table="MTEXPORT">
+        <id name="swid" column="SWID" type="java.lang.Long">
+            <generator class="increment"/>
+        </id>
+ 
+        <property name="dldt" column="DLDT" type="java.lang.String"  not-null="true" />
+        <property name="rfno" column="RFNO" type="java.lang.String"  not-null="true" />
+        <property name="mgtp" column="MGTP" type="java.lang.String"  not-null="true" />
+        <property name="tstp" column="TSTP" type="java.lang.String" />
+        <property name="trno" column="TRNO" type="java.lang.String" />
+        <property name="rlno" column="RLNO" type="java.lang.String" />
+        <property name="tobk" column="TOBK" type="java.lang.String" />
+        <property name="fmbk" column="FMBK" type="java.lang.String" />
+        <property name="stcd" column="STCD" type="java.lang.String" />
+        <property name="svct" column="SVCT" type="java.lang.Float" />
+        <property name="sdfg" column="SDFG" type="java.lang.String" />
+        <property name="sddt" column="SDDT" type="java.lang.String" />
+        <property name="txcn" column="TXCN" type="java.lang.String" />
+        <property name="lgtx" column="LGTX" type="java.lang.String" />
+        <property name="sign" column="SIGN" type="java.lang.String" />
+        <property name="flnm" column="FLNM" type="java.lang.String" />
+        <property name="ckgt" column="CKGT" type="java.lang.String" />
+        <property name="brno" column="BRNO" type="java.lang.String" />
+        <property name="nack" column="NACK" type="java.lang.String" />
+        <property name="swsn" column="SWSN" type="java.lang.String" />
+        <property name="cyno" column="CYNO" type="java.lang.String" />
+        <property name="amts" column="AMTS" type="java.lang.Double" />
+        <property name="jyrf" column="JYRF" type="java.lang.String" />
+        <property name="crdt" column="CRDT" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="ckid" column="CKID" type="java.lang.String" />
+        <property name="gtid" column="GTID" type="java.lang.String" />
+        <property name="olddldt" column="OLDDLDT" type="java.lang.String" />
+        <property name="oldrfno" column="OLDRFNO" type="java.lang.String" />
+        <property name="oldswid" column="OLDSWID" type="java.lang.String" />
+        <property name="oldmgtp" column="OLDMGTP" type="java.lang.String" />
+        <property name="swno" column="SWNO" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

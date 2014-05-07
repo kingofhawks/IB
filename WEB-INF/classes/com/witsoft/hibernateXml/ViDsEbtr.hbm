@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Fri Dec 02 14:19:20 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsEbtr" table="vi_ds_EBTR">
+
+		<composite-id class="VEBPK" name="Id">
+			<key-property column="BPNO" length="16" name="bpno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+		
+		<property name="clno" column="CLNO" type="java.lang.String" />
+		<property name="adno" column="ADNO" type="java.lang.String" />
+		<property name="dlam" column="DLAM" type="java.lang.Float" />
+		<property name="usid" column="USID" type="java.lang.String" />
+
+	</class>
+
+</hibernate-mapping>

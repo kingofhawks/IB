@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Nov 15 18:51:41 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsFhyh" table="vi_ds_FHYH">
+
+		<composite-id class="VIBPK" name="Id">
+			<key-property column="IBNO" length="16" name="ibno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+		<property name="crac" column="CRAC" type="java.lang.String" />
+		<property name="lcno" column="LCNO" type="java.lang.String" />
+		<property name="clno" column="CLNO" type="java.lang.String" />
+		<property name="dlcy" column="DLCY" type="java.lang.String"
+			not-null="true" />
+		<property name="dlam" column="DLAM" type="java.lang.Float" />
+		<property name="evno" column="EVNO" type="java.lang.String" />
+		<property name="cono" column="CONO" type="java.lang.String" />
+		<property name="netp" column="NETP" type="java.lang.String" />
+		<property name="ngin" column="NGIN" type="java.lang.Float" />
+		<property name="latp" column="LATP" type="java.lang.String" />
+		<property name="cyno" column="CYNO" type="java.lang.String"
+			not-null="true" />
+		<property name="nekd" column="NEKD" type="java.lang.String" />
+		<property name="neno" column="NENO" type="java.lang.String"
+			not-null="true" />
+		<property name="qlfg" column="QLFG" type="java.lang.String" />
+		<property name="agno" column="AGNO" type="java.lang.String" />
+		<property name="vldt" column="VLDT" type="java.lang.String" />
+		<property name="madt" column="MADT" type="java.lang.String" />
+		<property name="fntl" column="FNTL" type="java.lang.Float" />
+		<property name="inrw" column="INRW" type="java.lang.String" />
+		<property name="inrd" column="INRD" type="java.lang.String" />
+		<property name="inmd" column="INMD" type="java.lang.String" />
+		<property name="stcy" column="STCY" type="java.lang.String" />
+		<property name="inrt" column="INRT" type="java.lang.Float" />
+		<property name="exrt" column="EXRT" type="java.lang.Float" />
+		<property name="ritp" column="RITP" type="java.lang.String" />
+		<property name="difg" column="DIFG" type="java.lang.String" />
+		<property name="fnch" column="FNCH" type="java.lang.Float" />
+		<property name="leac" column="LEAC" type="java.lang.String" />
+		<property name="clac" column="CLAC" type="java.lang.String" />
+		<property name="asac" column="ASAC" type="java.lang.String" />
+		<property name="crdp" column="CRDP" type="java.lang.String" />
+		<property name="crus" column="CRUS" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+		<property name="usst" column="USST" type="java.lang.String" />
+		<property name="ckid" column="CKID" type="java.lang.String" />
+		<property name="ckst" column="CKST" type="java.lang.String" />
+		<property name="gtid" column="GTID" type="java.lang.String" />
+		<property name="gtst" column="GTST" type="java.lang.String" />
+		<property name="stcd" column="STCD" type="java.lang.String" />
+		<property name="dbamt" column="DBAMT" type="java.lang.Float" />
+		<property name="dbrt" column="DBRT" type="java.lang.Float" />
+		<property name="dbts" column="DBTS" type="java.lang.Integer" />
+		<property name="dbam" column="DBAM" type="java.lang.Float" />
+		<property name="dbin" column="DBIN" type="java.lang.Float" />
+		<property name="cltamt" column="CLTAMT" type="java.lang.Float" />
+		<property name="gvvl" column="GVVL" type="java.lang.Float" />
+	</class>
+
+</hibernate-mapping>

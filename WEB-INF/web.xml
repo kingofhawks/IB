@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<filter>
+    <filter-name>regName</filter-name>
+    <filter-class>com.witsoft.hibernate.InitReg</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>regName</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>regName</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  
+<filter>
+    <filter-name>Set Character Encoding</filter-name>
+    <filter-class>com.witsoft.common.SetCharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>Set Character Encoding</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+   <servlet>
+      <servlet-name>action</servlet-name>
+      <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+      <init-param>
+         <param-name>config</param-name>
+         <param-value>/WEB-INF/struts-config.xml</param-value>
+      </init-param>
+      <init-param>
+         <param-name>debug</param-name>
+         <param-value>3</param-value>
+      </init-param>
+      <init-param>
+         <param-name>detail</param-name>
+         <param-value>3</param-value>
+      </init-param>
+      <load-on-startup>0</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>action</servlet-name>
+      <url-pattern>*.do</url-pattern>
+   </servlet-mapping>
+
+<resource-ref>
+<description>IB</description>
+<res-ref-name>jdbc/IB</res-ref-name>
+<res-type>javax.sql.DataSource</res-type>
+<res-auth>Container</res-auth>
+</resource-ref>
+   <!-- servlet>
+      <servlet-name>sendMail</servlet-name>
+      <servlet-class>com.witsoft.common.SendMail</servlet-class>
+      <load-on-startup>2</load-on-startup>
+   </servlet-->
+  <servlet>
+    <servlet-name>InitialServlet</servlet-name>
+    <servlet-class>com.witsoft.common.InitialServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+    <servlet>
+    <servlet-name>valiCodeImage</servlet-name>
+    <servlet-class>com.witsoft.struts.action.system.ValiCodeImage</servlet-class>
+   </servlet>
+  <servlet>
+    <servlet-name>AccessDocuments</servlet-name>
+    <servlet-class>com.witsoft.bean.inputDocuments.AccessDocuments</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccessTelegramText</servlet-name>
+    <servlet-class>com.witsoft.bean.telegramText.AccessTelegramText</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewTelegramText</servlet-name>
+    <servlet-class>com.witsoft.bean.telegramText.ViewTelegramText</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewDocuments</servlet-name>
+    <servlet-class>com.witsoft.bean.inputDocuments.ViewDocuments</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.witsoft.common.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReportProviderServlet</servlet-name>
+    <servlet-class>com.witsoft.common.ReportProviderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MtexintoServlet</servlet-name>
+    <servlet-class>com.witsoft.bean.telegramText.MtexintoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.witsoft.common.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetGradeServlet</servlet-name>
+    <servlet-class>com.witsoft.common.GetGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchNameByLable</servlet-name>
+    <servlet-class>com.witsoft.struts.action.system.SearchNameByLable</servlet-class>
+  </servlet>
+
+  
+
+<servlet-mapping>
+    <servlet-name>AccessDocuments</servlet-name>
+    <url-pattern>/AccessDocuments</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccessTelegramText</servlet-name>
+    <url-pattern>/AccessTelegramText</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewTelegramText</servlet-name>
+    <url-pattern>/ViewTelegramText</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewDocuments</servlet-name>
+    <url-pattern>/ViewDocuments</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>valiCodeImage</servlet-name>
+    <url-pattern>/valiCodeImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReportProviderServlet</servlet-name>
+    <url-pattern>/report</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MtexintoServlet</servlet-name>
+    <url-pattern>/Mtexinto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/image</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGradeServlet</servlet-name>
+    <url-pattern>/GetGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchNameByLable</servlet-name>
+    <url-pattern>/SearchNameByLable</url-pattern>
+  </servlet-mapping>
+ 
+         <jsp-config>
+    <taglib>
+    <taglib-uri>/WEB-INF/struts-bean.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-bean.tld</taglib-location>
+  </taglib>
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-html.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-html.tld</taglib-location>
+  </taglib>
+  <taglib>
+    <taglib-uri>/WEB-INF/struts-logic.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-logic.tld</taglib-location>
+  </taglib>
+    <taglib>
+    <taglib-uri>/WEB-INF/struts-tiles.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-tiles.tld</taglib-location>
+  </taglib>
+     <taglib>
+    <taglib-uri>/WEB-INF/struts-nested.tld</taglib-uri>
+    <taglib-location>/WEB-INF/struts-nested.tld</taglib-location>
+  </taglib>
+   </jsp-config>
+</web-app>
+

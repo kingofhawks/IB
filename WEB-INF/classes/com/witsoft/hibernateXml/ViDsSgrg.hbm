@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Mon Nov 28 15:58:49 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsSgrg" table="vi_ds_SGRG">
+
+		<composite-id class="VLCPK" name="Id">
+			<key-property column="LCNO" length="16" name="Lcno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+		
+		<property name="apno" column="APNO" type="string" />
+		<property name="crno" column="CRNO" type="string" />
+		<property name="shdt" column="SHDT" type="string" />
+		<property name="gucy" column="GUCY" type="string" />
+		<property name="guam" column="GUAM" type="java.lang.Float" />
+		<property name="lcst" column="LCST" type="string" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

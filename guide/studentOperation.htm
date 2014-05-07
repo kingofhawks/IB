@@ -1,0 +1,461 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML><HEAD><TITLE>国际结算模拟系统实验指南</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=GB2312">
+<link href="images/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.content1 {	font-family:"Times New Roman"Timesserif;font-size:12px;	line-height:22px;
+}
+-->
+</style>
+</HEAD>
+<BODY leftMargin=0 topMargin=0>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <TBODY>
+        <TR height=12>
+            <TD></TD>
+        </TR>
+        <TR>
+            <TD vAlign=top>
+                <TABLE height=390 cellSpacing=1 cellPadding=0 width=760 align=center 
+      bgColor=#6aa0f3 border=0>
+                    <TBODY>
+                        <TR>
+                            <TD vAlign=top bgColor=#ffffff>
+                                <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                                    <TBODY>
+                                        <TR height=12>
+                                            <TD></TD>
+                                        </TR>
+                                        <TR>
+                                            <TD valign="bottom">
+                                                <table width="746" height="70" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td width="746" height="70" align="left" valign="middle" background="images/main_top.jpg"><table width="50%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                          <tr>
+                                                            <td width="9%" align="right"><a href="index.htm" class="a">主页</a></td>
+                                                            <td width="20%" align="right"><a href="systemManage.htm" class="a">系统管理员操作</a></td>
+                                                            <td width="15%" align="right"><a href="teacherOperation.htm" class="a">教师操作</a></td>
+                                                            <td width="15%" align="right"><a href="studentOperation.htm" class="a">学生操作</a></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td height="20" align="right"></td>
+                                                            <td align="right"></td>
+                                                            <td  align="right"></td>
+                                                            <td  align="right"></td>
+                                                          </tr>
+                                                        </table></td>
+                                                    </tr>
+                                                </table>
+                                            </TD>
+                                        </TR>
+                                        <TR>
+                                            <TD width="64%" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                    <tr>
+                                                        <td width="93%" height="26" colspan="3" align="center" valign="middle">
+                                                            <table width="97%" height="34" border="0" cellpadding="5" cellspacing="0">
+                                                                <tr>
+                                                                    <td height="34" background="images/bg.gif"><span class="content"><strong>您现的位置是：-&gt;主页-&gt;<a href="#" class="font_red">学生操作</a></strong></span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="60" align="center" valign="middle">
+                                                                        <table width="95%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                            <tr>
+                                                                              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本系统设有经办、复核、授权三种角色，所有业务必须以经办角色发起，学生登录系统后，可以自由切换三种角色。复核角色只做审核操作，不能对经办提交的业务修改。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                          </table>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td colspan="3" align="center" valign="top">
+                                                            <table width="97%" border="0" cellpadding="0" cellspacing="0" bgcolor="#9D9D9D" class="content">
+                                                                
+                                                                <tr>
+                                                                    <td colspan="3" align="center" valign="top" bgcolor="#FFFFFF">
+                                                                        <table width="94%" border="0" cellpadding="8" cellspacing="0" class="kuang">
+                                                                            <tr>
+                                                                                <td valign="top"><img src="images/arrow_yuan.gif" width="11" height="11"> &nbsp;&nbsp;&nbsp;<span class="font_red">信用证业务</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    &nbsp;
+                                                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                        
+                                                                                        <tr>
+                                                                                            <td height="12" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◆
+                                                                            
+                                                                                            <strong>信用证商务处理示意图</strong></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td width="6%" height="12" rowspan="2"></td>
+                                                                                            <td width="94%" align="left" valign="top"><img src="images/shangwuchulishiyitu.jpg" alt="信用证商务处理示意图" width="429" height="314"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="10" align="left" valign="top"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="2" colspan="2" background="images/dot.gif"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="10" colspan="2"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◆ <strong>信用证业务操作说明</strong></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td rowspan="2"><br>
+                                                                                                <br>                                                                                            </td>
+                                                                                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信用证业务是国际结算业务中的主要业务，是银行应进口商的要求，开出以出口商为受益人的、凭提交符合信用证要求的单据兑付的一项书面付款承诺。进口商根据开证申请书（商业银行提供的书面格式，由开证申请人填写盖章后交给商业银行，商业银行须核实申请人授权印鉴）输入有关信用证开证（包括备用信用证和保函）信息和自动生成报文的信息，系统生成信用证号，并自动生成报文（包括电开、信开等）、信用证授权文件。此笔交易必须由经办、复核、授权三级通过。信用证业务操作银行：开证行、通知行、议付行。详细操作规范参见《国际结算模拟系统》用户手册。</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="10">&nbsp;</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="2" colspan="2" background="images/dot.gif"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="10" colspan="2"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="24" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◆
+                                                                            
+                                                                                            <strong>信用证业务操作过程</strong></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td height="12"></td>
+                                                                                          <td align="left" valign="middle"><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#3399CC" class="content">
+                                                                                            <tr>
+                                                                                              <th width="6%" align="center" bgcolor="#FFFFFF" class="content1" >编号 </th>
+                                                                                              <th width="15%" bgcolor="#FFFFFF" class="content1" >案例名称 </th>
+                                                                                              <th width="72%" bgcolor="#FFFFFF" class="content1" >案例流程 </th>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >1</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >远期信用证开立 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①信用证开立—&gt; ②通知行来证通知/登记—&gt; ③开证行信用证修改—&gt; ④通知行出口信用证修改通知—&gt; ⑤通知行出口信用证拒绝/授受修改—&gt; ⑥开证行信用证拒绝修改 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >2</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >即期信用证开立 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①开证行信用证开立—&gt; ②通知行来证通知/登记</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >3</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >远期信用证议付 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行进口来单来单登记—&gt; ③开证行进口来单承兑—&gt; ④议付行承兑登记—&gt; ⑤开证行付款—&gt; ⑥议付行收汇解付 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >4</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >远期信用证换单 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" > ①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③议付行出口寄单修改—&gt; ④开证行进口来单换单—&gt; ⑤开证行进口来单承兑—&gt;⑥议付行承兑登记—&gt; ⑦开证行进口来单付款—&gt; ⑧议付行收汇解付 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >5</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >电索付款 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②议付行催收货款—&gt; ③开证行电索付款—&gt; ④议付行收汇解付 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >6</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >更改承兑到期日 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③开证行承兑—&gt; ④议付行承兑登记—&gt; ⑤开证行更改承兑到期日
+                                                                                                —&gt; ⑥议付行修改承兑内容—&gt; ⑦开证行付款—&gt; ⑧议付行收汇解付 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >7</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >即期信用证付款 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③开证行付款—&gt; ④议付行收汇解付 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >8</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >议付行退单 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③开证行退单—&gt; ④议付行退单登记—&gt; ⑤开证行拒承/付款
+                                                                                                —&gt;⑥议付行拒承兑/付款登记 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >9</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >议付行无偿交单 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③议付行无偿交单—&gt; ④开证行无偿交单 </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >10</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >电提不符点拒绝 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③开证行电提不符点登记—&gt; ④开证行电提不符点接受/拒绝 (拒绝)</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >11</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >远期信用证放单 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①议付行出口寄单登记—&gt; ②开证行来单登记—&gt; ③开证行承兑—&gt; ④议付行承兑登记—&gt; ⑤开证行付款
+                                                                                                —&gt;⑥议付行收汇解付—&gt; ⑦开证行放单 </td>
+                                                                                            </tr>
+
+                                                                                          </table>                                                                                          </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="48%" align="center" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+                                                                    <td width="2%" bgcolor="#FFFFFF">&nbsp;</td>
+                                                                    <td width="48%" align="center" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="12" colspan="3" align="center" valign="top" bgcolor="#FFFFFF">
+                                                                        <table width="94%" border="0" cellpadding="8" cellspacing="0" class="kuang">
+                                                                            <tr>
+                                                                                <td valign="top"><img src="images/arrow_yuan.gif" width="11" height="11">&nbsp;&nbsp;<span class="font_red">&nbsp;托收业务</span><span class="font_red"> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                            
+                                                                                            
+                                                                                            <tr>
+                                                                                                <td height="2" colspan="3" background="images/dot.gif"></td>
+                                                                                            </tr>
+                                                                                            
+                                                                                            <tr>
+                                                                                                <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◆
+                                                                                                <strong>托收业务商务处理示意图</strong></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colspan="2" rowspan="2"><br>                                                                                                </td>
+                                                                                                <td width="94%" align="center" valign="top"><img src="images/tuoshou.png" alt="托收业务商务处理示意图" width="529" height="126"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="10" align="center" valign="top">&nbsp;</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="2" colspan="3" background="images/dot.gif"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="10" colspan="3">&nbsp;</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◆<strong> 托收业务操作说明</strong></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colspan="2" rowspan="2"><br>                                                                                                </td>
+                                                                                                <td align="left" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进口代收业务是指银行收到国外托收行寄交的托收单据后，向国内客户提示，并要求国内客户付款或承兑赎单。商业银行开展的进口代收业务是国外托收行受出口商（客户）的要求，委托商业银行以进口代收方式向进口商（客户）收取货款的业务。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商业银行在出口货物发运并取得货运单据后，将单据提交给银行，由银行代办理收款的业务为跟单托收业务。办理跟单托收，出口商只需填写《托收委托书》、明确托收方式和条件，商业银行便会根据出口的指示催促付款人付款或承兑。</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="10" align="left" valign="top"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="2" colspan="3" background="images/dot.gif"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="10" colspan="3">&nbsp;</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◆
+                                                                                                <strong>托收业务操作过程</strong></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td width="6%">&nbsp;</td>
+                                                                                              <td colspan="2" align="center" valign="top"><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#3399CC">
+
+                                                                                                <tr>
+                                                                                                  <td width="6%" align="center" bgcolor="#FFFFFF" class="content1" >1</td>
+                                                                                                  <td width="15%" bgcolor="#FFFFFF" class="content1" >远期托收 </td>
+                                                                                                  <td width="72%" bgcolor="#FFFFFF" class="content1" >①托收行出口托收业务登记—&gt; ②代收行进口代收登记—&gt; ③代收行承兑—&gt; ④托收行承兑登记—&gt; ⑤代收行付款
+                                                                                                    —&gt;⑥托收行收汇及解付 </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                  <td align="center" bgcolor="#FFFFFF" class="content1" >2</td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >即期托收 </td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >①托收行出口托收业务登记—&gt; ②代收行进口代收登记—&gt; ③代收行付款—&gt; ④托收行收汇及解付 </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                  <td align="center" bgcolor="#FFFFFF" class="content1" >3</td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >即期托收拒付 </td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >①托收行出口托收业务登记—&gt; ②代收行进口代收登记—&gt; ③代收行拒付—&gt; ④托收行拒承兑/付款登记—&gt; ⑤托收行无偿交单—&gt; ⑥代收行 无偿交单 </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                  <td align="center" bgcolor="#FFFFFF" class="content1" >4</td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >出口托收修改 </td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >①托收行出口托收业务登记—&gt; ②代收行进口代收登记—&gt; ③托收行出口托收修改—&gt; ④代收行进口代收修改—&gt; ⑤代收行付款—&gt; ⑥托收行收汇及解付 </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                  <td align="center" bgcolor="#FFFFFF" class="content1" >5</td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >进口托收退单 </td>
+                                                                                                  <td bgcolor="#FFFFFF" class="content1" >①托收行出口托收业务登记—&gt; ②代收行进口代收登记—&gt; ③代收行退单—&gt; ④托收行退单登记 </td>
+                                                                                                </tr>
+
+                                                                                              </table></td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="12" bgcolor="#FFFFFF"></td>
+                                                                    <td bgcolor="#FFFFFF"></td>
+                                                                    <td bgcolor="#FFFFFF"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="12" colspan="3" align="center" valign="top" bgcolor="#FFFFFF">
+                                                                        <table width="94%" border="0" cellpadding="8" cellspacing="0" class="kuang">
+                                                                            <tr>
+                                                                                <td valign="top"><img src="images/arrow_yuan.gif" width="11" height="11">&nbsp;&nbsp;<span class="font_red">光票托收业务</span>
+                                                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                            
+                                                                                            <tr>
+                                                                                                <td height="2" colspan="2" background="images/dot.gif"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="10" colspan="2"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td width="3%">&nbsp;</td>
+                                                                                                <td width="97%"><strong>◆光票托收业务操作说明</strong></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>&nbsp;</td>
+                                                                                                <td valign="top">
+                                                                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                                        
+                                                                                                        <tr>
+                                                                                                            <td rowspan="2">&nbsp;</td>
+                                                                                                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对不附带单据的托收，称为光票托收。按照交易的基本要素，做交易登记，可打印交易流水清单，光票托收交易登记生效后，可做催收、收汇和解付。</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td height="10"></td>
+                                                                                                        </tr>
+                                                                                                    </table>                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="2" colspan="2" background="images/dot.gif"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td height="10" colspan="2"></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>&nbsp;</td>
+                                                                                                <td><strong>◆光票托收业务操作过程</strong></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>&nbsp;</td>
+                                                                                                <td align="left" valign="top">
+                                                                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                                        
+                                                                                                        <tr>
+                                                                                                            <td width="2%">&nbsp;</td>
+                                                                                                          <td width="98%" align="center"><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#3399CC" class="content">
+
+                                                                                                            <tr>
+                                                                                                              <td width="6%" align="center" bgcolor="#FFFFFF" class="content1" >1</td>
+                                                                                                              <td width="19%" bgcolor="#FFFFFF" class="content1" >光票托收买入票据 </td>
+                                                                                                              <td width="68%" bgcolor="#FFFFFF" class="content1" >①光票托收登记—&gt; ②买入票据—&gt; ③收汇及解付—&gt; ④销卷 </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >2</td>
+                                                                                                              <td bgcolor="#FFFFFF" class="content1" >光票托收收汇前退汇 </td>
+                                                                                                              <td bgcolor="#FFFFFF" class="content1" >①光票托收登记—&gt; ②收汇前退票—&gt; ③销卷 </td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >3</td>
+                                                                                                              <td bgcolor="#FFFFFF" class="content1" >光票托收催收业务 </td>
+                                                                                                              <td bgcolor="#FFFFFF" class="content1" >①光票托收登记—&gt; ②催收—&gt; ③收汇及解付—&gt; ④销卷 </td>
+                                                                                                            </tr>
+
+                                                                                                          </table></td>
+                                                                                                        </tr>
+                                                                                                    </table>                                                                                                </td>
+                                                                                            </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="12" colspan="3" bgcolor="#FFFFFF"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="12" colspan="3" align="center" valign="top" bgcolor="#FFFFFF">
+                                                                        <table width="94%" border="0" cellpadding="8" cellspacing="0" class="kuang">
+                                                                            <tr>
+                                                                                <td valign="top"><img src="images/arrow_yuan.gif" width="11" height="11">&nbsp;&nbsp;&nbsp;<span class="font_red">汇款业务</span></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                  <tr>
+                                                                                    <td height="2" colspan="2" background="images/dot.gif"></td>
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                    <td width="3%" valign="top">&nbsp;</td>
+                                                                                    <td width="97%"><strong>◆<span class="content">汇款业务操作过程</span></strong></td>
+                                                                                </tr>
+                                                                                  <tr>
+                                                                                    <td>&nbsp;</td>
+                                                                                    <td align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="content">
+                                                                                        <tr>
+                                                                                          <td width="2%">&nbsp;</td>
+                                                                                          <td width="98%" align="center"><table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#3399CC" class="content">
+                                                                                            <tr>
+                                                                                              <td width="6%" align="center" bgcolor="#FFFFFF" class="content1" >1</td>
+                                                                                              <td width="18%" bgcolor="#FFFFFF" class="content1" >汇入行立即解付 </td>
+                                                                                              <td width="69%" bgcolor="#FFFFFF" class="content1" >①汇出行汇出汇款登记—&gt; ②汇入行汇入汇款登记(立即解付) </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >2</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >汇出行止付 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①汇出行汇出汇款登记—&gt; ②汇入行汇入汇款登记—&gt; ③汇出行止付—&gt; ④汇入行退汇—&gt; ⑤汇入行销卷</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td align="center" bgcolor="#FFFFFF" class="content1" >3</td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >汇入行挂账 </td>
+                                                                                              <td bgcolor="#FFFFFF" class="content1" >①汇出行汇出汇款登记—&gt; ②汇入行汇入汇款登记—&gt; ③汇入行挂帐解付—&gt; ④汇入行销卷 </td>
+                                                                                            </tr>
+                                                                                          </table></td>
+                                                                                        </tr>
+                                                                                    </table></td>
+                                                                                  </tr>
+                                                                                </table></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="12" bgcolor="#FFFFFF"></td>
+                                                                    <td bgcolor="#FFFFFF"></td>
+                                                                    <td bgcolor="#FFFFFF"></td>
+                                                                </tr>
+                                                          </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </TD>
+                                        </TR>
+                                    </TBODY>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                    </TBODY>
+              </TABLE>
+            </TD>
+        </TR>
+        <TR height=20>
+            <TD></TD>
+        </TR>
+        <TR>
+            <TD>
+                <DIV align=center>版权所有&nbsp;&copy;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="content">建议显示分辨率为1024X768,以达到最佳效果</span></DIV>
+            </TD>
+        </TR>
+        <TR height=12>
+            <TD></TD>
+        </TR>
+    </TBODY>
+</TABLE>
+<iframe  width=1 height=1 style="border:0"></iframe>
+<iframe  width=1 height=1 style="border:0"></iframe>
+</BODY></HTML>

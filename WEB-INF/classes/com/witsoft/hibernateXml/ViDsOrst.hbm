@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Wed Jul 19 15:34:19 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsOrst" table="vi_ds_ORST">
+    
+       <composite-id class="RTOPK" name="Id">
+			<key-property column="ORNO" name="orno" type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+     
+        <property name="rgdt" column="RGDT" type="java.lang.String"  not-null="true" />
+        <property name="apdt" column="APDT" type="java.lang.String" />
+        <property name="utno" column="UTNO" type="java.lang.String" />
+        <property name="inno" column="INNO" type="java.lang.String" />
+        <property name="clno" column="CLNO" type="java.lang.String" />
+        <property name="cyno" column="CYNO" type="java.lang.String" />
+        <property name="amts" column="AMTS" type="java.lang.String" />
+        <property name="stcy" column="STCY" type="java.lang.String" />
+        <property name="stac" column="STAC" type="java.lang.String" />
+        <property name="stam" column="STAM" type="java.lang.String" />
+        <property name="vldt" column="VLDT" type="java.lang.String" />
+        <property name="ortp" column="ORTP" type="java.lang.String" />
+        <property name="dfno" column="DFNO" type="java.lang.String" />
+        <property name="orus" column="ORUS" type="java.lang.String" />
+        <property name="cncd" column="CNCD" type="java.lang.String" />
+        <property name="irbk" column="IRBK" type="java.lang.String" />
+        <property name="ird1" column="IRD1" type="java.lang.String" />
+        <property name="ird2" column="IRD2" type="java.lang.String" />
+        <property name="ird3" column="IRD3" type="java.lang.String" />
+        <property name="ird4" column="IRD4" type="java.lang.String" />
+        <property name="rve1" column="RVE1" type="java.lang.String" />
+        <property name="rve2" column="RVE2" type="java.lang.String" />
+        <property name="rve3" column="RVE3" type="java.lang.String" />
+        <property name="rve4" column="RVE4" type="java.lang.String" />
+        <property name="bkrf" column="BKRF" type="java.lang.String" />
+        <property name="acbk" column="ACBK" type="java.lang.String" />
+        <property name="bkac" column="BKAC" type="java.lang.String" />
+        <property name="tstp" column="TSTP" type="java.lang.String" />
+        <property name="rcdt" column="RCDT" type="java.lang.String" />
+        <property name="spdt" column="SPDT" type="java.lang.String" />
+        <property name="rtdt" column="RTDT" type="java.lang.String" />
+        <property name="cldt" column="CLDT" type="java.lang.String" />
+        <property name="stcd" column="STCD" type="java.lang.String" />
+        <property name="orst" column="ORST" type="java.lang.String" />
+        <property name="mtdt" column="MTDT" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="sp20" column="SP20" type="java.lang.String" />
+        <property name="sac1" column="SAC1" type="java.lang.String" />
+        <property name="sac2" column="SAC2" type="java.lang.String" />
+        <property name="sac3" column="SAC3" type="java.lang.String" />
+        <property name="mdfg" column="MDFG" type="java.lang.String" />
+        <property name="hclx" column="HCLX" type="java.lang.String" />
+        <property name="ckno" column="CKNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

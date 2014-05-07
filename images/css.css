@@ -1,0 +1,35 @@
+.cont {
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+    FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+    LINE-HEIGHT: 22px
+	}
+.title {
+	FONT-SIZE: 20px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	font_color:red;
+	height_line:35px;
+	font-style: normal;
+	color: #CB3302;
+	font-weight: bold;
+    filter:progid:DXImageTransform.Microsoft.Dropshadow(color=#D8D8D8,offx=2,offy=2,positive="true");
+
+}
+.titles {
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	LINE-HEIGHT: 22px;
+	color: #6699CC;
+	font-weight: bold;
+    filter:progid:DXImageTransform.Microsoft.Dropshadow(color=#D8D8D8,offx=2,offy=2,positive="true");
+	}
+.titles_c {
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	LINE-HEIGHT: 22px;
+	color: #CC0000;
+	font-weight: bold;
+    filter:progid:DXImageTransform.Microsoft.Dropshadow(color=#D8D8D8,offx=2,offy=2,positive="true");
+	}

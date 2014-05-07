@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Empmcdp" table="EMPMCDP">
+		<composite-id class="EmpmcdpPK" name="Id">
+			<key-property column="PMCD" name="Pmcd" type="string" />
+			<key-property column="PMKY" name="Pmky" type="string" />
+		</composite-id>
+
+		<property column="PMAM" length="10" name="Pmam" not-null="false"
+			type="java.lang.Float" />
+		<property column="MTDT" length="8" name="Mtdt" not-null="false"
+			type="string" />
+		<property column="TXPC" length="42" name="Txpc" not-null="false"
+			type="string" />
+		<property column="PMNM" length="12" name="Pmnm" not-null="false"
+			type="string" />
+		<property column="SP80" length="80" name="Sp80" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="PMAS" length="16" name="Pmas" not-null="false"
+			type="string" />
+		
+	</class>
+</hibernate-mapping>

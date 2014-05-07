@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<script language="javascript" type="text/javascript">
+var url = "index.jsp";
+var name = "IB";
+var features = "height=712,width=1018,top=0,left=0";
+var bankWindow=window.open(url, name, features);
+if (!bankWindow) {
+  bankWindow = window.open(url,name,features);
+}
+
+if (!bankWindow) {
+  window.location.replace(url)
+} else {
+  window.opener=null;
+  window.close();
+  bankWindow.focus();
+}
+</script>

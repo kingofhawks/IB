@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Sat Oct 14 15:26:56 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Cases" table="CASES">
+        <id name="id" column="ID" type="java.lang.Long">
+            <generator class="increment"/>
+        </id>
+ 
+        <property name="type" column="TYPE" type="java.lang.String" />
+        <property name="contents" column="CONTENTS" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="casesname" column="CASESNAME" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+        <property name="grade" column="GRADE" type="double" />
+        <property name="detai" column="DETAI" type="java.lang.String" />
+        <property name="avevalue" column="aveValue" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

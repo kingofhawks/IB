@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Imicmsp" table="IMICMSP">
+
+		
+		<composite-id class="ImicmspPK" name="MspId">
+			<key-property column="ICNO" length="16" name="icno"
+				type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="DRA2" length="35" name="Dra2" not-null="false"
+			type="string" />
+		<property column="ILAC" length="36" name="Ilac" not-null="false"
+			type="string" />
+		<property column="DRA1" length="35" name="Dra1" not-null="false"
+			type="string" />
+		<property column="ILAM" length="53" name="Ilam" not-null="false"
+			type="java.lang.Float" />
+		<property column="PYAC" length="36" name="Pyac" not-null="false"
+			type="string" />
+		<property column="DRA3" length="35" name="Dra3" not-null="false"
+			type="string" />
+		<property column="CLDT" length="8" name="Cldt" not-null="false"
+			type="string" />
+		<property column="DRA4" length="35" name="Dra4" not-null="false"
+			type="string" />
+		<property column="PSBK" length="11" name="Psbk" not-null="false"
+			type="string" />
+		<property column="ADRV" length="1" name="Adrv" not-null="false"
+			type="string" />
+		<property column="BRAM" length="53" name="Bram" not-null="false"
+			type="java.lang.Float" />
+		<property column="DFAM" length="53" name="Dfam" not-null="false"
+			type="java.lang.Float" />
+		<property column="PYDT" length="8" name="Pydt" not-null="false"
+			type="string" />
+		<property column="PYTP" length="1" name="Pytp" not-null="false"
+			type="string" />
+		<property column="IVNO" length="16" name="Ivno" not-null="false"
+			type="string" />
+		<property column="ICCY" length="2" name="Iccy" not-null="false"
+			type="string" />
+		<property column="OCBK" length="11" name="Ocbk" not-null="false"
+			type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="RNDT" length="8" name="Rndt" not-null="false"
+			type="string" />
+		<property column="BKAC" length="36" name="Bkac" not-null="false"
+			type="string" />
+		<property column="ICST" length="1" name="Icst" not-null="false"
+			type="string" />
+		<property column="DUDT" length="8" name="Dudt" not-null="false"
+			type="string" />
+		<property column="APDT" length="8" name="Apdt" not-null="false"
+			type="string" />
+		<property column="ACAM" length="53" name="Acam" not-null="false"
+			type="java.lang.Float" />
+		<property column="SAC3" length="5" name="Sac3" not-null="false"
+			type="string" />
+		<property column="FNNO" length="16" name="Fnno" not-null="false"
+			type="string" />
+		<property column="CKNO" length="10" name="Ckno" not-null="false"
+			type="string" />
+		<property column="ARDT" length="8" name="Ardt" not-null="false"
+			type="string" />
+		<property column="SAC2" length="5" name="Sac2" not-null="false"
+			type="string" />
+		<property column="MDBK" length="11" name="Mdbk" not-null="false"
+			type="string" />
+		<property column="BRAC" length="36" name="Brac" not-null="false"
+			type="string" />
+		<property column="CRDT" length="8" name="Crdt" not-null="false"
+			type="string" />
+		<property column="GSTP" length="5" name="Gstp" not-null="false"
+			type="string" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<property column="TSTP" length="4" name="Tstp" not-null="false"
+			type="string" />
+		<property column="ACDT" length="8" name="Acdt" not-null="false"
+			type="string" />
+		<property column="INNO" length="2" name="Inno" not-null="false"
+			type="string" />
+		<property column="ACBK" length="11" name="Acbk" not-null="false"
+			type="string" />
+		<property column="SAC1" length="5" name="Sac1" not-null="false"
+			type="string" />
+		<property column="TENR" length="5" name="Tenr" not-null="false"
+			type="java.lang.Short" />
+		<property column="RJDT" length="8" name="Rjdt" not-null="false"
+			type="string" />
+		<property column="ICAM" length="53" name="Icam" not-null="false"
+			type="java.lang.Float" />
+		<property column="CLNO" length="13" name="Clno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="BPDT" length="8" name="Bpdt" not-null="false"
+			type="string" />
+		<property column="CHAM" length="53" name="Cham" not-null="false"
+			type="java.lang.Float" />
+		<property column="DRNM" length="35" name="Drnm" not-null="false"
+			type="string" />
+		<property column="IVAM" length="53" name="Ivam" not-null="false"
+			type="java.lang.Float" />
+		<property column="OCNO" length="16" name="Ocno" not-null="false"
+			type="string" />
+		<property column="PSTP" length="1" name="Pstp" not-null="false"
+			type="string" />
+		<property column="PYAM" length="53" name="Pyam" not-null="false"
+			type="java.lang.Float" />
+		<property column="DLDT" length="10" name="Dldt" not-null="false"
+			type="string" />
+		<property column="USID" length="16" name="Usid" not-null="false"
+			type="string" />
+	</class>
+</hibernate-mapping>

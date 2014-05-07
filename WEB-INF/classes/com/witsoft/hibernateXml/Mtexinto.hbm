@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Jul 04 10:54:47 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Mtexinto" table="MTEXINTO">
+        <id name="id" column="id" type="java.lang.Long">
+            <generator class="increment"/>
+        </id>
+ 
+        <property name="lcno" column="LCNO" type="java.lang.String" />
+        <property name="adno" column="ADNO" type="java.lang.String" />
+        <property name="bpno" column="BPNO" type="java.lang.String" />
+        <property name="ibno1" column="IBNO1" type="java.lang.String" />
+        <property name="ibno2" column="IBNO2" type="java.lang.String" />
+        <property name="ibno3" column="IBNO3" type="java.lang.String" />
+        <property name="ibno4" column="IBNO4" type="java.lang.String" />
+        <property name="ibno5" column="IBNO5" type="java.lang.String" />
+        <property name="evno1" column="EVNO1" type="java.lang.String" />
+        <property name="evno2" column="EVNO2" type="java.lang.String" />
+        <property name="evno3" column="EVNO3" type="java.lang.String" />
+        <property name="evno4" column="EVNO4" type="java.lang.String" />
+        <property name="sgno" column="SGNO" type="java.lang.String" />
+        <property name="ocno" column="OCNO" type="java.lang.String" />
+        <property name="icno" column="ICNO" type="java.lang.String" />
+        <property name="rpid" column="RPID" type="java.lang.String" />
+        <property name="flag" column="FLAG" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

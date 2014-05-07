@@ -1,0 +1,4 @@
+<script language="javascript">
+(this.disabled||this.readOnly)? this.style.backgroundColor='#E6E6E6':''
+
+</script>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emrtchp" table="EMRTCHP">
+
+		<composite-id class="EmrtchpPK" name="Id">
+			<key-property column="CHTP" name="Chtp" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="EDDT" length="8" name="Eddt" not-null="false"
+			type="string" />
+		<property column="NMR4" length="53" name="Nmr4" not-null="false"
+			type="java.lang.Float" />
+		<property column="EFDT" length="8" name="Efdt" not-null="false"
+			type="string" />
+		<property column="DNR1" length="53" name="Dnr1" not-null="false"
+			type="java.lang.Float" />
+		<property column="NMR3" length="53" name="Nmr3" not-null="false"
+			type="java.lang.Float" />
+		<property column="SP20" length="20" name="Sp20" not-null="false"
+			type="string" />
+		<!--		<property column="CHCY" length="2" name="Chcy" not-null="false"-->
+		<!--			type="string" />-->
+		<property column="AMGT" length="53" name="Amgt" not-null="false"
+			type="java.lang.Float" />
+		<property column="USID" length="6" name="Usid" not-null="false"
+			type="string" />
+		<property column="NMR2" length="53" name="Nmr2" not-null="false"
+			type="java.lang.Float" />
+		<property column="TXPC" length="42" name="Txpc" not-null="false"
+			type="string" />
+		<property column="LVA1" length="53" name="Lva1" not-null="false"
+			type="java.lang.Float" />
+		<property column="NMR1" length="53" name="Nmr1" not-null="false"
+			type="java.lang.Float" />
+		<property column="DNR3" length="53" name="Dnr3" not-null="false"
+			type="java.lang.Float" />
+		<property column="LVA2" length="53" name="Lva2" not-null="false"
+			type="java.lang.Float" />
+		<property column="DNR4" length="53" name="Dnr4" not-null="false"
+			type="java.lang.Float" />
+		<property column="CLNO" length="13" name="Clno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="DNR2" length="53" name="Dnr2" not-null="false"
+			type="java.lang.Float" />
+		<property column="MTDT" length="8" name="Mtdt" not-null="false"
+			type="string" />
+		<property column="MKCD" length="2" name="Mkcd" not-null="true"
+			type="string" />
+		<property column="LVA3" length="53" name="Lva3" not-null="false"
+			type="java.lang.Float" />
+		<property column="LVCY" length="2" name="Lvcy" not-null="false"
+			type="string" />
+		<property column="AMLE" length="53" name="Amle" not-null="false"
+			type="java.lang.Float" />
+		<property column="PDMH" length="5" name="Pdmh" not-null="false"
+			type="java.lang.Short" />
+
+		<many-to-one column="CHCY" name="Chcy"
+			class="com.witsoft.hibernate.Emcyctp" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,39 @@
+/*CSS Document*/
+.date1 {width:40px;}
+.place1 {width:210px;}
+.sele_div1 {border:1px solid #000000; width:56px; height:18px; clip:rect(0px,135px,17px,0px);overflow:hidden;}
+.select1 {position:relative; margin:-2px;width:58px;border:0px;}
+
+.sele_div2 {border:1px solid #000000; width:70px; height:18px; clip:rect(0px,144px,17px,0px);overflow:hidden;}
+.select2 {position:relative; margin:-2px;width:72px;border:0px;}
+
+.currency1 {width:40px;}
+.amount1 {width:80px;}
+.1bit{width:8px align:center}
+.2bit{width:16px}
+.date1{width:48px}
+.33a1 {width:50px}
+.33a2 {width:40px}
+.33a3 {width:60px}
+.32a1 {width:50px}
+.32a2 {width:40px}
+.32a3 {width:100px}
+input.radion {background-color:#FFFFFF;}
+#2_1, #2_2, #2_3, #3_1, #3_2, #3_3, #4_1, #4_2, #4_3, #5_1, #5_2, #5_3 {display:none;}
+.32k1 {width:15px}
+.32k2 {width:35px}
+.32k3 {width:25px}
+.32k4 {width:35px}
+.32k5 {width:80px}
+.dash12{font-size:12px; font-weight:bold;¡¡font-family:Arial; "ËÎÌå,Times New Roman", Times, serif}
+.title12{font-size:12px; font-weight:bold; font-family:Arial; "ËÎÌå,Times New Roman", Times, serif}
+.text_11{border:1px solid #000000; width:85px; height:20px;overflow:hidden;}
+.text_16{border:1px solid #000000; width:120px; height:20px;overflow:hidden;}
+.text_24{border:1px solid #000000; width:170px; height:20px;overflow:hidden;}
+.text_34{border:1px solid #000000; width:250px; height:20px;overflow:hidden;}
+.text_35{border:1px solid #000000; width:250px; height:20px;overflow:hidden;}
+.text_35x4{border:1px solid #000000; width:250px; height:80px;overflow:hidden;MultiLine:true;ScrollBars:2}
+
+.textarea_35{width:290px; height:70px; border:1px solid #000; behavior:url('/IB/common/textarea.htc'); }
+
+

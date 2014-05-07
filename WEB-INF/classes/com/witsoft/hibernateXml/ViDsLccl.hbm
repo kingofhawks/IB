@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Nov 24 17:46:51 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsLccl" table="vi_ds_LCCL">
+		
+		<composite-id class="VLCPK" name="Id">
+			<key-property column="LCNO" length="16" name="lcno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+		<property name="apno" column="APNO" type="java.lang.String" />
+		<property name="lccy" column="LCCY" type="java.lang.String" />
+		<property name="lcam" column="LCAM" type="java.lang.Float" />
+		<property name="blav" column="BLAV" type="java.lang.Float" />
+		<property name="lcst" column="LCST" type="java.lang.String" />
+		<property name="mgcltact" column="MGCLTACT"
+			type="java.lang.String" />
+		<property name="mgcltact2" column="MGCLTACT2"
+			type="java.lang.String" />
+		<property name="mgcltamt" column="MGCLTAMT"
+			type="java.lang.Float" />
+		<property name="mgcltamt2" column="MGCLTAMT2"
+			type="java.lang.Float" />
+		<property name="mgcltcur" column="MGCLTCUR"
+			type="java.lang.String" />
+		<property name="mgcltcur2" column="MGCLTCUR2"
+			type="java.lang.String" />
+		<property name="mgac" column="MGAC" type="java.lang.String" />
+		<property name="mgc2" column="MGC2" type="java.lang.String" />
+		<property name="mgam" column="MGAM" type="java.lang.Float" />
+		<property name="mam2" column="MAM2" type="java.lang.Float" />
+		<property name="accy" column="ACCY" type="java.lang.String" />
+		<property name="acy2" column="ACY2"
+			type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

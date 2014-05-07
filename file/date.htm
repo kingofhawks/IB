@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>选择日期</title>
+<base target="_self">
+<script>
+function sendData()
+{
+window.returnValue = document.getElementById('showDate').value;
+window.close();
+}
+</script>
+</head>
+<BODY onLoad="showFlatCalendar()" border="0">
+
+<link rel="stylesheet" type="text/css" media="all" href="date/calendar-system.css" title="win2k-cold-1" />
+<script type="text/javascript" src="date/calendar.js"></script>
+<script type="text/javascript" src="date/lang/calendar-zh.js"></script>
+<script type="text/javascript" src="date/calendar-setup.js"></script>
+<script>
+
+var MINUTE = 60 * 1000;
+var HOUR = 60 * MINUTE;
+var DAY = 24 * HOUR;
+var WEEK = 7 * DAY;
+
+function isDisabled(date) {
+  var today = new Date();
+  return (Math.abs(date.getTime() - today.getTime()) / DAY) > 10;
+}
+function flatSelected(cal, date) {
+  var el = document.getElementById("showDate");
+  el.value=date;
+}
+function showFlatCalendar() {
+  var parent = document.getElementById("display");
+  var cal = new Calendar(false, null, flatSelected);
+  cal.weekNumbers = false;
+  cal.setDateFormat("%Y%m%d");
+  cal.create(parent);
+  cal.show();
+}
+</script>
+<div id="display" style="float: left; clear: both;" onDblClick ="sendData()"></div>
+<input type="hidden" id="showDate" value="">
+
+<a id="reload" href="/IB/file/date.htm" style="display:none">reload...</a>
+</body>
+</html>

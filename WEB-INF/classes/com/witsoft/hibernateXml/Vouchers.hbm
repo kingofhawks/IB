@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Mon Aug 21 16:30:32 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Vouchers" table="VOUCHERS">
+    
+    <id name="id" column="ID" type="java.lang.Long">
+            <generator class="assigned"/>
+        </id>
+ 
+        <property name="voucherid" column="VOUCHERID" type="java.lang.Long" />
+        <property name="brno" column="BRNO" type="java.lang.String" />
+        <property name="swno" column="SWNO" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="field1" column="FIELD1" type="java.lang.String" />
+        <property name="field2" column="FIELD2" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

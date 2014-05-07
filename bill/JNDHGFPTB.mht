@@ -1,0 +1,1411 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link href="/IB/common/default.css" rel="stylesheet" type="text/css">
+<link rel=File-List href="file2968.files/filelist.xml">
+<title>&#21152;&#25343;&#22823;&#28023;&#20851;&#21457;&#31080;&#22871;&#34920;</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>&#21335;&#20140;&#19990;&#26684;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496;</o:Author>
+  <o:LastAuthor>robin.xiao</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+  <o:LastPrinted>2001-06-02T07:16:00Z</o:LastPrinted>
+  <o:Created>2006-03-07T09:52:00Z</o:Created>
+  <o:LastSaved>2006-03-07T09:52:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>583</o:Words>
+  <o:Characters>3325</o:Characters>
+  <o:Company>DESUNSOFT</o:Company>
+  <o:Lines>27</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>3901</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 &#30917;</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ 
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:10.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;
+	font-style:italic;}
+h2
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:9.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:7.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{mso-style-next:\6B63\6587;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:11.35pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:10.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:6.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{mso-style-next:\6B63\6587;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:11.35pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:10.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:7.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-next:\6B63\6587;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:8.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:9.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:5.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;
+	font-weight:normal;
+	font-style:italic;}
+h6
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:8.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:6;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:1.0pt;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:8.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:7;
+	font-size:5.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:\6B63\6587;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:10.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:8;
+	font-size:5.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:SimSun;
+	display:none;
+	mso-hide:all;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:9.9pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-9.9pt;
+	mso-pagination:none;
+	font-size:7.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:SimSun;
+	mso-font-kerning:1.0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("file2968.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("file2968.files/header.htm") fcs;
+	mso-endnote-separator:url("file2968.files/header.htm") es;
+	mso-endnote-continuation-separator:url("file2968.files/header.htm") ecs;}
+@page Section1
+	{size:612.1pt 1008.15pt;
+	margin:5.65pt 1.0cm 1.0cm 1.0cm;
+	mso-header-margin:0cm;
+	mso-footer-margin:0cm;
+	mso-footer:url("file2968.files/header.htm") f1;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:\666E\901A\8868\683C;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050">
+  <v:textbox inset="5.85pt,.7pt,5.85pt,.7pt"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.25pt;text-justify-trim:punctuation'>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=699
+ style='width:524.5pt;border-collapse:collapse;mso-padding-alt:0cm 2.85pt 0cm 2.85pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid;
+  height:9.9pt'>
+  <td width=45 colspan=2 rowspan=2 style='width:33.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <p class=MsoHeader style='line-height:10.0pt;mso-line-height-rule:exactly;
+  tab-stops:21.25pt;layout-grid-mode:both;border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=124 rowspan=2 style='width:93.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:8.5pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Revenue
+  Canada<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:8.5pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Customs
+  and Excise</span><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:
+  12.0pt;display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <td width=141 colspan=8 rowspan=2 style='width:105.55pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:8.5pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Revenue
+  Canada<o:p></o:p></span></p>
+  <p class=MsoFooter style='line-height:8.5pt;mso-line-height-rule:exactly;
+  tab-stops:21.25pt;layout-grid-mode:both'><span lang=EN-US style='mso-bidi-font-size:
+  12.0pt;font-family:Arial;display:none;mso-hide:all'>Douanes et Accise</span><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <td width=295 colspan=12 rowspan=2 style='width:221.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <h6 style='line-height:8.5pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='display:none;mso-hide:all'>CANADA CUSTOMS INVOICE<o:p></o:p></span></h6>
+  <h1 style='line-height:8.5pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='display:none;mso-hide:all'>FACTURE DES DOUANES CANADIENNES<o:p></o:p></span></h1>
+  </td>
+  <td width=23 rowspan=2 valign=top style='width:17.5pt;padding:0cm 0cm 0cm 0cm;
+  height:9.9pt'>
+  <p class=MsoHeading8><span lang=EN-US>Page</span></p>
+  </td>
+  <td width=22 rowspan=2 valign=top style='width:16.8pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <p class=MsoNormal style='line-height:10.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=14 colspan=2 style='width:10.35pt;padding:0cm 0cm 0cm 0cm;
+  height:9.9pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:7.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:5.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>of<o:p></o:p></span></p>
+  </td>
+  <td width=35 rowspan=2 valign=top style='width:26.25pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <p class=MsoNormal style='line-height:10.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:9.9pt;border:none' width=0 height=13></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:1;page-break-inside:avoid;height:9.9pt'>
+  <td width=14 colspan=2 style='width:10.35pt;padding:0cm 0cm 0cm 0cm;
+  height:9.9pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:7.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:5.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>de<o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:9.9pt;border:none' width=0 height=13></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:11.35pt'>
+  <td width=344 colspan=12 valign=top style='width:257.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  10.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>1.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Vendor (Name and Address) <i>Vendeur
+  (Nom et adresse)</i><o:p></o:p></span></p>
+  </td>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  10.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>2.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span><span style='letter-spacing:
+  -.1pt'>Date of Direct Shipment to Canada/<i>Date d' expedition directe vers
+  ie Canade</i></span><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:11.35pt;border:none' width=0 height=15></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:3;page-break-inside:avoid;height:11.35pt'>
+  <td width=344 colspan=12 rowspan=3 valign=top style='width:257.85pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:11.35pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:11.35pt;border:none' width=0 height=15></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:4;page-break-inside:avoid;height:19.85pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:19.85pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>3.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Other References (include
+  Purchaserys Order No.) <o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:9.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>Autres reterences(inclure ie n
+  de commande de &Iacute;</span></i><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'> <i>acheteur)
+  </i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:19.85pt;border:none' width=0 height=26></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:5;page-break-inside:avoid;height:14.2pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:14.2pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:14.2pt;border:none' width=0 height=19></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:19.85pt'>
+  <td width=344 colspan=12 valign=top style='width:257.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:19.85pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  10.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>4.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Consignee (Name and
+  Address) <i>Destinataire (Nom et adresse)</i><o:p></o:p></span></p>
+  </td>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:19.85pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>5.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Purchaser's Name and
+  Address(if other than Consignee)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:9.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>Nom et adresse de &Iacute;</span></i><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'> <i>acheteur(S'll differe du destinataire)<o:p></o:p></i></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:19.85pt;border:none' width=0 height=26></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:7;page-break-inside:avoid;height:36.85pt'>
+  <td width=344 colspan=12 rowspan=5 valign=top style='width:257.85pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:36.85pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:36.85pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:36.85pt;border:none' width=0 height=49></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:8;page-break-inside:avoid;height:14.2pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:14.2pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  10.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>6.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Country of Transhipment<i>/Pays
+  de transbordement</i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:14.2pt;border:none' width=0 height=19></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:9;page-break-inside:avoid;height:14.2pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:14.2pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:14.2pt;border:none' width=0 height=19></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:10;page-break-inside:avoid;height:19.85pt'>
+  <td width=152 colspan=7 valign=top style='width:113.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:19.85pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>7.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Country of Origin of Goods<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:9.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>pays d' origine des marchandises<o:p></o:p></span></i></p>
+  </td>
+  <td width=204 colspan=9 rowspan=2 style='width:152.8pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:19.85pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>IF SHIPMENT INCLUDES GOODS OF DIFFERENT ORIGINS
+  ENTER ORIGINS AGAINST ITEMA IN12 <o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><i><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>SIL' EXPEDON COMPREND DES MARCHANDISES D'<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><i><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>ORIGINES<o:p></o:p></span></i></p>
+  <p class=MsoHeading7><span lang=EN-US style='display:none;mso-hide:all'>DIFFERENTES
+  PRECISER LEUR PROVENANCE EN12</span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:19.85pt;border:none' width=0 height=26></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:11;page-break-inside:avoid;height:25.5pt'>
+  <td width=152 colspan=7 style='width:113.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:25.5pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'>CHINA<o:p></o:p></span></p>
+  </td>
+  <span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt;font-family:
+  "Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+  mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><![if !supportMisalignedRows]>
+  <td style='height:25.5pt;border:none' width=0 height=34></td>
+  <![endif]></span>
+ </tr>
+ <tr style='mso-yfti-irow:12;page-break-inside:avoid;height:31.2pt'>
+  <td width=344 colspan=12 valign=top style='width:257.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:31.2pt'>
+  <p class=MsoBodyTextIndent style='margin-left:8.5pt;text-indent:-8.5pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='display:none;mso-hide:all'>8.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Transportation
+  Give Mode and Place of Direct Shipment to Canada <i>Transport Preciser mode
+  et point d' expedition directe vercte vers ie canada</i><o:p></o:p></span></p>
+  </td>
+  <td width=356 colspan=16 rowspan=2 valign=top style='width:266.65pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:31.2pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;text-indent:-8.5pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>9.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Condirtions of Sale and
+  Terms of Payment<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:9.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>(i.e Saie. Consignment Shipment,
+  Leased Goods, etd.)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:9.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>Conditions de vente et
+  modaitites de paiement<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:9.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>(P.ex vente, expedition en
+  consignation, location, de marchandises, etc)</span></i><span lang=EN-US
+  style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:31.2pt;border:none' width=0 height=42></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:13;page-break-inside:avoid;height:8.5pt'>
+  <td width=344 colspan=12 rowspan=4 valign=top style='width:257.85pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:14;page-break-inside:avoid;height:39.7pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:39.7pt'>
+  <p class=MsoNormal style='margin-left:8.5pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:39.7pt;border:none' width=0 height=53></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:15;page-break-inside:avoid;height:9.9pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:9.9pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>10.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Currency
+  of Settlement/<i>Devises du paiement</i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:9.9pt;border:none' width=0 height=13></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:16;page-break-inside:avoid;height:11.35pt'>
+  <td width=356 colspan=16 valign=top style='width:266.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal align=left style='margin-left:11.35pt;text-align:left;
+  line-height:11.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:11.35pt;border:none' width=0 height=15></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:17;page-break-inside:avoid;height:8.0cm'>
+  <td width=699 colspan=28 valign=top style='width:524.5pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.0cm'>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse;mso-table-layout-alt:fixed;mso-padding-alt:
+   0cm 2.85pt 0cm 2.85pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid;
+    height:8.0cm'>
+    <td width=46 rowspan=2 valign=top style='width:34.25pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>11.No
+    of<o:p></o:p></span></p>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Pkgs<o:p></o:p></span></p>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><i><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Nore
+    de<o:p></o:p></span></i></p>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><i><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>colis</span></i><span
+    lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:
+    Arial;display:none;mso-hide:all'><o:p></o:p></span></p>
+    </td>
+    <td width=373 colspan=2 rowspan=2 valign=top style='width:280.1pt;
+    padding:0cm 2.85pt 0cm 2.85pt;height:8.0cm'>
+    <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+    line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+    style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+    display:none;mso-hide:all'>12.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Specification
+    of Commodities (Kind of Packages,Marks,and Numbers,General <br>
+    Description and Characteristics, ie Grade, Quality)<o:p></o:p></span></p>
+    <p class=MsoNormal style='margin-left:11.35pt;line-height:9.0pt;mso-line-height-rule:
+    exactly'><i><span lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:
+    12.0pt;font-family:Arial;display:none;mso-hide:all'>Designation des
+    articles (Nature des colis, marques et numeros, description ger erale <o:p></o:p></span></i></p>
+    <p class=MsoNormal style='margin-left:11.35pt;line-height:9.0pt;mso-line-height-rule:
+    exactly'><i><span lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:
+    12.0pt;font-family:Arial;display:none;mso-hide:all'>et caracteristiques,, P
+    ex classe, qualite)<o:p></o:p></span></i></p>
+    </td>
+    <td width=90 rowspan=2 valign=top style='width:67.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>13.
+    Quantity<o:p></o:p></span></p>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>(State
+    Unit)<o:p></o:p></span></p>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><i><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Quantite<o:p></o:p></span></i></p>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><i><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>(Preciser
+    &Iacute; unite)</span></i><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'><o:p></o:p></span></p>
+    </td>
+    <td width=191 colspan=2 valign=top style='width:143.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>Selling
+    Price/<i>Prix de vente</i><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1;page-break-inside:avoid;height:8.0cm'>
+    <td width=95 valign=top style='width:71.5pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>14.Unit
+    Price<o:p></o:p></span></p>
+    <h2><span lang=EN-US style='display:none;mso-hide:all'>Prix unitaire<o:p></o:p></span></h2>
+    </td>
+    <td width=95 valign=top style='width:71.5pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:9.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+    mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>15.
+    Total<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;page-break-inside:avoid;
+    height:8.0cm'>
+    <td width=46 valign=top style='width:34.25pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+    lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+    <td width=114 valign=top style='width:85.3pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+    lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+    <td width=260 valign=top style='width:194.8pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+    lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+    <td width=90 valign=top style='width:67.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+    mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+    <td width=95 valign=top style='width:71.5pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+    mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+    <td width=95 valign=top style='width:71.5pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal align=right style='text-align:right;line-height:11.0pt;
+    mso-line-height-rule:exactly'><span lang=EN-US style='font-size:9.0pt;
+    mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+   </tr>
+   <![if !supportMisalignedColumns]>
+   <tr height=0>
+    <td width=46 style='border:none'></td>
+    <td width=114 style='border:none'></td>
+    <td width=260 style='border:none'></td>
+    <td width=90 style='border:none'></td>
+    <td width=95 style='border:none'></td>
+    <td width=95 style='border:none'></td>
+   </tr>
+   <![endif]>
+  </table>
+  </div>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></p>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse;mso-table-layout-alt:fixed;mso-padding-alt:
+   0cm 2.85pt 0cm 2.85pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+    page-break-inside:avoid;height:8.0cm'>
+    <td width=699 valign=top style='width:524.5pt;padding:0cm 2.85pt 0cm 2.85pt;
+    height:8.0cm'>
+    <p class=MsoNormal style='line-height:12.0pt'><b><span lang=EN-US><o:p>&nbsp;</o:p></span></b></p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal style='line-height:12.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.0cm;border:none' width=0 height=302></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:18;page-break-inside:avoid;height:11.35pt'>
+  <td width=354 colspan=14 rowspan=2 valign=top style='width:265.15pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:11.35pt'>
+  <p class=MsoNormal style='margin-top:3.0pt;margin-right:0cm;margin-bottom:
+  0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-indent:-11.35pt;
+  line-height:8.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>18.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>if
+  any Of fields 1 to 17 are included on an attached commercial invoice, check
+  this box<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:8.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>si tout renseignement
+  relatlvement aux zones 1 e 17 ligure sur une ou des tactures</span></i><i><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></i></p>
+  </td>
+  <td width=33 rowspan=2 style='width:24.4pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:10.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:18.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>&#9633;<o:p></o:p></span></p>
+  </td>
+  <td width=33 rowspan=2 valign=top style='width:24.45pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=184 colspan=6 valign=top style='width:138.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal style='line-height:10.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>16. Total Weight/<i>Poids Total</i><o:p></o:p></span></p>
+  </td>
+  <td width=96 colspan=6 rowspan=2 valign=top style='width:72.35pt;padding:
+  0cm 2.85pt 0cm 2.85pt;height:11.35pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>17.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Invoice
+  Total<o:p></o:p></span></p>
+  <h3 style='line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='display:none;mso-hide:all'>Total de la facture<o:p></o:p></span></h3>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:11.35pt;border:none' width=0 height=15></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:19;page-break-inside:avoid;height:8.5pt'>
+  <td width=89 colspan=4 valign=top style='width:67.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:9.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>Net<o:p></o:p></span></p>
+  </td>
+  <td width=95 colspan=2 valign=top style='width:71.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:9.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>Gross/<i>Brut</i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:20;page-break-inside:avoid;height:8.5pt'>
+  <td width=224 colspan=6 rowspan=2 valign=top style='width:168.2pt;padding:
+  0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:8.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>commerciaies ci-attachees cocher
+  cette case<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:8.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>commercial invoice No. 1 N de la
+  factre commerciaie</span></i><span lang=EN-US style='font-size:9.0pt;
+  mso-bidi-font-size:12.0pt;display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <td width=162 colspan=9 valign=top style='width:121.35pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=33 rowspan=2 valign=top style='width:24.45pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=89 colspan=4 rowspan=2 valign=top style='width:67.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=95 colspan=2 rowspan=2 valign=top style='width:71.15pt;padding:
+  0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=96 colspan=6 rowspan=2 valign=top style='width:72.35pt;padding:
+  0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='line-height:11.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:21;page-break-inside:avoid;height:2.85pt'>
+  <td width=162 colspan=9 valign=top style='width:121.35pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:2.85pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt;font-family:
+  "Times New Roman";mso-fareast-font-family:SimSun;mso-font-kerning:1.0pt;
+  mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><![if !supportMisalignedRows]>
+  <td style='height:2.85pt;border:none' width=0 height=4></td>
+  <![endif]></span>
+ </tr>
+ <tr style='mso-yfti-irow:22;height:22.7pt'>
+  <td width=348 colspan=13 valign=top style='width:261.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:22.7pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:10.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>19.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Exporter's
+  Name and Address(if other than Vendor)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:10.0pt;mso-line-height-rule:
+  exactly'><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;
+  font-family:Arial;display:none;mso-hide:all'>Nom et adresse de &Iacute;</span></i><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'> <i>exportateur(s'll differe du vendeur)<o:p></o:p></i></span></p>
+  </td>
+  <td width=351 colspan=15 valign=top style='width:263.35pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:22.7pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt'><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>20.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Originator
+  (Name and Address)/<i>Expediteur d' origine(Nom et adresse)</i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:22.7pt;border:none' width=0 height=30></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:23;height:48.2pt'>
+  <td width=348 colspan=13 valign=top style='width:261.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:48.2pt'>
+  <p class=MsoNormal style='margin-left:11.35pt'><span lang=EN-US
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=351 colspan=15 valign=top style='width:263.35pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:48.2pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:11.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:48.2pt;border:none' width=0 height=64></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:24;page-break-inside:avoid;height:11.35pt'>
+  <td width=348 colspan=13 valign=top style='width:261.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:10.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>21.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Departmental
+  Rulikg(if applicable)/<i>Decision du Ministere(S' lly a lieu)</i><o:p></o:p></span></p>
+  </td>
+  <td width=307 colspan=13 rowspan=2 valign=top style='width:230.15pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:11.35pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:10.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>22.<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>If
+  fields 23 to 25 are not applicable, check this box<o:p></o:p></span></p>
+  <h4><span lang=EN-US style='display:none;mso-hide:all'>Si ies zones 23 e 25
+  sont sans objet, cocher cette case<o:p></o:p></span></h4>
+  </td>
+  <td width=44 colspan=2 style='width:33.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:10.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:18.0pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>&#9633;</span><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:11.35pt;border:none' width=0 height=15></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:25;page-break-inside:avoid;height:11.35pt'>
+  <td width=348 colspan=13 valign=top style='width:261.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;line-height:10.0pt;mso-line-height-rule:
+  exactly'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=44 colspan=2 valign=top style='width:33.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:11.35pt'>
+  <p class=MsoHeader style='line-height:10.0pt;mso-line-height-rule:exactly;
+  tab-stops:21.25pt;layout-grid-mode:both;border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:11.35pt;border:none' width=0 height=15></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:26;page-break-inside:avoid;height:62.35pt'>
+  <td width=232 colspan=7 rowspan=2 valign=top style='width:173.85pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:62.35pt'>
+  <p class=MsoNormal style='margin-left:9.9pt;text-indent:-9.9pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:6.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>23.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>if included in field 7
+  indicate amount<o:p></o:p></span></p>
+  <h5 style='margin-left:9.9pt'><span lang=EN-US style='font-size:6.5pt;
+  mso-bidi-font-size:12.0pt;display:none;mso-hide:all'>Si compris dans ie total
+  a ia zone 17, preciser<o:p></o:p></span></h5>
+  <p class=MsoNormal style='margin-left:21.25pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8544;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Transportation
+  charges, expenese and insurance<br>
+  from the place of direct shipment to Canada<br>
+  <i>Les frais de transport, depenses et assurances<br>
+  a partir du point of expedition directe vers is <br>
+  Canada.</i><o:p></o:p></span></p>
+  </td>
+  <td width=230 colspan=11 valign=top style='width:172.45pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:62.35pt'>
+  <p class=MsoNormal style='margin-left:9.9pt;text-indent:-9.9pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:6.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>24.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>If not included in field 17
+  indicate amount<br>
+  <i>Si non compris dans le total a ie zone 17, Dreciser<o:p></o:p></i></span></p>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8544;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Transportation
+  charges, expense and insurance<br>
+  to the place of direct shipment to Canada<br>
+  <i>Les frais de transport, depenses et assurances <br>
+  Iusqu' au point d' of expedition directd vers ie Canada</i><o:p></o:p></span></p>
+  </td>
+  <td width=238 colspan=10 valign=top style='width:178.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:62.35pt'>
+  <p class=MsoNormal style='margin-left:9.9pt;text-indent:-9.9pt;line-height:
+  9.0pt;mso-line-height-rule:exactly'><span lang=EN-US style='font-size:6.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>25.<span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Check (if applicable)<br>
+  <i>Cochet (s'lly a liso)<o:p></o:p></i></span></p>
+  <p class=MsoNormal style='margin-left:21.25pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8545;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Royalty
+  payments or subsequent proceede are<br>
+  paid or payable by the purchaser <br>
+  <i>Des redevances ou prodults ont ete ou seront<br>
+  Verses par </i></span><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial;display:none;mso-hide:all'>&Iacute; </span></i><i><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>acheteur</span></i><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:62.35pt;border:none' width=0 height=83></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:27;page-break-inside:avoid;height:8.5pt'>
+  <td width=19 colspan=3 valign=top style='width:14.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:7.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=200 colspan=7 valign=top style='width:150.1pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=11 valign=top style='width:8.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:7.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=119 colspan=3 rowspan=3 style='width:89.1pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=right style='margin-top:3.0pt;text-align:right;
+  line-height:10.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>&#9633;</span><span lang=EN-US style='font-size:
+  7.5pt;mso-bidi-font-size:12.0pt;display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <td width=119 colspan=7 rowspan=3 style='width:89.1pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:10.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:28;page-break-inside:avoid;height:8.5pt'>
+  <td width=19 valign=top style='width:14.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=202 colspan=3 valign=top style='width:151.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:8.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=12 colspan=3 valign=top style='width:8.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:7.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=230 colspan=11 rowspan=3 valign=top style='width:172.45pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8545;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Amounts
+  for commissions other than buying<br>
+  commissions<br>
+  <i>Les commissions autres que celles versees<br>
+  Pour </i></span><i><span lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:
+  12.0pt;font-family:Arial;display:none;mso-hide:all'>&Iacute; </span></i><i><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>achat</span></i><span lang=EN-US style='font-size:
+  6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:29;page-break-inside:avoid;height:14.2pt'>
+  <td width=232 colspan=7 rowspan=3 valign=top style='width:173.85pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:14.2pt'>
+  <p class=MsoNormal style='margin-left:21.25pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8545;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Costs
+  for const: action, erection and assembly<br>
+  incurred atter importation into Canada<br>
+  <i>Les couts de construction, d' erection et<br>
+  d' assemblage,, pres imporaation au.canada</i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:14.2pt;border:none' width=0 height=19></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:30;page-break-inside:avoid;height:17.0pt'>
+  <td width=238 colspan=10 rowspan=4 valign=top style='width:178.2pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:17.0pt'>
+  <p class=MsoNormal style='margin-left:21.25pt;text-indent:-11.35pt;
+  line-height:9.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8545;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)The purchaser has supplied goods or services<br>
+  for use in the production of these goods<br>
+  <i>L'acheteur a fouml des merchandises ou des<br>
+  Services pour ia production des merchandises</i><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:17.0pt;border:none' width=0 height=23></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:31;page-break-inside:avoid;height:8.5pt'>
+  <td width=18 colspan=2 valign=top style='width:13.8pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=201 colspan=8 valign=top style='width:150.45pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=11 valign=top style='width:8.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:32;page-break-inside:avoid;height:8.5pt'>
+  <td width=19 valign=top style='width:14.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=202 colspan=4 valign=top style='width:151.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:8.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=11 colspan=2 valign=top style='width:8.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=230 colspan=11 rowspan=2 valign=top style='width:172.45pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='margin-left:11.35pt;text-indent:-11.35pt;
+  line-height:8.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8546;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp; </span>Export
+  packing<br>
+  <i>Le cout de </i></span><i><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>&Iacute;</span></i><i><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'> emballage d' exportation</span></i><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:33;page-break-inside:avoid;height:8.5pt'>
+  <td width=232 colspan=7 rowspan=2 valign=top style='width:173.85pt;
+  padding:0cm 2.85pt 0cm 2.85pt;height:8.5pt'>
+  <p class=MsoNormal style='margin-left:21.25pt;text-indent:-11.35pt;
+  line-height:8.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>(</span><span style='font-size:6.5pt;mso-bidi-font-size:
+  12.0pt;font-family:SimSun;mso-ascii-font-family:Arial;mso-hansi-font-family:
+  Arial;mso-bidi-font-family:Arial;display:none;mso-hide:all'>&#8546;</span><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>)<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>Export
+  packing<br>
+  <i>Le cout de </i></span><i><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'>&Iacute;</span></i><i><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'> emballage d' exportation</span></i><span
+  lang=EN-US style='font-size:6.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:34;page-break-inside:avoid;height:8.5pt'>
+  <td width=17 valign=top style='width:13.1pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=202 colspan=9 valign=top style='width:151.15pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=11 valign=top style='width:8.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=119 colspan=3 rowspan=2 style='width:89.1pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=right style='margin-top:3.0pt;text-align:right;
+  line-height:10.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+  style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:Arial;
+  display:none;mso-hide:all'>&#9633;</span><span lang=EN-US style='font-size:
+  5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial;display:none;mso-hide:all'><o:p></o:p></span></p>
+  </td>
+  <td width=119 colspan=7 rowspan=2 style='width:89.1pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:10.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:9.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:35;page-break-inside:avoid;height:8.5pt'>
+  <td width=19 valign=top style='width:14.0pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:8.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:5.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=202 colspan=3 valign=top style='width:151.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:8.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:7.5pt;
+  mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=12 colspan=3 valign=top style='width:8.65pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:8.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:5.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=230 colspan=11 valign=top style='width:172.45pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:8.5pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:8.5pt;border:none' width=0 height=11></td>
+  <![endif]>
+ </tr>
+ <tr style='mso-yfti-irow:36;mso-yfti-lastrow:yes;page-break-inside:avoid;
+  height:1.0pt'>
+  <td width=232 colspan=7 valign=top style='width:173.85pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:1.0pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:8.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:5.5pt;
+  mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=230 colspan=11 valign=top style='width:172.45pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:1.0pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=238 colspan=10 valign=top style='width:178.2pt;padding:0cm 2.85pt 0cm 2.85pt;
+  height:1.0pt'>
+  <p class=MsoNormal style='line-height:8.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:5.5pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <![if !supportMisalignedRows]>
+  <td style='height:1.0pt;border:none' width=0 height=1></td>
+  <![endif]>
+ </tr>
+ <![if !supportMisalignedColumns]>
+ <tr height=0>
+  <td width=19 style='border:none'></td>
+  <td width=26 style='border:none'></td>
+  <td width=124 style='border:none'></td>
+  <td width=51 style='border:none'></td>
+  <td width=1 style='border:none'></td>
+  <td width=3 style='border:none'></td>
+  <td width=8 style='border:none'></td>
+  <td width=17 style='border:none'></td>
+  <td width=1 style='border:none'></td>
+  <td width=0 style='border:none'></td>
+  <td width=59 style='border:none'></td>
+  <td width=34 style='border:none'></td>
+  <td width=4 style='border:none'></td>
+  <td width=5 style='border:none'></td>
+  <td width=33 style='border:none'></td>
+  <td width=33 style='border:none'></td>
+  <td width=32 style='border:none'></td>
+  <td width=11 style='border:none'></td>
+  <td width=34 style='border:none'></td>
+  <td width=12 style='border:none'></td>
+  <td width=73 style='border:none'></td>
+  <td width=22 style='border:none'></td>
+  <td width=2 style='border:none'></td>
+  <td width=23 style='border:none'></td>
+  <td width=22 style='border:none'></td>
+  <td width=5 style='border:none'></td>
+  <td width=9 style='border:none'></td>
+  <td width=35 style='border:none'></td>
+  <td style='border:none' width=0><p class='MsoNormal'>&nbsp;</td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+<p class=MsoNormal style='line-height:1.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US style='font-size:7.5pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

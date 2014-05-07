@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Wed Jul 19 15:20:43 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsIrrt" table="vi_ds_IRRT">
+      
+        <composite-id class="RTIPK" name="Id">
+			<key-property column="IRNO" name="irno" type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+ 
+        <property name="clno" column="CLNO" type="java.lang.String" />
+        <property name="cyno" column="CYNO" type="java.lang.String" />
+        <property name="amts" column="AMTS" type="java.lang.String" />
+        <property name="stac" column="STAC" type="java.lang.String" />
+        <property name="acbk" column="ACBK" type="java.lang.String" />
+        <property name="inac" column="INAC" type="java.lang.String" />
+        <property name="irst" column="IRST" type="java.lang.String" />
+        <property name="orbk" column="ORBK" type="java.lang.String" />
+        <property name="orno" column="ORNO" type="java.lang.String" />
+        <property name="vldt" column="VLDT" type="java.lang.String" />
+        <property name="ckno" column="CKNO" type="java.lang.String" />
+        <property name="crdt" column="CRDT" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

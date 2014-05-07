@@ -1,0 +1,25 @@
+<?xml version="1.0"?> 
+<!-- the proxool configuration can be embedded within your own application's. 
+Anything outside the "proxool" tag is ignored. --> 
+<something-else-entirely> 
+<proxool> 
+<alias>pool1</alias> 
+<!--proxoolֻ�ܹ������Լ������l��--> 
+<driver-url>jdbc:microsoft:sqlserver://192.168.0.4:1433;DatabaseName=cmbc_test</driver-url> 
+<driver-class>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver-class> 
+<driver-properties> 
+<property name="user" value="sa"/> 
+<property name="password" value="cmbc123456"/> 
+</driver-properties> 
+<!-- proxool�Զ������l��״̬��ʱ����(����),��쵽���е�l�Ӿ����ϻ���,��ʱ�����--> 
+<house-keeping-sleep-time>90000</house-keeping-sleep-time> 
+<!-- ָ��δ�п���l�ӿ��Է�����ڶ����еȺ�����������,���������������û�l�ӾͲ��ᱻ����--> 
+<maximum-new-connections>20</maximum-new-connections> 
+<!-- ���ٱ��ֵĿ���l����--> 
+<prototype-count>5</prototype-count> 
+<!-- �������l����,���������l�ӣ���������ʱ�������ڶ����еȺ����ĵȴ���������maximum-new-connections��--> 
+<maximum-connection-count>100</maximum-connection-count> 
+<!-- ��Сl����--> 
+<minimum-connection-count>10</minimum-connection-count> 
+</proxool> 
+</something-else-entirely> 

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emlmtsp" table="EMLMTSP">
+
+		<composite-id class="EmlmtspPK" name="Id">
+			<key-property column="RFNO" length="16" name="Rfno" type="string"  />
+			<key-property column="BRNO" length="16" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="PRID" length="5" name="Prid" not-null="false"
+			type="string" />
+		<property column="TSRF" length="20" name="Tsrf" not-null="false"
+			type="string" />
+		<property column="CYNO" length="2" name="Cyno" not-null="false"
+			type="string" />
+		<property column="BLAN" length="53" name="Blan" not-null="false"
+			type="java.lang.Float" />
+		<property column="CLNO" length="16" name="Clno" not-null="true"
+			type="string" />
+		<property column="UTNO" length="10" name="Utno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="SEQN" length="10" name="Seqn" not-null="false"
+			type="integer" />
+		<property column="USID" length="6" name="Usid" not-null="false"
+			type="string" />
+		<property column="SIGN" length="1" name="Sign" not-null="false"
+			type="string" />
+		<property column="LTTP" length="4" name="Lttp" not-null="false"
+			type="string" />
+		<property column="DLDT" length="8" name="Dldt" not-null="true"
+			type="string" />
+		<property column="EXRT" length="53" name="Exrt" not-null="false"
+			type="java.lang.Float" />
+		<property column="AMTS" length="53" name="Amts" not-null="false"
+			type="java.lang.Float" />
+	</class>
+	
+</hibernate-mapping>

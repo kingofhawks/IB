@@ -1,0 +1,13 @@
+进口来单
+changeAcceptMaturityDetail.jsp  更改承兑到期日
+discrepancyIdentlfiedCheckInDetail.jsp 电提不符点登记
+discrepancyIdentlfiedRefuseOrAcceptDetail.jsp 电提不符点接受/拒绝
+importBillAcceptDetail.jsp 承兑
+importBillBarterBillDetail.jsp 换单
+importBillCancelBillDetail.jsp 退单
+importBillCheckInDetail.jsp 来单登记
+importBillDischargeBillDetail.jsp -放单
+importBillPaymentDetail.jsp 付款
+importBillRefusePayment.jsp 拒承/付款
+telegraphicAskForPaymentDetail.jsp 电索付款
+volunteerSumitBillDetail.jsp 无偿交单

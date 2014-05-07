@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Sat Dec 10 11:45:20 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsRlus" table="vi_ds_RLUS">
+		<composite-id>
+			<key-property column="RLID" name="rlid" type="string" />
+			<key-property column="RLNM" name="rlnm" type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+			<key-property column="USID" name="usid" type="string" />
+		</composite-id>
+	</class>
+
+</hibernate-mapping>

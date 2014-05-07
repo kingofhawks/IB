@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Wed Aug 16 14:31:14 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViDsLcuk" table="vi_ds_LCUK">
+    
+        <composite-id class="VLCPK" name="Id">
+			<key-property column="LCNO" length="16" name="lcno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+ 
+        <property name="adno" column="ADNO" type="java.lang.Short" />
+        <property name="apno" column="APNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String"  not-null="true" />
+        <property name="lcam" column="LCAM" type="java.lang.Float" />
+        <property name="mgac" column="MGAC" type="java.lang.String" />
+        <property name="accy" column="ACCY" type="java.lang.String" />
+        <property name="mgam" column="MGAM" type="java.lang.Float" />
+        <property name="mgc2" column="MGC2" type="java.lang.String" />
+        <property name="acy2" column="ACY2" type="java.lang.String" />
+        <property name="mam2" column="MAM2" type="java.lang.Float" />
+        <property name="usid" column="USID" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,272 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="JavaScript" src="MzTreeView10.js"></script>
+<title>Menu</title>
+<style type="text/css">
+<!--
+HTML { 
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+ 
+BODY {
+	background:ButtonFace;
+    border: 0;
+    margin: 0;
+    padding: 0;
+	font-size:12px;
+}
+table {font-size:12px;}
+a {text-decoration:none; color:#333333;}
+#titleText {
+	font-weight:bold;
+	color:WindowText;
+}
+ 
+.buttonOn a { 
+	display:block;
+	margin-left:2px;
+	margin-right:2px;
+	width:20px;
+	height:20px;
+	border:1px solid Highlight;
+	writing-mode:tb-rl;
+	vertical-align:middle;
+	background: Window;
+}
+
+.button a { 
+	display:block;
+	margin-left:2px;
+	margin-right:2px;
+	width:20px;
+	height:20px;
+	border:1px solid ButtonFace;
+	writing-mode:tb-rl;
+	vertical-align:middle;
+}
+
+.button a:hover { 
+	border-top:1px solid ButtonHighlight; 
+	border-left:1px solid ButtonHighlight; 
+	border-right:1px solid ButtonShadow; 
+	border-bottom:1px solid ButtonShadow;
+}
+
+
+#b6:hover{
+	border:1px solid ButtonFace;
+}
+
+
+.separator {
+	width: 5px;
+	border-top:1px solid ButtonHighlight; 
+	border-left:1px solid ButtonHighlight; 
+	border-right:1px solid ButtonShadow; 
+	border-bottom:1px solid ButtonShadow;
+	
+}
+
+#container {
+	border-bottom:1px solid ThreeDShadow;
+ 
+
+}
+
+/**
+ *By Robin (http://www.xiaobin.net)
+ */
+#containerTD {
+	background-color:window;
+	border-top:1px solid threeddarkshadow;
+	border-bottom:1px solid threedhighlight;
+	border-left:1px solid threeddarkshadow;
+	border-right:1px solid threedhighlight;
+	font-size:12px;
+}
+#containerDIV {
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+-->
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function Trim(strValue){return strValue.replace(/^\s*|\s*$/g,"");}
+function SetCookie(sName, sValue){document.cookie = sName + "=" + escape(sValue)+";expires=Fri, 31 Dec 2050 23:59:59 GMT;";}
+function GetCookie(sName){
+	var aCookie = document.cookie.split(";");
+	for (var i=0; i < aCookie.length; i++){
+		var aCrumb = aCookie[i].split("=");
+		if (sName == Trim(aCrumb[0])){
+			return unescape(aCrumb[1]);
+		}
+	}
+	return null;
+}
+function savecols(){
+	if (document.body.offsetWidth>10){
+		SetCookie("datacols",document.body.offsetWidth+",*");
+	}
+}
+window.onresize=savecols;
+//-->
+</SCRIPT>
+</head>
+
+<body>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="20" valign="middle">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed; word-break:keep-all;">
+                <tr>
+                    <td align="center" valign="middle"><strong style="font-size:14px">国际结算模拟系统文档</strong></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <table width="100%" height="100%" border="1" cellpadding="0" cellspacing="8" style="table-layout:fixed;">
+                <tr>
+                    <td id="containerTD">
+                        <div id="containerDIV"></div>
+                        <script language="JavaScript">
+						<!--
+						var tree = new MzTreeView("tree");
+						tree.setIconPath("images/");
+						tree.nodes["-1_0"] = "text:";
+						tree.nodes["0_1"] = "text:一、外汇帐户管理; url:html/1.htm;";
+						tree.nodes["1_2"] = "text:（一）开立外汇帐户的有关规定; url:html/2.htm;";
+						tree.nodes["1_3"] = "text:（二）外汇定期存款的规定; url:html/3.htm;";
+						tree.nodes["1_4"] = "text:（三）外汇帐户年检要求; url:html/4.htm;";
+						tree.nodes["0_5"] = "text:二、贸易进口付汇; url:html/5.htm;";
+						tree.nodes["5_6"] = "text:（一）正常情况下贸易项下售付汇的规定; url:html/6.htm;";
+						tree.nodes["5_7"] = "text:（二）须凭备案表办理开证、承兑和售付汇的情况; url:html/7.htm;";
+						tree.nodes["5_8"] = "text:（三）办理货到付款业务的有关事项; url:html/8.htm;";
+						tree.nodes["5_9"] = "text:（四）L/C项下进口结算的有关规定; url:html/9.htm;";
+						tree.nodes["5_10"] = "text:（五）预付货款的规定; url:html/10.htm;";
+						tree.nodes["5_11"] = "text:（六）保税仓库外汇管理有关规定; url:html/11.htm;";
+						tree.nodes["5_12"] = "text:（七）从保税区进口货物付汇的有关规定; url:html/12.htm;";
+						tree.nodes["0_13"] = "text:三、深加工结转（转厂）售付汇规定; url:html/13.htm;";
+						tree.nodes["13_14"] = "text:（一）深加工结转（转厂）售付汇有关规定; url:html/14.htm;";
+						tree.nodes["13_15"] = "text:（二）转厂支付，不足部分可售汇; url:html/15.htm;";
+						tree.nodes["13_16"] = "text:（三）深加工结转（转厂）收付汇的国际收支申报; url:html/96.htm;";
+						tree.nodes["0_17"] = "text:四、经常项目收汇及出口收汇核销; url:html/16.htm;";
+						tree.nodes["17_18"] = "text:（一）出口收汇核销单定义; url:html/17.htm;";
+						tree.nodes["17_19"] = "text:（二）出口收汇核销专用联章使用的规定; url:html/18.htm;";
+						tree.nodes["17_20"] = "text:（三）出口收汇有关规定; url:html/19.htm;";
+						tree.nodes["17_21"] = "text:（四）异地企业出口收汇; url:html/20.htm;";
+						tree.nodes["17_22"] = "text:（五）代理出口项下的出口收汇; url:html/21.htm;";
+						tree.nodes["17_23"] = "text:（六）银行不得出具出口收汇核销专用联的情况; url:html/22.htm;";
+						tree.nodes["17_24"] = "text:（七）补办出口收汇核销专用联的规定; url:html/23.htm;";
+						tree.nodes["17_25"] = "text:（八）出口项下退赔规定; url:html/24.htm;";
+						tree.nodes["17_26"] = "text:（九）非贸易及单方面转移收入的有关规定; url:html/25.htm;";
+						tree.nodes["17_27"] = "text:（十）须原币划入银行暂收专户的外汇收入; url:html/26.htm;";
+						tree.nodes["0_28"] = "text:五、代理进出口业务有关规定; url:html/27.htm;";
+						tree.nodes["28_29"] = "text:（一）对办理代理进出口业务企业的要求; url:html/28.htm;";
+						tree.nodes["28_30"] = "text:（二）代理进出口业务合规性的要求; url:html/29.htm;";
+						tree.nodes["28_31"] = "text:（三）出口代理业务收汇的规定; url:html/30.htm;";
+						tree.nodes["28_32"] = "text:（四）进口代理业务付汇的规定; url:html/31.htm;";
+						tree.nodes["0_33"] = "text:六、非贸易及部分资本项目项下售付汇提交税务凭证的规定; url:html/32.htm;";
+						tree.nodes["33_34"] = "text:（一）办理非贸易及部分资本项下购付汇时需提供税务凭证的原则; url:html/33.htm;";
+						tree.nodes["33_35"] = "text:（二）办理非贸易付汇时，不需提供税务凭证的情况; url:html/34.htm;";
+						tree.nodes["33_36"] = "text:（三）办理非贸易及部分资本项目付汇时，需提供税务凭证的具体要求; url:html/35.htm;";
+						tree.nodes["0_37"] = "text:七、非贸易售付汇规定; url:html/36.htm;";
+						tree.nodes["37_38"] = "text:（一）红利、利润、股息汇出规定; url:html/37.htm;";
+						tree.nodes["37_39"] = "text:（二）支付贷款/外债利息的规定; url:html/38.htm;";
+						tree.nodes["37_40"] = "text:（三）支付佣金的规定; url:html/39.htm;";
+						tree.nodes["37_41"] = "text:（四）支付保险费的规定; url:html/40.htm;";
+						tree.nodes["37_42"] = "text:（五）支付运输费的规定; url:html/41.htm;";
+						tree.nodes["37_43"] = "text:（六）支付进出口项下的资料费、技术费、信息费 等从属费用的规定; url:html/42.htm;";
+						tree.nodes["37_44"] = "text:（七）非贸易经营性对外付汇的规定; url:html/43.htm;";
+						tree.nodes["37_45"] = "text:（八）支付涉外担保费的规定; url:html/97.htm;";
+						tree.nodes["0_46"] = "text:八、无形资产售付汇有关规定; url:html/44.htm;";
+						tree.nodes["46_47"] = "text:（一）专利权引进的用汇; url:html/45.htm;";
+						tree.nodes["46_48"] = "text:（二）商标权引进的用汇; url:html/46.htm;";
+						tree.nodes["46_49"] = "text:（三）著作权引进的用汇; url:html/47.htm;";
+						tree.nodes["46_50"] = "text:（四）非专利技术引进的用汇; url:html/48.htm;";
+						tree.nodes["0_51"] = "text:九、资本项目项下的收入和支出; url:html/49.htm;";
+						tree.nodes["51_52"] = "text:（一）资本项目外汇收入结汇规定; url:html/50.htm;";
+						tree.nodes["51_53"] = "text:（二）资本项目支出规定; url:html/51.htm;";
+						tree.nodes["51_54"] = "text:（三）资本项目项下收付现钞规定; url:html/52.htm;";
+						tree.nodes["0_55"] = "text:十、境内外汇划转有关问题; url:html/53.htm;";
+						tree.nodes["55_56"] = "text:（一）银行可凭客户提供的有关凭证办理境内外汇划转的情况; url:html/54.htm;";
+						tree.nodes["55_57"] = "text:（二）须凭外汇局核准件办理的境内外汇划转业务; url:html/55.htm;";
+						tree.nodes["55_58"] = "text:（三）境内外汇托收，商业单据审核责任的规定; url:html/56.htm;";
+						tree.nodes["0_59"] = "text:十一、境内机构外币现钞收付管理规定; url:html/57.htm;";
+						tree.nodes["59_60"] = "text:（一）提取外币现钞的规定; url:html/58.htm;";
+						tree.nodes["59_61"] = "text:（二）收付外币现钞的规定; url:html/59.htm;";
+						tree.nodes["0_62"] = "text:十二、贷款、押汇、信用证垫款及其偿还有关内容; url:html/60.htm;";
+						tree.nodes["62_63"] = "text:（一）贷款本金偿还的规定; url:html/61.htm;";
+						tree.nodes["62_64"] = "text:（二）偿还押汇的有关规定; url:html/62.htm;";
+						tree.nodes["62_65"] = "text:（三）偿还信用证垫款有关规定; url:html/63.htm;";
+						tree.nodes["62_66"] = "text:（四）外汇担保项下人民币贷款的规定; url:html/64.htm;";
+						tree.nodes["0_67"] = "text:十三、保税区企业外汇管理; url:html/65.htm;";
+						tree.nodes["67_68"] = "text:（一）保税区内企业开户规定; url:html/66.htm;";
+						tree.nodes["67_69"] = "text:（二）区内企业结算的有关规定; url:html/67.htm;";
+						tree.nodes["67_70"] = "text:（三）区内企业收入结汇规定; url:html/68.htm;";
+						tree.nodes["0_71"] = "text:十四、境内机构对外担保有关规定; url:html/69.htm;";
+						tree.nodes["71_72"] = "text:（一）对外担保定义; url:html/70.htm;";
+						tree.nodes["71_73"] = "text:（二）对外担保当事人的身份; url:html/71.htm;";
+						tree.nodes["71_74"] = "text:（三）中资银行对外担保业务的分类; url:html/72.htm;";
+						tree.nodes["71_75"] = "text:（四）担保人办理对外担保报批时须提供的材料; url:html/73.htm;";
+						tree.nodes["71_76"] = "text:（五）担保人对外担保履约的要求; url:html/74.htm;";
+						tree.nodes["71_77"] = "text:（六）规范支付涉外担保费; url:html/76.htm;";
+						tree.nodes["71_78"] = "text:（七）对外担保的其它规定; url:html/98.htm;";
+						tree.nodes["0_79"] = "text:十五、境内居民外汇管理有关规定; url:html/77.htm;";
+						tree.nodes["79_80"] = "text:（一）境内居民个人定义; url:html/78.htm;";
+						tree.nodes["79_81"] = "text:（二）现汇帐户和现钞帐户的定义; url:html/79.htm;";
+						tree.nodes["79_82"] = "text:（三）境内居民个人外汇帐户使用规定; url:html/80.htm;";
+						tree.nodes["79_83"] = "text:（四）个人因私兑付外汇规定; url:html/81.htm;";
+						tree.nodes["79_84"] = "text:（五）居民个人外汇收入存入外汇帐户的规定; url:html/82.htm;";
+						tree.nodes["79_85"] = "text:（六）居民个人外汇收入解付外币现钞或兑付人民币的规定; url:html/83.htm;";
+						tree.nodes["79_86"] = "text:（七）居民个人从现汇帐户中提取外币现钞或兑付人民币的规定; url:html/84.htm;";
+						tree.nodes["79_87"] = "text:（八）居民个人从现钞帐户提取外币现钞 的规定; url:html/85.htm;";
+						tree.nodes["79_88"] = "text:（九）居民个人现汇帐户存款汇出境外规定; url:html/86.htm;";
+						tree.nodes["79_89"] = "text:（十）居民个人现钞户存款或持有的外币现钞汇出境外规定; url:html/87.htm;";
+						tree.nodes["0_90"] = "text:十六、外币旅行支票业务有关的外汇政策; url:html/88.htm;";
+						tree.nodes["90_91"] = "text:（一）购买旅行支票的有关规定; url:html/89.htm;";
+						tree.nodes["90_92"] = "text:（二）兑付旅行支票的有关规定; url:html/90.htm;";
+						tree.nodes["90_93"] = "text:（三）旅行支票托收; url:html/91.htm;";
+						tree.nodes["90_94"] = "text:（四）携带旅行支票出境的有关规定; url:html/92.htm;";
+						tree.nodes["0_95"] = "text:十七、携带外币现钞进出境规定; url:html/93.htm;";
+						tree.nodes["95_96"] = "text:（一）携带外币现钞进出境规定; url:html/94.htm;";
+						tree.nodes["95_97"] = "text:（二）办理外币携带证需提供的材料; url:html/95.htm;";
+						tree.nodes["0_98"] = "text:十八、出口加工区外汇管理办法; url:html/99.htm;";
+						tree.nodes["98_99"] = "text:（一）出口加工区概念; url:html/101.htm;";
+						tree.nodes["98_100"] = "text:（二）出口加工区国际收支申报 ; url:html/102.htm;";
+						tree.nodes["98_101"] = "text:（三）出口加工区机构办理外汇登记的规定; url:html/103.htm;";
+						tree.nodes["98_102"] = "text:（四）区内机构办理外汇收支业务条件; url:html/104.htm;";
+						tree.nodes["98_103"] = "text:（五）区内机构外汇帐户管理; url:html/105.htm;";
+						tree.nodes["98_104"] = "text:（六）区内机构外汇收支和结售汇管理      ; url:html/106.htm;";
+						tree.nodes["0_105"] = "text:十九、关于境内居民投资境内上市外资股有关问题; url:html/107.htm;";
+						tree.nodes["105_106"] = "text:（一）B 股投资资金来源问题; url:html/108.htm;";
+						tree.nodes["105_107"] = "text:（二）关于居民划转资金的手续问题; url:html/109.htm;";
+						tree.nodes["105_108"] = "text:（三）关于身份确认问题; url:html/110.htm;";
+						tree.nodes["105_109"] = "text:（四）关于证劵经营机构开户问题; url:html/111.htm;";
+						tree.nodes["105_110"] = "text:（五）关于B股股民交易资金撤出问题; url:html/112.htm;";
+						tree.nodes["105_111"] = "text:（六）关于银行及其分支机构经营B股业务的资格问题; url:html/113.htm;";
+						tree.nodes["105_112"] = "text:（七）外汇帐户统计问题  ; url:html/114.htm;";
+						tree.nodes["105_113"] = "text:（八）对个人外汇资金划转的审核 ; url:html/115.htm;";
+						tree.nodes["0_114"] = "text:国家外汇管理局咨询热线; url:html/116.htm;";
+						//tree.nodes["-1_115"] = "text:帮助文档";
+						tree.target="mainFrame";
+						document.getElementById('containerDIV').innerHTML = tree.toString();
+						tree.expand(1);
+						//-->
+		    		</script>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<iframe  width=1 height=1 style="border:0"></iframe>
+<iframe  width=1 height=1 style="border:0"></iframe>
+</body>
+</html>

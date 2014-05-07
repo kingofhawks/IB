@@ -1,0 +1,1 @@
+放置共用文件，如Javascript、CSS

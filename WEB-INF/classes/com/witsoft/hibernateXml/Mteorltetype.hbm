@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Mteorltetype" table="MTEORLTETYPE">
+		<id column="ID" name="Id" type="string">
+			<generator class="vm" />
+		</id>
+		<property column="CNAME" length="50" name="Cname"
+			not-null="true" type="string" />
+		<property column="BTYPE" length="50" name="Btype"
+			not-null="false" type="string" />
+		<property column="FLAG" length="1" name="Flag" not-null="true"
+			type="string" />
+		<property column="PRID" length="50" name="Prid" not-null="true"
+			type="string" />
+		<property column="ENAME" length="100" name="Ename"
+			not-null="false" type="string" />
+		<property column="URL" length="100" name="Url"
+			not-null="false" type="string" />	
+	
+	</class>
+</hibernate-mapping>

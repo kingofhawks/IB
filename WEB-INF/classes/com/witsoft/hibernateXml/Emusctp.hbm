@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emusctp" table="EMUSCTP">
+		<composite-id class="EmusctpPK" name="Id">
+			<key-property column="USID" name="Usid" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+
+		<property column="STTM" length="16" name="Sttm" not-null="false"
+			type="string" />
+		<property column="ERLG" length="5" name="Erlg" not-null="false"
+			type="java.lang.Short" />
+		<property column="USJB" length="6" name="Usjb" not-null="false"
+			type="string" />
+		<property column="EDTM" length="16" name="Edtm" not-null="false"
+			type="string" />
+		<property column="USTL" length="20" name="Ustl" not-null="false"
+			type="string" />
+		<property column="PRCD" length="80" name="Prcd" not-null="false"
+			type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="RNCD" length="1" name="Rncd" not-null="false"
+			type="string" />
+		<property column="USNM" length="12" name="Usnm" not-null="false"
+			type="string" />
+
+
+		<property column="PSWD" length="32" name="Pswd" not-null="false"
+			type="string" />
+		<property column="USPG" length="10" name="Uspg" not-null="false"
+			type="string" />
+		<property column="WKSQ" length="10" name="Wksq" not-null="false"
+			type="string" />
+		<property column="RFNO" length="8" name="Rfno" not-null="false"
+			type="string" />
+		<property column="INNO" length="2" name="Inno" not-null="false"
+			type="string" />
+		<property column="SYDT" length="8" name="Sydt" not-null="false"
+			type="string" />
+		<property column="USLV" length="5" name="Uslv" not-null="false"
+			type="java.lang.Short" />
+		<property column="MKUS" length="16" name="Mkus" not-null="false"
+			type="string" />
+	</class>
+</hibernate-mapping>

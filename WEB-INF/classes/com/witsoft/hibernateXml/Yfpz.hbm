@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Jun 01 16:15:27 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Yfpz" table="YFPZ">
+        <id name="id" column="ID" type="java.lang.Long">
+            <generator class="assigned"/>
+        </id>
+ 
+        <property name="rvdt" column="RVDT" type="java.lang.String" />
+        <property name="bpno" column="BPNO" type="java.lang.String" />
+        <property name="lcno" column="LCNO" type="java.lang.String" />
+        <property name="isdt" column="ISDT" type="java.lang.String" />
+        <property name="dudt" column="DUDT" type="java.lang.String" />
+        <property name="clnonm" column="CLNONM" type="java.lang.String" />
+        <property name="acno" column="ACNO" type="java.lang.String" />
+        <property name="clbk" column="CLBK" type="java.lang.String" />
+        <property name="dlam" column="DLAM" type="java.lang.String" />
+        <property name="dlambig" column="DLAMBIG" type="java.lang.String" />
+        <property name="dlamsub" column="DLAMSUB" type="java.lang.String" />
+        <property name="bpsc" column="BPSC" type="java.lang.String" />
+        <property name="bpin" column="BPIN" type="java.lang.String" />
+        <property name="bpinsub" column="BPINSUB" type="java.lang.String" />
+        <property name="paam" column="PAAM" type="java.lang.String" />
+        <property name="paamsub" column="PAAMSUB" type="java.lang.String" />
+        <property name="chief" column="CHIEF" type="java.lang.String" />
+        <property name="cred" column="CRED" type="java.lang.String" />
+        <property name="subj" column="SUBJ" type="java.lang.String" />
+        <property name="opsb" column="OPSB" type="java.lang.String" />
+        <property name="checker" column="CHECKER" type="java.lang.String" />
+        <property name="bkkp" column="BKKP" type="java.lang.String" />
+        <property name="trdt" column="TRDT" type="java.lang.String" />
+        <property name="remk" column="REMK" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+        <property name="field3" column="Field3" type="java.lang.String" />
+        <property name="field4" column="Field4" type="java.lang.String" />
+        <property name="brno" column="BRNO" type="java.lang.String" />
+        <property name="rfno" column="RFNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="prid" column="PRID" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

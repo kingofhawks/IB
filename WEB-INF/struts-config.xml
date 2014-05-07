@@ -1,0 +1,1901 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+    <data-sources />
+    <form-beans>
+        <form-bean name="userManageNewForm"
+            type="com.witsoft.struts.form.systemManage.popedomManage.UserManageNewForm" />
+        <form-bean name="userGroupManageNewForm"
+            type="com.witsoft.struts.form.systemManage.popedomManage.UserGroupManageNewForm" />
+        <form-bean name="userCommonForm"
+            type="com.witsoft.struts.form.systemManage.popedomManage.UserCommonForm" />
+        <form-bean name="roleManageForm"
+            type="com.witsoft.struts.form.systemManage.popedomManage.RoleManageForm" />
+        <form-bean name="frameworkTableForm"
+            type="com.witsoft.struts.form.systemManage.systemConfiguration.FrameworkTableForm" />
+        <form-bean name="userManageBindForm"
+            type="com.witsoft.struts.form.systemManage.popedomManage.UserManageBindForm" />
+        <form-bean name="clientInfoNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ClientInfoNewForm" />
+        <form-bean name="clientInfoDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ClientInfoDetailForm" />
+        <form-bean name="clientAccountNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ClientAccountNewForm" />
+        <form-bean name="clientAccountDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ClientAccountDetailForm" />
+        <form-bean name="bankListDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.BankListDetailForm" />
+        <form-bean name="bankListNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.BankListNewForm" />
+        <form-bean name="accountBankNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.AccountBankNewForm" />
+        <form-bean name="accountBankDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.AccountBankDetailForm" />
+        <form-bean name="agentBankNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.AgentBankNewForm" />
+        <form-bean name="agentBankDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.AgentBankDetailForm" />
+        <form-bean name="convertRateTableNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ConvertRateTableNewForm" />
+        <form-bean name="convertRateTableDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ConvertRateTableDetailForm" />
+        <form-bean name="exchangeBankNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ExchangeBankNewForm" />
+        <form-bean name="exchangeBankDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.ExchangeBankDetailForm" />
+        <form-bean name="feeRateNewForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.FeeRateNewForm" />
+        <form-bean name="feeRateDetailForm"
+            type="com.witsoft.struts.form.systemManage.systemTableManage.FeeRateDetailForm" />
+        <form-bean name="openNewForm"
+            type="com.witsoft.struts.form.importLC.LC.OpenNewForm" />
+        <form-bean name="modifyDetailForm"
+            type="com.witsoft.struts.form.importLC.LC.ModifyDetailForm" />
+        <form-bean name="declineModificationDetailForm"
+            type="com.witsoft.struts.form.importLC.LC.DeclineModificationDetailForm" />
+        <form-bean name="takeAwayLCDetailForm"
+            type="com.witsoft.struts.form.importLC.LC.TakeAwayLCDetailForm" />
+        <form-bean name="incomeLCInformNewForm"
+            type="com.witsoft.struts.form.exportLC.exportLC.IncomeLCInformNewForm" />
+        <form-bean name="incomeLCModificationInformDetailForm"
+            type="com.witsoft.struts.form.exportLC.exportLC.IncomeLCModificationInformDetailForm" />
+        <form-bean name="declineOrAcceptModificationDetailForm"
+            type="com.witsoft.struts.form.exportLC.exportLC.DeclineOrAcceptModificationDetailForm" />
+        <form-bean name="takeAwayLCRegisterDetailForm"
+            type="com.witsoft.struts.form.exportLC.exportLC.TakeAwayLCRegisterDetailForm" />
+        <form-bean name="annulDossierDetailForm"
+            type="com.witsoft.struts.form.exportLC.exportLC.AnnulDossierDetailForm" />
+        <form-bean name="annulingGuaranteeDetailForm"
+            type="com.witsoft.struts.form.importLC.GPBL.AnnulingGuaranteeDetailForm" />
+        <form-bean name="checkInDetailForm"
+            type="com.witsoft.struts.form.importLC.GPBL.CheckInDetailForm" />
+        <form-bean name="hastenAnnulingGuaranteeDetailForm"
+            type="com.witsoft.struts.form.importLC.GPBL.HastenAnnulingGuaranteeDetailForm" />
+        <form-bean name="invoiceCheckInDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.InvoiceCheckInDetailForm" />
+        <form-bean name="acceptRegisterDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.AcceptRegisterDetailForm" />
+        <form-bean name="freeDeliverBillDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.FreeDeliverBillDetailForm" />
+        <form-bean name="gatheringAnnulDossierDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.GatheringAnnulDossierDetailForm" />
+        <form-bean name="gatheringFundPaymentDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.GatheringFundPaymentDetailForm" />
+        <form-bean name="hastenCollectionDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.HastenCollectionDetailForm" />
+        <form-bean name="invoiceModifyDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.InvoiceModifyDetailForm" />
+        <form-bean name="modifyAcceptContentDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.ModifyAcceptContentDetailForm" />
+        <form-bean name="refuseAcceptRegisterDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.RefuseAcceptRegisterDetailForm" />
+        <form-bean name="takeAwayBillRegisterDetailForm"
+            type="com.witsoft.struts.form.negotiation.invoiceGathering.TakeAwayBillRegisterDetailForm" />
+        <form-bean name="changeAcceptMaturityDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ChangeAcceptMaturityDetailForm" />
+        <form-bean name="discrepancyIdentlfiedCheckInDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.DiscrepancyIdentlfiedCheckInDetailForm" />
+        <form-bean name="discrepancyIdentlfiedRefuseOrAcceptDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.DiscrepancyIdentlfiedRefuseOrAcceptDetailForm" />
+        <form-bean name="importBillAcceptDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillAcceptDetailForm" />
+        <form-bean name="importBillBarterBillDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillBarterBillDetailForm" />
+        <form-bean name="importBillCancelBillDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillCancelBillDetailForm" />
+        <form-bean name="importBillCheckInDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillCheckInDetailForm" />
+        <form-bean name="importBillPaymentDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillPaymentDetailForm" />
+        <form-bean name="importBillDischargeBillDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillDischargeBillDetailForm" />
+        <form-bean name="importBillRefusePaymentForm"
+            type="com.witsoft.struts.form.importLC.importBill.ImportBillRefusePaymentForm" />
+        <form-bean name="telegraphicAskForPaymentDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.TelegraphicAskForPaymentDetailForm" />
+        <form-bean name="volunteerSumitBillDetailForm"
+            type="com.witsoft.struts.form.importLC.importBill.VolunteerSumitBillDetailForm" />
+       <form-bean name="lcTrustAuthorizationForm"
+            type="com.witsoft.struts.form.inputDocuments.LcTrustAuthorizationForm" />
+        <form-bean name="importAgencyReceiptAcceptDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptAcceptDetailForm" />
+        <form-bean name="importAgencyReceiptAnnulDossierDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptAnnulDossierDetailForm" />
+        <form-bean name="importAgencyReceiptCancelBillDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptCancelBillDetailForm" />
+        <form-bean name="importAgencyReceiptCheckInDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptCheckInDetailForm" />
+        <form-bean name="importAgencyReceiptModifyDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptModifyDetailForm" />
+        <form-bean name="importAgencyReceiptPaymentDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptPaymentDetailForm" />
+        <form-bean name="importAgencyReceiptRefusePaymentDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptRefusePaymentDetailForm" />
+        <form-bean
+            name="importAgencyReceiptVolunteerSumitBillDetailForm"
+            type="com.witsoft.struts.form.importAgencyReceipt.ImportAgencyReceiptVolunteerSumitBillDetailForm" />
+        <form-bean name="outwardCollectionAcceptanceCheckInDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionAcceptanceCheckInDetailForm" />
+        <form-bean name="outwardCollectionAnnulDossierDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionAnnulDossierDetailForm" />
+        <form-bean name="outwardCollectionCheckInDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionCheckInDetailForm" />
+        <form-bean name="outwardCollectionDeclineBillCheckInDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionDeclineBillCheckInDetailForm" />
+        <form-bean
+            name="outwardCollectionGatheringFundPaymentDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionGatheringFundPaymentDetailForm" />
+        <form-bean name="outwardCollectionHastenCollectionDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionHastenCollectionDetailForm" />
+        <form-bean name="outwardCollectionModifyDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionModifyDetailForm" />
+        <form-bean
+            name="outwardCollectionRefusePaymentCheckInDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionRefusePaymentCheckInDetailForm" />
+        <form-bean name="outwardCollectionVolunteerSumitBillDetailForm"
+            type="com.witsoft.struts.form.outwardCollection.OutwardCollectionVolunteerSumitBillDetailForm" />
+        <form-bean name="cleanDraftAnnulDossierDetailForm"
+            type="com.witsoft.struts.form.cleanDraftCollection.CleanDraftAnnulDossierDetailForm" />
+        <form-bean name="cleanDraftBuyingBillDetailForm"
+            type="com.witsoft.struts.form.cleanDraftCollection.CleanDraftBuyingBillDetailForm" />
+        <form-bean name="cleanDraftCollectionCheckInDetailForm"
+            type="com.witsoft.struts.form.cleanDraftCollection.CleanDraftCollectionCheckInDetailForm" />
+        <form-bean
+            name="cleanDraftDeclineBillBeforeGatheringFundDetailForm"
+            type="com.witsoft.struts.form.cleanDraftCollection.CleanDraftDeclineBillBeforeGatheringFundDetailForm" />
+        <form-bean name="cleanDraftGatheringFundPaymentDetailForm"
+            type="com.witsoft.struts.form.cleanDraftCollection.CleanDraftGatheringFundPaymentDetailForm" />
+        <form-bean name="cleanDraftHastenCollectionDetailForm"
+            type="com.witsoft.struts.form.cleanDraftCollection.CleanDraftHastenCollectionDetailForm" />
+        <form-bean name="tradeFinanceExportPaymentDetailForm"
+            type="com.witsoft.struts.form.tradeFinance.TradeFinanceExportPaymentDetailForm" />
+        <form-bean name="tradeFinanceImportLCNegotiatDetailForm"
+            type="com.witsoft.struts.form.tradeFinance.TradeFinanceImportLCNegotiatDetailForm" />
+        <form-bean
+            name="tradeFinanceInwardDocumentaryBillsReturnDetailForm"
+            type="com.witsoft.struts.form.tradeFinance.TradeFinanceInwardDocumentaryBillsReturnDetailForm" />
+        <form-bean name="tradeFinanceOutwardCollectionLoanDetailForm"
+            type="com.witsoft.struts.form.tradeFinance.TradeFinanceOutwardCollectionLoanDetailForm" />
+        <form-bean name="tradeFinancePackMakeLoansDetailForm"
+            type="com.witsoft.struts.form.tradeFinance.TradeFinancePackMakeLoansDetailForm" />
+        <form-bean name="tradeFinanceReturnDetailForm"
+            type="com.witsoft.struts.form.tradeFinance.TradeFinanceReturnDetailForm" />
+        <form-bean name="lcAnnulDossierDetailForm"
+            type="com.witsoft.struts.form.importLC.LC.LcAnnulDossierDetailForm" />
+        <form-bean name="acceptingAndPaymentReportForm"
+            type="com.witsoft.struts.form.inputDocuments.AcceptingAndPaymentReportForm" />
+        <form-bean name="americanExpressCashLetterForm"
+            type="com.witsoft.struts.form.inputDocuments.AmericanExpressCashLetterForm" />
+        <form-bean name="telegramTextChooseForm"
+            type="com.witsoft.struts.form.telegramText.TelegramTextChooseForm" />
+        <form-bean name="selectGradeForm"
+            type="com.witsoft.struts.form.systemManage.grade.SelectGradeForm" />
+        <form-bean name="letterForm"
+            type="om.witsoft.struts.form.inputDocuments.LetterForm" />
+        <form-bean name="person"
+            type="com.witsoft.struts.form.systemManage.grade.PersonForm">
+        </form-bean>
+        <form-bean name="announcementForm"
+            type="com.witsoft.struts.form.systemManage.grade.AnnouncementForm">
+            </form-bean>
+      <form-bean name="popedomShowForm" type="com.witsoft.struts.form.systemManage.popedomManage.PopedomShowForm" />
+      <form-bean name="authorizationForm"
+            type="com.witsoft.struts.action.system.AuthorizationForm">
+            </form-bean>
+            
+      <form-bean name="sendGetCLRegisterForm" type="com.witsoft.lc.struts.form.outwardCollection.SendGetCLRegisterForm" /> 
+      <form-bean name="lcInformPayRegisterForm" type="com.witsoft.lc.struts.form.exportLC.LcInformPayRegisterForm" />
+      <form-bean name="lcPayEnCoSupplicationForm" type="com.witsoft.lc.struts.form.negotiation.invoiceGathering.LcPayEnCoSupplicationForm" />
+      <form-bean name="lcModifyInformForm" type="com.witsoft.lc.struts.form.importLC.importBill.LcModifyInformForm" />
+      <form-bean name="lcModifyForm" type="com.witsoft.lc.struts.form.importLC.lC.LcModifyForm" />
+      <form-bean name="openSupplicationForm" type="com.witsoft.lc.struts.form.importLC.lC.OpenSupplicationForm" />
+      <form-bean name="lcModifySupplicationForm" type="com.witsoft.lc.struts.form.importLC.lC.LcModifySupplicationForm" /> 
+
+    <form-bean name="outAnnulDossierDetailActionForm" type="com.witsoft.struts.form.remittance.outwardRemittance.OutAnnulDossierDetailActionForm" />
+    <form-bean name="hangAccountRelievePayActionForm" type="com.witsoft.struts.form.remittance.inwardRemittance.HangAccountRelievePayActionForm" />
+    <form-bean name="inwardRemittanceDetailActionForm" type="com.witsoft.struts.form.remittance.inwardRemittance.InwardRemittanceDetailActionForm" />
+    <form-bean name="returnRemittanceActionForm" type="com.witsoft.struts.form.remittance.inwardRemittance.ReturnRemittanceActionForm" />
+    <form-bean name="outwardRemittanceDetailActionForm" type="com.witsoft.struts.form.remittance.outwardRemittance.OutwardRemittanceDetailActionForm" />
+    <form-bean name="stopPaymentActionForm" type="com.witsoft.struts.form.remittance.outwardRemittance.StopPaymentActionForm" />
+    <form-bean name="annulDossierDetailActionForm" type="com.witsoft.struts.form.remittance.inwardRemittance.AnnulDossierDetailActionForm" />
+    
+    <form-bean name="caseDetailCleanDraftCollectionActionForm" type="com.witsoft.struts.form.cases.CaseDetailCleanDraftCollectionActionForm" />
+    <form-bean name="caseDetailCollectingBankActionForm" type="com.witsoft.struts.form.cases.CaseDetailCollectingBankActionForm" />
+    <form-bean name="caseDetailLCActionForm" type="com.witsoft.struts.form.cases.CaseDetailLCActionForm" />
+    <form-bean name="caseDetailNegotiatingBankActionForm" type="com.witsoft.struts.form.cases.CaseDetailNegotiatingBankActionForm" />
+    <form-bean name="caseDetailRemittanceActionForm" type="com.witsoft.struts.form.cases.CaseDetailRemittanceActionForm" />
+       
+    </form-beans>
+
+    <global-exceptions />
+    <global-forwards>
+        <forward name="index" path="/index.jsp" />
+        <forward name="userManage"
+            path="/userManage.do">
+        </forward>
+        <forward name="tele" path="/telegramTextManageAction.do" />
+            <forward name="letter" path="/letterManageAction.do" />
+        <forward name="userUgManage" path="/userUg.do"></forward>
+        <forward name="roleManage" path="/roleManage.do"></forward>
+		<forward name="error" path="/inc/error.jsp"></forward>
+    </global-forwards>
+    <action-mappings>
+        <action input="/systemManage/popedomManage/userManage.jsp"
+            name="userCommonForm" path="/userManage" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserManageAction">
+        </action>
+        <action input="/systemManage/popedomManage/userManageNew.jsp"
+            name="userManageNewForm" path="/userManageNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserManageNewAction">
+        </action>
+        <action input="/systemManage/popedomManage/userManageDetail.jsp"
+            name="userManageNewForm" path="/userManageDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserManageDetailAction">
+        </action>
+        <action path="/emusctpList"
+            type="com.witsoft.struts.action.systemManage.popedomManage.EmusctpListAction"
+            scope="request">
+            <forward name="add"
+                path="/systemManage/popedomManage/userManageNew.jsp" />
+            <forward name="view" path="/test/test.jsp" />
+            <forward name="delete" path="/test/test.jsp" />
+        </action>
+
+        <action name="userManageNewForm" path="/emusctpSubmit"
+            type="com.witsoft.struts.action.systemManage.popedomManage.EmusctpSubmitAction"
+            scope="request">
+            <forward name="add"
+                path="/systemManage/popedomManage/userManageNew.jsp" />
+        </action>
+
+        <action path="/emugctpList"
+            type="com.witsoft.struts.action.systemManage.popedomManage.EmugctpListAction" />
+        <action
+            input="/systemManage/popedomManage/userGroupManageNew.jsp"  scope="request"
+            path="/userUgNew" name="userGroupManageNewForm"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserUgNewAction" />
+        <action path="/tree"
+            type="com.witsoft.struts.action.system.TreeAction"
+            scope="request">
+            <forward name="tree" path="/menu/Path.jsp" />
+        </action>
+        <action attribute="roleManageForm"
+            input="/systemManage/popedomManage/roleManageDetail.jsp"
+            name="roleManageForm" path="/roleManageDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.RoleManageDetailAction">
+            <forward name="roleManageDetail"
+                path="/systemManage/popedomManage/roleManageDetail.jsp" />
+        </action>
+        <action attribute="roleManageForm"
+            input="/systemManage/popedomManage/roleManageNew.jsp"
+            name="roleManageForm" path="/roleManageNew" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.RoleManageNewAction">
+            <forward name="roleManageNew"
+                path="/systemManage/popedomManage/roleManageNew.jsp" />
+        </action>
+        <action attribute="userManageBindForm"
+            input="/systemManage/popedomManage/userManageBind.jsp"
+            name="userManageBindForm" path="/userManageBind"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserManageBindAction">
+            <forward name="userManageBind"
+                path="/systemManage/popedomManage/userManageBind.jsp" />
+        </action>
+        <action attribute="frameworkTableForm"
+            input="/systemManage/systemConfiguration/frameworkTableDetail.jsp"
+            name="frameworkTableForm" path="/frameworkTableDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemConfiguration.FrameworkTableDetailAction">
+            <forward name="frameworkTableDetail"
+                path="/systemManage/systemConfiguration/frameworkTableDetail.jsp" />
+        </action>
+        <action attribute="frameworkTableForm"
+            input="/systemManage/systemConfiguration/frameworkTableNew.jsp"
+            name="frameworkTableForm" path="/frameworkTableNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemConfiguration.FrameworkTableNewAction">
+            <forward name="frameworkTableNew"
+                path="/systemManage/systemConfiguration/frameworkTableNew.jsp" />
+        </action>
+
+        <!--客户资料 -->
+        <action attribute="clientInfoNewForm"
+            input="/systemManage/systemTableManage/clientInfoNew.jsp"
+            name="clientInfoNewForm" path="/clientInfoNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientInfoNewAction">
+            <forward name="list" path="/clientInfoAction.do" />
+        </action>
+
+        <action path="/clientInfoAction"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientInfoAction">
+            <forward name="list"
+                path="/systemManage/systemTableManage/clientInfo.jsp" />
+        </action>
+
+        <!--客户帐号 -->
+        <action attribute="clientAccountNewForm"
+            input="/systemManage/systemTableManage/clientAccountNew.jsp"
+            name="clientAccountNewForm" path="/clientAccountNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientAccountNewAction">
+            <forward name="list" path="/clientAccountAction.do" />
+        </action>
+
+        <action path="/clientAccountAction"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientAccountAction">
+            <forward name="list"
+                path="/systemManage/systemTableManage/clientAccount.jsp" />
+        </action>
+
+
+        <action attribute="clientInfoDetailForm"
+            input="/systemManage/systemTableManage/clientInfoDetail.jsp"
+            name="clientInfoDetailForm" path="/clientInfoDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientInfoDetailAction" />
+
+        <action attribute="clientAccountDetailForm"
+            input="/systemManage/systemTableManage/clientAccountDetail.jsp"
+            name="clientAccountDetailForm" path="/clientAccountDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientAccountDetailAction" />
+        <action attribute="bankListDetailForm"
+            input="/systemManage/systemTableManage/bankListDetail.jsp"
+            name="bankListDetailForm" path="/bankListDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.BankListDetailAction" />
+
+        <!--银行列表 -->
+        <action attribute="bankListNewForm"
+            input="/systemManage/systemTableManage/bankListNew.jsp"
+            name="bankListNewForm" path="/bankListNew" scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.BankListNewAction">
+            <forward name="list" path="/bankListActon.do" />
+        </action>
+        <action path="/bankListActon"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.BankListAction">
+            <forward name="list"
+                path="/systemManage/systemTableManage/bankList.jsp" />
+        </action>
+
+        <!--科目表列表 -->
+        <action path="/subjectAction"
+            type="com.witsoft.struts.action.systemManage.systemConfiguration.SubjectAction">
+            <forward name="list"
+                path="/systemManage/systemConfiguration/subject.jsp" />
+        </action>
+
+        <action attribute="accountBankNewForm"
+            input="/systemManage/systemTableManage/accountBankNew.jsp"
+            name="accountBankNewForm" path="/accountBankNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.AccountBankNewAction" />
+        <action attribute="accountBankDetailForm"
+            input="/systemManage/systemTableManage/accountBankDetail.jsp"
+            name="accountBankDetailForm" path="/accountBankDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.AccountBankDetailAction" />
+        <action attribute="agentBankNewForm"
+            input="/systemManage/systemTableManage/agentBankNew.jsp"
+            name="agentBankNewForm" path="/agentBankNew" scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.AgentBankNewAction" />
+        <action attribute="agentBankDetailForm"
+            input="/systemManage/systemTableManage/agentBankDetail.jsp"
+            name="agentBankDetailForm" path="/agentBankDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.AgentBankDetailAction" />
+        <action attribute="convertRateTableNewForm"
+            input="/systemManage/systemTableManage/convertRateTableNew.jsp"
+            name="convertRateTableNewForm" path="/convertRateTableNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ConvertRateTableNewAction" />
+        <action attribute="convertRateTableDetailForm"
+            input="/systemManage/systemTableManage/convertRateTableDetail.jsp"
+            name="convertRateTableDetailForm"
+            path="/convertRateTableDetail" scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ConvertRateTableDetailAction" />
+        <action attribute="exchangeBankNewForm"
+            input="/systemManage/systemTableManage/exchangeBankNew.jsp"
+            name="exchangeBankNewForm" path="/exchangeBankNew"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ExchangeBankNewAction" />
+        <action attribute="exchangeBankDetailForm"
+            input="/systemManage/systemTableManage/exchangeBankDetail.jsp"
+            name="exchangeBankDetailForm" path="/exchangeBankDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ExchangeBankDetailAction" />
+        <action attribute="feeRateNewForm"
+            input="/systemManage/systemTableManage/feeRateNew.jsp"
+            name="feeRateNewForm" path="/feeRateNew" scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.FeeRateNewAction" />
+        <action attribute="convertRateTableDetailForm"
+            input="/systemManage/systemTableManage/convertRateTableDetail.jsp"
+            name="convertRateTableDetailForm"
+            path="/convertRateTableDetailAction" scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ConvertRateTableDetailAction" />
+        <action attribute="feeRateDetailForm"
+            input="/systemManage/systemTableManage/feeRateDetail.jsp"
+            name="feeRateDetailForm" path="/feeRateDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.FeeRateDetailAction" />
+        <action input="/systemManage/popedomManage/userGroupManage.jsp"
+            name="userCommonForm" path="/userUg" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserUgAction" />
+        <action
+            input="/systemManage/popedomManage/userGroupManageDetail.jsp"
+            name="userGroupManageNewForm" path="/userUgDetail"
+            scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.UserUgDetailAction" />
+
+        <action input="/systemManage/popedomManage/roleManage.jsp"
+            name="userCommonForm" path="/roleManage" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.RoleManageAction" />
+        <action input="/systemManage/popedomManage/roleManageNew.jsp"
+            name="roleManageForm" path="/roleNew" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.RoleNewAction" />
+        <action input="/systemManage/popedomManage/roleManageDetail.jsp"
+            name="roleManageForm" path="/roleDetail" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.roleDetailAction" />
+
+        <!--进口信用证 信用证 -->
+        <!--
+            操作名：信用证开立
+            prid:LCOP
+        -->
+        <action attribute="openNewForm" input="/importLC/LC/openNew.jsp"
+            name="openNewForm" path="/LCOP" scope="request"
+            type="com.witsoft.struts.action.importLC.LC.OpenNewAction">
+            <forward name="manage" path="/lcManageAction.do" />
+        </action>
+        <!--
+            操作名：信用证修改
+            prid:LCUP
+        -->
+        <action attribute="modifyDetailForm"
+            input="/importLC/LC/modifyDetail.jsp"
+            name="modifyDetailForm" path="/LCUP" scope="request"
+            type="com.witsoft.struts.action.importLC.LC.ModifyDetailAction">
+            <forward name="manage" path="/lcManageAction.do" />
+        </action>
+        <!--
+            操作名：信用证拒绝修改
+            prid:LCUK
+        -->
+        <action attribute="declineModificationDetailForm"
+            input="/importLC/LC/declineModificationDetail.jsp"
+            name="declineModificationDetailForm" path="/LCUK"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.LC.DeclineModificationDetailAction">
+           <forward name="manage" path="/lcManageAction.do" />
+        </action>
+        <!--
+            操作名：信用证撤证
+            prid:LCCN
+        -->
+        <action attribute="takeAwayLCDetailForm"
+            input="/importLC/LC/takeAwayLCDetail.jsp"
+            name="takeAwayLCDetailForm" path="/LCCN" scope="request"
+            type="com.witsoft.struts.action.importLC.LC.TakeAwayLCDetailAction">
+            <forward name="manage" path="/lcManageAction.do" />
+        </action>
+        <!--
+            操作名：信用证销卷
+            prid:LCCL
+        -->
+
+        <action attribute="lcAnnulDossierDetailForm"
+            input="/importLC/LC/annulDossierDetail.jsp"
+            name="lcAnnulDossierDetailForm" path="/LCCL" scope="request"
+            type="com.witsoft.struts.action.importLC.LC.LcAnnulDossierDetailAction">
+            <forward name="manage" path="/lcManageAction.do" />
+        </action>
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/lcManageAction" scope="request"
+            type="com.witsoft.struts.action.importLC.LC.LcManageAction">
+            <forward name="LCCL"
+                path="/importLC/LC/annulDossierDetailList.jsp" />
+            <forward name="LCOP" path="/importLC/LC/openNewList.jsp" />
+            <forward name="LCUP"
+                path="/importLC/LC/modifyDetailList.jsp" />
+            <forward name="LCUK"
+                path="/importLC/LC/declineModificationDetailList.jsp" />
+            <forward name="LCCN"
+                path="/importLC/LC/takeAwayLCDetailList.jsp" />
+        </action>
+
+        <!-- 出口来证及议付 出口信用证 -->
+
+        <!--
+            操作名：来证通知/登记
+            prid:ELAD
+        -->
+        <action attribute="incomeLCInformNewForm"
+            input="/exportLC/exportLC/incomeLCInformNew.jsp"
+            name="incomeLCInformNewForm" path="/ELAD" scope="request"
+            type="com.witsoft.struts.action.exportLC.exportLC.IncomeLCInformNewAction">
+            <forward name="manage" path="/exportLCManageAction.do" />
+        </action>
+        <!--
+            操作名：来证修改通知
+            prid:ELUP
+        -->
+        <action attribute="incomeLCModificationInformDetailForm"
+            input="/exportLC/exportLC/incomeLCModificationInformDetail.jsp"
+            name="incomeLCModificationInformDetailForm" path="/ELUP"
+            scope="request"
+            type="com.witsoft.struts.action.exportLC.exportLC.IncomeLCModificationInformDetailAction">
+            <forward name="manage" path="/exportLCManageAction.do" />
+        </action>
+        <!--
+            操作名：拒绝/接受修改
+            prid:ELUK
+        -->
+        <action attribute="declineOrAcceptModificationDetailForm"
+            input="/exportLC/exportLC/declineOrAcceptModificationDetail.jsp"
+            name="declineOrAcceptModificationDetailForm" path="/ELUK"
+            scope="request"
+            type="com.witsoft.struts.action.exportLC.exportLC.DeclineOrAcceptModificationDetailAction">
+            <forward name="manage" path="/exportLCManageAction.do" />
+        </action>
+        <!--
+            操作名：撤证登记
+            prid:ELCN
+        -->
+        <action attribute="takeAwayLCRegisterDetailForm"
+            input="/exportLC/exportLC/takeAwayLCRegisterDetail.jsp"
+            name="takeAwayLCRegisterDetailForm" path="/ELCN"
+            scope="request"
+            type="com.witsoft.struts.action.exportLC.exportLC.TakeAwayLCRegisterDetailAction">
+            <forward name="manage" path="/exportLCManageAction.do" />
+        </action>
+        <!--
+            操作名：销卷
+            prid:ELCL
+        -->
+        <action attribute="annulDossierDetailForm"
+            input="/exportLC/exportLC/annulDossierDetail.jsp"
+            name="annulDossierDetailForm" path="/ELCL" scope="request"
+            type="com.witsoft.struts.action.exportLC.exportLC.AnnulDossierDetailAction">
+            <forward name="manage" path="/exportLCManageAction.do" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/exportLCManageAction" scope="request"
+            type="com.witsoft.struts.action.exportLC.exportLC.ExportLCManageAction">
+            <forward name="ELAD"
+                path="/exportLC/exportLC/incomeLCInformNewList.jsp" />
+            <forward name="ELUP"
+                path="/exportLC/exportLC/incomeLCModificationInformDetailList.jsp" />
+            <forward name="ELUK"
+                path="/exportLC/exportLC/declineOrAcceptModificationDetailList.jsp" />
+            <forward name="ELCN"
+                path="/exportLC/exportLC/takeAwayLCRegisterDetailList.jsp" />
+            <forward name="ELCL"
+                path="/exportLC/exportLC/annulDossierDetailList.jsp" />
+        </action>
+
+
+
+        <!--              进口信用证提货担保                              -->
+
+
+
+        <!--
+            操作名：销保
+            prid:SGCL
+        -->
+        <action attribute="annulingGuaranteeDetailForm"
+            input="/importLC/GPBL/annulingGuaranteeDetail.jsp"
+            name="annulingGuaranteeDetailForm" path="/SGCL"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.GPBL.AnnulingGuaranteeDetailAction">
+            <forward name="manage" path="/gpblManageAction.do" />
+        </action>
+        <!--
+            操作名：登记
+            prid:SGRG
+        -->
+        <action attribute="checkInDetailForm"
+            input="/importLC/GPBL/checkInDetail.jsp"
+            name="checkInDetailForm" path="/SGRG" scope="request"
+            type="com.witsoft.struts.action.importLC.GPBL.CheckInDetailAction">
+            <forward name="manage" path="/gpblManageAction.do" />
+        </action>
+
+        <!--
+            操作名：催销保
+            prid:SGTR
+        -->
+        <action attribute="hastenAnnulingGuaranteeDetailForm"
+            input="/importLC/GPBL/hastenAnnulingGuaranteeDetail.jsp"
+            name="hastenAnnulingGuaranteeDetailForm" path="/SGTR"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.GPBL.HastenAnnulingGuaranteeDetailAction">
+            <forward name="manage" path="/gpblManageAction.do" />
+        </action>
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/gpblManageAction" scope="request"
+            type="com.witsoft.struts.action.importLC.GPBL.GpblManageAction">
+            <forward name="SGTR"
+                path="/importLC/GPBL/annulingGuaranteeDetailList.jsp" />
+            <forward name="SGRG"
+                path="/importLC/GPBL/checkInDetailList.jsp" />
+            <forward name="SGCL"
+                path="/importLC/GPBL/hastenAnnulingGuaranteeDetailList.jsp" />
+        </action>
+
+
+        <!--   出口来证及议付 出口寄单收汇             -->
+        <!--
+            操作名：出口寄单登记
+            prid:EBRG
+        -->
+        <action attribute="invoiceCheckInDetailForm"
+            input="/negotiation/invoiceGathering/invoiceCheckInDetail.jsp"
+            name="invoiceCheckInDetailForm" path="/EBRG" scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.InvoiceCheckInDetailAction">
+            <forward name="new" path="/negotiation/invoiceGathering/invoiceCheckInDetailNew.jsp" />
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：承兑登记
+            prid:EBAC
+        -->
+
+        <action attribute="acceptRegisterDetailForm"
+            input="/negotiation/invoiceGathering/acceptRegisterDetail.jsp"
+            name="acceptRegisterDetailForm" path="/EBAC" scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.AcceptRegisterDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：无偿交单
+            prid:EBNP
+        -->
+        <action attribute="freeDeliverBillDetailForm"
+            input="/negotiation/invoiceGathering/freeDeliverBillDetail.jsp"
+            name="freeDeliverBillDetailForm" path="/EBNP"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.FreeDeliverBillDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：销卷
+            prid:EBCL
+        -->
+        <action attribute="gatheringAnnulDossierDetailForm"
+            input="/negotiation/invoiceGathering/gatheringAnnulDossierDetail.jsp"
+            name="gatheringAnnulDossierDetailForm" path="/EBCL"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.GatheringAnnulDossierDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：催收货款
+            prid:EBTR
+        -->
+        <action attribute="hastenCollectionDetailForm"
+            input="/negotiation/invoiceGathering/hastenCollectionDetail.jsp"
+            name="hastenCollectionDetailForm" path="/EBTR"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.HastenCollectionDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：出口寄单修改
+            prid:EBUP
+        -->
+        <action attribute="invoiceModifyDetailForm"
+            input="/negotiation/invoiceGathering/invoiceModifyDetail.jsp"
+            name="invoiceModifyDetailForm" path="/EBUP" scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.InvoiceModifyDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：收汇解付
+            prid:EBPY
+        -->
+        <action attribute="gatheringFundPaymentDetailForm"
+            input="/negotiation/invoiceGathering/gatheringFundPaymentDetail.jsp"
+            name="gatheringFundPaymentDetailForm" path="/EBPY"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.GatheringFundPaymentDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：修改承兑内容
+            prid:EBUM
+        -->
+        <action attribute="modifyAcceptContentDetailForm"
+            input="/negotiation/invoiceGathering/modifyAcceptContentDetail.jsp"
+            name="modifyAcceptContentDetailForm" path="/EBUM"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.ModifyAcceptContentDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：拒承兑/付款登记
+            prid:EBRJ
+        -->
+        <action attribute="refuseAcceptRegisterDetailForm"
+            input="/negotiation/invoiceGathering/refuseAcceptRegisterDetail.jsp"
+            name="refuseAcceptRegisterDetailForm" path="/EBRJ"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.RefuseAcceptRegisterDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+        <!--
+            操作名：退单登记
+            prid:EBRT
+        -->
+        <action attribute="takeAwayBillRegisterDetailForm"
+            input="/negotiation/invoiceGathering/takeAwayBillRegisterDetail.jsp"
+            name="takeAwayBillRegisterDetailForm" path="/EBRT"
+            scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.TakeAwayBillRegisterDetailAction">
+            <forward name="manage" path="/invoiceGatheringManageAction.do" />
+        </action>
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/invoiceGatheringManageAction" scope="request"
+            type="com.witsoft.struts.action.negotiation.invoiceGathering.InvoiceGatheringManageAction">
+
+            <forward name="EBAC"
+                path="/negotiation/invoiceGathering/acceptRegisterDetailList.jsp" />
+            <forward name="EBNP"
+                path="/negotiation/invoiceGathering/freeDeliverBillDetailList.jsp" />
+            <forward name="EBCL"
+                path="/negotiation/invoiceGathering/gatheringAnnulDossierDetailList.jsp" />
+            <forward name="EBPY"
+                path="/negotiation/invoiceGathering/gatheringFundPaymentDetailList.jsp" />
+            <forward name="EBTR"
+                path="/negotiation/invoiceGathering/hastenCollectionDetailList.jsp" />
+            <forward name="EBRG"
+                path="/negotiation/invoiceGathering/invoiceCheckInDetailList.jsp" />
+            <forward name="EBUP"
+                path="/negotiation/invoiceGathering/invoiceModifyDetailList.jsp" />
+            <forward name="EBUM"
+                path="/negotiation/invoiceGathering/modifyAcceptContentDetailList.jsp" />
+            <forward name="EBRJ"
+                path="/negotiation/invoiceGathering/refuseAcceptRegisterDetailList.jsp" />
+            <forward name="EBRT"
+                path="/negotiation/invoiceGathering/takeAwayBillRegisterDetailList.jsp" />
+        </action>
+
+        <!-- 进口信用证  进口来单 -->
+
+
+        <!--
+            操作名：更改承兑到期日
+            prid:IBUM
+        -->
+        <action attribute="changeAcceptMaturityDetailForm"
+            input="/importLC/importBill/changeAcceptMaturityDetail.jsp"
+            name="changeAcceptMaturityDetailForm" path="/IBUM"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ChangeAcceptMaturityDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：电提不符点登记
+            prid:IBDR
+        -->
+        <action attribute="discrepancyIdentlfiedCheckInDetailForm"
+            input="/importLC/importBill/discrepancyIdentlfiedCheckInDetail.jsp"
+            name="discrepancyIdentlfiedCheckInDetailForm" path="/IBDR"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.DiscrepancyIdentlfiedCheckInDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：电提不符点接受/拒绝
+            prid:IBDK
+        -->
+        <action
+            attribute="discrepancyIdentlfiedRefuseOrAcceptDetailForm"
+            input="/importLC/importBill/discrepancyIdentlfiedRefuseOrAcceptDetail.jsp"
+            name="discrepancyIdentlfiedRefuseOrAcceptDetailForm"
+            path="/IBDK" scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.DiscrepancyIdentlfiedRefuseOrAcceptDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+          </action>
+        <!--
+            操作名：承兑
+            prid:IBAC
+        -->
+        <action attribute="importBillAcceptDetailForm"
+            input="/importLC/importBill/importBillAcceptDetail.jsp"
+            name="importBillAcceptDetailForm" path="/IBAC"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillAcceptDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：换单
+            prid:IBUB
+        -->
+        <action attribute="importBillBarterBillDetailForm"
+            input="/importLC/importBill/importBillBarterBillDetail.jsp"
+            name="importBillBarterBillDetailForm" path="/IBUB"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillBarterBillDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：退单
+            prid:IBRT
+        -->
+        <action attribute="importBillCancelBillDetailForm"
+            input="/importLC/importBill/importBillCancelBillDetail.jsp"
+            name="importBillCancelBillDetailForm" path="/IBRT"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillCancelBillDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：来单登记
+            prid:IBRG
+        -->
+        <action attribute="importBillCheckInDetailForm"
+            input="/importLC/importBill/importBillCheckInDetail.jsp"
+            name="importBillCheckInDetailForm" path="/IBRG"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillCheckInDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：付款
+            prid:IBPY
+        -->
+        <action attribute="importBillPaymentDetailForm"
+            input="/importLC/importBill/importBillPaymentDetail.jsp"
+            name="importBillPaymentDetailForm" path="/IBPY"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillPaymentDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：放单
+            prid:IBRB
+        -->
+        <action attribute="importBillDischargeBillDetailForm"
+            input="/importLC/importBill/importBillDischargeBillDetail.jsp"
+            name="importBillDischargeBillDetailForm" path="/IBRB"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillDischargeBillDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：拒承/付款
+            prid:IBRJ
+        -->
+        <action attribute="importBillRefusePaymentForm"
+            input="/importLC/importBill/importBillRefusePayment.jsp"
+            name="importBillRefusePaymentForm" path="/IBRJ"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillRefusePaymentAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：电索付款
+            prid:IBPP
+        -->
+        <action attribute="telegraphicAskForPaymentDetailForm"
+            input="/importLC/importBill/telegraphicAskForPaymentDetail.jsp"
+            name="telegraphicAskForPaymentDetailForm" path="/IBPP"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.TelegraphicAskForPaymentDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：无偿交单
+            prid:IBNP
+        -->
+        <action attribute="volunteerSumitBillDetailForm"
+            input="/importLC/importBill/volunteerSumitBillDetail.jsp"
+            name="volunteerSumitBillDetailForm" path="/IBNP"
+            scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.VolunteerSumitBillDetailAction">
+            <forward name="manage" path="/importBillManageAction.do" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/importBillManageAction" scope="request"
+            type="com.witsoft.struts.action.importLC.importBill.ImportBillManageAction">
+            <forward name="IBUM"
+                path="/importLC/importBill/changeAcceptMaturityDetailList.jsp" />
+            <forward name="IBDR"
+                path="/importLC/importBill/discrepancyIdentlfiedCheckInDetailList.jsp" />
+            <forward name="IBDK"
+                path="/importLC/importBill/discrepancyIdentlfiedRefuseOrAcceptDetailList.jsp" />
+            <forward name="IBAC"
+                path="/importLC/importBill/importBillAcceptDetailList.jsp" />
+            <forward name="IBUB"
+                path="/importLC/importBill/importBillBarterBillDetailList.jsp" />
+            <forward name="IBRT"
+                path="/importLC/importBill/importBillCancelBillDetailList.jsp" />
+            <forward name="IBRG"
+                path="/importLC/importBill/importBillCheckInDetailList.jsp" />
+            <forward name="IBRB"
+                path="/importLC/importBill/importBillDischargeBillDetailList.jsp" />
+            <forward name="IBPY"
+                path="/importLC/importBill/importBillPaymentDetailList.jsp" />
+            <forward name="IBRJ"
+                path="/importLC/importBill/importBillRefusePaymentList.jsp" />
+            <forward name="IBPP"
+                path="/importLC/importBill/telegraphicAskForPaymentDetailList.jsp" />
+            <forward name="IBNP"
+                path="/importLC/importBill/volunteerSumitBillDetailList.jsp" />
+        </action>
+
+
+
+        <!-- 进口代收-->
+
+        <!--
+            操作名：承兑
+            prid:ICAC
+        -->
+        <action attribute="importAgencyReceiptAcceptDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptAcceptDetail.jsp"
+            name="importAgencyReceiptAcceptDetailForm" path="/ICAC"
+            scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptAcceptDetailAction">
+            <forward name="manage"
+                path="/importAgencyReceiptManageAction.do" />
+        </action>
+        <!--
+            操作名：销卷
+            prid:ICCL
+        -->
+
+        <action attribute="importAgencyReceiptAnnulDossierDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptAnnulDossierDetail.jsp"
+            name="importAgencyReceiptAnnulDossierDetailForm"
+            path="/ICCL" scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptAnnulDossierDetailAction">
+            <forward name="manage"
+                path="/importAgencyReceiptManageAction.do" />
+        </action>
+        <!--
+            操作名：退单
+            prid:ICRT
+        -->
+        <action attribute="importAgencyReceiptCancelBillDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptCancelBillDetail.jsp"
+            name="importAgencyReceiptCancelBillDetailForm" path="/ICRT"
+            scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptCancelBillDetailAction">
+            <forward name="manage" path="/importAgencyReceiptManageAction.do" />
+        </action>
+        <!--
+            操作名：进口代收登记
+            prid:ICRG
+        -->
+        <action attribute="importAgencyReceiptCheckInDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptCheckInDetail.jsp"
+            name="importAgencyReceiptCheckInDetailForm" path="/ICRG"
+            scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptCheckInDetailAction">
+            <forward name="manage" path="/importAgencyReceiptManageAction.do" />
+
+        </action>
+        <!--
+            操作名：进口代收修改
+            prid:ICCG
+        -->
+        <action attribute="importAgencyReceiptModifyDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptModifyDetail.jsp"
+            name="importAgencyReceiptModifyDetailForm" path="/ICCG"
+            scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptModifyDetailAction">
+            <forward name="manage" path="/importAgencyReceiptManageAction.do" />
+        </action>
+        <!--
+            操作名：付款
+            prid:ICPY
+        -->
+        <action attribute="importAgencyReceiptPaymentDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptPaymentDetail.jsp"
+            name="importAgencyReceiptPaymentDetailForm" path="/ICPY"
+            scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptPaymentDetailAction">
+            <forward name="manage" path="/importAgencyReceiptManageAction.do" />
+        </action>
+        <!--
+            操作名：拒付
+            prid:ICRJ
+        -->
+
+        <action attribute="importAgencyReceiptRefusePaymentDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptRefusePaymentDetail.jsp"
+            name="importAgencyReceiptRefusePaymentDetailForm"
+            path="/ICRJ" scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptRefusePaymentDetailAction">
+            <forward name="manage" path="/importAgencyReceiptManageAction.do" />
+         </action>
+        <!--
+            操作名：无偿交单
+            prid:ICNP
+        -->
+
+        <action
+            attribute="importAgencyReceiptVolunteerSumitBillDetailForm"
+            input="/importAgencyReceipt/importAgencyReceiptVolunteerSumitBillDetail.jsp"
+            name="importAgencyReceiptVolunteerSumitBillDetailForm"
+            path="/ICNP" scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptVolunteerSumitBillDetailAction">
+            <forward name="manage" path="/importAgencyReceiptManageAction.do" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <!-- 出口托收 -->
+
+        <!--
+            操作名：承兑登记
+            prid:OCAC
+        -->
+        <action attribute="outwardCollectionAcceptanceCheckInDetailForm"
+            input="/outwardCollection/outwardCollectionAcceptanceCheckInDetail.jsp"
+            name="outwardCollectionAcceptanceCheckInDetailForm"
+            path="/OCAC" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionAcceptanceCheckInDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：销卷
+            prid:OCCL
+        -->
+
+        <action attribute="outwardCollectionAnnulDossierDetailForm"
+            input="/outwardCollection/outwardCollectionAnnulDossierDetail.jsp"
+            name="outwardCollectionAnnulDossierDetailForm" path="/OCCL"
+            scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionAnnulDossierDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：出口托收登记
+            prid:OCRG
+        -->
+
+        <action attribute="outwardCollectionCheckInDetailForm"
+            input="/outwardCollection/outwardCollectionCheckInDetail.jsp"
+            name="outwardCollectionCheckInDetailForm" path="/OCRG"
+            scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionCheckInDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+
+        </action>
+        <!--
+            操作名：退单登记
+            prid:OCRT
+        -->
+
+        <action
+            attribute="outwardCollectionDeclineBillCheckInDetailForm"
+            input="/outwardCollection/outwardCollectionDeclineBillCheckInDetail.jsp"
+            name="outwardCollectionDeclineBillCheckInDetailForm"
+            path="/OCRT" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionDeclineBillCheckInDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+         </action>
+        <!--
+            操作名：收汇及解付
+            prid:OCPY
+        -->
+
+        <action
+            attribute="outwardCollectionGatheringFundPaymentDetailForm"
+            input="/outwardCollection/outwardCollectionGatheringFundPaymentDetail.jsp"
+            name="outwardCollectionGatheringFundPaymentDetailForm"
+            path="/OCPY" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionGatheringFundPaymentDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+         </action>
+        <!--
+            操作名：催收货款
+            prid:OCTR
+        -->
+
+        <action attribute="outwardCollectionHastenCollectionDetailForm"
+            input="/outwardCollection/outwardCollectionHastenCollectionDetail.jsp"
+            name="outwardCollectionHastenCollectionDetailForm"
+            path="/OCTR" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionHastenCollectionDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：出口托收修改
+            prid:OCUP
+        -->
+
+        <action attribute="outwardCollectionModifyDetailForm"
+            input="/outwardCollection/outwardCollectionModifyDetail.jsp"
+            name="outwardCollectionModifyDetailForm" path="/OCUP"
+            scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionModifyDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+
+        </action>
+        <!--
+            操作名：拒承兑/付款登记
+            prid:OCRJ
+        -->
+
+        <action
+            attribute="outwardCollectionRefusePaymentCheckInDetailForm"
+            input="/outwardCollection/outwardCollectionRefusePaymentCheckInDetail.jsp"
+            name="outwardCollectionRefusePaymentCheckInDetailForm"
+            path="/OCRJ" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionRefusePaymentCheckInDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：无偿交单
+            prid:OCNP
+        -->
+
+        <action
+            attribute="outwardCollectionVolunteerSumitBillDetailForm"
+            input="/outwardCollection/outwardCollectionVolunteerSumitBillDetail.jsp"
+            name="outwardCollectionVolunteerSumitBillDetailForm"
+            path="/OCNP" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionVolunteerSumitBillDetailAction">
+            <forward name="manage" path="/outwardCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/outwardCollectionManageAction" scope="request"
+            type="com.witsoft.struts.action.outwardCollection.OutwardCollectionManageAction">
+            <forward name="OCRG"
+                path="/outwardCollection/outwardCollectionCheckInDetailList.jsp" />
+            <forward name="OCAC"
+                path="/outwardCollection/outwardCollectionAcceptanceCheckInDetailList.jsp" />
+            <forward name="OCCL"
+                path="/outwardCollection/outwardCollectionAnnulDossierDetailList.jsp" />
+            <forward name="OCRT"
+                path="/outwardCollection/outwardCollectionDeclineBillCheckInDetailList.jsp" />
+            <forward name="OCPY"
+                path="/outwardCollection/outwardCollectionGatheringFundPaymentDetailList.jsp" />
+            <forward name="OCTR"
+                path="/outwardCollection/outwardCollectionHastenCollectionDetailList.jsp" />
+            <forward name="OCUP"
+                path="/outwardCollection/outwardCollectionModifyDetailList.jsp" />
+            <forward name="OCRJ"
+                path="/outwardCollection/outwardCollectionRefusePaymentCheckInDetailList.jsp" />
+            <forward name="OCNP"
+                path="/outwardCollection/outwardCollectionVolunteerSumitBillDetailList.jsp" />
+        </action>
+
+        <!--光票托收 -->
+
+
+        <!--
+            操作名：销卷
+            prid:CCCL
+        -->
+
+        <action attribute="cleanDraftAnnulDossierDetailForm"
+            input="/cleanDraftCollection/cleanDraftAnnulDossierDetail.jsp"
+            name="cleanDraftAnnulDossierDetailForm" path="/CCCL"
+            scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftAnnulDossierDetailAction">
+            <forward name="manage" path="/cleanDraftCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：买入票据
+            prid:CCPD
+        -->
+
+        <action attribute="cleanDraftBuyingBillDetailForm"
+            input="/cleanDraftCollection/cleanDraftBuyingBillDetail.jsp"
+            name="cleanDraftBuyingBillDetailForm" path="/CCPD"
+            scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftBuyingBillDetailAction">
+            <forward name="manage" path="/cleanDraftCCPDManageAction.do" />
+        </action>
+        <!--
+            操作名：托收登记
+            prid:CCRG
+        -->
+
+        <action attribute="cleanDraftCollectionCheckInDetailForm"
+            input="/cleanDraftCollection/cleanDraftCollectionCheckInDetail.jsp"
+            name="cleanDraftCollectionCheckInDetailForm" path="/CCRG"
+            scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftCollectionCheckInDetailAction">
+            <forward name="manage" path="/cleanDraftCollectionManageAction.do" />
+         </action>
+        <!--
+            操作名：收汇前退票
+            prid:CCRT
+        -->
+
+        <action
+            attribute="cleanDraftDeclineBillBeforeGatheringFundDetailForm"
+            input="/cleanDraftCollection/cleanDraftDeclineBillBeforeGatheringFundDetail.jsp"
+            name="cleanDraftDeclineBillBeforeGatheringFundDetailForm"
+            path="/CCRT" scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftDeclineBillBeforeGatheringFundDetailAction">
+            <forward name="manage" path="/cleanDraftCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：收汇及解付
+            prid:CCPY
+        -->
+
+        <action attribute="cleanDraftGatheringFundPaymentDetailForm"
+            input="/cleanDraftCollection/cleanDraftGatheringFundPaymentDetail.jsp"
+            name="cleanDraftGatheringFundPaymentDetailForm" path="/CCPY"
+            scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftGatheringFundPaymentDetailAction">
+            <forward name="manage" path="/cleanDraftCollectionManageAction.do" />
+        </action>
+        <!--
+            操作名：催收
+            prid:CCTR
+        -->
+        <action attribute="cleanDraftHastenCollectionDetailForm"
+            input="/cleanDraftCollection/cleanDraftHastenCollectionDetail.jsp"
+            name="cleanDraftHastenCollectionDetailForm" path="/CCTR"
+            scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftHastenCollectionDetailAction">
+            <forward name="manage" path="/cleanDraftCollectionManageAction.do" />
+
+        </action>
+  
+       <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/cleanDraftCollectionManageAction" scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftCollectionManageAction">
+            <forward name="CCRG"
+                path="/cleanDraftCollection/cleanDraftCollectionCheckInDetailList.jsp" />
+            <forward name="CCTR"
+                path="/cleanDraftCollection/cleanDraftHastenCollectionDetailList.jsp" />
+            <forward name="CCPY"
+                path="/cleanDraftCollection/cleanDraftGatheringFundPaymentDetailList.jsp" />
+            <forward name="CCRT"
+                path="/cleanDraftCollection/cleanDraftDeclineBillBeforeGatheringFundDetailList.jsp" />
+            <forward name="CCCL"
+                path="/cleanDraftCollection/cleanDraftAnnulDossierDetailList.jsp" />
+        </action>
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/cleanDraftCCPDManageAction" scope="request"
+            type="com.witsoft.struts.action.cleanDraftCollection.CleanDraftCCPDManageAction">
+            <forward name="CCPD"
+                path="/cleanDraftCollection/cleanDraftBuyingBillDetailList.jsp" />
+        </action>
+
+        <!-- 贸易融资-->
+        <!--
+            操作名：出口议付(押汇)
+            prid:EBOB
+        -->
+        <action attribute="tradeFinanceExportPaymentDetailForm"
+            input="/tradeFinance/tradeFinanceExportPaymentDetail.jsp"
+            name="tradeFinanceExportPaymentDetailForm" path="/EBOB"
+            scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceExportPaymentDetailAction">
+            <forward name="manage" path="/tradeFinanceEbManageAction.do" />
+ 
+        </action>
+        <!--
+            操作名：进口信用证押汇
+            prid:IBNB
+        -->
+
+        <action attribute="tradeFinanceImportLCNegotiatDetailForm"
+            input="/tradeFinance/tradeFinanceImportLCNegotiatDetail.jsp"
+            name="tradeFinanceImportLCNegotiatDetailForm" path="/IBNB"
+            scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceImportLCNegotiatDetailAction">
+            <forward name="manage" path="/tradeFinanceIbManageAction.do" />
+        </action>
+        <!--
+            操作名：进口押汇返还
+            prid:IBFH
+        -->
+        <action
+            attribute="tradeFinanceInwardDocumentaryBillsReturnDetailForm"
+            input="/tradeFinance/tradeFinanceInwardDocumentaryBillsReturnDetail.jsp"
+            name="tradeFinanceInwardDocumentaryBillsReturnDetailForm"
+            path="/IBFH" scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceInwardDocumentaryBillsReturnDetailAction">
+            <forward name="manage" path="/tradeFinanceIbManageAction.do" />
+         </action>
+        <!--
+            操作名：出口托收贷款
+            prid:OCOB
+        -->
+
+        <action attribute="tradeFinanceOutwardCollectionLoanDetailForm"
+            input="/tradeFinance/tradeFinanceOutwardCollectionLoanDetail.jsp"
+            name="tradeFinanceOutwardCollectionLoanDetailForm"
+            path="/OCOB" scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceOutwardCollectionLoanDetailAction">
+            <forward name="manage" path="/tradeFinanceEbManageAction.do" />
+         </action>
+        <!--
+            操作名：打包放款
+            prid:ELDB
+        -->
+
+        <action attribute="tradeFinancePackMakeLoansDetailForm"
+            input="/tradeFinance/tradeFinancePackMakeLoansDetail.jsp"
+            name="tradeFinancePackMakeLoansDetailForm" path="/ELDB"
+            scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinancePackMakeLoansDetailAction">
+            <forward name="manage" path="/tradeFinanceEbManageAction.do" />
+         </action>
+        <!--
+            操作名：融资返还
+            prid:FHYH
+        -->
+
+        <action attribute="tradeFinanceReturnDetailForm"
+            input="/tradeFinance/tradeFinanceReturnDetail.jsp"
+            name="tradeFinanceReturnDetailForm" path="/FHYH"
+            scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceReturnDetailAction">
+            <forward name="manage" path="/tradeFinanceEbManageAction.do" />
+        </action>
+
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/tradeFinanceEbManageAction" scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceEbManageAction">
+            <forward name="ELDB"
+                path="/tradeFinance/tradeFinancePackMakeLoansDetailList.jsp" />
+            <forward name="EBOB"
+                path="/tradeFinance/tradeFinanceExportPaymentDetailList.jsp" />
+            <forward name="OCOB"
+                path="/tradeFinance/tradeFinanceOutwardCollectionLoanDetailList.jsp" />
+            <forward name="FHYH"
+                path="/tradeFinance/tradeFinanceReturnDetailList.jsp" />
+        </action>
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/tradeFinanceIbManageAction" scope="request"
+            type="com.witsoft.struts.action.tradeFinance.TradeFinanceIbManageAction">
+            <forward name="IBNB"
+                path="/tradeFinance/tradeFinanceImportLCNegotiatDetailList.jsp" />
+            <forward name="IBFH"
+                path="/tradeFinance/tradeFinanceInwardDocumentaryBillsReturnDetailList.jsp" />
+        </action>
+
+         <!--
+            操作名：
+            prid:
+        -->
+        <action attribute="lcTrustAuthorizationForm"
+            input="/inputDocuments/lcTrustAuthorization.jsp"
+            name="lcTrustAuthorizationForm" path="/lcTrustAuthorization"
+            scope="request"
+            type="com.witsoft.struts.action.inputDocuments.LcTrustAuthorizationAction" />
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            path="/importAgencyReceiptManageAction" scope="request"
+            type="com.witsoft.struts.action.importAgencyReceipt.ImportAgencyReceiptManageAction">
+            <forward name="ICRG"
+                path="/importAgencyReceipt/importAgencyReceiptCheckInDetailList.jsp" />
+            <forward name="ICCG"
+                path="/importAgencyReceipt/importAgencyReceiptModifyDetailList.jsp" />
+            <forward name="ICAC"
+                path="/importAgencyReceipt/importAgencyReceiptAcceptDetailList.jsp" />
+            <forward name="ICPY"
+                path="/importAgencyReceipt/importAgencyReceiptPaymentDetailList.jsp" />
+            <forward name="ICRJ"
+                path="/importAgencyReceipt/importAgencyReceiptRefusePaymentDetailList.jsp" />
+            <forward name="ICRT"
+                path="/importAgencyReceipt/importAgencyReceiptCancelBillDetailList.jsp" />
+            <forward name="ICNP"
+                path="/importAgencyReceipt/importAgencyReceiptVolunteerSumitBillDetailList.jsp" />
+            <forward name="ICCL"
+                path="/importAgencyReceipt/importAgencyReceiptAnnulDossierDetailList.jsp" />
+        </action>
+
+        <action path="/telegramTextManageAction"
+            input="/telegramText/draftList.jsp"
+            attribute="userCommonForm" name="userCommonForm"
+            type="com.witsoft.struts.action.telegramText.TelegramTextManageAction"
+            scope="request">
+        </action>
+
+        <action path="/telegramTextCommon" name="telegramTextChooseForm"
+            scope="request"
+            type="com.witsoft.struts.action.telegramText.TelegramTextCommonAction">
+            <forward name="draft700"
+                path="/telegramText/telegramText700.jsp" />
+            <forward name="draft701"
+                path="/telegramText/telegramText701.jsp" />
+            <forward name="draft705"
+                path="/telegramText/telegramText705.jsp" />
+            <forward name="draft740"
+                path="/telegramText/telegramText740.jsp" />
+            <forward name="draft760"
+                path="/telegramText/telegramText760.jsp" />
+            <forward name="draft799"
+                path="/telegramText/telegramText799.jsp" />
+            <forward name="draft707"
+                path="/telegramText/telegramText707.jsp" />
+            <forward name="draft747"
+                path="/telegramText/telegramText747.jsp" />
+            <forward name="draft202"
+                path="/telegramText/telegramText202.jsp" />
+            <forward name="draft734"
+                path="/telegramText/telegramText734.jsp" />
+            <forward name="draft752"
+                path="/telegramText/telegramText752.jsp" />
+            <forward name="draft410"
+                path="/telegramText/telegramText410.jsp" />
+            <forward name="draft412"
+                path="/telegramText/telegramText412.jsp" />
+            <forward name="draft456"
+                path="/telegramText/telegramText456.jsp" />
+            <forward name="draft499"
+                path="/telegramText/telegramText499.jsp" />
+            <forward name="draft730"
+                path="/telegramText/telegramText730.jsp" />
+            <forward name="draft999"
+                path="/telegramText/telegramText999.jsp" />
+            <forward name="draft742"
+                path="/telegramText/telegramText742.jsp" />
+            <forward name="draft750"
+                path="/telegramText/telegramText750.jsp" />
+            <forward name="draft430"
+                path="/telegramText/telegramText430.jsp" />
+            <forward name="draft420"
+                path="/telegramText/telegramText420.jsp" />
+            <forward name="draft299"
+                path="/telegramText/telegramText299.jsp" />
+            <forward name="draft300"
+                path="/telegramText/telegramText300.jsp" />
+            <forward name="choose"
+                path="/telegramText/telegramTextChoose.jsp" />
+
+        </action>
+
+        <action attribute="userCommonForm" name="userCommonForm"
+            input="/inputDocuments/letterList.jsp"
+            path="/letterManageAction" scope="request"
+            type="com.witsoft.struts.action.inputDocuments.LetterManageAction">
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+        <action path="/letterChooseAction"
+            type="com.witsoft.struts.action.inputDocuments.LetterChooseAction"
+            attribute="userCommonForm" name="userCommonForm"
+            scope="request">
+            <forward name="DLCOP-GR"
+                path="/inputDocuments/authorizedLetterOfAttforneyOfLetterOfCredit.jsp" />
+            <forward name="selectLetter"
+                path="/inputDocuments/letterChoose.jsp" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="acceptingAndPaymentReportForm"
+            input="/inputDocuments/acceptingAndPaymentReport.jsp"
+            name="acceptingAndPaymentReportForm"
+            path="/acceptingAndPaymentReport" scope="request"
+            type="com.witsoft.struts.action.inputDocuments.AcceptingAndPaymentReportAction">
+            <forward name="manageLe" path="/letterManageAction.do" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+
+
+        <action path="/letterAction"
+            attribute="acceptingAndPaymentReportForm"
+            name="acceptingAndPaymentReportForm" scope="request"
+            type="com.witsoft.struts.action.inputDocuments.LetterAction">
+            <forward name="manage" path="/letterManageAction.do" />
+            <forward name="DLCOP-GR"
+                path="/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="clientInfo"
+            input="/systemManage/systemTableManage/clientInfo.jsp"
+            name="userCommonForm" path="/clientInfo" scope="request"
+            type="com.witsoft.struts.action.systemManage.systemTableManage.ClientInfoAction" />
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action path="/login" scope="request"
+            type="com.witsoft.struts.action.systemManage.popedomManage.LoginAction" />
+        <!--
+            操作名：
+            prid:
+        -->
+        <action path="/coinAction"
+            type="com.witsoft.struts.action.system.CoinAction">
+            <forward name="coin" path="/file/coin.jsp" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+        <action attribute="clientAccountNewForm" scope="request"
+             input="/file/client.jsp"
+            name="clientAccountNewForm" path="/emclmgpAction" 
+            type="com.witsoft.struts.action.system.EmclmgpAction"/>
+
+        <!--
+            操作名：
+            prid:
+        -->
+        <action path="/countryAction"
+            type="com.witsoft.struts.action.system.CountryAction">
+            <forward name="country" path="/file/country.jsp" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+        <action attribute="selectGradeForm"
+            input="/systemManage/grade/selectGrade.jsp"
+            name="selectGradeForm" path="/selectGrade" scope="request"
+            type="com.witsoft.struts.action.systemManage.grade.SelectGradeAction">
+            <forward name="gradeList"
+                path="/systemManage/grade/result.jsp" />
+        </action>
+        <!--
+            操作名：
+            prid:
+        -->
+
+        <action attribute="bankListNewForm" name="bankListNewForm"
+            input="/file/bank.jsp" path="/bankAction" scope="request"
+            type="com.witsoft.struts.action.system.BankAction" />
+
+        <action path="/getHelp" scope="request"
+            type="com.witsoft.struts.action.system.GetHelpAction" />
+          <!--
+            操作名：个人设定
+            
+        -->  
+      <action
+         attribute="person"
+         input="/systemManage/grade/controlPanel.jsp"
+         name="person"
+         path="/person"
+         scope="request"
+         type="com.witsoft.struts.action.systemManage.grade.PersonAction" />
+
+  <!--
+            操作名：删除电文或者面函
+            
+        -->  
+      <action
+         name="userCommonForm"
+         path="/deleteInputAndTele"
+         scope="request"
+         type="com.witsoft.struts.action.inputDocuments.DeleteInputAndTeleAction" />
+         <!--
+            操作名：增加公告
+            
+        -->  
+      <action
+         name="announcementForm"
+         path="/announcement"
+         scope="request"
+         type="com.witsoft.struts.action.systemManage.grade.AnnouncementAction" />
+            <!--
+            操作名：权限管理
+            
+        -->  
+      <action
+         path="/popedomManage"
+         scope="request"
+         type="com.witsoft.struts.action.systemManage.popedomManage.PopedomManage" />
+      <!--
+            操作名：权限显示
+            
+        -->  
+      <action
+         attribute="popedomShowForm"
+         input="/systemManage/popedomManage/rightsManage.jsp"
+         name="popedomShowForm"
+         path="/popedomShow"
+         scope="request"
+         type="com.witsoft.struts.action.systemManage.popedomManage.PopedomShowAction" />
+      <action
+         path="/deleteUserInfo"
+         scope="request"
+         type="com.witsoft.struts.action.systemManage.popedomManage.DeleteUserInfoAction" />
+        <action
+         path="/authorizationAction"
+         scope="request"
+         name="authorizationForm"
+         type="com.witsoft.struts.action.system.AuthorizationAction" >
+         <forward name="SYSA" path="/systemManage/grade/SystemAuthorization.jsp"></forward>
+         </action>
+      <action
+         attribute="sendGetCLRegisterForm"
+         name="sendGetCLRegisterForm"
+         input="/lc/outwardCollection/FaChuShouDaoTuoShouDengJiBu.jsp"
+         path="/sendGetCLRegister"
+         scope="request"
+         type="com.witsoft.lc.struts.action.outwardCollection.SendGetCLRegisterAction" >
+         </action>
+      <action
+         attribute="lcPayEnCoSupplicationForm"
+         name="lcPayEnCoSupplicationForm"
+         input="/lc/negotiation/invoiceGathering/XinYongZhengYiFu_WeiTuoShouKuanShenQingShu.jsp"
+         path="/lcPayEnCoSupplication"
+         scope="request"
+         type="com.witsoft.lc.struts.action.negotiation.invoiceGathering.LcPayEnCoSupplicationAction" />
+      <action
+         attribute="lcInformPayRegisterForm"
+         input="/lc/exportLC/exportLC/XinYongZhengTongZhiYiFuDengJiBu.jsp"
+         name="lcInformPayRegisterForm"
+         path="/lcInformPayRegister"
+         scope="request"
+         type="com.witsoft.lc.struts.action.exportLC.LcInformPayRegisterAction" />
+      <action
+         attribute="lcModifySupplicationForm"
+         input="/lc/importLC/LC/XinYongZhengXiuGaiShenQingShu.jsp"
+         name="lcModifySupplicationForm"
+         path="/lcModifySupplication"
+         scope="request"
+         type="com.witsoft.lc.struts.action.importLC.lC.LcModifySupplicationAction" />
+      <action
+         attribute="lcModifyForm"
+         input="/lc/importLC/LC/XinYongZhengXiuGaiShu.jsp"
+         name="lcModifyForm"
+         path="/lcModify"
+         scope="request"
+         type="com.witsoft.lc.struts.action.importLC.lC.LcModifyAction" />
+      <action
+         attribute="openSupplicationForm"
+         input="/lc/importLC/LC/KaiZhengShenQingShu.jsp"
+         name="openSupplicationForm"
+         path="/openSupplication"
+         scope="request"
+         type="com.witsoft.lc.struts.action.importLC.lC.OpenSupplicationAction">
+       </action>
+      <action path="/report1" type="com.witsoft.struts.action.report.ReportAction"
+       input="/system/step.jsp">
+      </action>
+      <action path="/voucher" type="com.witsoft.struts.action.report.VoucherAction" 
+      input="/system/voucherList.jsp">
+      </action>
+      <action path="/report2" type="com.witsoft.struts.action.report.Report2Action" 
+      input="/system/step.jsp">
+      </action>
+      <action path="/flowchart" type="com.witsoft.struts.action.flowchart.FlowchartAction" 
+        input="/flowChart/flowChart.jsp">
+      </action>
+      <action
+         attribute="clientAccountNewForm"
+         input="/file/accounts.jsp"        name="clientAccountNewForm"
+         path="/accountsAction"
+         scope="request"
+         type="com.witsoft.struts.action.system.AccountsAction" />
+         
+         
+          <!-- 汇入－汇款登记 IRRG-->
+      <action
+         attribute="inwardRemittanceDetailActionForm"
+         input="/remittance/inwardRemittance/inwardRemittanceDetail.jsp"
+         name="inwardRemittanceDetailActionForm"
+         path="/IRRG"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.inwardRemittance.InwardRemittanceDetailAction">
+          <forward name="manage" path="/inwardManageAction.do" />
+          </action>
+         
+      <!-- 汇入－销卷 IRCL-->
+      <action
+         attribute="annulDossierDetailActionForm"
+         input="/remittance/inwardRemittance/annulDossierDetail.jsp"
+         name="annulDossierDetailActionForm"
+         path="/IRCL"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.inwardRemittance.AnnulDossierDetailAction">
+         <forward name="manage" path="/inwardManageAction.do" />
+         </action>
+         
+          <!-- 汇入－退汇 /IRRT-->
+      <action
+         attribute="returnRemittanceActionForm"
+         input="/remittance/inwardRemittance/returnRemittance.jsp"
+         name="returnRemittanceActionForm"
+         path="/IRRT"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.inwardRemittance.ReturnRemittanceAction">
+         <forward name="manage" path="/inwardManageAction.do" />
+         </action>
+         
+         <!-- 汇入－挂帐解付 IRPB-->
+      <action
+         attribute="hangAccountRelievePayActionForm"
+         input="/remittance/inwardRemittance/hangAccountRelievePay.jsp"
+         name="hangAccountRelievePayActionForm"
+         path="/IRPB"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.inwardRemittance.HangAccountRelievePayAction">
+         <forward name="manage" path="/inwardManageAction.do" />
+         </action>
+         
+         
+         
+          <!-- 汇出－止付 ORST-->
+      <action
+         attribute="stopPaymentActionForm"
+         input="/remittance/outwardRemittance/stopPayment.jsp"
+         name="stopPaymentActionForm"
+         path="/ORST"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.outwardRemittance.StopPaymentAction">
+          <forward name="manage" path="/outwardManageAction.do" />
+         </action>
+         
+         <!-- 汇出－汇出汇款  ORRG-->
+      <action
+         attribute="outwardRemittanceDetailActionForm"
+         input="/remittance/outwardRemittance/outwardRemittanceDetail.jsp"
+         name="outwardRemittanceDetailActionForm"
+         path="/ORRG"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.outwardRemittance.OutwardRemittanceDetailAction">
+          <forward name="manage" path="/outwardManageAction.do" />
+         </action>
+          <!-- 汇出－销卷 ORCL-->
+      <action
+         attribute="outAnnulDossierDetailActionForm"
+         input="/remittance/outwardRemittance/annulDossierDetail.jsp"
+         name="outAnnulDossierDetailActionForm"
+         path="/ORCL"
+         scope="request"
+         type="com.witsoft.struts.action.remittance.outwardRemittance.OutAnnulDossierDetailAction">
+          <forward name="manage" path="/outwardManageAction.do" />
+          </action>
+         
+      <action attribute="userCommonForm" name="userCommonForm" path="/inwardManageAction"  scope="request"
+       type="com.witsoft.struts.action.remittance.inwardRemittance.InwardManageAction">
+       <forward name="IRRG" path="/remittance/inwardRemittance/inwardRemittanceDetailList.jsp" />
+       <forward name="IRPB" path="/remittance/inwardRemittance/hangAccountRelievePayList.jsp" />
+       <forward name="IRRT" path="/remittance/inwardRemittance/returnRemittanceList.jsp" />
+       <forward name="IRCL" path="/remittance/inwardRemittance/annulDossierDetailList.jsp" />
+       </action>
+       
+      <action attribute="userCommonForm"  name="userCommonForm" path="/outwardManageAction"
+         scope="request" type="com.witsoft.struts.action.remittance.outwardRemittance.OutwardManageAction">
+         <forward name="ORST" path="/remittance/outwardRemittance/stopPaymentList.jsp" />
+         <forward name="ORRG" path="/remittance/outwardRemittance/outwardRemittanceDetailList.jsp" />
+         <forward name="ORCL" path="/remittance/outwardRemittance/annulDossierDetailList.jsp" />
+      </action>
+      
+      <action  input="/system/bills.jsp"  path="/billsAction"
+       type="com.witsoft.struts.action.report.BillsAction" />
+      <action path="/setChcoAction" type="com.witsoft.struts.action.system.SetChcoAction" />
+      
+      <action path="/cases" type="com.witsoft.struts.action.cases.CasesAction">
+      <forward name="01" path="/case/caseDetailLC.jsp" />
+      <forward name="02" path="/case/caseDetailNegotiatingBank.jsp" />
+      <forward name="03" path="/case/caseDetailCollectingBank.jsp" />
+      <forward name="04" path="/case/caseDetailCleanDraftCollection.jsp" />
+      <forward name="05" path="/case/caseDetailRemittance.jsp" />
+      
+      <forward name="201" path="/case/caseDetailLCResult.jsp" />
+      <forward name="202" path="/case/caseDetailNegotiatingBankResult.jsp" />
+      <forward name="203" path="/case/caseDetailCollectingBankResult.jsp" />
+      <forward name="204" path="/case/caseDetailCleanDraftCollectionResult.jsp" />
+      <forward name="205" path="/case/caseDetailRemittanceResult.jsp" />
+      
+      <forward name="LCchoose" path="/case/LCchoose.jsp"/>
+      <forward name="list" path="/case/caseList.jsp"/>
+      <forward name="manage" path="/case/caseManage.jsp"/>
+      
+      </action>
+      <action attribute="caseDetailCleanDraftCollectionActionForm" input="/case/caseDetailCleanDraftCollection.jsp" name="caseDetailCleanDraftCollectionActionForm" 
+              path="/caseDetailCleanDraftCollection" scope="request" type="com.witsoft.struts.action.cases.CaseDetailCleanDraftCollectionAction" />
+              
+      <action attribute="caseDetailCollectingBankActionForm" input="/case/caseDetailCollectingBank.jsp" name="caseDetailCollectingBankActionForm" 
+              path="/caseDetailCollectingBank" scope="request" type="com.witsoft.struts.action.cases.CaseDetailCollectingBankAction" />
+      <action
+         attribute="caseDetailLCActionForm"
+         input="/case/caseDetailRemittance.jsp"
+         name="caseDetailLCActionForm"
+         path="/caseDetailLC"
+         scope="request"
+         type="com.witsoft.struts.action.cases.CaseDetailLCAction" />
+      <action
+         attribute="caseDetailNegotiatingBankActionForm"
+         name="caseDetailNegotiatingBankActionForm"
+         path="/caseDetailNegotiatingBank"
+         scope="request"
+         type="com.witsoft.struts.action.cases.CaseDetailNegotiatingBankAction" />
+      <action
+         attribute="caseDetailRemittanceActionForm"
+         input="/case/caseDetailRemittance.jsp"
+         name="caseDetailRemittanceActionForm"
+         path="/caseDetailRemittance"
+         scope="request"
+         type="com.witsoft.struts.action.cases.CaseDetailRemittanceAction" />
+      <action path="/newCaseDetailCollectingBankAction" type="com.witsoft.struts.action.cases.NewCaseDetailCollectingBankAction" input="/case/caseDetailNegotiatingBank.jsp"/>
+      <action path="/lookGradeAction" type="com.witsoft.struts.action.systemManage.grade.LookGradeAction" input="/systemManage/grade/gradeListDetail.jsp"/>
+      
+      <action path="/casesList" type="com.witsoft.struts.action.cases.CasesListAction" input="/case/caseChooseTest.jsp"/>
+      <action path="/jFreeChart" type="com.witsoft.struts.action.systemManage.grade.JFreeChartAction"  input="/jfreechart.jsp"/>
+      <action input="/systemManage/bug/brno.jsp"
+         path="/bugBrno" type="com.witsoft.struts.action.systemManage.bug.BrnoAction" />
+       <action path="/login" type="com.witsoft.hibernate.LoginAction" scope="request"
+			validate="false">
+			<forward name="success" path="/success.jsp" />
+			<forward name="successno" path="/index1.jsp" />
+	</action>
+
+ 
+      </action-mappings>
+    <controller
+        processorClass="com.witsoft.common.MyProRequestProcessor" />
+    <message-resources
+        parameter="com.witsoft.struts.ApplicationResources" />
+</struts-config>
+

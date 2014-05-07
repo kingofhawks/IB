@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Mon Nov 28 15:58:36 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsSgcl" table="vi_ds_SGCL">
+			
+		<composite-id class="VSGPK" name="Id">
+			<key-property column="SGNO" length="16" name="sgno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+		<property name="apdt" column="APDT" type="java.lang.String" />
+		<property name="sgdt" column="SGDT" type="java.lang.String" />
+		<property name="utno" column="UTNO" type="java.lang.String" />
+		<property name="inno" column="INNO" type="java.lang.String" />
+		<property name="apno" column="APNO" type="java.lang.String" />
+		<property name="lcno" column="LCNO" type="java.lang.String" />
+		<property name="gucy" column="GUCY" type="java.lang.String" />
+		<property name="guam" column="GUAM" type="java.lang.Float" />
+		<property name="crno" column="CRNO" type="java.lang.String" />
+		<property name="blno" column="BLNO" type="java.lang.String" />
+		<property name="ivno" column="IVNO" type="java.lang.String" />
+		<property name="gubk" column="GUBK" type="java.lang.String" />
+		<property name="shdt" column="SHDT" type="java.lang.String" />
+		<property name="gsds" column="GSDS" type="java.lang.String" />
+		<property name="tcit" column="TCIT" type="java.lang.Short" />
+		<property name="tcdt" column="TCDT" type="java.lang.String" />
+		<property name="rndt" column="RNDT" type="java.lang.String" />
+		<property name="stcd" column="STCD" type="java.lang.String" />
+		<property name="dudt" column="DUDT" type="java.lang.String" />
+		<property name="shcm" column="SHCM" type="java.lang.String" />
+		<property name="fnno" column="FNNO" type="java.lang.String" />
+		<property name="sp20" column="SP20" type="java.lang.String" />
+		<property name="sac1" column="SAC1" type="java.lang.String" />
+		<property name="tstp" column="TSTP" type="java.lang.String" />
+		<property name="gstp" column="GSTP" type="java.lang.String" />
+		<property name="ckno" column="CKNO" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+		<property column="DLDT" name="Dldt" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

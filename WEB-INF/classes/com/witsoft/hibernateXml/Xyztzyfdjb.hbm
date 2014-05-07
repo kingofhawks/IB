@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Apr 11 09:41:30 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="Xyztzyfdjb" table="XYZTZYFDJB">
+		<id name="id" column="ID" type="java.lang.Long">
+			<generator class="assigned" />
+		</id>
+
+		<property name="glcdt" column="GLCDT" type="java.lang.String" />
+		<property name="lcdt" column="LCDT" type="java.lang.String" />
+		<property name="adty" column="ADTY" type="java.lang.String" />
+		<property name="adno" column="ADNO" type="java.lang.String" />
+		<property name="epdt" column="EPDT" type="java.lang.String" />
+		<property name="blav" column="BLAV" type="java.lang.String" />
+		<property name="aeam" column="AEAM" type="java.lang.String" />
+		<property name="bpam" column="BPAM" type="java.lang.String" />
+		<property name="clnonm" column="CLNONM" type="java.lang.String" />
+		<property name="field1" column="FIELD1" type="java.lang.String" />
+		<property name="field2" column="FIELD2" type="java.lang.String" />
+		<property name="field3" column="FIELD3" type="java.lang.String" />
+		<property name="field4" column="FIELD4" type="java.lang.String" />
+		<property name="brno" column="BRNO" type="java.lang.String" />
+		<property name="rfno" column="RFNO" type="java.lang.String" />
+
+		<property name="dldt" column="DLDT" type="java.lang.String" />
+		<property name="prid" column="PRID" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

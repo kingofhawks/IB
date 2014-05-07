@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Nov 29 20:26:04 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsIbrg" table="vi_ds_IBRG">
+
+		<composite-id class="VLCPK" name="Id">
+			<key-property column="LCNO" length="16" name="lcno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+
+
+		<property name="clno" column="CLNO" type="java.lang.String" />
+		<property name="clnm" column="CLNM" type="java.lang.String" />
+		<property name="dlcy" column="DLCY" type="java.lang.String" />
+		<property name="acam" column="ACAM" type="java.lang.Float" />
+		<property name="ivam" column="IVAM" type="java.lang.Float" />
+		<property name="paam" column="PAAM" type="java.lang.Float" />
+		<property name="sutp" column="SUTP" type="java.lang.String" />
+		<property name="tenr" column="TENR" type="java.lang.Short" />
+		<property name="gstp" column="GSTP" type="java.lang.String" />
+		<property name="adl1" column="ADL1" type="java.lang.String" />
+		<property name="adl2" column="ADL2" type="java.lang.String" />
+		<property name="adl3" column="ADL3" type="java.lang.String" />
+		<property name="adl4" column="ADL4" type="java.lang.String" />
+		<property name="ultp" column="ULTP" type="java.lang.String" />
+		<property name="isdt" column="ISDT" type="java.lang.String" />
+		<property name="ibpp" column="IBPP" type="java.lang.String" />
+		<property name="ibdr" column="IBDR" type="java.lang.String" />
+		<property name="sgno" column="SGNO" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

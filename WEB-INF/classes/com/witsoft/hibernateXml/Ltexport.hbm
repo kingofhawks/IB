@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Ltexport" table="LTEXPORT">
+
+		<id column="ID" name="Id" type="java.lang.Long">
+			<generator class="increment" />
+		</id>
+
+		<property column="TMRP" name="Tmrp" not-null="false"
+			type="string" />
+		<property column="BRNO" name="Brno" not-null="false"
+			type="string" />
+		<property column="EXFG" length="1" name="Exfg" not-null="false"
+			type="string" />
+		<property column="EXDT" length="8" name="Exdt" not-null="false"
+			type="string" />
+		<property column="RFNO" length="8" name="Rfno" not-null="true"
+			type="string" />
+		<property column="EXTP" length="1" name="Extp" not-null="false"
+			type="string" />
+		<property column="DLDT" length="8" name="Dldt" not-null="true"
+			type="string" />
+		<property column="NAME" length="50" name="Name" not-null="false"
+			type="string" />
+		<property column="SWNO" length="50" name="Swno" not-null="false"
+			type="string" />
+		<property column="SQNO" length="53" name="Sqno" not-null="false"
+			type="java.lang.Float" />	
+		<property column="TSTP" length="4" name="Tstp" not-null="false"
+			type="string" />
+		<property column="USID" length="16" name="Usid" not-null="false"
+			type="string" />
+<!--		<property column="TMID" length="4" name="Tmid" not-null="false"-->
+<!--			type="string" />	-->
+			
+		<many-to-one name="type"
+			class="com.witsoft.hibernate.Mteorltetype" column="TMID"
+			cascade="none" />
+
+	</class>
+</hibernate-mapping>

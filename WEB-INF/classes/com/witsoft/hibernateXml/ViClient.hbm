@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Sat Jan 21 10:55:48 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="ViClient" table="vi_client">
+    
+        <id name="clno" column="clno" type="java.lang.String">
+        <generator class="assigned" />
+        </id>
+        <property name="brno" column="brno" type="java.lang.String" />
+        <property name="clnm" column="clnm" type="java.lang.String" />
+        <property name="adl1" column="adl1" type="java.lang.String" />
+        <property name="acno" column="acno" type="java.lang.String"  not-null="true" />
+    </class>
+    
+</hibernate-mapping>

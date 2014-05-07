@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Fri Dec 02 19:59:11 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="ViDsOcnp" table="vi_ds_OCNP">
+
+		<composite-id class="VOCPK" name="Id">
+			<key-property column="OCNO" length="16" name="ocno"
+				type="string" />
+			<key-property column="BRNO" name="brno" type="string" />
+		</composite-id>
+		
+		<property name="clno" column="CLNO" type="java.lang.String" />
+		<property name="usid" column="USID" type="java.lang.String" />
+		
+	</class>
+
+</hibernate-mapping>

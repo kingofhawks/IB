@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+<!-- 用户组成员表-->
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emusugctp" table="EMUSUGCTP">
+		<composite-id >
+			<key-property column="UGID" name="Ugid" type="string" />
+			<key-property column="USID" name="Usid" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+		</composite-id>
+	</class>
+</hibernate-mapping>

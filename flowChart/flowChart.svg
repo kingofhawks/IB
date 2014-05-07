@@ -1,0 +1,978 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg viewBox="0 0 800 620" id="mainview">  /*如果使用了viewBox，用保持viewBox值不变而修改width和height属性，整幅图像会随之放大或缩小。*/
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+      .css1 { fill:none; stroke:black;}
+      ]]>                   
+    </style>
+  </defs>
+
+/*定义第一张图*/
+
+<g id="id1" visibility="hidden">
+
+<g id="p1" name="LCCL" class="css1"> 
+<rect x="150" y="485" width="120" height="25" /> 
+<polyline points="300,530 360,515 420,530 360,545 300,530" />  
+<path d="M270,490 a90,25 2 0,-5 90,25" />                  
+<path d="M200,510 a160,35 2 0,0 160,35" />                  
+<text font-size="12" x="165" y="500">信用证——销卷</text>
+<text font-size="12" x="340" y="535" >银行内部</text>
+<polygon points="198,515 208,515 203,510" fill="#000000"/>
+<polyline points="300,475 360,460 420,475 360,490 300,475" />  
+<text font-size="12" x="340" y="480" >发送电文</text>
+<polyline points="420,475 440,475 440,445 445,445" />
+<polyline points="265,480 265,475 300,475" />
+<polygon points="260,480 270,480 265,485" fill="#000000" />
+</g>
+
+<g id="p2" name="ELCL" class="css1"> /*出口信用证——销卷*/
+<rect x="450" y="485" width="120" height="25"/>
+<polyline points="600,530 660,515 720,530 660,545 600,530" /> /*银行内部R*/
+<text font-size="12" x="455" y="503" >出口信用证——销卷</text>
+<text font-size="12" x="640" y="535" >银行内部</text>
+<path d="M570,490 a90,25 2 0,-5 90,25" />                       
+<path d="M500,510 a160,35 2 0,0 160,35" />                       
+<polygon points="498,515 508,515 503,510" fill="#000000" />
+</g>
+
+<g id="p3" name="LCOP" class="css1"> /*开证申请*/
+<rect x="150" y="220" width="120" height="25"  /> /*信用证开立*/ 
+<polyline points="150,180 210,160 270,180 210,200 150,180" />  /*开证申请 菱形高30px */
+<text font-size="12" x="185" y="185" >开证申请</text>
+<polyline points="210,140 210,160" />
+<polyline points="210,200 210,215" />
+<polygon points="205,215 215,215 210,220" fill="#000000"/>
+<text font-size="12" x="165" y="238" >信用证——开立</text>
+<polyline points="300,235 360,220 420,235 360,250 300,235" />   /*发送电文1  123 y+35*/
+<text font-size="12" x="340" y="240">发送电文</text>
+<polyline points="270,235 300,235"/>    /*发送电文1L*/
+<polyline points="418,235 425,235"/>    /*发送电文1R*/
+<polygon points="425,230 430,235 425,240" fill="#000000"/> /*发送电文1*/
+</g>
+
+<g id="p4" name="ELAD" class="css1"> 
+<polyline points="450,180 510,160 570,180 510,200 450,180" />  /*产生面函1*/
+<polyline points="510,140 510,160" />
+<polyline  points="510,200 510,220" />
+<text font-size="12" x="482" y="185">产生面函</text>
+<text font-size="12" x="432" y="238" >出口信用证——来证通知/登记</text>
+<rect x="430" y="220" width="165" height="25"/>
+<polygon points="505,145 515,145 510,140"  fill="#000000" />
+</g>
+
+<g id="p5" name="LCUP" class="css1">
+<text font-size="12" x="168" y="295" >信用证——修改</text>
+<rect x="150" y="280" width="120" height="25" fill="none" />
+<polygon points="275,290 270,295 275,300" fill="#000000"/> /*发送电文2*/
+<polyline points="300,295 360,280 420,295 360,310 300,295"/>    /*发送电文2*/
+<text font-size="12" x="340" y="300" >发送电文</text>
+<polyline points="275,295 300,295" />    /*发送电文2L*/
+<polyline points="415,295 425,295 425,242 430,242" />    /*发送电文2R*/
+</g>
+
+
+<g id="p6" name="ELUP" class="css1">
+<text font-size="12" x="445" y="345" >出口信用证——来证修改通知</text>
+<rect x="440" y="330" width="170" height="25"/>   /*出口信用证来证俢改通知*/
+<polyline points="620,240 680,225 740,240 680,255 620,240" />  /*产生面函2*/
+<text font-size="12" x="654" y="245" >产生面函</text>
+<path d="M520,100 a160,124 -2 0,-20 160,124" />  /*产生面函2弧U*/                     
+<path d="M680,255 a-70,85 -2 0,-20 -70,85" />  /*产生面函2弧D*/                       
+<polygon points="435,330 440,335 435,340" fill="#000000" />
+<polygon points="525,105 525,95 520,100" fill="#000000" />  /*受益人*/
+<polygon points="275,370 270,375 275,380" fill="#000000" /> /*发送电文4*/
+<polyline points="360,320 420,335 360,350 300,335 360,320" />   /*发送电文3*/
+<text font-size="12" x="340" y="340" >发送电文</text>
+<polyline points="270,303 290,303 290,335 300,335" />/*发送电文3L*/
+<polyline points="420,335 440,335" />/*发送电文3r*/
+</g>
+
+<g id="p7" name="LCUK" class="css1">
+<text font-size="12" x="155" y="380" >信用证——拒绝修改</text>
+<rect x="150" y="365" width="120" height="25" />
+<polygon points="275,370 270,375 275,380" fill="#000000" /> /*发送电文4*/
+<polyline points="300,375 360,355 420,375 360,395 300,375" />    /*发送电文4 3y+40*/
+<text font-size="12" x="319" y="380" >发送电文(拒绝)</text>
+<polyline points="270,375 300,375" />    /*发送电文4L*/
+<polyline points="420,375 440,375" />   /*发送电文4R*/
+</g>
+
+<g id="p8" name="ELUK" class="css1">
+<rect x="440" y="365" width="170" height="25" />
+<text font-size="12" x="445" y="383" >出口信用证——拒绝/接受修改</text>
+<path d="M520,100 a220,175 -2 0,-180 220,175" />  /*是否弧U*/                     
+<path d="M738,305 a-126,75 -2 0,-20 -126,75" />  /*是否在D*/                     
+<polyline points="680,290 740,275 800,290 740,305 680,290" /> /*是/否*/
+<text font-size="12" x="716" y="295">是/否接</text>
+<polygon points="615,375 610,380 615,385" id="r_y/n_d_a" fill="#000000" />  /*是/否*/ 
+</g>
+
+<g id="p9" name="LCCN" class="css1">
+<text id="l_xyz_cz_wz" name="wz8" font-size="12" x="165" y="440" >信用证——撤证</text>
+<rect x="150" y="425" id="l_xyz_cz" name="jx_4" width="120" height="25" />
+<path id="l_sqcz_u_h" name="h1" d="M200,100 a-80,-125  0 0,0 -80,152"  />    
+<path id="l_sqcz_d_h" name="h2" d="M120,280 a40,160 2 0,0 25,155"  />     /*申请撤证*/                                   
+<polyline id="l_sqjz"  name="lx11" points="60,265 120,251 180,265 120,280 60,265" />  /*申请缴证—菱形*/
+<text id="l_sqcz_wz" name="wz1" font-size="12" x="95" y="270" >申请撤证</text>
+<polygon points="145,440 145,430 150,435" id="l_sqcz_d_a" name="jt1" fill="#000000"/> /*申请撤证*/
+</g>
+
+
+<g id="p10" name="ELCN" class="css1">  /*原id为LCCN_ELCN*/
+<text id="r_ckxy_dj_wz" name="wz24" font-size="12" x="450" y="443" >出口信用证——撤证登记</text>
+<rect x="445" y="425" id="r_ckxy_czdj" name="jx_11" width="140" height="25" fill="none" />/* 发送电文5*/
+<polygon points="440,430 445,435 440,440" id="r_fsdw_5_r_a" name="jt8" fill="#000000" /> /*发送电文5*/
+<polyline id="l_fsdw5" name="lx8" points="300,435 360,420 420,435 360,450 300,435"  />   /*发送电文5 4y+60*/
+<text id="fsdw_5_wz" name="wz14" font-size="12" x="340" y="437" >发送电文</text>
+<polyline id="fsdw_5_l_x" name="x15" points="270,435 300,435" />    /*发送电文5L*/
+<polyline id="fsdw_5_r_x" name="x16" points="420,435 445,435" />   /*发送电文5R*/
+</g>
+
+
+<g id="p11" name="ELDB" class="css1">
+<text id="r_myrz_fk_wz" name="wz20" font-size="12" x="462" y="278">贸易融资——打包放款</text>
+<rect x="450" y="260" id="r_myrz_db" name="jx_7" width="140" height="25" />
+<polyline points="510,245 510,255"  fill="#000000"/>
+<polygon points="505,255 515,255 510,260" fill="#000000" />
+</g>
+
+<g id="p12" name="FHYH" class="css1">
+<text id="r_myrz_fh_wz" name="wz21" font-size="12" x="462" y="315" >贸易融资——融资返还</text>
+<rect x="450" y="300" id="r_myrz_fh" name="jx_8" width="140" height="25" />
+<polyline id="r_myrz_db_d_x" name="x6" points="510,285 510,295" />
+<polygon points="505,295 515,295 510,300" fill="#000000"/>
+</g>
+
+<g id="other">
+<use xlink:href="#people" name="pe1" x="150" y="0" />   /*人——左边*/
+<use xlink:href="#people" name="pe2" x="450" y="0" />  /*人——右边*/
+
+<use xlink:href="#note1" x="215" y="60" /> /*开证申请人*/
+<use xlink:href="#note2" x="518" y="63" /> /*受益*/
+
+/*定义椭圆*/
+<ellipse fill="none" stroke="black" cx="180" cy="40" rx="50" ry="18"/>
+<ellipse fill="none" stroke="black" cx="500" cy="40" rx="50" ry="18"/>
+<text id="l_kzh_wz" name="wz2" font-size="12" x="160" y="42" stroke="#000000" style="fill:#000000">开证行</text>
+<text id="l_kzhr_wz" name="wz3" font-size="12" x="235" y="84" stroke="#000000" style="fill:#000000">开证人申请人</text>
+<text id="r_tzh_wz" name="wz16" font-size="12" x="480" y="42"  stroke="#000000">通知行</text>
+<text id="r_sy_wz" name="wz17" font-size="12"  x="530" y="81" stroke="#000000">受益人</text>
+</g>
+
+/*定人pepoe组*/
+<defs>
+<g id="people">
+<ellipse fill="none" stroke="#000000" cx="60" cy="98" rx="10" ry="9"/>
+<polyline stroke="#000000" fill="none" points="35,114,40,108 60,108 75,108 80,108 85,114" />  /*people's hand*/
+<polyline stroke="#000000" stroke_width="2" points="60,108 60,128" />
+<polyline stroke="#000000" stroke_width="2" fill="none" points="40,144 60,124 80,144" />
+</g>
+</defs>
+
+<defs>  /*note1*/
+<path id="note1"  fill="none" stroke="#000000" d="M105.583,17.518c0,9.398-23.524,17.017-52.542,17.017
+				c-6.646,0-13.004-0.399-18.856-1.129c-2.669-0.333-23.756,7.015-23.756,7.015c-0.247,0.496,10.758-9.33,8.362-9.998
+				C7.592,27.302,0.5,22.678,0.5,17.518C0.5,8.119,24.024,0.5,53.042,0.5C82.06,0.5,105.583,8.119,105.583,17.518z"/>
+</defs>
+
+<defs> /*note2*/
+<path id="note2" fill="none" stroke="#000000" d="M57.583,13.257c0,7.045-12.779,12.756-28.542,12.756
+				c-3.61,0-7.064-0.3-10.244-0.847c-1.449-0.25-12.905,5.259-12.905,5.259c-0.134,0.372,5.844-6.994,4.542-7.495
+				C4.353,20.591,0.5,17.125,0.5,13.257C0.5,6.211,13.279,0.5,29.042,0.5C44.805,0.5,57.583,6.211,57.583,13.257z"/>
+</defs>				
+
+</g>
+
+
+/*定义第二张图*/
+
+<g id="id2"  visibility="hidden">
+
+<g name="SGRG" class="css1">
+<rect x="250" y="220" width="120" height="25"  /> /*无正本提单_juxing*/ 
+<polyline points="250,180 310,160 370,180 310,200 250,180" />  /*菱形高30px */
+<text font-size="12" x="285" y="185" >无正本提单</text>
+<polyline points="310,140 310,160" />  /*line_up*/
+<polyline points="310,200 310,215" />  /*line_down*/
+<polygon points="305,215 315,215 310,220"  fill="#000000"/>
+<text font-size="12" x="269" y="236" >提货担保－登记</text>
+<polyline points="202,225 250,230" /> /*line_left*/
+<polygon points="115,205 200,185 285,205 200,225"/> /*无正本提单提货担保书_lx*/
+<text font-size="12" x="140" y="210">无正本提单提货担保书</text>
+<path d="M200,185 a95,-90  0 0,-10 95,-90"/>     /*hu*/ /*A radiusX, radiusY rotation large arc flag, sweep flag endX, endY*/
+<polygon points="295,91 300,96 295,101" fill="#000000" /> /*arrow*/
+
+<use xlink:href="#note22"  x="379" y="152" /> 
+<text font-size="12" x="390" y="170">通过此操作后，</text>
+<text font-size="12" x="390" y="190">以后见单即付</text>
+
+<polyline points="450,230 510,210 570,230 510,250 450,230" />  /*菱形高30px */
+<polyline points="370,230 450,230" />  /*line_left*/
+<polyline points="570,230 670,230"/>  /*line_right*/
+<text font-size="12" x="485" y="235">发送电文</text>
+<polygon points="670,225 670,235 675,230" fill="#000000" /> /*arrow*/
+<ellipse  cx="725" cy="230" rx="50" ry="15"/>
+<text font-size="12" x="705" y="235">保兑行</text>
+</g>
+
+<g name="SGTR" class="css1">
+<text font-size="12" x="262" y="341">提货担保－催销保</text>
+<rect x="250" y="325"  width="120" height="25" />
+<polyline  points="30,275 150,261 250,275 140,290 30,275" />  /*菱形*/
+<text font-size="12" x="82" y="280" >催销保函（正本提单）</text>
+<path d="M150,260 a142,-155 0 0,-10 145,-165"/>  /*hu_up*/
+<path d="M145,290 a105,50 0 0,0 105,50"/>  /*hu_down*/
+<polygon points="295,91 300,96 295,101" fill="#000000" /> /*arrow_people*/
+<polygon points="375,330 375,340 370,335" fill="#000000" /> /*arrow*/
+
+<polyline points="450,335 510,315 570,335 510,355 450,335" />  /*菱形高30px */
+<polyline points="370,335 450,335" />  /*line_left*/
+<polyline points="570,335 678,335"/>  /*line_right*/
+<text font-size="12" x="485" y="340">正本提单</text>
+<ellipse fill="none" cx="725" cy="330" rx="50" ry="15"/>
+<text font-size="12" x="705" y="335">议付行</text>
+
+</g>
+
+<g name="SGCL" class="css1">
+<polyline  points="20,400 120,386 220,400 120,415 20,400" />  /*寄提单销保面函—菱形*/
+<text font-size="12" x="80" y="405" >寄提单销保面函</text>
+<polygon points="297,85 297,95 302,91" fill="#000000" /> /*arrow*/
+<text  font-size="12" x="268" y="442" >提货担保－销保</text>
+<rect x="250" y="425"  width="120" height="25" />
+<path d="M120,386 a130,-295 0 0,-50 180,-295" />  /*hu_up*/
+<path d="M120,415 a125,20 0 0,0 125,20" />  /*hu_down*/
+<polygon points="245,440 245,430 250,435" fill="#000000"/> /*arrow*/ 
+</g>
+
+<g id="other">
+<ellipse fill="none" stroke="black" cx="320" cy="30" rx="50" ry="18"/>
+<text stroke="#000000" x="300" y="32">开证行</text>
+
+<text stroke="#000000" x="330" y="85">开证人申请人</text>
+<use xlink:href="#note21" x="312" y="60" />
+<use xlink:href="#people"  x="250" y="0" /> 
+
+</g>
+
+<defs>  /*note21*/
+<path id="note21"  fill="none" stroke="#000000" d="M105.583,17.518c0,9.398-23.524,17.017-52.542,17.017
+				c-6.646,0-13.004-0.399-18.856-1.129c-2.669-0.333-23.756,7.015-23.756,7.015c-0.247,0.496,10.758-9.33,8.362-9.998
+				C7.592,27.302,0.5,22.678,0.5,17.518C0.5,8.119,24.024,0.5,53.042,0.5C82.06,0.5,105.583,8.119,105.583,17.518z"/>
+</defs>
+
+<defs class="css1">  /*note22*/
+<path id="note22"  d="M97.5,37.371c0,4.916-3.8,8.9-8.488,8.9H29.586L3.922,61.5l11.977-15.229
+				H8.988c-4.688,0-8.488-3.984-8.488-8.9V9.4c0-4.915,3.8-8.9,8.488-8.9h80.024C93.7,0.5,97.5,4.485,97.5,9.4V37.371z"/>
+</defs>
+
+
+<defs>
+<g id="people"  x="400" y="300" class="css1">
+<ellipse fill="none" stroke="#000000" cx="60" cy="98" rx="10" ry="9"/>
+<polyline stroke="#000000" fill="none" points="35,114,40,108 60,108 75,108 80,108 85,114" />  /*people's hand*/
+<polyline stroke="#000000" stroke_width="2" points="60,108 60,128" />
+<polyline stroke="#000000" stroke_width="2" fill="none" points="40,144 60,124 80,144" />
+</g>
+</defs>
+
+</g>
+
+
+<g id="id3" visibility="hidden">
+<g id="p1" name="OCRG" class="css1">
+<use xlink:href="#public_rect" x="-125" y="-155"/> /*left_kuang total:11*/
+<use xlink:href="#public_linxing" x="-105" y="-155"/>
+<text x="365" y="80">发送电文、寄单</text> /*text for middle*/
+<use xlink:href="#public_line_left" x="40" y="-145"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="-145"/> /*right*/
+<use xlink:href="#arrow_right" x="255" y="-145" /> /*right_arrow*/
+<text x="140" y="80">出口托收 - 出口托收登记</text>   /*text for left*/
+</g>
+
+<g id="p2" name="OCUP" class="css1">
+<use xlink:href="#public_rect" x="-125" y="-120"/>
+<use xlink:href="#public_linxing" x="-105" y="-118"/> /*linxing*/
+<text x="365" y="117">发送电文、寄单</text> 
+<use xlink:href="#public_line_left" x="40" y="-108"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="-108"/> /*right*/
+<use xlink:href="#arrow_right" x="255" y="-108" /> /*right_arrow*/
+<text x="140" y="115">出口托收 - 出口托收修改</text>   
+
+</g>
+
+<g id="p3" name="OCTR" class="css1">
+<use xlink:href="#public_rect" x="-125" y="-80"/>
+<text x="145" y="153">出口托收 - 催收货款</text>   
+</g>
+
+<g id="p4" name="OCPY" class="css1">
+<use xlink:href="#public_rect" x="-125" y="15"/>
+<text x="145" y="249">出口托收 - 收汇及解付</text>   
+</g>
+
+<g id="p5" name="OCAC" class="css1">
+<use xlink:href="#public_rect" x="-125" y="60"/>
+<text x="146" y="295">出口托收 - 承兑登记</text>   
+</g>
+
+<g id="p6" name="OCRJ" class="css1">
+<use xlink:href="#public_rect" x="-125" y="135"/>
+<text x="140" y="369">出口托收 - 拒承兑/付款</text>   
+
+</g>
+
+<g id="p7" name="OCRT" class="css1">
+<use xlink:href="#public_rect" x="-125" y="175"/>
+<text x="145" y="409">出口托收 - 退单登记</text>   
+</g>
+
+
+<g id="p8" name="OCNP" class="css1">
+<use xlink:href="#public_rect" x="-125" y="215"/>
+<text x="145" y="449">出口托收 - 无偿交单</text>   
+
+
+</g>
+
+<g id="p9" name="OCCL" class="css1">
+<use xlink:href="#public_rect" x="-125" y="270"/>
+<use xlink:href="#public_linxing" x="-135" y="250"/>
+<text x="350" y="485">银行内部</text> 
+<use xlink:href="#arrow_left" x="195" y="140" transform="rotate(25) "/> /*left_arrow*/
+<text x="159" y="504">出口托收 - 销卷</text>   
+<use xlink:href="#public_hu_u" x="-135" y="250"/> 
+<use xlink:href="#public_hu_d" x="-135" y="280"/> 
+</g>
+
+<g id="p10" name="OCOB" class="css1">
+<use xlink:href="#public_rect" x="-125" y="310"/>
+<polyline points="125,540 60,540 60,75 125,75 "  /> /*line_0*/
+<polyline points="200,550 200,570 "  /> /*line_-1*/
+<use xlink:href="#arrow_right" x="-135" y="320" /> /*left_arrow*/
+<use xlink:href="#arrow_down" x="-55" y="345" /> /*left_down*/
+<text x="138" y="544">贸易融资 — 出口托收贷款</text>   
+</g>
+
+<g id="p11" name="FHYH" class="css1">
+<use xlink:href="#public_rect" x="-125" y="350"/>
+<text x="144" y="584">贸易融资 — 融资返还</text>   
+
+</g>
+
+<g id="p12" name="ICRG" class="css1">
+<use xlink:href="#public_rect" x="265" y="-155"/> /*right_kuang total:8*/
+<use xlink:href="#public_linxing" x="-105" y="-85"/>
+<text x="385" y="150">发送电文</text> 
+<text x="690" y="50">生成报关面函</text>
+<use xlink:href="#note31" x="680" y="25" />
+<polyline points="290,145 340,145"  /> 
+<polyline points="470,145 480,145 480,70 515,70" /> 
+<use xlink:href="#arrow_left" x="40" y="-75" /> /*left_arrow*/
+<text x="530" y="79">进口代收 - 进口代收登记</text>   /*text for right*/
+</g>
+
+<g id="p13" name="ICCG" class="css1">
+<use xlink:href="#public_rect" x="265" y="-120"/>
+<use xlink:href="#public_linxing" x="-105" y="-53"/>
+<text x="385" y="182">发送电文</text> 
+<use xlink:href="#note32" x="685" y="75" />
+<text x="694" y="95">生成面函</text>
+<polyline points="290,152 330,152 330,177 340,177" /> 
+<polyline points="470,177 500,177 500,115 515,115" /> 
+<use xlink:href="#arrow_left" x="40" y="-68"/> /*left_arrow*/
+<text x="530" y="114">进口代收 - 进口代收修改</text>   
+</g>
+
+<g id="p14" name="ICPY" class="css1">
+<use xlink:href="#public_rect" x="265" y="15"/>
+<use xlink:href="#public_linxing" x="-105" y="15"/>
+<text x="385" y="250">发送电文</text> 
+<use xlink:href="#public_line_left" x="40" y="25"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="25"/> /*right*/
+<use xlink:href="#arrow_left" x="40" y="25" /> /*left_arrow*/
+<text x="550" y="249">进口代收 - 付款</text>   
+<use xlink:href="#public_linxing" x="-108" y="-18"/>
+<text x="365" y="217">发送电文(即期)</text> 
+<polyline points="290,155 315,155 315,212 344,212" />
+<polyline points="467,212 594,212 594,230" />
+<polygon points="590,231 598,231 594,236" fill="#000000" />
+</g>
+
+<g id="p15" name="ICAC" class="css1">
+<use xlink:href="#public_rect" x="265" y="60"/>
+<use xlink:href="#public_linxing" x="-105" y="65"/>
+<text x="385" y="300">发送电文</text> 
+<use xlink:href="#public_line_left" x="40" y="75"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="75"/> /*right*/
+<use xlink:href="#arrow_left" x="40" y="75" /> /*left_arrow*/
+<text x="550" y="294">进口代收 - 承兑</text>   
+<use xlink:href="#public_linxing" x="-40" y="40"/>
+<text x="430" y="274">发送电文(远期)</text> 
+<polyline points="290,158 310,158 310,224 310,270 405,270" />
+<polyline points="532,270 555,270 555,276" />
+<polygon points="550,275 558,275 554,280" fill="#000000" />
+
+</g>
+
+<g id="p16" name="ICRJ" class="css1">
+<use xlink:href="#public_rect" x="265" y="135"/>
+<use xlink:href="#public_linxing" x="-105" y="135"/>
+<text x="385" y="370">发送电文</text> 
+<use xlink:href="#public_line_left" x="40" y="145"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="145"/> /*right*/
+<use xlink:href="#arrow_left" x="40" y="145" /> /*left_arrow*/
+<text x="550" y="370">进口代收 - 拒付</text>  
+<use xlink:href="#public_linxing" x="-105" y="100"/>
+<text x="385" y="335">发送电文</text> 
+<polyline points="287,160 287,165 304,165 304,240 304,330 342,330" />
+<polyline points="470,330 534,330 534,350" />
+<polygon points="530,350 538,350 534,355" fill="#000000" />
+</g>
+
+<g id="p17" name="ICRT" class="css1">
+<use xlink:href="#public_rect" x="265" y="175"/>
+<use xlink:href="#public_linxing" x="-105" y="175"/>
+<text x="385" y="410">发送电文</text> 
+<use xlink:href="#public_line_left" x="40" y="185"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="185"/> /*right*/
+<use xlink:href="#arrow_left" x="40" y="185" /> /*left_arrow*/
+<text x="552" y="409">进口代收 - 退单</text>   
+</g>
+
+
+<g id="p18" name="ICNP" class="css1">
+<use xlink:href="#public_rect" x="265" y="215"/>
+<use xlink:href="#public_linxing" x="-105" y="215"/>
+<text x="365" y="450">发送电文、寄单</text> 
+<use xlink:href="#public_line_left" x="40" y="225"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="225"/> /*right*/
+<use xlink:href="#arrow_right" x="255" y="225" /> /*right_arrow*/
+<text x="544" y="449">进口代收 - 无偿交单</text>   
+</g>
+
+<g id="p19" name="ICCL" class="css1">
+<use xlink:href="#public_rect" x="265" y="270"/>
+<use xlink:href="#public_linxing" x="225" y="250"/>
+<text x="710" y="485">银行内部</text> 
+<use xlink:href="#arrow_left" x="523" y="-14" transform="rotate(25) "/> /*right_arrow*/
+<text x="554" y="504">进口代收 - 销卷</text>   
+<use xlink:href="#public_hu_u" x="225" y="250" /> 
+<use xlink:href="#public_hu_d" x="225" y="280"/> 
+</g>
+
+<g id="other" class="css1">
+<ellipse fill="none" stroke="black" cx="200" cy="30" rx="50" ry="15"/>
+<text font-size="12" x="182" y="35">托收行</text>
+<ellipse fill="none" stroke="black" cx="600" cy="30" rx="50" ry="15"/>
+<text font-size="12" x="580" y="35">代收行</text>
+
+</g> 
+<defs>
+<rect id="public_rect" x="250" y="220" width="165" height="20"/> /*public_rect*/
+</defs>
+
+<defs>
+<polyline points="250,220 300,220" id="public_line_left" fill="#000000"/> /*public_line_left*/
+</defs>
+
+<defs>
+<polyline points="250,220 295,220" id="public_line_right" fill="#000000"/> /*public_line_right*/
+</defs>
+
+
+<defs>
+<polyline id="public_linxing" points="445,230 510,215 575,230 510,245 445,230" />  /*菱形高30px */
+</defs>
+
+<defs>
+<path d="M510,215 a-120,25 0 0,0 -120,25" id="public_hu_u" />  /*弧U*/                     
+</defs>
+
+
+<defs>
+<path d="M510,215 a-120,13 0 0,-80 -120,20" id="public_hu_d" />  /*弧D*/                     
+</defs>
+
+
+<defs>
+<polyline points="250,220 255 215,255 225" id="arrow_left" fill="#000000"/> /*arrow_left*/
+</defs>
+
+<defs>
+<polyline points="260,220 255 215,255 225" id="arrow_right" fill="#000000"/> /*arrow_right*/
+</defs>
+
+<defs>
+<polyline points="250,220 260,220 255,225" fill="#000000" id="arrow_down"/> /*arrow_down*/
+</defs>
+
+
+<defs class="css1">  /*note31*/
+<path id="note31"  d="M97.5,28.909c0,3.787-3.8,6.857-8.488,6.857H29.586L3.922,47.5l11.977-11.733H8.988
+				c-4.688,0-8.488-3.07-8.488-6.857V7.357C0.5,3.57,4.3,0.5,8.988,0.5h80.024C93.7,0.5,97.5,3.57,97.5,7.357V28.909z"/>
+</defs>
+
+<defs class="css1"> /*note32*/
+<path id="note32"  d="M66.5,24.678c0,3.224-2.585,5.836-5.775,5.836H20.29L2.828,40.5l8.15-9.986H6.275
+				c-3.19,0-5.775-2.612-5.775-5.836V6.336C0.5,3.113,3.085,0.5,6.275,0.5h54.449c3.19,0,5.775,2.613,5.775,5.836V24.678z"/>
+</defs>
+
+</g>
+
+<g id="id4" visibility="hidden">
+
+<g id="p1" name="EBRG" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="-130"/> /*left_kuang*/
+<text x="59" y="104">出口寄单收汇 - 出口寄单登记</text>   /*text for left*/
+<use xlink:href="#public_line4_left" x="-15" y="-125"/> /*left*/
+<use xlink:href="#public_line4_right" x="165" y="-125"/> /*right*/
+<use xlink:href="#public_linxing4" x="-160" y="-135"/> /*linxing*/
+<text x="312" y="100">发送电文、寄单</text> /*text for middle*/
+<use xlink:href="#arrow_right" x="200" y="-125" /> /*right_arrow*/
+
+</g>
+
+<g id="p2" name="EBUP" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="-90"/>
+<text x="59" y="144">出口寄单收汇 - 出口寄单修改</text>  
+<use xlink:href="#public_line4_left" x="-15" y="-80"/> /*left*/
+<use xlink:href="#public_linxing4" x="-160" y="-90"/> 
+<use xlink:href="#arrow_right" x="200" y="-118" /> /*right_arrow*/
+<text x="312" y="145">发送电文、寄单</text> 
+<polyline points="460,102 445,102 445,141 412,141" />
+</g>
+
+<g id="p3" name="EBTR" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="-60"/>
+<text x="66" y="175">出口寄单收汇 - 催收货款</text>  
+<use xlink:href="#public_linxing41" x="-160" y="-57"/>
+<text x="300" y="177">发送电文(未做来单)</text> */
+<use xlink:href="#arrow_right" x="200" y="80" /> /*right_arrow*/
+<polyline points="430,173 440,173 440,300 455,300" />
+<polyline points="235,173,270,173"/>
+
+</g>
+
+<g id="p4" name="EBAC" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="-25"/>
+<text x="68" y="209">出口寄单收汇 - 承兑登记</text>   
+<use xlink:href="#arrow_left" x="-15" y="-14"/> /*left_arrow*/
+<use xlink:href="#public_line4_left" x="-10" y="-15"/> /*left*/
+<use xlink:href="#public_linxing4" x="-160" y="-25"/>
+<text x="325" y="210">发送电文</text> 
+<use xlink:href="#public_line4_right" x="165" y="-40"/> 
+<polyline points="414,205 414,179" />
+</g>
+
+<g id="p5" name="EBUM" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="15"/>
+<text x="60" y="250">出口寄单收汇 - 修改承兑内容</text>   
+</g>
+
+<g id="p6" name="EBPY" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="50"/>
+<text x="66" y="284">出口寄单收汇 - 收汇解付</text>   
+</g>
+
+
+<g id="p7" name="EBRJ" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="105"/>
+<text x="50" y="340">出口寄单收汇 - 拒承兑/付款登记</text>   
+</g>
+
+<g id="p8" name="EBNP" class="css1">
+<text x="65" y="379">出口寄单收汇 - 无偿交单</text>   
+<use xlink:href="#public_rect4" x="-205" y="145"/>
+</g>
+
+<g id="p9" name="EBRT" class="css1">
+<text x="66" y="414">出口寄单收汇 - 退单登记</text>   
+<use xlink:href="#public_rect4" x="-205" y="180"/>
+</g>
+
+<g id="p10" name="EBCL" class="css1">
+<text x="72" y="505">出口寄单收汇 - 销卷</text>   
+<use xlink:href="#public_rect4" x="-205" y="270"/>
+<text x="275" y="485">银行内部</text> 
+<use xlink:href="#arrow_left" x="120" y="175" transform="rotate(25) "/> /*left_arrow*/
+<use xlink:href="#public_linxing4" x="-215" y="250"/>
+<use xlink:href="#public_hu4_u" x="-215" y="250" />
+<use xlink:href="#public_hu4_d" x="-215" y="280" /> /*left*/
+
+</g>
+
+<g id="p11" name="ELDB" class="css1">
+<use xlink:href="#public_rect4" x="-205" y="310"/>
+<text x="70" y="544">贸易融资 — 打包放款</text>   
+<use xlink:href="#arrow_left" x="335" y="-190" /> /*left_arrow*/
+<polyline points="45,540 20,540 20,612 45,612 "  /> /*line_0*/
+<use xlink:href="#arrow_right" x="-215" y="392" /> /*right_arrow*/
+<use xlink:href="#note41" x="240" y="520" />
+<text x="270" y="535">通知行来证通知</text>
+<text x="270" y="550">后即可打包放款</text>
+ </g>
+
+<g id="p12" name="EBOB" class="css1">
+<text x="60" y="585">贸易融资 — 出口议付(押汇)</text>   
+<polyline points="240,610 255,610 255,580 235,580" />
+<polygon points="235,610 240,605 240,615" fill="#000000" />
+<use xlink:href="#public_rect4" x="-205" y="350"/>
+
+</g>
+
+<g id="p13" name="FHYH" class="css1">
+<text x="70" y="613">贸易融资 — 融资返还</text>  
+<use xlink:href="#public_rect4" x="-205" y="380"/>
+</g>
+
+<g id="p14" name="IBRG" class="css1">
+<text x="490" y="100">进口来单 - 来单登记</text>   /*text for right*/
+<use xlink:href="#public_rect4" x="210" y="-135"/> /*right_kuang total:8*/
+<use xlink:href="#public_linxing4" x="155" y="-170"/>
+<text x="640" y="65">生成面函</text> 
+<polyline points="665,45 665,30 585,30" />
+<polyline points="665,75 665,90 650,90" />
+<use xlink:href="#arrow_left" x="335" y="-190" /> /*left_arrow*/
+</g>
+
+<g id="p15" name="IBNB" class="css1">
+<text x="478" y="130">贸易融资 — 进口信用证押汇</text>   
+<use xlink:href="#public_rect4" x="208" y="-105"/>
+<polyline points="550,105 550,115 " />
+<polygon fill="#000000" points="550,115 545,110 555,110" />
+</g>
+
+<g id="p16" name="IBFH" class="css1">
+<text x="480" y="159">贸易融资 — 进口押汇返还</text>   
+<use xlink:href="#public_rect4" x="210" y="-75"/>
+<polyline points="550,135 550,145 " />
+<polygon fill="#000000" points="550,145 545,140 555,140" />
+<use xlink:href="#note42" x="650" y="130" />
+<text x="678" y="144">融资金额</text>
+<text x="690" y="158">不为0</text>
+</g>
+
+<g id="p17" name="IBAC" class="css1">
+<text x="505" y="182">进口来单 - 承兑</text>  
+/*<use xlink:href="#public_rect4" x="210" y="-52"/>*/
+
+</g>
+
+<g id="p18" name="IBUM" class="css1">
+<text x="480" y="210">进口来单 - 更改承兑到期日</text>   
+<text x="325" y="250">发送电文</text> 
+<use xlink:href="#arrow_left" x="-15" y="25" /> /*left_arrow*/
+<polyline points="460,202 425,202 425,245 412,245" />
+<use xlink:href="#public_rect4" x="210" y="-25"/>
+<use xlink:href="#public_line4_left" x="-10" y="25"/> /*left*/
+<use xlink:href="#public_linxing4" x="-160" y="15"/>
+
+</g>
+
+<g id="p19" name="IBPY" class="css1">
+<text x="510" y="238">进口来单 - 付款</text>   
+<use xlink:href="#public_rect4" x="210" y="5"/>
+<use xlink:href="#arrow_left" x="-15" y="58" /> /*left_arrow*/
+<polyline points="460,242 435,242 435,278 412,278" />
+<use xlink:href="#public_line4_left" x="-10" y="58"/> /*left*/
+<use xlink:href="#public_linxing4" x="-160" y="48"/>
+<text x="325" y="285">发送电文</text> 
+
+</g>
+
+<g id="p20" name="IBRJ" class="css1">
+<text x="500" y="268">进口来单 - 拒承/付款</text>   
+<use xlink:href="#public_rect4" x="210" y="35"/>
+<text x="325" y="345">发送电文</text> 
+<use xlink:href="#arrow_left" x="-15" y="123" /> /*left_arrow*/
+<use xlink:href="#public_linxing4" x="-160" y="112"/>
+<use xlink:href="#public_line4_left" x="-10" y="122"/> /*left*/
+<polyline points="460,260 450,260 450,342 412,342" />
+</g>
+
+<g id="p21" name="IBPP" class="css1">
+<text x="480" y="312">进口来单 - 电索付款(即期)</text>   
+<use xlink:href="#public_rect4" x="210" y="77"/>
+<use xlink:href="#public_linxing4" x="-160" y="80"/>
+<polyline points="234,287 247,287 247,310 288,310" />
+<polyline points="460,310 445,310 412,310" />
+<use xlink:href="#arrow_left" x="-15" y="68" /> /*left_arrow*/
+<text x="325" y="315">发送电文</text> 
+</g>
+
+<g id="p22" name="IBNP" class="css1">
+<text x="500" y="342">进口来单 - 无偿交单</text>   
+<use xlink:href="#public_rect4" x="210" y="108"/>
+</g>
+
+<g id="p23" name="IBRT" class="css1">
+<text x="467" y="384">进口来单 - 退单(未做拒承/付款)</text>   
+<use xlink:href="#public_rect4" x="210" y="150"/>
+<use xlink:href="#arrow_left" x="-15" y="195" /> /*left_arrow*/
+<use xlink:href="#public_line4_left" x="-15" y="194"/> /*left*/
+<polyline points="460,385 445,385 445,414 412,414" />
+<use xlink:href="#public_linxing4" x="-160" y="184"/>
+<text x="312" y="417">发送电文、寄单</text> 
+</g>
+
+<g id="p24" name="IBDR" class="css1">
+<text x="483" y="410">进口来单 - 电提不符点登记</text>   
+<use xlink:href="#public_rect4" x="210" y="175"/>
+
+</g>
+
+<g id="p25" name="IBDK" class="css1">
+<text x="465" y="435">进口来单 - 电提不符点授受/拒绝</text>   
+<use xlink:href="#public_rect4" x="210" y="200"/>
+<use xlink:href="#public_linxing4" x="-160" y="218"/>
+<text x="325" y="455">发送电文</text> 
+<polyline points="240,375 255,375 255,449 288,449" />
+<polyline points="460,423 445,423 445,447 412,447" />
+<use xlink:href="#arrow_left" x="-15" y="156" /> /*left_arrow*/
+</g>
+
+<g id="p26" name="IBUB" class="css1">
+<text x="505" y="464">进口来单 - 换单</text>   
+<use xlink:href="#public_rect4" x="210" y="230"/>
+<use xlink:href="#public_linxing4" x="225" y="150"/>
+<text x="710" y="385">生成面函</text> 
+<polyline points="650,458 735,458 735,395 " />
+<polyline points="735,365 735,20 565,20" />
+<use xlink:href="#arrow_left" x="315" y="-200" /> /*left_arrow*/
+</g>
+
+<g id="p27" name="IBRB" class="css1">
+<text x="505" y="504">进口来单 - 放单</text>   
+<use xlink:href="#public_rect4" x="205" y="270"/>
+<text x="710" y="485">银行内部</text> 
+<use xlink:href="#public_linxing4" x="225" y="250"/>
+<use xlink:href="#arrow_left" x="523" y="-14" transform="rotate(25) "/> /*right_arrow*/
+<use xlink:href="#public_hu4_u" x="225" y="250" /> /*Right/
+<use xlink:href="#public_hu4_d" x="225" y="280" /> /*right*/
+</g>
+
+<g id="other" class="css1">
+
+<use xlink:href="#people" name="pe1" x="100" y="-82" />   /*人——左边*/
+<use xlink:href="#people" name="pe2" x="500" y="-90" />  /*人——右边*/
+<use xlink:href="#note43" x="175" y="2" /> /*受益人*/
+<use xlink:href="#note44" x="585" y="0" />
+<ellipse fill="none" stroke="black" cx="150" cy="75" rx="50" ry="10"/>
+<text font-size="12" x="132" y="81">议付行</text>
+<text font-size="12" x="185" y="17">受益人</text>
+<ellipse fill="none" stroke="black" cx="550" cy="70" rx="50" ry="12"/>
+<text font-size="12" x="597" y="18">开证人申请人</text>
+<text font-size="12" x="530" y="75">开证行</text>
+
+
+</g>
+
+<defs>
+<rect id="public_rect4" x="250" y="220" width="190" height="20"/> /*public_rect4*/
+</defs>
+
+<defs>
+<polyline points="250,220 300,220" id="public_line4_left" fill="#000000"/> /*public_line4_left*/
+</defs>
+
+<defs>
+<polyline points="250,220 295,220" id="public_line4_right" fill="#000000"/> /*public_line4_right*/
+</defs>
+
+
+<defs>
+<polyline id="public_linxing4" points="445,230 510,215 575,230 510,245 445,230" />  /*菱形高30px */
+</defs>
+
+<defs>
+<polyline id="public_linxing41" points="425,230 510,215 595,230 510,245 425,230" />  /*菱形高30px */
+</defs>
+
+
+<defs>
+<path d="M510,215 a-120,25 0 0,0 -120,25" id="public_hu4_u" />  /*弧U*/                     
+</defs>
+
+<defs>
+<path d="M510,215 a-120,13 0 0,-80 -120,20" id="public_hu4_d" />  /*弧D*/                     
+</defs>
+
+
+<defs>
+<polyline points="250,220 255 215,255 225" id="arrow_left" fill="#000000"/> /*arrow_left*/
+</defs>
+
+<defs>
+<polyline points="260,220 255 215,255 225" id="arrow_right" fill="#000000"/> /*arrow_right*/
+</defs>
+
+<defs class="css1">  /*note41*/
+<polygon id="note41"  points="122.121,33.5 19.121,33.5 20.121,25.5 0.121,20.5 19.121,16.5 
+				18.121,0.5 122.121,0.5 "/>
+</defs>
+
+<defs class="css1"> /*note42*/
+<polygon id="note42" points="80.144,30.5 19.144,30.5 20.144,24.5 0.144,18.5 19.144,15.5 
+				18.144,0.5 80.144,0.5 "/>
+</defs>
+
+/*定人pepoe组*/
+<defs>
+<g id="people">
+<ellipse fill="none" stroke="#000000" cx="60" cy="103" rx="9" ry="8"/>
+<polyline stroke="#000000" fill="none" points="40,120 44,114 50,114 75,114 76,114 80,120" />  /*people's hand*/
+<polyline stroke="#000000" stroke_width="2" points="60,112 60,125" />
+<polyline stroke="#000000" stroke_width="2" fill="none" points="50,144 60,124 70,144" />
+</g>
+</defs>
+
+
+<defs>  /*note43*/
+<path id="note43"  fill="none" stroke="#000000" d="M57.583,11.162c0,5.888-12.779,10.661-28.542,10.661c-3.61,0-7.064-0.251-10.245-0.708
+				C17.349,20.906,5.892,25.51,5.892,25.51c-0.134,0.311,5.844-5.845,4.542-6.264C4.353,17.291,0.5,14.395,0.5,11.162
+				C0.5,5.273,13.279,0.5,29.042,0.5C44.806,0.5,57.583,5.273,57.583,11.162z"/>
+</defs>
+
+
+<defs>  /*note44*/
+<path id="note44"  fill="none" stroke="#000000" d="M96.583,11.162c0,5.888-21.51,10.661-48.042,10.661c-6.076,0-11.891-0.251-17.244-0.708
+				C28.859,20.906,9.576,25.51,9.576,25.51c-0.226,0.311,9.836-5.845,7.646-6.264C6.985,17.291,0.5,14.395,0.5,11.162
+				C0.5,5.273,22.01,0.5,48.542,0.5C75.075,0.5,96.583,5.273,96.583,11.162z"/>
+</defs>
+
+</g>
+
+
+//汇款业务
+<g id="id5" visibility="hidden">
+<g id="p1" name="ORRG" class="css1">
+<use xlink:href="#public_rect" x="-125" y="-155"/> /*left_kuang total:11*/
+<text x="140" y="80">汇出汇款 - 汇出汇款登记</text>  /*text for left*/
+</g>
+
+<g id="p2" name="ORST" class="css1">
+<use xlink:href="#public_rect" x="-125" y="15"/>
+<text x="155" y="249">汇出汇款 - 止付</text>   
+<use xlink:href="#public_linxing" x="-105" y="-85"/>
+<text x="385" y="150">发送电文</text> 
+<polyline points="230,230 230,145 340,145"  /> 
+<polyline points="470,145 480,145 480,70 515,70" /> 
+<use xlink:href="#arrow_down" x="-25" y="10" /> /*left_arrow*/
+</g>
+
+<g id="p3" name="ORCL" class="css1">
+<use xlink:href="#public_rect" x="-125" y="270"/>
+<use xlink:href="#public_linxing" x="-135" y="250"/>
+<text x="350" y="485">银行内部</text> 
+<use xlink:href="#arrow_left" x="195" y="140" transform="rotate(25) "/> /*left_arrow*/
+<text x="159" y="504">汇出汇款 - 销卷</text>   
+<use xlink:href="#public_hu_u" x="-135" y="250"/> 
+<use xlink:href="#public_hu_d" x="-135" y="280"/> 
+</g>
+
+<g id="p4" name="IRRG" class="css1">
+<use xlink:href="#public_linxing" x="-105" y="-155"/>
+<text x="385" y="80">发送电文</text> /*text for middle*/
+<use xlink:href="#public_line_left" x="40" y="-145"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="-145"/> /*right*/
+<use xlink:href="#arrow_right" x="255" y="-145"/> /*right_arrow*/
+<use xlink:href="#public_rect" x="265" y="-155"/> /*right_kuang total:8*/
+<text x="530" y="79">汇入汇款 - 汇入汇款登记</text>   /*text for right*/
+</g>
+
+<g id="p5" name="IRRT" class="css1">
+<use xlink:href="#public_rect" x="265" y="15"/>
+<use xlink:href="#public_linxing" x="-105" y="15"/>
+<text x="385" y="250">发送电文</text> 
+<polyline points="750,270 710,250 750,230 790,250 750,270" /> /*菱形*/
+<text x="725" y="255">银行内部</text> 
+<use xlink:href="#public_line_left" x="40" y="25"/> /*left*/
+<use xlink:href="#public_line_right" x="220" y="25"/> /*right*/
+<use xlink:href="#arrow_right" x="255" y="25" /> /*left_arrow*/
+<use xlink:href="#arrow_down" x="495" y="5" /> /*left_down*/
+<use xlink:href="#arrow_up" x="375" y="40" /> /*left_up*/
+<polyline points="630,235 630,208 750,208 750,232" /> 
+<polyline points="750,270 750,290 630,290 630,260" />
+<text x="550" y="249">汇入汇款 - 退汇</text>   
+<use xlink:href="#public_linxing" x="-105" y="95"/>
+<polyline points="469,326 469,252 515,252" />
+<text x="385" y="330">发送电文</text> 
+<polyline points="345,325 230,325 230,490" /></g>
+<use xlink:href="#arrow_down" x="-25" y="265" /> /*left_down*/
+
+<g id="p6" name="IRPB" class="css1">
+<use xlink:href="#public_rect" x="265" y="175"/>
+<use xlink:href="#arrow_down" x="495" y="170" /> /*left_down*/
+<use xlink:href="#arrow_up" x="375" y="200" /> /*left_up*/
+<polyline points="750,435 710,415 750,395 790,415 750,435" /> /*菱形*/
+<text x="725" y="420">生成面函</text> 
+<polyline points="630,395 630,368 750,368 750,392" /> 
+<polyline points="750,435 750,450 630,450 630,420" />
+<text x="552" y="409">汇入汇款 - 挂帐解付</text>   
+</g>
+
+<g id="p7" name="IRCL" class="css1">
+<use xlink:href="#public_rect" x="265" y="270"/>
+<polyline points="736,505 696,485 736,465 776,485 736,505" /> /*菱形*/
+<text x="715" y="490">银行内部</text> 
+<use xlink:href="#arrow_left" x="518" y="-12" transform="rotate(25) "/> /*right_arrow*/
+<text x="554" y="504">汇入汇款 - 销卷</text>   
+<use xlink:href="#public_hu_u" x="225" y="250" /> 
+<path d="M735,505 a-120,13 0 0,-40 -122,12" id="public_hu_d" /> /*弧D*/                     
+</g>
+
+<g id="other" class="css1">
+<ellipse fill="none" stroke="black" cx="200" cy="30" rx="50" ry="15"/>
+<text font-size="12" x="185" y="35">汇出行</text>
+<ellipse fill="none" stroke="black" cx="600" cy="30" rx="50" ry="15"/>
+<text font-size="12" x="580" y="35">汇入行</text>
+</g> 
+
+<defs>
+<rect id="public_rect" x="250" y="220" width="165" height="20"/> /*public_rect*/
+</defs>
+
+<defs>
+<polyline points="250,220 300,220" id="public_line_left" fill="#000000"/> /*public_line_left*/
+</defs>
+
+<defs>
+<polyline points="250,220 295,220" id="public_line_right" fill="#000000"/> /*public_line_right*/
+</defs>
+
+<defs>
+<polyline id="public_linxing" points="445,230 510,215 575,230 510,245 445,230" />  /*菱形高30px */
+</defs>
+
+<defs>
+<path d="M510,215 a-120,25 0 0,0 -120,25" id="public_hu_u" /> /*弧U*/                     
+</defs>
+
+<defs>
+<path d="M510,215 a-120,13 0 0,-80 -120,20" id="public_hu_d" /> /*弧D*/                     
+</defs>
+
+<defs>
+<polyline points="250,220 255 215,255 225" id="arrow_left" fill="#000000"/> /*arrow_left*/
+</defs>
+
+<defs>
+<polyline points="260,220 255 215,255 225" id="arrow_right" fill="#000000"/> /*arrow_right*/
+</defs>
+
+<defs>
+<polyline points="250,220 260,220 255,225" fill="#000000" id="arrow_down"/> /*arrow_down*/
+</defs>
+
+<defs>
+<polyline points="250,220 260,220 255,215" fill="#000000" id="arrow_up"/> /*arrow_up*/
+</defs>
+
+</g>
+
+</svg>

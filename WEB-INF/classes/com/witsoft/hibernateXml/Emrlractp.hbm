@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emrlractp" table="EMRLRACTP">
+		<composite-id class="EmrlractpPK" name="Id">
+			<key-property column="RLID" name="Rlid" type="string" />
+			<key-property column="BRNO" name="Brno" type="string" />
+			<key-property column="AUID" name="Auid" type="string" />
+			<key-property column="PRID" name="Prid" type="string" />
+		</composite-id>
+		<property column="RRAM" length="53" name="Rram" not-null="false"
+			type="java.lang.Float" />
+		<property column="RRTE" length="8" name="Rrte" not-null="false"
+			type="string" />
+	</class>
+</hibernate-mapping>

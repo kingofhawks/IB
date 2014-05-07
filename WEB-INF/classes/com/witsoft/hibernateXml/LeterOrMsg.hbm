@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="LeterOrMsg" table="leterOrMsg">
+		<composite-id >
+			<key-property column="mgtp" name="Mgtp" type="string" />
+			<key-property column="prid" name="Prid" type="string" />
+		</composite-id>
+		<property column="ennm" length="50" name="Ennm" not-null="false"
+			type="string" />
+		<property column="stcd" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="chnm" length="50" name="Chnm" not-null="false"
+			type="string" />
+		<property column="url" length="60" name="Url" not-null="false"
+			type="string" />	
+	</class>
+</hibernate-mapping>

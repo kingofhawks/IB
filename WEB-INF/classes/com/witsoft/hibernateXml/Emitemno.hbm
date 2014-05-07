@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Emitemno" table="EMITEMNO">
+		<id column="ITCD" name="Itcd" type="string">
+			<generator class="assigned" />
+		</id>
+
+		<property column="ACNM" length="80" name="Acnm" not-null="false"
+			type="string" />
+		<property column="ACSQ" length="8" name="Acsq" not-null="false"
+			type="string" />
+		<property column="ITNM" length="40" name="Itnm" not-null="false"
+			type="string" />
+		<property column="ITEM" length="9" name="Item" not-null="false"
+			type="string" />
+		<property column="BITP" length="3" name="Bitp" not-null="false"
+			type="string" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Jun 01 16:09:44 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Xyzyfwtsksqs" table="XYZYFWTSKSQS">
+        <id name="id" column="ID" type="java.lang.Long">
+            <generator class="assigned"/>
+        </id>
+ 
+        <property name="apdt" column="APDT" type="java.lang.String" />
+        <property name="bpno" column="BPNO" type="java.lang.String" />
+        <property name="bknm" column="BKNM" type="java.lang.String" />
+        <property name="bpty" column="BPTY" type="java.lang.String" />
+        <property name="bptyP" column="BPTY_P" type="java.lang.String" />
+        <property name="bptyW" column="BPTY_W" type="java.lang.String" />
+        <property name="isbknm" column="ISBKNM" type="java.lang.String" />
+        <property name="lcno" column="LCNO" type="java.lang.String" />
+        <property name="adno" column="ADNO" type="java.lang.String" />
+        <property name="adchno" column="ADCHNO" type="java.lang.String" />
+        <property name="adbk" column="ADBK" type="java.lang.String" />
+        <property name="epdt" column="EPDT" type="java.lang.String" />
+        <property name="psbl" column="PSBL" type="java.lang.String" />
+        <property name="vokn" column="VOKN" type="java.lang.String" />
+        <property name="dlam" column="DLAM" type="java.lang.String" />
+        <property name="dlambig" column="DLAMBIG" type="java.lang.String" />
+        <property name="lcnum" column="LCNUM" type="java.lang.String" />
+        <property name="cont" column="CONT" type="java.lang.String" />
+        <property name="tel" column="TEL" type="java.lang.String" />
+        <property name="fax" column="FAX" type="java.lang.String" />
+        <property name="cvlog" column="CVLOG" type="java.lang.String" />
+        <property name="acdt" column="ACDT" type="java.lang.String" />
+        <property name="trno" column="TRNO" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+        <property name="field3" column="Field3" type="java.lang.String" />
+        <property name="field4" column="Field4" type="java.lang.String" />
+        <property name="brno" column="BRNO" type="java.lang.String" />
+        <property name="rfno" column="RFNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="prid" column="PRID" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

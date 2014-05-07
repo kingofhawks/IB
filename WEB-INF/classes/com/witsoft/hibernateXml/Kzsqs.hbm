@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Thu Jun 01 15:44:59 CST 2006                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+    <class name="Kzsqs" table="KZSQS">
+        <id name="id" column="ID" type="java.lang.Long">
+            <generator class="assigned"/>
+        </id>
+ 
+        <property name="isdt" column="ISDT" type="java.lang.String" />
+        <property name="lcno" column="LCNO" type="java.lang.String" />
+        <property name="brno" column="BRNO" type="java.lang.String" />
+        <property name="ammd" column="AMMD" type="java.lang.String" />
+        <property name="ammdD" column="AMMD_D" type="java.lang.String" />
+        <property name="ammdX" column="AMMD_X" type="java.lang.String" />
+        <property name="epdt" column="EPDT" type="java.lang.String" />
+        <property name="pcep" column="PCEP" type="java.lang.String" />
+        <property name="apnm" column="APNM" type="java.lang.String" />
+        <property name="apno" column="APNO" type="java.lang.String" />
+        <property name="apbk" column="APBK" type="java.lang.String" />
+        <property name="apad" column="APAD" type="java.lang.String" />
+        <property name="apcd" column="APCD" type="java.lang.String" />
+        <property name="clnonm" column="CLNONM" type="java.lang.String" />
+        <property name="adl1" column="ADL1" type="java.lang.String" />
+        <property name="clpscd" column="CLPSCD" type="java.lang.String" />
+        <property name="clno" column="CLNO" type="java.lang.String" />
+        <property name="bebk" column="BEBK" type="java.lang.String" />
+        <property name="part" column="PART" type="java.lang.String" />
+        <property name="partX" column="PART_X" type="java.lang.String" />
+        <property name="partD" column="PART_D" type="java.lang.String" />
+        <property name="tras" column="TRAS" type="java.lang.String" />
+        <property name="trasX" column="TRAS_X" type="java.lang.String" />
+        <property name="trasD" column="TRAS_D" type="java.lang.String" />
+        <property name="shfm" column="SHFM" type="java.lang.String" />
+        <property name="shto" column="SHTO" type="java.lang.String" />
+        <property name="shdt" column="SHDT" type="java.lang.String" />
+        <property name="crno" column="CRNO" type="java.lang.String" />
+        <property name="gstp" column="GSTP" type="java.lang.String" />
+        <property name="psbl" column="PSBL" type="java.lang.String" />
+        <property name="lcam" column="LCAM" type="java.lang.String" />
+        <property name="lcambig" column="LCAMBIG" type="java.lang.String" />
+        <property name="sutp" column="SUTP" type="java.lang.String" />
+        <property name="stupsigh" column="STUPSIGH" type="java.lang.String" />
+        <property name="stupexte" column="STUPEXTE" type="java.lang.String" />
+        <property name="stuppaid" column="STUPPAID" type="java.lang.String" />
+        <property name="sight" column="SIGHT" type="java.lang.String" />
+        <property name="sighttime" column="SIGHTTIME" type="java.lang.String" />
+        <property name="voucher1" column="VOUCHER1" type="java.lang.String" />
+        <property name="voucher2" column="VOUCHER2" type="java.lang.String" />
+        <property name="blty" column="BLTY" type="java.lang.String" />
+        <property name="blorignum" column="BLORIGNUM" type="java.lang.String" />
+        <property name="blcopynum" column="BLCOPYNUM" type="java.lang.String" />
+        <property name="blconsignee" column="BLCONSIGNEE" type="java.lang.String" />
+        <property name="bliscartage" column="BLISCARTAGE" type="java.lang.String" />
+        <property name="voucher3" column="VOUCHER3" type="java.lang.String" />
+        <property name="aervoucher" column="AERVOUCHER" type="java.lang.String" />
+        <property name="avconsignee" column="AVCONSIGNEE" type="java.lang.String" />
+        <property name="aviscartage" column="AVISCARTAGE" type="java.lang.String" />
+        <property name="voucher4" column="VOUCHER4" type="java.lang.String" />
+        <property name="surface" column="SURFACE" type="java.lang.String" />
+        <property name="suconsignee" column="SUCONSIGNEE" type="java.lang.String" />
+        <property name="suiscartage" column="SUISCARTAGE" type="java.lang.String" />
+        <property name="voucher5" column="VOUCHER5" type="java.lang.String" />
+        <property name="poconsignee" column="POCONSIGNEE" type="java.lang.String" />
+        <property name="voucher6" column="VOUCHER6" type="java.lang.String" />
+        <property name="reconsignee" column="RECONSIGNEE" type="java.lang.String" />
+        <property name="voucher7" column="VOUCHER7" type="java.lang.String" />
+        <property name="iporignum" column="IPORIGNUM" type="java.lang.String" />
+        <property name="ipcopynum" column="IPCOPYNUM" type="java.lang.String" />
+        <property name="ipamt" column="IPAMT" type="java.lang.String" />
+        <property name="iptype" column="IPTYPE" type="java.lang.String" />
+        <property name="voucher8" column="VOUCHER8" type="java.lang.String" />
+        <property name="packslipnum" column="PACKSLIPNUM" type="java.lang.String" />
+        <property name="voucher9" column="VOUCHER9" type="java.lang.String" />
+        <property name="other1" column="OTHER1" type="java.lang.String" />
+        <property name="remitdate" column="REMITDATE" type="java.lang.String" />
+        <property name="other2" column="OTHER2" type="java.lang.String" />
+        <property name="floating" column="FLOATING" type="java.lang.String" />
+        <property name="other3" column="OTHER3" type="java.lang.String" />
+        <property name="cont" column="CONT" type="java.lang.String" />
+        <property name="tel" column="TEL" type="java.lang.String" />
+        <property name="field1" column="Field1" type="java.lang.String" />
+        <property name="field2" column="Field2" type="java.lang.String" />
+        <property name="field3" column="Field3" type="java.lang.String" />
+        <property name="field4" column="Field4" type="java.lang.String" />
+        <property name="rfno" column="RFNO" type="java.lang.String" />
+        <property name="dldt" column="DLDT" type="java.lang.String" />
+        <property name="prid" column="PRID" type="java.lang.String" />
+        <property name="usid" column="USID" type="java.lang.String" />
+    </class>
+    
+</hibernate-mapping>

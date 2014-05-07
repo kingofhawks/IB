@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping package="com.witsoft.hibernate">
+	<class name="Embrctp" table="EMBRCTP">
+
+		<composite-id class="EmbrctpPK" name="Id">
+			<key-property column="PMKY" name="Pmky"/>
+			<key-property column="BRNO" name="Brno"/>
+		</composite-id>
+
+		<property column="BRGD" length="2" name="Brgd" not-null="false"
+			type="string" />
+		<property column="HOSTUSID" length="10" name="Hostusid"
+			not-null="false" type="string" />
+		<property column="SEID" length="6" name="Seid" not-null="false"
+			type="string" />
+		<property column="BROR" length="19" name="Bror" not-null="false"
+			type="java.lang.Long" />
+		<property column="BRIN" length="16" name="Brin" not-null="false"
+			type="string" />
+		<property column="SP80" length="60" name="Sp80" not-null="false"
+			type="string" />
+		<property column="HOSTDESK" length="10" name="Hostdesk"
+			not-null="false" type="string" />
+		<property column="HOSTPORT" length="10" name="Hostport"
+			not-null="false" type="string" />
+		<property column="UTNO" length="16" name="Utno" not-null="false"
+			type="string" />
+		<property column="STCD" length="1" name="Stcd" not-null="false"
+			type="string" />
+		<property column="HOSTIP" length="15" name="Hostip"
+			not-null="false" type="string" />
+		<property column="BRCD" length="8" name="Brcd" not-null="false"
+			type="string" />
+
+		<property column="WKSQ" length="10" name="Wksq" not-null="false"
+			type="integer" />
+		<property column="RFNO" length="8" name="Rfno" not-null="false"
+			type="string" />
+		<property column="SBCD" length="12" name="Sbcd" not-null="false"
+			type="string" />
+		<property column="MNID" length="6" name="Mnid" not-null="false"
+			type="string" />
+		<property column="INNO" length="8" name="Inno" not-null="false"
+			type="string" />
+		<property column="BRLY" length="10" name="Brly" not-null="false"
+			type="integer" />
+		<property column="BRNM" length="60" name="Brnm" not-null="false"
+			type="string" />
+		<property column="HOSTTERM" length="10" name="Hostterm"
+			not-null="false" type="string" />
+
+	</class>
+</hibernate-mapping>

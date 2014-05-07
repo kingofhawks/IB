@@ -1,0 +1,226 @@
+<%@ include file="/common/header.jsp"%>
+<%@ page import="java.util.Map"%>
+<%@ page import="java.util.HashMap"%>
+<%@ page contentType="text/html; charset=GB2312"%>
+<%Map map = (HashMap)request.getAttribute("map");if(map == null){map = new HashMap();}%>
+
+<%--出口托收指示书--%>
+<html>
+<head>
+<title>国际结算模拟系统</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
+
+<body>
+<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="outerTable_top_left"></td>
+        <td class="outerTable_top_x"></td>
+        <td class="outerTable_top_right"></td>
+    </tr>
+    <tr>
+        <td class="outerTable_left_y"></td>
+        <td class="outerTable_mainContent">
+    
+            <!--内表格开始-->
+            <table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="innerTable_top_left"></td>
+                    <td class="innerTable_top_x"></td>
+                    <td class="innerTable_top_right"></td>
+                </tr>
+                <tr>
+                    <td class="innerTable_left_y"></td>
+                    <td align="center" class="innerTable_main">
+                        <div id="innerTable_div">
+
+                            <!--内容开始-->
+                            <form method="post" action="AccessDocuments" onSubmit="checkForm(this)">
+                            <div id="errMsgDiv"><%if(request.getAttribute("error")!=null){out.print((String)request.getAttribute("error"));}%></div>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="50%" valign="top">                                        
+                                        <table width="375" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="40%" height="20" align="right" valign="top">Today：</td>
+                                                <td valign="top">
+													<input name="TODAY" type="text" class="date" value="<%if(map.get("TODAY") != null){out.print(map.get("TODAY"));}%>">
+                                                    <input name="more_btn" type="image" tabindex="1" onClick="openWin('date','TODAY');return false" src="/IB/images/date.gif">
+												</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">OC NO：</td>
+                                                <td valign="top"><input type="text" name="OCNO" value="<%if(map.get("OCNO") != null){out.print(map.get("OCNO"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Collecting Bank：</td>
+                                                <td valign="top"><textarea name="ICBKAD"><%if(map.get("ICBKAD") != null){out.print(map.get("ICBKAD"));}%></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Drawer：</td>
+                                                <td valign="top"><textarea name="CLAD"><%if(map.get("CLAD") != null){out.print(map.get("CLAD"));}%></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Drawee's Name： </td>
+                                                <td valign="top"><input type="text" name="BLPY" value="<%if(map.get("BLPY") != null){out.print(map.get("BLPY"));}%>">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Drawee's Address： </td>
+                                                <td valign="top"><textarea name="PRE" ><%if(map.get("PRE") != null){out.print(map.get("PRE"));}%></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Invoice No： </td>
+                                                <td valign="top"><input type="text" name="IVNO" value="<%if(map.get("IVNO") != null){out.print(map.get("IVNO"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Maturity Date：</td>
+                                                <td valign="top">
+													<input name="MTDT" type="text" class="date" value="<%if(map.get("MTDT") != null){out.print(map.get("MTDT"));}%>">
+                                                    <input name="more_btn" type="image" tabindex="1" onClick="openWin('date','MTDT');return false" src="/IB/images/date.gif">
+												</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Deliver Documents against： </td>
+                                                <td valign="top"><input type="text" name="ACPY" value="<%if(map.get("ACPY") != null){out.print(map.get("ACPY"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Tenor Days： </td>
+                                                <td valign="top"><input type="text" name="TENOR" value="<%if(map.get("TENOR") != null){out.print(map.get("TENOR"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">OC Currency： </td>
+                                                <td valign="top"><input type="text" name="OCCY" value="<%if(map.get("OCCY") != null){out.print(map.get("OCCY"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Amount：</td>
+                                                <td valign="top"><input type="text" name="AMTS" value="<%if(map.get("AMTS") != null){out.print(map.get("AMTS"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">DRAFT：</td>
+                                                <td valign="top"><input type="text" name="DOCS1" value="<%if(map.get("DOCS1") != null){out.print(map.get("DOCS1"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">CERT OR ORIGIN： </td>
+                                                <td valign="top"><input type="text" name="DOCS2" value="<%if(map.get("DOCS2") != null){out.print(map.get("DOCS2"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">INVOICE：</td>
+                                                <td valign="top"><input type="text" name="DOCS3" value="<%if(map.get("DOCS3") != null){out.print(map.get("DOCS3"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">BENE'S CERT： </td>
+                                                <td valign="top"><input type="text" name="DOCS4" value="<%if(map.get("DOCS4") != null){out.print(map.get("DOCS4"));}%>"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="50%" valign="top">
+                                        <table width="375" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td height="20" align="right" valign="top">B/L：</td>
+                                                <td valign="top"><input type="text" name="DOCS5" value="<%if(map.get("DOCS5") != null){out.print(map.get("DOCS5"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">QUALITY CERT： </td>
+                                                <td valign="top"><input type="text" name="DOCS6" value="<%if(map.get("DOCS6") != null){out.print(map.get("DOCS6"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">N/N B/L： </td>
+                                                <td valign="top"><input type="text" name="DOCS7" value="<%if(map.get("DOCS7") != null){out.print(map.get("DOCS7"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">G.S.P.FROM A： </td>
+                                                <td valign="top"><input type="text" name="DOCS8" value="<%if(map.get("DOCS8") != null){out.print(map.get("DOCS8"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="40%" height="20" align="right" valign="top">INSURANCE POLICY：</td>
+                                                <td valign="top"><input type="text" name="DOCS9" value="<%if(map.get("DOCS9") != null){out.print(map.get("DOCS9"));}%>">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">AWB OR C/R：</td>
+                                                <td valign="top"><input type="text" name="DOCS10" value="<%if(map.get("DOCS10") != null){out.print(map.get("DOCS10"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">P/W LIST： </td>
+                                                <td valign="top"><input type="text" name="DOCS11" value="<%if(map.get("DOCS11") != null){out.print(map.get("DOCS11"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">INSP CERT： </td>
+                                                <td valign="top"><input type="text" name="DOCS12" value="<%if(map.get("DOCS12") != null){out.print(map.get("DOCS12"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">OTHER DOCUMENTS： </td>
+                                                <td valign="top"><input type="text" name="DOCS13" value="<%if(map.get("DOCS13") != null){out.print(map.get("DOCS13"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">REMARKS：</td>
+                                                <td valign="top"><textarea name="REMA" value=""><%if(map.get("REMA") != null){out.print(map.get("REMA"));}%></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top" class="attR">*IN REIMBURESEMENT：</td>
+                                                <td valign="top"><textarea name="RENT" title="RENT" ><%if(map.get("RENT") != null){out.print(map.get("RENT"));}%></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Account Bank： </td>
+                                                <td valign="top">
+													<input name="AGBK" type="text" class="bank" value="<%if(map.get("AGBK") != null){out.print(map.get("AGBK"));}%>">
+                                                    <input name="more_btn" type="image" tabindex="1" onClick="openWin('bank','AGBK');return false" src="/IB/images/winsearch.gif">
+												</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Account Bank Name： </td>
+                                                <td valign="top"><textarea name="AGBKNM" ><%if(map.get("AGBKNM") != null){out.print(map.get("AGBKNM"));}%></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Account：</td>
+                                                <td valign="top"><input type="text" name="AGAC" value="<%if(map.get("AGAC") != null){out.print(map.get("AGAC"));}%>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" align="right" valign="top">Swift No.： </td>
+                                                <td valign="top"><input type="text" name="SWNO" value="<%if(map.get("SWNO") != null){out.print(map.get("SWNO"));}%>"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            
+                            
+                            
+                            <!--内容结束-->
+                        </div>
+                    </td>
+                    <td class="innerTable_right_y"></td>
+                </tr>
+                <tr>
+                    <td class="innerTable_bottom_left"></td>
+                    <td class="innerTable_bottom_x"><div class="footer">
+                               <input name="errCode" type="hidden">
+                                <input name="id" type="hidden" value="<%=request.getAttribute("id")%>">
+                                <input name="swno" type="hidden" value="<%if(request.getAttribute("swno") != null){out.print(request.getAttribute("swno"));}%>">
+                                <input name="tmid" type="hidden" value="<%=request.getAttribute("tmid")%>">
+								<input name="prid" type="hidden" value="<%=request.getAttribute("tstp")%>">
+								<input name="tstp" type="hidden" value="<%=request.getAttribute("tstp")%>">
+								<input name="brno" type="hidden" value="<%=request.getAttribute("brno")%>">
+								<input name="rfno" type="hidden" value="<%=request.getAttribute("rfno")%>">
+								<input type="image" name="save" src='<bean:message key="common.save" />' onClick="submitKind(0,'save');return false">
+                                <input type="image" src="<bean:message key="common.returnLetter"/>"
+                                onClick="openReplace('letterManageAction.do?rfno=<%=(String)request.getAttribute("rfno")%>&prid=<%=(String)request.getAttribute("tstp")%>&swno=<%=(String)request.getAttribute("swno")%>');return false">
+                                
+                            </div></td>
+                    <td class="innerTable_bottom_right"></td>
+                </tr>
+            </table>
+            <!--内表结束-->
+    
+        </td>
+        <td class="outerTable_right_y"></td>
+    </tr>
+    <tr>
+        <td class="outerTable_bottom_left"></td>
+        <td class="outerTable_bottom_x"></td>
+        <td class="outerTable_bottom_right"></td>
+    </tr>
+</table>
+</body></form>
+</html>

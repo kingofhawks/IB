@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<!-- Created Tue Dec 13 15:50:11 CST 2005                         -->
+<hibernate-mapping package="com.witsoft.hibernate">
+
+	<class name="Country" table="COUNTRY">
+
+		<id column="CTCD" name="ctcd" type="string">
+			<generator class="assigned" />
+		</id>
+
+		<property name="ctnm" column="CTNM" type="java.lang.String"
+			not-null="true" />
+		<property name="ctno" column="CTNO" type="java.lang.String"
+			not-null="true" />
+		<property name="swcd" column="SWCD" type="java.lang.String" />
+		<property name="ctbk" column="CTBK" type="java.lang.String" />
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 2.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-2.0.dtd">
+
+<!-- DO NOT EDIT: This is a generated file that is synchronized -->
+<!-- by MyEclipse Hibernate tool integration.                   -->
+<hibernate-configuration>
+
+	<session-factory>
+
+     <property name="connection.datasource">
+           java:comp/env/jdbc/IntBalance
+        </property>
+        <!--
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="connection.url">jdbc:sqlserver://192.168.153.114:1433;databaseName=IB;SelectMethod=Cursor</property>
+        <property name="connection.username">sa</property>
+        <property name="connection.password">lazio_2000</property>
+        -->
+        <property name="show_sql">false</property>
+        <property name="dialect">
+            org.hibernate.dialect.SQLServerDialect
+        </property> 
+        
+        <property name="hibernate.jdbc.batch_size">50</property>
+		<property name="hibernate.use_outer_join">false</property>
+
+		<mapping resource="com/witsoft/hibernateXml/Emcyctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Statics.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Sessions.hbm" />
+
+		<!-- mapping files -->
+		<mapping resource="com/witsoft/hibernateXml/Emrstrctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emusctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emugctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emrlctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Empmcdp.hbm" />
+
+
+		<mapping resource="com/witsoft/hibernateXml/Nomsg.hbm" />
+
+		<mapping resource="com/witsoft/hibernateXml/Emrlusctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emrlugctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emusugctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emrlractp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emextfp.hbm" />
+
+
+		<!--进口信用证－信用证 -->
+		<mapping resource="com/witsoft/hibernateXml/Imlctsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsLcup.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsLcuk.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsLccl.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsLccn.hbm" />
+		
+		<!--进口信用证－提货担保 -->
+
+		<mapping resource="com/witsoft/hibernateXml/Imsgtsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Imsgmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsSgrg.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsSgtr.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsSgcl.hbm" />
+
+		<mapping resource="com/witsoft/hibernateXml/Exbltsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Exblmsp.hbm" />
+
+
+        <!--进口信用证－进口来单-->
+        
+		<mapping resource="com/witsoft/hibernateXml/Imibtsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Imibmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Imlcmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emlmtsp.hbm" />
+		
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbum.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbdk.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbac.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbub.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbrt.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbrj.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbnp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbrb.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbdr.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbpy.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbpp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbrg.hbm" />
+		
+		
+
+		<!--出口来证及议�?   出口信用�? -->
+		<mapping resource="com/witsoft/hibernateXml/Exlctsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Exlcmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEluk.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsElcn.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsElcl.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsElup.hbm" />
+
+
+
+		<!-- 出口托收-->
+		<mapping resource="com/witsoft/hibernateXml/Exocmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Exoctsp.hbm" />
+
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcac.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOccl.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcnp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcpy.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcrj.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcup.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOctr.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcrt.hbm" />
+
+
+		<!-- 进口代收-->
+		<mapping resource="com/witsoft/hibernateXml/Imicmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Imictsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIcac.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIccg.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIcpy.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIcrj.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIcrt.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIcnp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIccl.hbm" />
+
+		<!--出口寄单收汇 -->
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbrg.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbtr.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbup.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbac.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbrj.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbum.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbnp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbpy.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbrt.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbcl.hbm" />
+
+		<!--光票托收-->
+		<mapping resource="com/witsoft/hibernateXml/Exccmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Excctsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Exobtsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Exobmsp.hbm" />
+
+		<mapping resource="com/witsoft/hibernateXml/ViDsCctr.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsCccl.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsCcpd.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsCcpy.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsCcrt.hbm" />
+
+
+		<!--贸易融资-->
+		<mapping resource="com/witsoft/hibernateXml/Ebnbtsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Ibnbmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Ibnbtsp.hbm" />
+
+		<mapping resource="com/witsoft/hibernateXml/ViDsEbob.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsEldb.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsFhyh.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbnb.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIbfh.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOcob.hbm" />
+		
+        <!--汇款-->
+		<mapping resource="com/witsoft/hibernateXml/Rtinmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Rtintsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIrcl.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIrpb.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsIrrt.hbm" />
+		
+		<mapping resource="com/witsoft/hibernateXml/Rtoumsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Rtoutsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOrcl.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsOrst.hbm" />
+		
+
+
+		<!--电文-->
+		<mapping resource="com/witsoft/hibernateXml/Mtexport.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Mtexinto.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Mtexinto2.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/MteTemp.hbm" />
+		
+
+		<!--面函-->
+    	<mapping resource="com/witsoft/hibernateXml/Ltexport.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/LeterOrMsg.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Mteorltetype.hbm" />
+
+
+		<!-- 系统表维护 -->
+		<mapping resource="com/witsoft/hibernateXml/Emclmgp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsClient.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emlmmsp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emdlbkp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Bankbrno.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emrtchp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emclact.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emzhdzb.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Isstusd.hbm" />
+
+		<!-- 系统参数 -->
+		<mapping resource="com/witsoft/hibernateXml/ViEmrlractp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Country.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsRlus.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/ViDsPowertree.hbm" />
+		
+		<mapping resource="com/witsoft/hibernateXml/Embrctp.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Emitemno.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Result.hbm" />
+		<mapping resource="com/witsoft/hibernateXml/Ment.hbm" />
+        <mapping resource="com/witsoft/hibernateXml/ViClient.hbm" />
+        
+        <!--信用证、票据 -->
+     
+        <mapping resource="com/witsoft/hibernateXml/Kzsqs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Fcsdtsdjb.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyzxgsqs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyz.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Jdtzs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyzxgtzs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyztzyfdjb.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyzxgs.hbm"/>    
+        <mapping resource="com/witsoft/hibernateXml/Xyztzs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyzyfwtsksqs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyzldtzs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Xyzlqtzs.hbm"/>
+        
+        <mapping resource="com/witsoft/hibernateXml/Jjyfbfdtzs.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Tscdpz.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Wtskpz.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Yfkxzmd.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Yfpz.hbm"/>
+        
+        <mapping resource="com/witsoft/hibernateXml/ViDsBill.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/ViDsViewreport.hbm"/>
+        
+        <mapping resource="com/witsoft/hibernateXml/Vouchers.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Voucher.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/ViVoucher.hbm"/>
+        
+        <!--案例 -->
+        <mapping resource="com/witsoft/hibernateXml/Cases.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Studentcase.hbm"/>
+        <mapping resource="com/witsoft/hibernateXml/Casemark.hbm"/>
+        
+	</session-factory>
+
+</hibernate-configuration>
