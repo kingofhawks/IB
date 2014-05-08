@@ -1,10 +1,25 @@
 <%@ include file="/common/header.jsp"%>
 <%@ page contentType="text/html; charset=GB2312"%>
+<!DOCTYPE html>
 <html>
-  <head><title><bean:message key="common.systemName" /></title>
-  <script language="javascript" type="text/javascript"
-	src="/IB/common/list.js"></script>
-	<link href="/IB/common/default.css" rel="stylesheet" type="text/css">
+  <head>
+      <title><bean:message key="common.systemName" /></title>
+<link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
+<script language="javascript" type="text/javascript"	src="/IB/common/list.js"></script>
+<link href="/IB/common/default.css" rel="stylesheet" type="text/css">
+<script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+<link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
+<script src="resources/vendor/iCheck/icheck.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('input').iCheck({
+          checkboxClass: 'icheckbox_square-blue',
+          radioClass: 'iradio_square',
+          increaseArea: '20%' // optional
+      });
+  });
+</script>
 
   </head>
 <html:form action="telegramTextManageAction.do">
@@ -14,8 +29,7 @@
     <input type="hidden" name="swno" value="<%=(String)request.getAttribute("swno")%>">
 </html:form>
   <body>
-   <table width="100%" height="100%" border="0" align="center"
-	cellpadding="0" cellspacing="0">
+   <table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 	<tr>
 		<td class="outerTable_top_left"></td>
 		<td class="outerTable_top_x"></td>
@@ -31,7 +45,7 @@
 			valign="bottom" class="tab_blank">
 			<tr>
 				<td class="tab_unactive_left" id="tab_left"></td>
-				<td class="tab_unactive_btn" id="tab_btn"><nobr>案例管理</nobr></td>
+				<td class="tab_unactive_btn" id="tab_btn"><nobr><strong>案例管理</strong></nobr></td>
 				<td class="tab_unactive_right" id="tab_right">&nbsp;</td>
 			</tr>
 		</table>
@@ -43,7 +57,7 @@
 		<td class="outerTable_main"><!--内表格开始-->
 		<form method="post" action="cases.do?flag=delete">
 		<table width="100%" height="100%" border="0" align="center"
-			cellpadding="0" cellspacing="0">
+			cellpadding="0" cellspacing="0" >
 			<tr>
 				<td class="innerTable_top_left"></td>
 				<td class="innerTable_top_x"></td>
@@ -53,15 +67,15 @@
 				<td class="innerTable_left_y"></td>
 				<td align="center" class="innerTable_main">
 				<div id="innerTable_divLis" style="width:96%">
-					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list">
-						<tr>
-						    <th width="6%" align="left"></th>
-							<th width="10%" align="left">案例编号</th>
-							<th width="30%" align="left">案例类型</th>
-							<th width="34%" align="left">案例名称</th>
-							<th width="10%" align="left">教师</th>
-							<th width="10%">浏览案例</th>
-						</tr>
+					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table" >
+                        <thead>
+                            <td>#</td>
+                            <td><strong>案例编号</strong></td>
+                            <td>案例类</td>
+                            <td>案例名</td>
+                            <td>教师</td>
+                            <td>浏览案例</td>
+                        </thead>
 						<logic:notEmpty name="list">
 							<logic:iterate id="list" name="list" indexId="index" scope="request">
  <%if ((index.intValue() % 2) == 1) {
@@ -78,7 +92,11 @@
 									<td style="overflow:hidden;text-overflow:ellipsis"><bean:write name="list" property="detai" /></td>
 									<td><bean:write name="list" property="teachId" /></td>
 									</span>
-									<td><a href="cases.do?flag=load&id=<bean:write name='list' property='id'/>" target="_blank"><img src="/IB/images/view.gif" width="16" height="16" border="0" /></a></td>
+									<td>
+                                        <a href="cases.do?flag=load&id=<bean:write name='list' property='id'/>" target="_blank">
+                                             <i class="fa fa-search fa-2x"></i>
+                                        </a>
+                                    </td>
 								</tr>
 							</logic:iterate>
 						</logic:notEmpty>
