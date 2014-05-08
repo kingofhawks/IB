@@ -6,11 +6,19 @@
 <head>
 <script language="javascript" type="text/javascript" src="/IB/common/list.js"> </script>
 <title>测评</title>
+    <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/IB/resources/vendor/select2/select2.css" />
+    <script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+    <script src="/IB/resources/vendor/select2/select2.min.js"></script>
 <style>
-div.sele_div_cl{border:1px solid #000000; width:122px; height:18px; clip:rect(0px,112px,17px,0px);overflow:hidden;}
-select {position:relative; margin:-2px;width:124px;border:0px;behavior:url('/IB/common/select.htc'); }
+
+.form_input{
+    width:360px;
+}
 </style>
 <script language="javascript">
+    $(document).ready(function() { $("#ugid").select2(); });
 function setHref(){
  var link01 = document.getElementById('link01');
    window.open("/IB/gradeexcel.jsp?ugid="+document.getElementById('ugid').value);
@@ -51,71 +59,73 @@ String casesId=manage.getCaseId(null,null);
 				
 				<!--内容开始-->
 				 <form>
-					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                     <h2><strong>测&nbsp;&nbsp;&nbsp;&nbsp;评</strong></h2>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table">
 						<tr>
 						  <td width="100%" align="center" valign="top">
-							 <div class="blankt" style="height:20px"></div><table width="90%" cellSpacing=0 borderColorDark=#ffffff cellPadding=0  borderColorLight="#c0c0c0" border=1 align=center class="innercontent">
-								<tr>
-								  <td height="25" colspan="2" align="center" valign="middle"  class="innertitle">测&nbsp;&nbsp;&nbsp;&nbsp;评</td>
-							  </tr>
+							 <div class="blankt" style="height:20px"></div>
+                              <table width="90%" cellSpacing=0 borderColorDark=#ffffff cellPadding=0  borderColorLight="#c0c0c0" border=1 align=center class="innercontent">
 								<tr>
 								  <td align="right" valign="top" bgcolor="#EBEBEB">请填入要测评的案例编号：</td>
 								  <td width="76%" align="left" valign="top">
-								    <input name="casesId" id="casesId" value="<%=casesId%>" size="80" maxlength="80" readonly="readonly">
+								    <input name="casesId" id="casesId"  value="<%=casesId%>" size="80" maxlength="80" readonly="readonly" class="form_input">
 							      &nbsp;
 							      <html:image src="/IB/images/winsearch.gif" tabindex="1" property="more_btn" onclick="openWin('test','casesId');return false"></html:image>
 						      </td>
 							  </tr>
 								<tr>
-									<td width="24%" align="right" valign="middle" bgcolor="#EBEBEB">请输入用户编号：</td>
-								  <td align="left" valign="middle">
-									    <input name="usid" type="text" class="sele_div_cl">（默认为全部学生） </td>
+									  <td width="24%" align="right" valign="middle" bgcolor="#EBEBEB">请输入用户编号：</td>
+                                      <td align="left" valign="middle">
+                                            <input name="usid" type="text" class="sele_div_cl form_input" placeholder="默认为全部学生">
+                                      </td>
 							    </tr>
 								
 								<tr>
 								    <td align="right" valign="middle" bgcolor="#EBEBEB">请选择班级：</td>
 								    <td align="left" valign="middle">
                                     <table width="100%" height="20" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td height="1"></td>
-  </tr>
-  <tr>
-    <td><div class="sele_div_cl">
-                                        <select id='ugid' name="ugid">
-                                            <%out.println(request.getAttribute("OPTION_UGID"));%>
-                                        </select>
-                                  </div></td>
-  </tr>
-</table>
+                                      <tr>
+                                        <td height="1"></td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <select id='ugid' name="ugid" class="form_input">
+                                                <%out.println(request.getAttribute("OPTION_UGID"));%>
+                                            </select>
+
+                                        </td>
+                                      </tr>
+                                    </table>
        							  </td>
 							    </tr>
 							</table>
 							<table width="90%" border="0" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td width="80%" height="60" align="center" valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;<br>
-					              <input type="button" name="submit" value="评估" onClick="init()" class="btn">	
-                                   &nbsp;&nbsp;
-								  <input type="button" id="tes1" name="tes1" value="查看成绩图" onClick="jFreeChart()" class="btn">
-								   &nbsp;&nbsp;
-							    <input type="button" id ="link01"  onClick="setHref()" value="导出学生成绩列表" class="btn"></td>
+                                    <button name="submit" type="button" class="btn btn-primary" onClick="init()">评估</button>
+                                    <button name="submit" id="tes1" type="button" class="btn btn-primary" onClick="jFreeChart()">查看成绩图</button>
+                                    <button name="submit" id ="link01" type="button" class="btn btn-primary" onClick="setHref()">导出学生成绩列表</button>
+					            </td>
                               </tr>
                             </table></td>
 							
 						</tr>
-					</table><div id="innerTable_divLis" style="width:90%;height:220px" >
-				   <div id="grade">
-					<table width="100%" border="0" cellspacing="1" cellpadding="1" id="item_list" style="cursor:auto;">
-                <tr>
-                <th width="12%">用户编号</th>
-                <th width="16%">姓名</th>
-                <th width="13%">班级</th>
-                <th width="11%">案例总分</th>
-                <th width="18%">学生所做案例操作总分</th>
-                <th width="12%">扣除分数</th>
-                <th width="18%">实际得分&#8249;百分制&#8250;</th>
-                </tr>
-</table></div>
-</div>
+					</table>
+                    <div id="innerTable_divLis" style="width:90%;height:220px" >
+                        <div id="grade">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1" id="item_list" style="cursor:auto;" class="table">
+                                <tr>
+                                <th width="12%">用户编号</th>
+                                <th width="16%">姓名</th>
+                                <th width="13%">班级</th>
+                                <th width="11%">案例总分</th>
+                                <th width="18%">学生所做案例操作总分</th>
+                                <th width="12%">扣除分数</th>
+                                <th width="18%">实际得分&#8249;百分制&#8250;</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 <SCRIPT LANGUAGE="JavaScript">
 /**
 成绩表状图
@@ -229,5 +239,7 @@ function show()
 	</tr>
 
 </table>
+
+
 </body>
 </html>

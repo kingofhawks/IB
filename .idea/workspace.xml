@@ -138,7 +138,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" afterPath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/bills.jsp" afterPath="$PROJECT_DIR$/system/bills.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/casetop.jsp" afterPath="$PROJECT_DIR$/case/casetop.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" afterPath="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu/deeptreeconfig.xml" afterPath="$PROJECT_DIR$/menu/deeptreeconfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/affiche/editor.jsp" afterPath="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" afterPath="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/inwardRemittance/hangAccountRelievePay.jsp" afterPath="$PROJECT_DIR$/remittance/inwardRemittance/hangAccountRelievePay.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/header.jsp" afterPath="$PROJECT_DIR$/common/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/index.htm" afterPath="$PROJECT_DIR$/guide/index.htm" />
@@ -169,9 +172,12 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/hibernate.cfg.xml" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399267594468" ignored="false" />
     <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399337049593" ignored="false" />
-    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399382047037" ignored="false" />
-    <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399423453185" ignored="false" />
-    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399433361479" ignored="false" />
+    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399468449974" ignored="false" />
+    <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399467472425" ignored="false" />
+    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399469616586" ignored="false" />
+    <file path="/gradeList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399528094892" ignored="false" />
+    <file path="/controlPanel.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399466630885" ignored="false" />
+    <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399469387837" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,51 +238,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.jsp">
+      <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="48" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-1.0754716">
+            <state line="58" column="48" selection-start="2298" selection-end="2298" vertical-scroll-proportion="-3.490566">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-18.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="86" selection-start="4824" selection-end="4824" vertical-scroll-proportion="-39.433964">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradeList.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="71" selection-start="684" selection-end="684" vertical-scroll-proportion="0.6686217">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select2_locale_zh-CN.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/vendor/select2/select2_locale_zh-CN.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/vendor/select2/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="36" selection-start="2302" selection-end="2319" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="caseManage.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="57" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-2.2830188">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="616" column="24" selection-start="19380" selection-end="19380" vertical-scroll-proportion="-4.792453">
               <folding>
-                <marker date="1399343767187" expanded="true" signature="561:584" placeholder="{...}" />
-                <marker date="1399343767187" expanded="false" signature="3017:3034" placeholder="..." />
-                <marker date="1399343767187" expanded="true" signature="13821:13838" placeholder="..." />
+                <marker date="1399469461400" expanded="true" signature="9649:9678" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/top.jsp">
+      <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="107" selection-start="7079" selection-end="7114" vertical-scroll-proportion="-3.9433963">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="63" selection-start="4423" selection-end="4423" vertical-scroll-proportion="0.34857142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradeList.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="734" selection-end="738" vertical-scroll-proportion="-6.178571">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/menu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="68" selection-start="870" selection-end="870" vertical-scroll-proportion="-2.0357144">
-              <folding />
+            <state line="124" column="22" selection-start="3805" selection-end="3818" vertical-scroll-proportion="-0.64">
+              <folding>
+                <marker date="1173662529000" expanded="false" signature="3275:3324" placeholder="..." />
+                <marker date="1173662529000" expanded="false" signature="3474:3505" placeholder="..." />
+                <marker date="1173662529000" expanded="false" signature="4180:4229" placeholder="..." />
+                <marker date="1173662529000" expanded="false" signature="4433:4445" placeholder="..." />
+                <marker date="1173662529000" expanded="false" signature="4577:4589" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -295,8 +341,11 @@
         <option value="$PROJECT_DIR$/common/header.jsp" />
         <option value="$USER_HOME$/Documents/Tencent Files/2054958070/FileRecv/DBConfig.java" />
         <option value="$PROJECT_DIR$/index.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" />
         <option value="$PROJECT_DIR$/top.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
         <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
       </list>
     </option>
   </component>
@@ -304,8 +353,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -333,7 +384,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,6 +405,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,16 +420,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\images" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
@@ -397,6 +448,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -425,19 +489,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -509,33 +560,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21869488" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21783876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32019705" sideWeight="0.33509701" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3199033" sideWeight="0.33509701" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958949" sideWeight="0.49911818" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32019705" sideWeight="0.44620812" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.78216124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -599,104 +650,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/2054958070/FileRecv/DBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#1728#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="54" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-4.928571">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treeCase.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="417" selection-end="417" vertical-scroll-proportion="0.26206896">
-          <folding>
-            <marker date="1219226876062" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1219226876062" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1219226876062" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="68" selection-start="247" selection-end="247" vertical-scroll-proportion="0.31353134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/jquery/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="84245" selection-end="84245" vertical-scroll-proportion="0.22352941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap-3.1.1/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="87" selection-start="506" selection-end="506" vertical-scroll-proportion="-107.747055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="68" selection-start="870" selection-end="870" vertical-scroll-proportion="-2.0357144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/font-awesome-4.0.3/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="734" selection-end="738" vertical-scroll-proportion="-6.178571">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="48" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-1.0754716">
-          <folding>
-            <marker date="1399343767187" expanded="true" signature="561:584" placeholder="{...}" />
-            <marker date="1399343767187" expanded="false" signature="3017:3034" placeholder="..." />
-            <marker date="1399343767187" expanded="true" signature="13821:13838" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="javaeeDummy://JavaeeElement:/c15183e6//IB/web/Web/Facet">
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="32" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.5661538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top_backup.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -704,23 +657,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top.jsp">
+    <entry file="file://$PROJECT_DIR$/file/date/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="107" selection-start="7079" selection-end="7114" vertical-scroll-proportion="-3.9433963">
+        <state line="6" column="3" selection-start="245" selection-end="283" vertical-scroll-proportion="0.2828784" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="58" selection-start="12901" selection-end="12901" vertical-scroll-proportion="-10.25">
+          <folding>
+            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/popedomManage/userManageDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="88" selection-start="3963" selection-end="3963" vertical-scroll-proportion="0.3556701">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/date/calendar.js">
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/controlPanel.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="245" selection-end="283" vertical-scroll-proportion="0.2828784">
+        <state line="81" column="17" selection-start="2627" selection-end="2627" vertical-scroll-proportion="-2.1509433">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="22" selection-start="3805" selection-end="3818" vertical-scroll-proportion="-0.64">
+          <folding>
+            <marker date="1173662529000" expanded="false" signature="3275:3324" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="3474:3505" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="4180:4229" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="4433:4445" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="4577:4589" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="57" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-2.2830188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="616" column="24" selection-start="19380" selection-end="19380" vertical-scroll-proportion="-4.792453">
+          <folding>
+            <marker date="1399469461400" expanded="true" signature="9649:9678" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/select2/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-18.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="48" selection-start="2298" selection-end="2298" vertical-scroll-proportion="-3.490566">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="63" selection-start="4423" selection-end="4423" vertical-scroll-proportion="0.34857142">
+        <state line="110" column="86" selection-start="4824" selection-end="4824" vertical-scroll-proportion="-39.433964">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/select2/select2_locale_zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/select2/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="36" selection-start="2302" selection-end="2319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="71" selection-start="684" selection-end="684" vertical-scroll-proportion="0.6686217">
           <folding />
         </state>
       </provider>

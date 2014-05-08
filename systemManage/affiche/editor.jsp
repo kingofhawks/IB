@@ -110,7 +110,11 @@
         <td height="25" colspan="17" valign="middle">&nbsp;&nbsp;公告内容不能超过1000字节(相当于500个汉字)。</td>
     </tr>
        <tr>
-         <td colspan="17" valign="middle"><iframe ID="contentA" name="contentA" width="100%" height="180" frameborder="0" vspace="10" hspace="5" style="background-color: #ffffff; border: 1px solid #000000; white-space:normal; overflow:hidden" ></iframe></td>
+         <td colspan="17" valign="middle">
+
+             <iframe ID="contentA" name="contentA" width="100%" height="180" frameborder="0" vspace="10" hspace="5" style="background-color: #ffffff; border: 1px solid #000000; white-space:normal; overflow:hidden" >
+             </iframe>
+         </td>
        </tr>
 </table>
 

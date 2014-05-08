@@ -108,7 +108,7 @@
                         <td>&nbsp;结束时间：</td>
                         <td><input type="date" name="endDate" class="form-control"></td>
                         <td align="right">
-                            <button name="submit" type="submit" class="btn btn-success">
+                            <button name="submit" type="submit" class="btn btn-primary">
                                 <i class="fa fa-search"></i> 查看
                             </button>
                         &nbsp;&nbsp;</td></tr>

@@ -174,7 +174,7 @@ function MM_swapImage() { //v3.0
                 <li><a href="announcement.do?sign=stu" target="mainFrame"><i class="fa fa-search-plus fa-2x"></i> 公告查看</a></li>
                 <li><a href="/IB/flowChart/showFlowChart.jsp" target="mainFrame"><i class="fa fa-bar-chart-o fa-2x"></i> 学生操作</a></li>
                 <li><a href="/IB/bill/bills.jsp" target="mainFrame"><i class="fa fa-files-o fa-2x"></i> 贸易单证</a></li>
-                <li><a href="/IB/cases.do?flag=list" target="mainFrame"><i class="fa fa-edit fa-2x"></i> 案例</a></li>
+                <li><a href="/IB/cases.do?flag=list" target="mainFrame"><i class="fa fa-briefcase fa-2x"></i> 案例</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
