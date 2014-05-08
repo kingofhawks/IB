@@ -5,6 +5,7 @@
     src="/IB/common/list.js"></script>
 <script language="javascript" type="text/javascript"
     src="/IB/systemManage/affiche/xmlhttp.js"></script>
+<link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 <style>
 #innerTable_divLis {
 		border: #CCCCCC solid; 
@@ -68,14 +69,13 @@ height:160px;
     </tr>
     <tr>
         <td height="22" class="outerTable_left_y"></td>
-        <td align="right" class="outerTable_head"><span
+        <td align="right" class="outerTable_head">
+            <span
             class="tab_unactive_right"> </span>
-        <table border="0" cellpadding="0" cellspacing="0" align="left"
-            valign="bottom" class="tab_blank">
+
+        <table border="0" cellpadding="0" cellspacing="0" align="center"  valign="bottom" >
             <tr>
-                <td class="tab_unactive_left" id="tab_left"></td>
-                <td class="tab_unactive_btn" id="tab_btn"><nobr>公告信息</nobr></td>
-                <td class="tab_unactive_right" id="tab_right">&nbsp;</td>
+                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>公告信息</strong></h2></td>
             </tr>
         </table>
         </td>
@@ -95,7 +95,7 @@ height:160px;
                 <td class="innerTable_left_y"></td>
                 <td align="left" valign="top">
                 <div id="innerTable_divLis" style='width:98%;height:200;'>
-                <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list">
+                <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
                     <tr height="20">
                         <th width="8%" align="left"><strong>编号</strong></th>
                         <th width="52%" align="left"><strong>标题</strong></th>

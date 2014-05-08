@@ -131,11 +131,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShenQingShu.jsp" afterPath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShenQingShu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShu.jsp" afterPath="$PROJECT_DIR$/lc/importLC/LC/XinYongZhengXiuGaiShu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lc/negotiation/invoiceGathering/XinYongZhengYiFu_WeiTuoShouKuanShenQingShu.jsp" afterPath="$PROJECT_DIR$/lc/negotiation/invoiceGathering/XinYongZhengYiFu_WeiTuoShouKuanShenQingShu.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" afterPath="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" afterPath="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/inwardRemittance/annulDossierDetail.jsp" afterPath="$PROJECT_DIR$/remittance/inwardRemittance/annulDossierDetail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/outwardRemittance/annulDossierDetail.jsp" afterPath="$PROJECT_DIR$/remittance/outwardRemittance/annulDossierDetail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" afterPath="$PROJECT_DIR$/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remittance/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" afterPath="$PROJECT_DIR$/remittance/letter/authorizedLetterOfAttorneyOfLetterOfCredit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" afterPath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/bills.jsp" afterPath="$PROJECT_DIR$/bill/bills.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/bills.jsp" afterPath="$PROJECT_DIR$/system/bills.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/caseManage.jsp" afterPath="$PROJECT_DIR$/case/caseManage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/casetop.jsp" afterPath="$PROJECT_DIR$/case/casetop.jsp" />
@@ -173,13 +176,16 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/hibernate.cfg.xml" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399267594468" ignored="false" />
     <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399337049593" ignored="false" />
-    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399468449974" ignored="false" />
+    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557557600" ignored="false" />
     <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399467472425" ignored="false" />
-    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399469616586" ignored="false" />
+    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399555261082" ignored="false" />
     <file path="/gradeList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399528094892" ignored="false" />
     <file path="/controlPanel.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399466630885" ignored="false" />
     <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399469387837" ignored="false" />
-    <file path="/caseManage.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399554408013" ignored="false" />
+    <file path="/caseManage.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399558737252" ignored="false" />
+    <file path="/bills.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399558574673" ignored="false" />
+    <file path="/afficheStu.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557482872" ignored="false" />
+    <file path="/affiche.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557828136" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,16 +249,7 @@
       <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="392" selection-end="555" vertical-scroll-proportion="-3.5849056">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-18.5">
+            <state line="10" column="0" selection-start="392" selection-end="470" vertical-scroll-proportion="-3.5849056">
               <folding />
             </state>
           </provider>
@@ -261,16 +258,16 @@
       <file leaf-file-name="showFlowChart.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="86" selection-start="4824" selection-end="4824" vertical-scroll-proportion="-39.433964">
+            <state line="136" column="20" selection-start="5708" selection-end="5708" vertical-scroll-proportion="-3.2264152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradeList.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+      <file leaf-file-name="bills.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="541" selection-end="612" vertical-scroll-proportion="-3.9433963">
+            <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-3.2264152">
               <folding />
             </state>
           </provider>
@@ -279,7 +276,34 @@
       <file leaf-file-name="caseManage.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="32" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.57575756">
+            <state line="43" column="89" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.5618557">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="afficheStu.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="0" selection-start="2198" selection-end="2326" vertical-scroll-proportion="-6.785714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="affiche.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="45" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradeList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="73" selection-start="2304" selection-end="2356" vertical-scroll-proportion="-4.6603775">
               <folding />
             </state>
           </provider>
@@ -302,8 +326,11 @@
         <option value="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" />
         <option value="$PROJECT_DIR$/top.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
-        <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" />
+        <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
+        <option value="$PROJECT_DIR$/bill/bills.jsp" />
         <option value="$PROJECT_DIR$/case/caseManage.jsp" />
       </list>
     </option>
@@ -358,102 +385,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCheck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCheck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iCheck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="square" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -719,48 +650,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file/date/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="245" selection-end="283" vertical-scroll-proportion="0.2828784" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="58" selection-start="12901" selection-end="12901" vertical-scroll-proportion="-10.25">
-          <folding>
-            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/popedomManage/userManageDetail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="88" selection-start="3963" selection-end="3963" vertical-scroll-proportion="0.3556701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/grade/controlPanel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="17" selection-start="2627" selection-end="2627" vertical-scroll-proportion="-2.1509433">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="22" selection-start="3805" selection-end="3818" vertical-scroll-proportion="-0.64">
-          <folding>
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="616" column="24" selection-start="19380" selection-end="19380" vertical-scroll-proportion="-4.792453">
@@ -773,13 +662,6 @@
     <entry file="file://$PROJECT_DIR$/resources/vendor/select2/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-18.5">
           <folding />
         </state>
       </provider>
@@ -812,30 +694,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="73" selection-start="2304" selection-end="2356" vertical-scroll-proportion="-4.6603775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/announcement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="36" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.93765587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="2.3015463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="392" selection-end="555" vertical-scroll-proportion="-3.5849056">
+        <state line="10" column="0" selection-start="392" selection-end="470" vertical-scroll-proportion="-3.5849056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="45" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-3.2264152">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="86" selection-start="4824" selection-end="4824" vertical-scroll-proportion="-39.433964">
+        <state line="136" column="20" selection-start="5708" selection-end="5708" vertical-scroll-proportion="-3.2264152">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="541" selection-end="612" vertical-scroll-proportion="-3.9433963">
+        <state line="76" column="0" selection-start="2198" selection-end="2326" vertical-scroll-proportion="-6.785714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="32" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.57575756">
+        <state line="43" column="89" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.5618557">
           <folding />
         </state>
       </provider>

@@ -3,11 +3,13 @@
     src="/IB/common/list.js"></script>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html:html>
+<link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 <!--
 .bg {
 background-color:#efefef;}
 -->
+h2 {text-align:center}
 </style>
 <body>
 
@@ -18,25 +20,12 @@ background-color:#efefef;}
         <td class="outerTable_top_x"></td>
         <td class="outerTable_top_right"></td>
     </tr>
-    <tr>
-        <td height="22" class="outerTable_left_y"></td>
-        <td class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="left"
-            valign="bottom" class="tab_blank">
-            <tr>
-                <td class="tab_active_left" id="tab_left"></td>
-                <td class="tab_active_btn" id="tab_btn"><nobr>贸易单证</nobr></td>
-                <td class="tab_active_right" id="tab_right"></td>
-            </tr>
-        </table>
 
-        </td>
-        <td class="outerTable_right_y"></td>
-    </tr>
     <tr>
         <td class="outerTable_left_y"></td>
         <td valign="top" class="outerTable_main"><!--内表格开始-->
         <form method="post" action="">
+            <h2><strong>贸易单证</strong></h2>
           <table width="100%" height="100%" border="0" align="center"
             cellpadding="0" cellspacing="0">
             <tr>
@@ -48,7 +37,7 @@ background-color:#efefef;}
                 <td class="innerTable_left_y"></td>
                 <td align="center" class="innerTable_main">
                 <div id="innerTable_divLis" style="width:94%; height:98%"><!--内容开始-->
-                <table width="100%"  cellpadding="3" cellspacing="1" id="item_list">
+                <table width="100%"  cellpadding="3" cellspacing="1" id="item_list" class="table">
                     <tr>
                         <th width="8%" align="center">编号</th>
                         <th width="24%" align="center">单证名</th>

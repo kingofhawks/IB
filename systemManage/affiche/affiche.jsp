@@ -3,6 +3,7 @@
 <html><head>
 <script language="javascript" type="text/javascript" src="/IB/common/list.js"></script>
 <script language="javascript" type="text/javascript" src="/IB/systemManage/affiche/xmlhttp.js"></script>
+<link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <form></form>
@@ -18,13 +19,10 @@
 		<td align="right" class="outerTable_head"><span class="tab_unactive_right">
 		    <script language="javascript">showOperation("/IB/systemManage/affiche/editor.jsp?sign=add");</script>
 		</span>
-         <table border="0" cellpadding="0" cellspacing="0" align="left"
-			valign="bottom" class="tab_blank">
-			<tr>
-				<td class="tab_unactive_left" id="tab_left"></td>
-				<td class="tab_unactive_btn" id="tab_btn"><nobr>公告信息管理</nobr></td>
-				<td class="tab_unactive_right" id="tab_right">&nbsp;</td>
-			</tr>
+         <table border="0" cellpadding="0" cellspacing="0" align="center" valign="bottom" >
+             <tr>
+                 <td class="tab_unactive_btn" id="tab_btn"><h2><strong>公告信息管理</strong></h2></td>
+             </tr>
 		</table>
 		</td>
 		<td class="outerTable_right_y"></td>

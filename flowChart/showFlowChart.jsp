@@ -89,11 +89,11 @@
         <table border="0" cellpadding="0" cellspacing="0" align="left"
             valign="bottom" class="tab_blank">
             <tr>
-                <td class="tab_active_left" id="tab_left"></td>
-                <td class="tab_active_btn" id="tab_btn"><nobr>学生操作情况</nobr></td>
-                <td class="tab_active_right" id="tab_right"></td>
+                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>公告信息</strong></h2></td>
             </tr>
-        </table>      <div>  <table>
+        </table>
+            <div>
+            <table>
                     <form action="showFlowChart.jsp">
                     <tr>
                         <%if (user.getRole() != null
@@ -113,7 +113,8 @@
                             </button>
                         &nbsp;&nbsp;</td></tr>
                     </form>
-        </table></div></td>
+        </table>
+            </div></td>
         <td class="outerTable_right_y"></td>
     </tr>
     <tr>
@@ -134,7 +135,7 @@
                 
 <div id="innerTable_divLis" style="width:96%"><!--内容开始-->
                 <table width="100%" border="0" cellpadding="0"
-                    cellspacing="1" id="item_list" style="cursor:auto;">
+                    cellspacing="1" id="item_list" style="cursor:auto;" class="table">
                     <tr>
                         <th width="13%">学生姓名</th>
                         <th width="12%">用户名</th>

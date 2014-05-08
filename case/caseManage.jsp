@@ -41,13 +41,10 @@
 		    <script language="javascript">showOperation("/IB/case/teachCaseList.jsp");
 				</script>
 		</span>
-         <table border="0" cellpadding="0" cellspacing="0" align="left"
-			valign="bottom" class="tab_blank">
-			<tr>
-				<td class="tab_unactive_left" id="tab_left"></td>
-				<td class="tab_unactive_btn" id="tab_btn"><nobr><strong>案例管理</strong></nobr></td>
-				<td class="tab_unactive_right" id="tab_right">&nbsp;</td>
-			</tr>
+         <table border="0" cellpadding="0" cellspacing="0" align="center" valign="bottom">
+             <tr>
+                 <td class="tab_unactive_btn" id="tab_btn"><h2><strong>案例管理</strong></h2></td>
+             </tr>
 		</table>
 		</td>
 		<td class="outerTable_right_y"></td>
@@ -71,10 +68,10 @@
                         <thead>
                             <td>#</td>
                             <td><strong>案例编号</strong></td>
-                            <td>案例类</td>
-                            <td>案例名</td>
-                            <td>教师</td>
-                            <td>浏览案例</td>
+                            <td><strong>案例类</strong></td>
+                            <td><strong>案例名</strong></td>
+                            <td><strong>教师</strong></td>
+                            <td><strong>浏览案例</strong></td>
                         </thead>
 						<logic:notEmpty name="list">
 							<logic:iterate id="list" name="list" indexId="index" scope="request">
