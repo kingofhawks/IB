@@ -1,0 +1,20 @@
+{
+  "name": "quill",
+  "version": "0.13.2",
+  "homepage": "http://quilljs.com",
+  "authors": ["Jason Chen <jhchen7@gmail.com>"],
+  "contributors": [
+    "Byron Milligan <byronner@gmail.com>",
+    "Keegan Poppen <keegan.poppen@gmail.com>"
+  ],
+  "description": "Cross browser rich text editor",
+  "main": "index.coffee",
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "build",
+    "tests"
+  ]
+}

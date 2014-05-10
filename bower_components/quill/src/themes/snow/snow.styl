@@ -1,0 +1,219 @@
+inputHeight = 16px
+inputMargin = 3px
+inputPadding = 4px
+blackColor = #454545
+blueColor = #06c
+grayColor = #ccc
+lightGrayColor = #ddd
+fontNamePickerWidth = 105px
+fontSizePickerWidth = 80px
+textAlignPickerWidth = 32px
+pickerPadding = 8px
+pickerWidth = 50px
+toolbarPadding = 8px
+
+@font-face
+  font-family: 'quill-snow'
+  font-style: normal
+  font-weight: normal
+  src: url('assets/quill-snow.eot') format('embedded-opentype'), url('assets/quill-snow.woff') format('woff')
+
+.sc-toolbar-container
+  box-sizing: border-box
+  color: blackColor
+  font-family: 'Helvetica', 'Arial', sans-serif
+  padding: toolbarPadding (15px - pickerPadding) (toolbarPadding - 3px)
+  user-select: none
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  .sc-format-group
+    box-sizing: content-box
+    display: inline-block
+    float: left
+    line-height: inputHeight
+    margin-right: 15px
+  .sc-format-button
+    background-position: center center
+    background-repeat: no-repeat
+    box-sizing: content-box
+    cursor: pointer
+    font-family: 'quill-snow'
+    font-size: 12px
+    display: inline-block
+    float: left
+    height: inputHeight
+    margin-left: inputMargin
+    margin-right: inputMargin
+    padding: inputPadding
+    text-align: center
+    width: 16px
+  .sc-format-separator
+    background-color: lightGrayColor
+    box-sizing: content-box
+    display: inline-block
+    float: left
+    height: inputHeight
+    margin-bottom: inputPadding
+    margin-top: inputPadding
+    width: 1px
+// Clearfloat
+.sc-toolbar-container:after
+  clear: both
+  content: ""
+  display: table
+
+.sc-picker
+  box-sizing: content-box
+  font-size: 13px
+  display: inline-block
+  font-weight: bold
+  position: relative
+  .sc-picker-label
+    box-sizing: content-box
+    cursor: pointer
+    padding: inputPadding pickerPadding
+  .sc-picker-label:after
+    content: "\e812"
+    float: right
+    font-family: 'quill-snow'
+    font-size: 12px
+    margin-left: 8px
+  .sc-picker-label.sc-active, .sc-picker-label:hover
+    color: blueColor
+  .sc-picker-options
+    background-color: #fff
+    box-sizing: content-box
+    display: none
+    padding: inputPadding pickerPadding
+    position: absolute
+    .sc-picker-item
+      box-sizing: content-box
+      cursor: pointer
+      padding-bottom: inputPadding
+      padding-top: inputPadding
+    .sc-picker-item.selected, .sc-picker-item:hover
+      color: blueColor
+.sc-picker.sc-expanded
+  .sc-picker-label
+    border: 1px solid grayColor
+    color: grayColor
+    margin: -1px
+  .sc-picker-options
+    border: 1px solid grayColor
+    box-shadow: rgba(0,0,0,0.2) 0 2px 8px
+    display: block
+    margin: -1px
+
+.sc-picker.sc-align
+  .sc-picker-label:after
+    content: normal
+  .sc-picker-options
+    margin-left: inputMargin
+    margin-top: 24px
+    padding-left: 0px
+    padding-right: 0px
+    width: textAlignPickerWidth
+  .sc-picker-label[data-value=left]:before, .sc-picker-item[data-value=left]:before
+    content: "\e80B"
+  .sc-picker-label[data-value=right]:before, .sc-picker-item[data-value=right]:before
+    content: "\e80C"
+  .sc-picker-label[data-value=center]:before, .sc-picker-item[data-value=center]:before
+    content: "\e80D"
+  .sc-picker-label[data-value=justify]:before, .sc-picker-item[data-value=justify]:before
+    content: "\e80E"
+
+.sc-picker.sc-align.sc-expanded
+  .sc-picker-label
+    margin-left: inputMargin - 1px
+    margin-right: inputMargin - 1px
+  .sc-picker-options
+    margin-left: inputMargin - 1px
+
+.sc-picker.sc-color-picker
+  float: left
+  .sc-picker-label
+    background-position: center center
+  .sc-picker-label:after
+    content: normal
+  .sc-picker-options
+    height: 106px
+    margin-left: inputMargin
+    margin-top: 24px
+    padding: 6px
+    position: absolute
+    width: 140px
+    .sc-picker-item
+      float: left
+      height: 16px
+      margin: 2px
+      padding: 0px
+      width: 16px
+    .sc-picker-item.selected, .sc-picker-item:hover
+      border: 1px solid #000
+      margin: 1px
+.sc-picker.sc-color-picker.sc-expanded
+  .sc-picker-label
+    margin-left: inputMargin - 1px
+    margin-right: inputMargin - 1px
+  .sc-picker-options
+    margin-left: inputMargin - 1px
+
+/* Fix for iOS not losing hover state after click */
+.sc-toolbar-container.ios
+  .sc-format-button:hover
+    color: inherit
+  .sc-format-button.sc-active, .sc-format-button.sc-on
+    color: blueColor
+
+.sc-toolbar-container
+  .sc-format-button:hover, .sc-format-button.sc-active, .sc-format-button.sc-on
+    color: blueColor
+  .sc-format-button.sc-bold:before
+    content: "\e801"
+  .sc-format-button.sc-italic:before
+    content: "\e802"
+  .sc-format-button.sc-underline:before
+    content: "\e803"
+  .sc-format-button.sc-strike:before
+    content: "\e804"
+  .sc-format-button.sc-link:before
+    content: "\e805"
+  .sc-format-button.sc-image:before
+    content: "\e806"
+  .sc-format-button.sc-list:before
+    content: "\e807"
+  .sc-format-button.sc-bullet:before
+    content: "\e808"
+  .sc-format-button.sc-indent:before
+    content: "\e809"
+  .sc-format-button.sc-outdent:before
+    content: "\e80A"
+  .sc-format-button.sc-superscript:before
+    content: "\e80F"
+  .sc-format-button.sc-subscript:before
+    content: "\e810"
+  .sc-format-button.sc-authorship:before
+    content: "\e811"
+
+  .sc-font
+    width: fontNamePickerWidth
+    .sc-picker-options
+      width: fontNamePickerWidth - 2*pickerPadding
+  .sc-size
+    width: fontSizePickerWidth
+    .sc-picker-options
+      width: fontSizePickerWidth - 2*pickerPadding
+
+  .sc-color, .sc-background
+    .sc-picker-options
+      .sc-picker-item.sc-primary-color
+        margin-bottom: 8px
+      .sc-picker-item.sc-primary-color.sc-selected, .sc-picker-item.sc-primary-color:hover
+        margin-bottom: 7px
+
+  for $format in color background
+    .sc-picker.sc-{$format} .sc-picker-label
+      background-image: url('assets/' + $format + '.png')
+    .sc-picker.sc-{$format} .sc-picker-label.sc-active, .sc-picker.sc-{$format} .sc-picker-label:hover, .sc-picker.sc-{$format}.sc-expanded .sc-picker-label
+      background-image: url('assets/' + $format + '-active.png')

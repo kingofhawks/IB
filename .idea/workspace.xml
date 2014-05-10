@@ -176,16 +176,18 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/hibernate.cfg.xml" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399267594468" ignored="false" />
     <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399337049593" ignored="false" />
-    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557557600" ignored="false" />
+    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399727650262" ignored="false" />
     <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399467472425" ignored="false" />
     <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399555261082" ignored="false" />
     <file path="/gradeList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399528094892" ignored="false" />
     <file path="/controlPanel.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399466630885" ignored="false" />
-    <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399469387837" ignored="false" />
+    <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399727643743" ignored="false" />
     <file path="/caseManage.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399558737252" ignored="false" />
     <file path="/bills.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399558574673" ignored="false" />
     <file path="/afficheStu.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557482872" ignored="false" />
     <file path="/affiche.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557828136" ignored="false" />
+    <file path="$PROJECT_DIR$/bower_components/tinymce/tests/js/tinymce_loader.js" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399723201654" ignored="false" />
+    <file path="$PROJECT_DIR$/bower_components/tinymce/js/tinymce/classes/EditorManager.js" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399723201654" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +251,7 @@
       <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="392" selection-end="470" vertical-scroll-proportion="-3.5849056">
+            <state line="11" column="0" selection-start="471" selection-end="555" vertical-scroll-proportion="-3.9433963">
               <folding />
             </state>
           </provider>
@@ -258,7 +260,7 @@
       <file leaf-file-name="showFlowChart.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="20" selection-start="5708" selection-end="5708" vertical-scroll-proportion="-3.2264152">
+            <state line="110" column="54" selection-start="4693" selection-end="4693" vertical-scroll-proportion="-5.018868">
               <folding />
             </state>
           </provider>
@@ -267,16 +269,16 @@
       <file leaf-file-name="bills.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-3.2264152">
+            <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-9.679245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caseManage.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
+      <file leaf-file-name="editor.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="89" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.5618557">
+            <state line="10" column="72" selection-start="537" selection-end="537" vertical-scroll-proportion="0.38">
               <folding />
             </state>
           </provider>
@@ -294,7 +296,7 @@
       <file leaf-file-name="affiche.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
+            <state line="25" column="16" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
               <folding />
             </state>
           </provider>
@@ -325,13 +327,13 @@
         <option value="$PROJECT_DIR$/index.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" />
         <option value="$PROJECT_DIR$/top.jsp" />
-        <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" />
         <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
         <option value="$PROJECT_DIR$/bill/bills.jsp" />
         <option value="$PROJECT_DIR$/case/caseManage.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
       </list>
     </option>
   </component>
@@ -425,11 +427,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\systemManage\affiche" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
@@ -567,7 +569,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21783876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26243567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -581,7 +583,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.78216124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121212" sideWeight="0.7375643" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -650,64 +652,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="24" selection-start="19380" selection-end="19380" vertical-scroll-proportion="-4.792453">
-          <folding>
-            <marker date="1399469461400" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/select2/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/select2/select2_locale_zh-CN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/select2/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="36" selection-start="2302" selection-end="2319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="21" selection-start="3823" selection-end="3823" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/iCheck/skins/flat/red.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="73" selection-start="2304" selection-end="2356" vertical-scroll-proportion="-4.6603775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/grade/announcement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="36" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.93765587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="2.3015463">
@@ -715,16 +659,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="392" selection-end="470" vertical-scroll-proportion="-3.5849056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
+        <state line="25" column="16" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
           <folding />
         </state>
       </provider>
@@ -732,20 +669,6 @@
     <entry file="file://$PROJECT_DIR$/case.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-3.2264152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="20" selection-start="5708" selection-end="5708" vertical-scroll-proportion="-3.2264152">
           <folding />
         </state>
       </provider>
@@ -759,7 +682,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="89" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.5618557">
+        <state line="43" column="89" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-7.785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor_backup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="10" selection-start="10026" selection-end="10034" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/jquery/jquery.placeholder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1315136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3940217">
+          <folding>
+            <marker date="1169023246000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="54" selection-start="4693" selection-end="4693" vertical-scroll-proportion="-5.018868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-9.679245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="111" selection-start="5971" selection-end="5982" vertical-scroll-proportion="0.33236152">
+          <folding>
+            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="120" selection-start="7928" selection-end="7928" vertical-scroll-proportion="0.35882354">
+          <folding>
+            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="471" selection-end="555" vertical-scroll-proportion="-3.9433963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="72" selection-start="537" selection-end="537" vertical-scroll-proportion="0.38">
           <folding />
         </state>
       </provider>
