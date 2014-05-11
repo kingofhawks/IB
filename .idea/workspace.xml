@@ -178,7 +178,7 @@
     <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399337049593" ignored="false" />
     <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399727650262" ignored="false" />
     <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399467472425" ignored="false" />
-    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399555261082" ignored="false" />
+    <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399816096431" ignored="false" />
     <file path="/gradeList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399528094892" ignored="false" />
     <file path="/controlPanel.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399466630885" ignored="false" />
     <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399792036610" ignored="false" />
@@ -251,16 +251,16 @@
       <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="471" selection-end="555" vertical-scroll-proportion="-3.9433963">
+            <state line="205" column="1" selection-start="8044" selection-end="8111" vertical-scroll-proportion="-2.7735848">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="54" selection-start="4693" selection-end="4693" vertical-scroll-proportion="-5.018868">
+            <state line="116" column="67" selection-start="4840" selection-end="4840" vertical-scroll-proportion="-0.21714285">
               <folding />
             </state>
           </provider>
@@ -278,7 +278,7 @@
       <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="181" selection-start="1109" selection-end="1109" vertical-scroll-proportion="-1.6415094">
+            <state line="13" column="0" selection-start="552" selection-end="1118" vertical-scroll-proportion="-1.4339622">
               <folding />
             </state>
           </provider>
@@ -311,19 +311,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="afficheStu.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="afficheStu.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="88" selection-start="2343" selection-end="2343" vertical-scroll-proportion="-0.44705883">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradeList.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="73" selection-start="2304" selection-end="2356" vertical-scroll-proportion="-4.6603775">
+            <state line="146" column="93" selection-start="5692" selection-end="5692" vertical-scroll-proportion="-7.464286">
               <folding />
             </state>
           </provider>
@@ -347,11 +338,12 @@
         <option value="$PROJECT_DIR$/top.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" />
-        <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
         <option value="$PROJECT_DIR$/bill/bills.jsp" />
         <option value="$PROJECT_DIR$/case/caseManage.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
+        <option value="$PROJECT_DIR$/bower_components/modernizr/modernizr.min.js" />
+        <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
       </list>
     </option>
   </component>
@@ -425,10 +417,6 @@
               <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tinymce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -443,20 +431,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tinymce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modern" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,51 +456,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tinymce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="langs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="modernizr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,11 +487,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\modernizr" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\tinymce\langs" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\systemManage\affiche" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
@@ -766,70 +712,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor_backup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="10" selection-start="10026" selection-end="10034" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/jquery/jquery.placeholder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1315136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3940217">
-          <folding>
-            <marker date="1169023246000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="54" selection-start="4693" selection-end="4693" vertical-scroll-proportion="-5.018868">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-9.679245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="111" selection-start="5971" selection-end="5982" vertical-scroll-proportion="0.33236152">
-          <folding>
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1173662529000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="171" column="120" selection-start="7928" selection-end="7928" vertical-scroll-proportion="0.35882354">
@@ -837,13 +719,6 @@
             <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
             <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="471" selection-end="555" vertical-scroll-proportion="-3.9433963">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="181" selection-start="1109" selection-end="1109" vertical-scroll-proportion="-1.6415094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="78" selection-start="372" selection-end="372" vertical-scroll-proportion="10.037736">
@@ -884,7 +752,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="88" selection-start="2343" selection-end="2343" vertical-scroll-proportion="-0.44705883">
+        <state line="146" column="93" selection-start="5692" selection-end="5692" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/modernizr/test/js/lib/uaparser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="182" selection-end="198" vertical-scroll-proportion="0.41304347">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/modernizr/modernizr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="77" selection-start="6910" selection-end="6914" vertical-scroll-proportion="0.7755102">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/modernizr/modernizr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8314" selection-start="8438" selection-end="8438" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="73" selection-start="2304" selection-end="2356" vertical-scroll-proportion="-4.6603775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/modernizr/modernizr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="1" selection-start="8044" selection-end="8111" vertical-scroll-proportion="-2.7735848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="552" selection-end="1118" vertical-scroll-proportion="-1.4339622">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="67" selection-start="4840" selection-end="4840" vertical-scroll-proportion="-0.21714285">
           <folding />
         </state>
       </provider>

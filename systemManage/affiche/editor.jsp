@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script language="javascript" type="text/javascript" src="/IB/common/list.js"></script>
 <script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
-    <script src="/IB/resources/vendor/tinymce/tinymce-4.0.26.min.js"></script>
-
+<script src="/IB/resources/vendor/tinymce/tinymce-4.0.26.min.js"></script>
 
 <script>
 $(function() {

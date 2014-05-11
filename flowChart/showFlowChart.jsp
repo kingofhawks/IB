@@ -1,11 +1,20 @@
 <%@ include file="/common/header.jsp"%>
-<script language="javascript" type="text/javascript"
-    src="/IB/common/list.js"></script>
-<style type="text/css">@import url(/IB/file/date/calendar-system.css);</style>
+<script language="javascript" type="text/javascript"  src="/IB/common/list.js"></script>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html:html>
 <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
+<script src="/IB/resources/vendor/modernizr/modernizr.min.js"></script>
+<script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+<script src="/IB/resources/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+ <script>
+     $(function() {
+         if (!Modernizr.inputtypes.date){
+             $('.datepicker').datepicker({todayHighlight: true})
+         }
+     });
+
+</script>
 <body>
 <%com.witsoft.common.UserBean user = (com.witsoft.common.UserBean) session
                 .getAttribute("user");
@@ -104,9 +113,9 @@
                         </td>
                         <%}%>
                         <td>&nbsp;开始时间：</td>
-                        <td><input type="date" name="startDate"  class="form-control"></td>
+                        <td><input type="date" name="startDate"  class="form-control datepicker"></td>
                         <td>&nbsp;结束时间：</td>
-                        <td><input type="date" name="endDate" class="form-control"></td>
+                        <td><input type="date" name="endDate" class="form-control datepicker"></td>
                         <td align="right">
                             <button name="submit" type="submit" class="btn btn-primary">
                                 <i class="fa fa-search"></i> 查看
