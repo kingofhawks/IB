@@ -181,11 +181,11 @@
     <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399555261082" ignored="false" />
     <file path="/gradeList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399528094892" ignored="false" />
     <file path="/controlPanel.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399466630885" ignored="false" />
-    <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399727643743" ignored="false" />
-    <file path="/caseManage.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399558737252" ignored="false" />
+    <file path="/editor.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399792036610" ignored="false" />
+    <file path="/caseManage.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399789715143" ignored="false" />
     <file path="/bills.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399558574673" ignored="false" />
     <file path="/afficheStu.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557482872" ignored="false" />
-    <file path="/affiche.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399557828136" ignored="false" />
+    <file path="/affiche.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399788774832" ignored="false" />
     <file path="$PROJECT_DIR$/bower_components/tinymce/tests/js/tinymce_loader.js" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399723201654" ignored="false" />
     <file path="$PROJECT_DIR$/bower_components/tinymce/js/tinymce/classes/EditorManager.js" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399723201654" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -275,19 +275,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="72" selection-start="537" selection-end="537" vertical-scroll-proportion="0.38">
+            <state line="20" column="181" selection-start="1109" selection-end="1109" vertical-scroll-proportion="-1.6415094">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="afficheStu.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
+      <file leaf-file-name="caseManage.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2198" selection-end="2326" vertical-scroll-proportion="-6.785714">
+            <state line="13" column="76" selection-start="722" selection-end="722" vertical-scroll-proportion="-3.5849056">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -296,7 +305,16 @@
       <file leaf-file-name="affiche.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
+            <state line="8" column="78" selection-start="372" selection-end="372" vertical-scroll-proportion="10.037736">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="afficheStu.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="88" selection-start="2343" selection-end="2343" vertical-scroll-proportion="-0.44705883">
               <folding />
             </state>
           </provider>
@@ -329,10 +347,10 @@
         <option value="$PROJECT_DIR$/top.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" />
-        <option value="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" />
         <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
         <option value="$PROJECT_DIR$/bill/bills.jsp" />
         <option value="$PROJECT_DIR$/case/caseManage.jsp" />
+        <option value="$PROJECT_DIR$/systemManage/affiche/affiche.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
       </list>
     </option>
@@ -403,6 +421,102 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinymce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinymce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinymce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -427,11 +541,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\tinymce\langs" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\systemManage\affiche" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
@@ -652,20 +766,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="49" selection-start="1229" selection-end="1229" vertical-scroll-proportion="2.3015463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="1122" selection-end="1122" vertical-scroll-proportion="38.392857">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -673,30 +773,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2198" selection-end="2326" vertical-scroll-proportion="-6.785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="89" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-7.785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor_backup.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="188" column="10" selection-start="10026" selection-end="10034" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -768,9 +847,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="76" selection-start="722" selection-end="722" vertical-scroll-proportion="-3.5849056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/zh_CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.4646739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="537" selection-end="537" vertical-scroll-proportion="0.38">
+        <state line="20" column="181" selection-start="1109" selection-end="1109" vertical-scroll-proportion="-1.6415094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="78" selection-start="372" selection-end="372" vertical-scroll-proportion="10.037736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="88" selection-start="2343" selection-end="2343" vertical-scroll-proportion="-0.44705883">
           <folding />
         </state>
       </provider>
