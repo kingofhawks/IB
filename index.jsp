@@ -188,7 +188,7 @@
     </div>
 </div>
 
-<form name="form1" method="post" action="#" onSubmit="return doLogin()" onKeyPress="if(event.keyCode == 13)event.returnValue = false">
+<form name="form1" method="post" action="#" onSubmit="return doLogin()" onKeyPress="if(event.keyCode == 13)event.returnValue = false" class="form-signin">
     <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center" valign="middle">
@@ -196,16 +196,18 @@
                     <tr>
 
                         <td bgcolor="#FFFFFF" width="2"></td>
-                        <td width="246" valign="bottom" background="/IB/images/login_bg.gif">
+                        <td width="246" valign="bottom" >
                             <table width="246" height="310" border="0" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td height="30%">&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td height="110" align="center" valign="top"><img src="/IB/images/logoTitle.gif" width="219" height="105"></td>
+                                    <td height="110" align="center" valign="top">
+                                        <h2>国际结算模拟系统</h2>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td height="330" align="center"><table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" background="/IB/images/loginbg.gif">
+                                    <td height="330" align="center"><table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" >
                                         <tr>
                                             <td width="212"  align="center" valign="middle"><div id="stunews">
                                                 <table width="95%" border="0" cellpadding="0" cellspacing="0" class="text">
@@ -220,9 +222,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td valign="bottom">
-                                                            <!--
-                                                            <input type="image" name="imageField" src="/IB/images/login.gif" width="53" height="23" onClick="setLogin('');return false">&nbsp;<input type="image" name="cancle" src="/IB/images/cancle.gif" width="53" height="23" onClick="cancle();return false">
-                                                            -->
                                                             <button class="btn btn-lg btn-primary btn-block" type="submit" onClick="setLogin('');return false">登录</button>
                                                         </td>
                                                     </tr>
@@ -255,11 +254,7 @@
                                     </table></td>
                                 </tr>
                             </table>
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td height="53" align="center" valign="middle" background="/IB/images/indexbg.gif"></td>
-                                </tr>
-                            </table>
+
                         </td>
                     </tr>
                     <!--
