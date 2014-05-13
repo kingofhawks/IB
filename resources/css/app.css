@@ -63,3 +63,18 @@
         background-color: #428bca;
     }
 }
+
+.redVer {color:#800080; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+
+.blue {color: #003399}
+
+.blog-footer {
+    background-color: #428bca;
+    color: #428bca;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}

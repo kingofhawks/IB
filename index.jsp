@@ -8,7 +8,7 @@
     <base onmouseover="window.status='国际结算模拟系统 V5.0 ';return true" />
 
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="resources/css/app.css">
     <link rel="stylesheet" href="resources/css/signin.css">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
@@ -33,12 +33,7 @@
         .version {color:#FF0000;}
         .kangL {border:1px solid #6185B9;  font-size:12px;}
         .kangXD {border:1px solid #c4c4c4; background-color: #F5F5F5; font-size:12px; width:195px; height:45px; text-align:center; vertical-align:middle;}
-        .redVer {color:#FF0000; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
-        a.flash:link {color:#ff0000;text-decoration:none;font-weight:bold;}
-        a.flash:visited {color: #ff0000;text-decoration: none;font-weight:bold;}
-        a.flash:hover {color:#ff0000; text-decoration:underline;font-weight:bold;}
 
-        .blue {color: #003399}
 
         .blog-masthead {
             background-color: #428bca;
@@ -60,20 +55,7 @@
             text-decoration: none;
         }
 
-            /*
-          * Footer
-          */
 
-        .blog-footer {
-            background-color: #428bca;
-            color: #428bca;
-            padding: 40px 0;
-            text-align: center;
-            border-top: 1px solid #e5e5e5;
-        }
-        .blog-footer p:last-child {
-            margin-bottom: 0;
-        }
 
     </style>
     <script language="javascript" type="text/javascript"
@@ -141,34 +123,35 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">信用证业务 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>信用证业务</strong> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">开证行</a></li>
-                        <li><a href="#">议付行</a></li>
-                        <li><a href="#">通知行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=PCBCCNBJBJX">开证行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=DGBOFACALI">议付行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=MRMDUS33ADR">通知行</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">托收业务 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">托收行</a></li>
-                        <li><a href="#">代收行</a></li>
-                        <li><a href="#">光票托收行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=CMBCCNBS131">托收行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=ZH0004">光票托收行</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=SANWJPJTXXX">代收行</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇款业务 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">汇出行</a></li>
-                        <li><a href="#">汇入行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=FS000000025">汇出行</a></li>
+                        <li><a href="/IB/cases.do?flag=list&brno=JMXH0011">汇入行</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">实验教程 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">操作说明</a></li>
-                        <li><a href="#">相关规则</a></li>
-                        <li><a href="#">教学案例</a></li>
+                        <li><a href="/IB/guide/index.htm">操作说明</a></li>
+                        <li><a href="/IB/help/lex/index.htm">相关规则</a></li>
+                        <li><a href="/IB/teachingcases/index.htm">教学案例</a></li>
                     </ul>
                 </li>
             </ul>
@@ -178,10 +161,12 @@
                 </a>
             </li>
             <%if(user!= null&&user.getUsid()!=null){
+                out.print("<ul class=\"nav navbar-nav navbar-right\">\n");
+                out.print("<li><a href=\"/IB/person.do\" target=\"mainFrame\"><i class=\"fa fa-cog fa-2x\"></i>");
                 out.print(user.getUsid());
-                out.print("<ul class=\"nav navbar-nav navbar-right\">\n" +
-                        "                <li><a href=\"temp.jsp\" target=\"mainFrame\"><i class=\"fa fa-sign-out fa-2x\"></i> 退出</a></li>\n" +
-                        "                </ul>");
+                out.print("</a></li>");
+                out.print("<li><a href=\"temp.jsp\" target=\"mainFrame\"><i class=\"fa fa-sign-out fa-2x\"></i> 退出</a></li>\n");
+                out.print("</ul>");
             }%>
 
         </div><!--/.nav-collapse -->
@@ -207,12 +192,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td height="330" align="center"><table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" >
+                                    <td height="330" align="center">
+                                        <table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" >
                                         <tr>
                                             <td width="212"  align="center" valign="middle"><div id="stunews">
                                                 <table width="95%" border="0" cellpadding="0" cellspacing="0" class="text">
                                                     <tr>
-                                                        <!--<td width="36%" height="28" align="right" valign="middle">用户编号：</td>        -->
                                                         <td  width="100%" height="28"  align="right" valign="middle">
                                                             <input name="usid" placeholder="用户编号" type="search" class="form-control" autofocus required id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" maxlength="16"  style="ime-mode:disabled">
                                                         </td>
@@ -247,9 +232,7 @@
                                                         </div></td>
                                                     </tr>
                                                 </table>
-                                                <noscript>
-                                                    <div class="errDiv"><nobr>注意：您需要启用Javascript才能正常使用本系统。</nobr></div>
-                                                </noscript>                                      </td>
+                                      </td>
                                         </tr>
                                     </table></td>
                                 </tr>
@@ -257,10 +240,7 @@
 
                         </td>
                     </tr>
-                    <!--
-                    <tr>
-                        <td height="22" colspan="3" align="center" valign="middle">本页使用flash技术，如不能正常显示，请<a href="/IB/install-flash-player.exe" class="flash">单击此处</a>，下载flash播放插件</td>
-                    </tr>     -->
+
                 </table>
             </td>
         </tr>
@@ -268,8 +248,10 @@
 </form>
 
 <div class="blog-footer">
-    <p><a class="blue" href="http://www.xindajd.com.cn/">版权所有@北京信达佳鼎科技有限公司</a>  <span class="redVer"><span class="blue">Version：</span>5.08.06.001</span></p>
-
+    <p>
+        <span class="blue">版权所有&copy;</span>
+        <a class="blue" href="http://www.xindajd.com.cn/" target="_blank">北京信达佳鼎科技有限公司</a>  <span class="redVer"><span class="blue">Version：</span>5.08.06.001</span>
+    </p>
     <p>
         <a class="blue" href="#">回到顶部</a>
     </p>
