@@ -7,6 +7,9 @@
 <head>
 <title>国际结算模拟系统</title>
 <script type="text/javascript" src="common/default.js"></script>
+<link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="resources/css/app.css">
 <style>
 body{behavior: url('/IB/common/mouse.htc');
 /*	border:#3A8DCF 1px solid;
@@ -54,17 +57,40 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onLoad="MM_preloadImages('/IB/images/btn_loginOut_o.gif')" style="overflow-y:hidden;">
-<table width="100%" height="8" border="0" cellpadding="0" cellspacing="0" background="/IB/images/topbg.gif">
-  <tr>
-    <td width="48%" rowspan="2" align="left"><img src="/IB/images/top_left.gif" width="252" height="88"></td>
-    <td colspan="2">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="46%">&nbsp;</td>
-    <td width="6%" align="left" valign="bottom"><a href="/IB/temp1.jsp" target="_self"><img
-                    src="/IB/images/btn_loginOut.gif" name="Image31" width="40" height="40"
-                    border="0" id="Image31" onMouseOver="MM_swapImage('Image31','','/IB/images/btn_loginOut_o.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
-  </tr>
-</table>
+<%
+    // This is a scriptlet.  Notice that the "date"
+    // variable we declare here is available in the
+    // embedded expression later on.
+   com.witsoft.common.UserBean user = (com.witsoft.common.UserBean) session.getAttribute("user");
+%>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" style="font-size: 25px; text-decoration: none"><b>国际结算模拟系统</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/IB/person.do" target="mainFrame"><i class="fa fa-cog fa-2x"></i>
+                        <%
+                            if(user!=null&&user.getUsid()!=null){
+                                out.print(user.getUsid());
+                            } else {
+                                out.print("个人设定");
+                            }
+                        %>
+                    </a>
+                </li>
+                <li><a href="temp1.jsp" target="_self"><i class="fa fa-sign-out fa-2x"></i> 签退</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<br >
+<br >
+<br >
 </body>
 </html>

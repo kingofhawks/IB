@@ -10,11 +10,6 @@
 <!-- Bootstrap core CSS -->
 <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="resources/css/app.css">
-    <link rel="stylesheet" href="resources/css/signin.css">
-    <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
-    <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
-
 <style>
 body {margin:0px;}
 body, table {font-size:12px;}
@@ -121,83 +116,122 @@ function cancle(){
 document.getElementById("usid").value="";
 document.getElementById("pswd").value="";
 }
+
 </script>
 </head>
-<body>
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<body onLoad="init()">
+<div class="blog-masthead">
     <div class="container">
-        <div class="navbar-header">
+        <nav class="blog-nav">
             <a class="blog-nav-item" href="#">
                 <img src="resources/images/logo_pic.png" alt="">
             </a>
-
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">信用证业务 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">开证行</a></li>
-                        <li><a href="#">议付行</a></li>
-                        <li><a href="#">通知行</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">托收业务 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">托收行</a></li>
-                        <li><a href="#">代收行</a></li>
-                        <li><a href="#">光票托收行</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇款业务 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">汇出行</a></li>
-                        <li><a href="#">汇入行</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">实验教程 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">操作说明</a></li>
-                        <li><a href="#">相关规则</a></li>
-                        <li><a href="#">教学案例</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-
-                <li><a href="temp.jsp" target="mainFrame"><i class="fa fa-sign-out fa-2x"></i> 退出</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
+        </nav>
     </div>
 </div>
+<form name="form1" method="post" action="#" onSubmit="return doLogin()" onKeyPress="if(event.keyCode == 13)event.returnValue = false">
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center" valign="middle">
+                <table width="778" height="526" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="530">
+						<div id="ok" style="display:block">
+                           <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="530" height="526">
+                              <div id="flash">
+                              <param name="movie" value="UNmain.swf">
+                                <param name="quality" value="high">
+                                <embed src="UNmain.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="530" height="526"></embed>
+                          </object>
+						  </div>
+						  <div id="ok1" style="display:none">
+                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="530" height="526">
+                                <param name="movie" value="main.swf">
+                                <param name="quality" value="high">
+                                <embed src="main.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="530" height="526"></embed>
+                          </object>
+						  </div>
+                        </td>
+						<td bgcolor="#FFFFFF" width="2"></td>
+                        <td width="246" valign="bottom" background="/IB/images/login_bg.gif">
+                            <table width="246" height="310" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td height="30%">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td height="110" align="center" valign="top"><img src="/IB/images/logoTitle.gif" width="219" height="105"></td>
+                                </tr>
+                                <tr>
+                                  <td height="330" align="center"><table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" background="/IB/images/loginbg.gif">
+                                    <tr>
+                                      <td width="212"  align="center" valign="middle"><div id="stunews">
+                                        <table width="95%" border="0" cellpadding="0" cellspacing="0" class="text">
+                                          <tr>
+                                            <!--<td width="36%" height="28" align="right" valign="middle">用户编号：</td>        -->
+                                            <td  width="100%" height="28"  align="right" valign="middle">
+                                               <input name="usid" placeholder="用户编号" type="search" class="form-control" autofocus required id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" maxlength="16"  style="ime-mode:disabled">
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="middle"><input name="pswd" placeholder="用户密码" type="password" class="form-control" id="pswd" required maxlength="6" onKeyDown="if (event.keyCode==13) {setLogin('');}">                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td valign="bottom">
+                                                <!--
+                                                <input type="image" name="imageField" src="/IB/images/login.gif" width="53" height="23" onClick="setLogin('');return false">&nbsp;<input type="image" name="cancle" src="/IB/images/cancle.gif" width="53" height="23" onClick="cancle();return false">
+                                                -->
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit" onClick="setLogin('');return false">登录</button>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </div>
+                                          <table>
+                                            <tr>
+                                              <TD></TD>
+                                              <TD><div id="logoutmethod" class="errDiv"></div></TD>
+                                            </tr>
+                                            <tr>
+                                              <td><div id="errMsg" class="errDiv">
+                                                <%
+//System.out.println("--->"+request.getSession().getAttribute("loginnews"));
+if(request.getSession().getAttribute("errMsg")!=null){
+System.out.print("");
+//out.println("<script LANGUAGE=\"JavaScript\">showErr(\""+request.getSession().getAttribute("errMsg")+"\");</script>");
+out.println(request.getSession().getAttribute("errMsg"));
+request.getSession().removeAttribute("errMsg");
+}
 
-    <div class="container">
-        <form class="form-signin" role="form" name="form1" method="post" action="#" onSubmit="return doLogin()" onKeyPress="if(event.keyCode == 13)event.returnValue = false">
-            <br >
-            <br >
-            <br >
-            <h2>&nbsp;&nbsp;国际结算模拟系统</h2>
-            <input name="usid" placeholder="用户编号" type="search" class="form-control" autofocus required id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" maxlength="16"  style="ime-mode:disabled">
-            <input name="pswd" placeholder="用户密码" type="password" class="form-control" id="pswd" required maxlength="6" onKeyDown="if (event.keyCode==13) {setLogin('');}">
-            <button class="btn btn-lg btn-primary btn-block" type="submit" onClick="setLogin('');return false">登录</button>
-        </form>
+%>
+                                              </div></td>
+                                            </tr>
+                                          </table>
+                                        <noscript>
+                                          <div class="errDiv"><nobr>注意：您需要启用Javascript才能正常使用本系统。</nobr></div>
+                                        </noscript>                                      </td>
+                                    </tr>
+                                  </table></td>
+                                </tr>
+                          </table>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="53" align="center" valign="middle" background="/IB/images/indexbg.gif"></td>
+                                </tr>
+                            </table>
+                      </td>
+                    </tr>
+                    <!--
+                    <tr>
+                        <td height="22" colspan="3" align="center" valign="middle">本页使用flash技术，如不能正常显示，请<a href="/IB/install-flash-player.exe" class="flash">单击此处</a>，下载flash播放插件</td>
+                    </tr>     -->
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
 
-    </div>
+<div class="blog-footer">
+    <p><a class="blue" href="http://www.xindajd.com.cn/">版权所有@北京信达佳鼎科技有限公司</a>  <span class="redVer"><span class="blue">Version：</span>5.08.06.001</span></p>
 
-    <div id="errMsg" class="errDiv">
-
-
-
-<div class="blog-footer" id="footer">
-    <p>
-        <a class="blue" href="http://www.xindajd.com.cn/">版权所有&copy;北京信达佳鼎科技有限公司</a>  <span class="redVer"><span class="blue">Version：</span>5.08.06.001</span>
-    </p>
     <p>
         <a class="blue" href="#">回到顶部</a>
     </p>

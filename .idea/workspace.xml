@@ -140,6 +140,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" afterPath="$PROJECT_DIR$/systemManage/systemTableManage/bankPrid.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bill/bills.jsp" afterPath="$PROJECT_DIR$/bill/bills.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/bills.jsp" afterPath="$PROJECT_DIR$/system/bills.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/caseList.jsp" afterPath="$PROJECT_DIR$/case/caseList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/caseManage.jsp" afterPath="$PROJECT_DIR$/case/caseManage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/casetop.jsp" afterPath="$PROJECT_DIR$/case/casetop.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" afterPath="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" />
@@ -175,8 +176,8 @@
     <ignored path="IB.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/hibernate.cfg.xml" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399267594468" ignored="false" />
-    <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399337049593" ignored="false" />
-    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399727650262" ignored="false" />
+    <file path="/index.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399940315364" ignored="false" />
+    <file path="/a.dummy" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399874890813" ignored="false" />
     <file path="/top.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399467472425" ignored="false" />
     <file path="/showFlowChart.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399816096431" ignored="false" />
     <file path="/gradeList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399528094892" ignored="false" />
@@ -188,6 +189,13 @@
     <file path="/affiche.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399788774832" ignored="false" />
     <file path="$PROJECT_DIR$/bower_components/tinymce/tests/js/tinymce_loader.js" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399723201654" ignored="false" />
     <file path="$PROJECT_DIR$/bower_components/tinymce/js/tinymce/classes/EditorManager.js" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399723201654" ignored="false" />
+    <file path="/casetop.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399876239375" ignored="false" />
+    <file path="/caseList.jsp" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399875762888" ignored="false" />
+    <file path="E:/Workspace/bootstrap/docs/examples/signin/signin.css" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399884597752" ignored="false" />
+    <file path="E:/Workspace/bootstrap/docs/examples/jumbotron/index.html" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399885945902" ignored="false" />
+    <file path="E:/Workspace/bootstrap/docs/examples/jumbotron/jumbotron.css" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399886030623" ignored="false" />
+    <file path="/index.html" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399885909998" ignored="false" />
+    <file path="/jumbotron.css" changelist="1503bfdc-33c8-46f4-8b1c-bd1e85075894" time="1399885922634" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +210,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -239,6 +246,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -251,70 +259,113 @@
       <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="1" selection-start="8044" selection-end="8111" vertical-scroll-proportion="-2.7735848">
+            <state line="203" column="1" selection-start="7947" selection-end="8014" vertical-scroll-proportion="-9.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="95" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showFlowChart.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="67" selection-start="4840" selection-end="4840" vertical-scroll-proportion="-0.21714285">
+            <state line="155" column="35" selection-start="6484" selection-end="6484" vertical-scroll-proportion="-8.928572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bills.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bill/bills.jsp">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="-9.679245">
+            <state line="138" column="40" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.47465438">
+              <folding>
+                <marker date="1399940623917" expanded="true" signature="3277:3294" placeholder="..." />
+                <marker date="1399940623917" expanded="true" signature="10109:10126" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/signin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="50" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
+      <file leaf-file-name="index_backup.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_backup.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="552" selection-end="1118" vertical-scroll-proportion="-1.4339622">
+            <state line="193" column="82" selection-start="9788" selection-end="9820" vertical-scroll-proportion="-5.792453">
+              <folding>
+                <marker date="1399343767187" expanded="false" signature="3017:3034" placeholder="..." />
+                <marker date="1399343767187" expanded="false" signature="13821:13838" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="casetop.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/casetop.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="480" selection-end="532" vertical-scroll-proportion="-7.464286">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caseManage.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
+      <file leaf-file-name="caseList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/caseList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="76" selection-start="722" selection-end="722" vertical-scroll-proportion="-3.5849056">
+            <state line="11" column="59" selection-start="527" selection-end="527" vertical-scroll-proportion="-5.428571">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/readme.md">
+      <file leaf-file-name="teacherOperation.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guide/teacherOperation.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="326" column="51" selection-start="14725" selection-end="14725" vertical-scroll-proportion="-0.5714286">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#strong#4;n#p#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1220605874718" expanded="true" signature="556:707" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="563:592" placeholder="{...}" />
+                <marker date="1220605874718" expanded="true" signature="598:627" placeholder="{...}" />
+                <marker date="1220605874718" expanded="true" signature="633:662" placeholder="{...}" />
+                <marker date="1220605874718" expanded="true" signature="670:699" placeholder="{...}" />
+                <marker date="1220605874718" expanded="true" signature="773:1296" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="797:1289" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="1332:1698" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="1350:1691" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="1569:1610" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="1734:1824" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="1798:1817" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="4340:4820" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="4390:4812" placeholder="{...}" />
+                <marker date="1220605874718" expanded="true" signature="4857:4912" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="4948:5037" placeholder="..." />
+                <marker date="1220605874718" expanded="true" signature="4978:5031" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="affiche.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
+      <file leaf-file-name="gradeList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="78" selection-start="372" selection-end="372" vertical-scroll-proportion="10.037736">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="afficheStu.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="93" selection-start="5692" selection-end="5692" vertical-scroll-proportion="-7.464286">
+            <state line="242" column="36" selection-start="8271" selection-end="8271" vertical-scroll-proportion="-11.5">
               <folding />
             </state>
           </provider>
@@ -330,12 +381,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WEB-INF/classes/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/common/header.jsp" />
-        <option value="$USER_HOME$/Documents/Tencent Files/2054958070/FileRecv/DBConfig.java" />
-        <option value="$PROJECT_DIR$/index.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/controlPanel.jsp" />
-        <option value="$PROJECT_DIR$/top.jsp" />
         <option value="$PROJECT_DIR$/systemManage/grade/gradeList.jsp" />
         <option value="$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp" />
         <option value="$PROJECT_DIR$/bill/bills.jsp" />
@@ -344,6 +390,13 @@
         <option value="$PROJECT_DIR$/systemManage/affiche/editor.jsp" />
         <option value="$PROJECT_DIR$/bower_components/modernizr/modernizr.min.js" />
         <option value="$PROJECT_DIR$/flowChart/showFlowChart.jsp" />
+        <option value="$PROJECT_DIR$/top.jsp" />
+        <option value="$PROJECT_DIR$/resources/css/app.css" />
+        <option value="$PROJECT_DIR$/common/header.jsp" />
+        <option value="$PROJECT_DIR$/case/caseList.jsp" />
+        <option value="$PROJECT_DIR$/case/casetop.jsp" />
+        <option value="$PROJECT_DIR$/resources/css/signin.css" />
+        <option value="$PROJECT_DIR$/index.jsp" />
       </list>
     </option>
   </component>
@@ -382,6 +435,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,8 +467,22 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,18 +499,12 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB" />
+              <option name="myItemId" value="bootstrap-3.1.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,17 +518,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modernizr" />
+              <option name="myItemId" value="bootstrap-3.1.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -482,16 +543,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\css" />
+      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\modernizr" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor" />
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\tinymce\langs" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources\vendor\jquery" />
-      <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\systemManage\affiche" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Dropbox\国际结算项目文件\WitBank\WitBank\Tomcat\webapps\IB\resources" />
@@ -510,19 +571,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -551,6 +599,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -629,7 +690,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32019705" sideWeight="0.42680776" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26243567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.101200685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -643,7 +704,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121212" sideWeight="0.7375643" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121212" sideWeight="0.8987993" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -712,115 +773,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.jsp">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="120" selection-start="7928" selection-end="7928" vertical-scroll-proportion="0.35882354">
-          <folding>
-            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1399343767187" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/caseManage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="76" selection-start="722" selection-end="722" vertical-scroll-proportion="-3.5849056">
+        <state line="12" column="47" selection-start="410" selection-end="410" vertical-scroll-proportion="0.5984252">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/readme.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="18" selection-start="43" selection-end="43" vertical-scroll-proportion="0.19947506">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/tinymce/langs/zh_CN.js">
+    <entry file="file://$PROJECT_DIR$/resources/bootstrap-3.1.1/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.4646739">
+        <state line="12" column="4" selection-start="335" selection-end="339" vertical-scroll-proportion="-3.201087">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/affiche.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="78" selection-start="372" selection-end="372" vertical-scroll-proportion="10.037736">
+        <state line="8" column="78" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/afficheStu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="93" selection-start="5692" selection-end="5692" vertical-scroll-proportion="-7.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/modernizr/test/js/lib/uaparser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="182" selection-end="198" vertical-scroll-proportion="0.41304347">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/modernizr/modernizr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="77" selection-start="6910" selection-end="6914" vertical-scroll-proportion="0.7755102">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/modernizr/modernizr.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8314" selection-start="8438" selection-end="8438" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="73" selection-start="2304" selection-end="2356" vertical-scroll-proportion="-4.6603775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/vendor/modernizr/modernizr.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="1" selection-start="8044" selection-end="8111" vertical-scroll-proportion="-2.7735848">
+        <state line="146" column="93" selection-start="5692" selection-end="5692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/systemManage/affiche/editor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="552" selection-end="1118" vertical-scroll-proportion="-1.4339622">
+        <state line="22" column="110" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5588235">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flowChart/showFlowChart.jsp">
+    <entry file="file://$PROJECT_DIR$/systemManage/grade/gradeList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="67" selection-start="4840" selection-end="4840" vertical-scroll-proportion="-0.21714285">
+        <state line="242" column="36" selection-start="8271" selection-end="8271" vertical-scroll-proportion="-11.5">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.48441926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/caseList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="527" selection-end="527" vertical-scroll-proportion="-5.428571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/casetop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="480" selection-end="532" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_backup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="82" selection-start="9788" selection-end="9820" vertical-scroll-proportion="-5.792453">
+          <folding>
+            <marker date="1399343767187" expanded="false" signature="3017:3034" placeholder="..." />
+            <marker date="1399343767187" expanded="false" signature="13821:13838" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="1" selection-start="7947" selection-end="8014" vertical-scroll-proportion="-9.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="95" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/signin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="50" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="40" selection-start="5135" selection-end="5135" vertical-scroll-proportion="0.47465438">
+          <folding>
+            <marker date="1399940623917" expanded="true" signature="3277:3294" placeholder="..." />
+            <marker date="1399940623917" expanded="true" signature="10109:10126" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,10 +2,10 @@
 <%@ include file="/common/header.jsp"%>
 <%@ include file="/case/casetop.jsp"%>
 <html>
-  <head><title><bean:message key="common.systemName" /></title>
+  <head>
+  <title><bean:message key="common.systemName" /></title>
   <script type="text/javascript" src="/IB/case/tableSort.js"></script>
-  <script language="javascript" type="text/javascript"
-	src="/IB/common/list.js"></script>
+  <script language="javascript" type="text/javascript" 	src="/IB/common/list.js"></script>
   </head>
   <%String brno=(String)request.getAttribute("brno");%>
   <body style="overflow-y:hidden;">
@@ -32,7 +32,7 @@
 			<tr>
 				<td align="center" class="innerTable_main">
 				<div id="innerTable_divLis" style="width:96%;height:450px">
-					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list">
+					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
 						<thead>
 						<tr>
 						    <th width="8%" align="left" onClick="sortTable('item_list','0','int')">±àºÅ</th>
@@ -58,7 +58,11 @@
 									<td><bean:write name="list" property="lastmark" /></td>
 									<td><bean:write name="list" property="state" /></td>
 							  </span>
-									<td><a href="cases.do?flag=load&id=<bean:write name='list' property='id'/>"  target="_blank"><img src="/IB/images/view.gif" width="16" height="16" border="0" /></a></td>
+									<td>
+                                        <a href="cases.do?flag=load&id=<bean:write name='list' property='id'/>"  target="_blank">
+                                            <i class="fa fa-search fa-2x"></i>
+                                        </a>
+                                    </td>
 								</tr>
 							</logic:iterate>
 						</logic:notEmpty>
