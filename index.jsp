@@ -6,12 +6,11 @@
     <meta name="Description" content="国际结算模拟系统5.0版" />
     <meta name="Copyright" content="本页版权公司所有。All Rights Reserved" />
     <base onmouseover="window.status='国际结算模拟系统 V5.0 ';return true" />
-    <link rel="shortcut icon" href="resources/images/logo_pic.ico">
+
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="resources/css/app.css">
     <link rel="stylesheet" href="resources/css/signin.css">
-    <link href="resources/css/carousel.css" rel="stylesheet">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
 
@@ -42,7 +41,7 @@
             box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
         }
 
-            /* Nav links */
+        /* Nav links */
         .blog-nav-item {
             position: relative;
             display: inline-block;
@@ -56,13 +55,8 @@
             text-decoration: none;
         }
     </style>
-
-    <script language="javascript" type="text/javascript"
-            src="common/loginScript.js"></script>
+    <script language="javascript" type="text/javascript"  src="common/loginScript.js"></script>
     <script language="javascript">
-
-        $('.carousel').carousel()
-
         function logout(){
             document.getElementById("stunews").innerHTML='<table width="95%" border="0" cellpadding="0" cellspacing="0" class="text"><tr><td width="36%" height="25" align="right" valign="middle">用户编号：</td><td width="64%" valign="middle"><input name="usid" type="text" class="text" id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" style="ime-mode:disabled"></td></tr><tr><td height="25" align="right" valign="middle">用户密码：</td><td valign="middle"><input name="pswd" type="password" class="text" id="pswd" maxLength="6" onKeyDown="if (event.keyCode==13) {setLogin();}"></td></tr></tr><tr><td height="25" align="right" valign="middle">&nbsp;</td><td valign="middle"><input type="image" name="imageField" src="/IB/images/login.gif"  onClick="setLogin();return false">&nbsp;<input type="image" name="cancle" src="/IB/images/cancle.gif" width="53" height="23" onClick="cancle();return false"></td></tr></table>';
             document.getElementById("logoutmethod").innerHTML='';
@@ -95,16 +89,9 @@
                 document.all["ok"].style.display="block";
                 document.all["ok1"].style.display="none";
             }
-
         }
     </script>
-    <script>
-        function cancle(){
-            document.getElementById("usid").value="";
-            document.getElementById("pswd").value="";
-        }
 
-    </script>
 </head>
 <%
     com.witsoft.common.UserBean user = (com.witsoft.common.UserBean)request.getSession().getAttribute("user");
@@ -116,6 +103,7 @@
             <a class="blog-nav-item" href="#">
                 <img src="resources/images/logo_pic.png" alt="">
             </a>
+
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -173,104 +161,73 @@
     </div>
 </div>
 
-
-
 <form name="form1" method="post" action="#" onSubmit="return doLogin()" onKeyPress="if(event.keyCode == 13)event.returnValue = false" class="form-signin">
     <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center" valign="middle">
                 <table width="778" height="526" border="0" cellpadding="0" cellspacing="0">
                     <tr>
+                        <td width="300" valign="bottom" >
+                            <div class="sidebar-module sidebar-module-inset">
 
-                        <td bgcolor="#FFFFFF" width="2"></td>
-                        <td width="246" valign="bottom" >
-                            <table width="246" height="310" border="0" cellpadding="0" cellspacing="0">
+                            <table width="300" height="310" border="0" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td height="30%">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td height="110" align="center" valign="top">
-                                        <h2>国际结算模拟系统</h2>
+                                        <h1>国际结算模拟系统</h1>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td height="30%"><div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                        <!-- Indicators -->
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="item active">
-                                                <img src="resources/images/bg1.png" alt="First slide">
-                                                <div >
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <img src="resources/images/bg2.png" alt="Second slide">
-                                                <div class="container">
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <img src="resources/images/bg3.png" alt="Third slide">
-                                                <div class="container">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                                        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                                    </div>
-                                    </td>
-                                </tr>
-
                                 <tr>
                                     <td height="330" align="center">
-                                        <table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" >
-                                        <tr>
-                                            <td width="212"  align="center" valign="middle"><div id="stunews">
-                                                <table width="95%" border="0" cellpadding="0" cellspacing="0" class="text">
-                                                    <tr>
-                                                        <td  width="100%" height="28"  align="right" valign="middle">
-                                                            <input name="usid" placeholder="用户编号" type="search" class="form-control" autofocus required id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" maxlength="16"  style="ime-mode:disabled">
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td valign="middle"><input name="pswd" placeholder="用户密码" type="password" class="form-control" id="pswd" required maxlength="6" onKeyDown="if (event.keyCode==13) {setLogin('');}">                                            </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td valign="bottom">
-                                                            <button class="btn btn-lg btn-primary btn-block" type="submit" onClick="setLogin('');return false">登录</button>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                                <table>
-                                                    <tr>
-                                                        <TD></TD>
-                                                        <TD><div id="logoutmethod" class="errDiv"></div></TD>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><div id="errMsg" class="errDiv">
-                                                            <%
-                                                                //System.out.println("--->"+request.getSession().getAttribute("loginnews"));
-                                                                if(request.getSession().getAttribute("errMsg")!=null){
-                                                                    System.out.print("");
+                                        <table width="300" height="160"  border="0" cellpadding="0" cellspacing="0" >
+                                            <tr>
+                                                <td width="300"  align="center" valign="middle">
+                                                    <div id="stunews">
+                                                        <table width="95%" border="0" cellpadding="0" cellspacing="0" class="text">
+                                                            <tr>
+                                                                <td  width="100%" height="28"  align="right" valign="middle">
+                                                                    <input name="usid" placeholder="用户编号" type="search" class="form-control" autofocus required id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" maxlength="16"  style="ime-mode:disabled">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="middle"><input name="pswd" placeholder="用户密码" type="password" class="form-control" id="pswd" required maxlength="6" onKeyDown="if (event.keyCode==13) {setLogin('');}">                                            </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="bottom">
+                                                                    <button class="btn btn-lg btn-success btn-block" type="submit" onClick="setLogin('');return false">登录</button>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <table>
+                                                        <tr>
+                                                            <TD></TD>
+                                                            <TD><div id="logoutmethod" class="errDiv"></div></TD>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><div id="errMsg" class="errDiv">
+                                                                <%
+                                                                    //System.out.println("--->"+request.getSession().getAttribute("loginnews"));
+                                                                    if(request.getSession().getAttribute("errMsg")!=null){
+                                                                        System.out.print("");
 //out.println("<script LANGUAGE=\"JavaScript\">showErr(\""+request.getSession().getAttribute("errMsg")+"\");</script>");
-                                                                    out.println(request.getSession().getAttribute("errMsg"));
-                                                                    request.getSession().removeAttribute("errMsg");
-                                                                }
+                                                                        out.println(request.getSession().getAttribute("errMsg"));
+                                                                        request.getSession().removeAttribute("errMsg");
+                                                                    }
 
-                                                            %>
-                                                        </div></td>
-                                                    </tr>
-                                                </table>
-                                      </td>
-                                        </tr>
-                                    </table></td>
+                                                                %>
+                                                            </div></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table></td>
                                 </tr>
-                            </table>
 
+                            </table>
+                            </div>
                         </td>
                     </tr>
 
@@ -400,8 +357,5 @@
 
     %>
 </SCRIPT>
-
-
-
 </body>
 </html>
