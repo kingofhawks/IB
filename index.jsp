@@ -6,11 +6,12 @@
     <meta name="Description" content="国际结算模拟系统5.0版" />
     <meta name="Copyright" content="本页版权公司所有。All Rights Reserved" />
     <base onmouseover="window.status='国际结算模拟系统 V5.0 ';return true" />
-
+    <link rel="shortcut icon" href="resources/images/logo_pic.ico">
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="resources/css/app.css">
     <link rel="stylesheet" href="resources/css/signin.css">
+    <link href="resources/css/carousel.css" rel="stylesheet">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
 
@@ -54,13 +55,13 @@
             color: #fff;
             text-decoration: none;
         }
-
-
-
     </style>
+
     <script language="javascript" type="text/javascript"
             src="common/loginScript.js"></script>
     <script language="javascript">
+
+        $('.carousel').carousel()
 
         function logout(){
             document.getElementById("stunews").innerHTML='<table width="95%" border="0" cellpadding="0" cellspacing="0" class="text"><tr><td width="36%" height="25" align="right" valign="middle">用户编号：</td><td width="64%" valign="middle"><input name="usid" type="text" class="text" id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" style="ime-mode:disabled"></td></tr><tr><td height="25" align="right" valign="middle">用户密码：</td><td valign="middle"><input name="pswd" type="password" class="text" id="pswd" maxLength="6" onKeyDown="if (event.keyCode==13) {setLogin();}"></td></tr></tr><tr><td height="25" align="right" valign="middle">&nbsp;</td><td valign="middle"><input type="image" name="imageField" src="/IB/images/login.gif"  onClick="setLogin();return false">&nbsp;<input type="image" name="cancle" src="/IB/images/cancle.gif" width="53" height="23" onClick="cancle();return false"></td></tr></table>';
@@ -115,7 +116,6 @@
             <a class="blog-nav-item" href="#">
                 <img src="resources/images/logo_pic.png" alt="">
             </a>
-
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -123,7 +123,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>信用证业务</strong> <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-credit-card fa-2x">信用证</i> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/IB/cases.do?flag=list&brno=PCBCCNBJBJX">开证行</a></li>
                         <li><a href="/IB/cases.do?flag=list&brno=DGBOFACALI">议付行</a></li>
@@ -131,7 +131,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">托收业务 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-male fa-2x">托收</i> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/IB/cases.do?flag=list&brno=CMBCCNBS131">托收行</a></li>
                         <li><a href="/IB/cases.do?flag=list&brno=ZH0004">光票托收行</a></li>
@@ -140,14 +140,14 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">汇款业务 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-money fa-2x">汇款</i> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/IB/cases.do?flag=list&brno=FS000000025">汇出行</a></li>
                         <li><a href="/IB/cases.do?flag=list&brno=JMXH0011">汇入行</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">实验教程 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask fa-2x">实验教程</i> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/IB/guide/index.htm">操作说明</a></li>
                         <li><a href="/IB/help/lex/index.htm">相关规则</a></li>
@@ -173,6 +173,8 @@
     </div>
 </div>
 
+
+
 <form name="form1" method="post" action="#" onSubmit="return doLogin()" onKeyPress="if(event.keyCode == 13)event.returnValue = false" class="form-signin">
     <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
@@ -191,6 +193,37 @@
                                         <h2>国际结算模拟系统</h2>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td height="30%"><div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="resources/images/bg1.png" alt="First slide">
+                                                <div >
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <img src="resources/images/bg2.png" alt="Second slide">
+                                                <div class="container">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <img src="resources/images/bg3.png" alt="Third slide">
+                                                <div class="container">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                                        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                                    </div>
+                                    </td>
+                                </tr>
+
                                 <tr>
                                     <td height="330" align="center">
                                         <table width="212" height="160"  border="0" cellpadding="0" cellspacing="0" >
