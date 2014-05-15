@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="resources/css/app.css">
     <link rel="stylesheet" href="resources/css/signin.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/component.css" />
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
-
+    <script src="resources/vendor/snapsvg/snap.svg-min.js"></script>
     <style>
         body {margin:0px;}
         body, table {font-size:12px;}
@@ -54,6 +55,7 @@
             color: #fff;
             text-decoration: none;
         }
+
     </style>
     <script language="javascript" type="text/javascript"  src="common/loginScript.js"></script>
     <script language="javascript">
@@ -153,7 +155,7 @@
                 out.print("<li><a href=\"/IB/person.do\" target=\"mainFrame\"><i class=\"fa fa-cog fa-2x\"></i>");
                 out.print(user.getUsid());
                 out.print("</a></li>");
-                out.print("<li><a href=\"temp.jsp\" target=\"mainFrame\"><i class=\"fa fa-sign-out fa-2x\"></i> 退出</a></li>\n");
+                out.print("<li><a href=\"#\" target=\"_parent\" onclick=\"logout()\"><i class=\"fa fa-sign-out fa-2x\"></i> 退出</a></li>\n");
                 out.print("</ul>");
             }%>
 
@@ -168,7 +170,12 @@
                 <table width="778" height="526" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                         <td width="300" valign="bottom" >
-                            <div class="sidebar-module sidebar-module-inset">
+                            <div id="pagewrap" class="sidebar-module sidebar-module-inset pagewrap">
+                                <div id="loader" class="pageload-overlay" data-opening="M20,15 50,30 50,30 30,30 Z;M0,0 80,0 50,30 20,45 Z;M0,0 80,0 60,45 0,60 Z;M0,0 80,0 80,60 0,60 Z" data-closing="M0,0 80,0 60,45 0,60 Z;M0,0 80,0 50,30 20,45 Z;M20,15 50,30 50,30 30,30 Z;M30,30 50,30 50,30 30,30 Z">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+                                        <path d="M30,30 50,30 50,30 30,30 Z"/>
+                                    </svg>
+                                </div>
 
                             <table width="300" height="310" border="0" cellpadding="0" cellspacing="0">
                                 <tr>
@@ -196,7 +203,7 @@
                                                             </tr>
                                                             <tr>
                                                                 <td valign="bottom">
-                                                                    <button class="btn btn-lg btn-success btn-block" type="submit" onClick="setLogin('');return false">登录</button>
+                                                                    <a class="pageload-link btn btn-lg btn-success btn-block" role="button" href="#page-2" onClick="setLogin('');return false">登录</a>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -315,17 +322,15 @@
                         window.location=text
 
                     }else if(text.indexOf('</')!=-1){
+                        //msg = " <span style='font-size:50px" + ";'>" + text + "</span>.";
                         document.getElementById("stunews").innerHTML=text;
                         document.getElementById("errMsg").innerHTML= '';
-                        document.getElementById("logoutmethod").innerHTML='<input type="image" onclick="logout()" src="/IB/images/quit.gif">';
+                        //document.getElementById("logoutmethod").innerHTML='<input type="image" onclick="lo222gout()" src="/IB/images/quit.gif">';
                         DisplayExam();
                     }else{
                         document.getElementById("stunews").innerHTML='<table width="95%" border="0" cellpadding="0" cellspacing="0" class="text"><tr><td width="36%" height="25" align="right" valign="middle">用户编号：</td><td width="64%" valign="middle"><input name="usid" type="text" class="text" id="usid" onKeyDown="if (event.keyCode==13) {event.keyCode=9;}" style="ime-mode:disabled"></td></tr><tr><td height="25" align="right" valign="middle">用户密码：</td><td valign="middle"><input name="pswd" type="password" class="text" id="pswd" maxLength="6" onKeyDown="if (event.keyCode==13) {setLogin();}"></td></tr></tr><tr><td height="25" align="right" valign="middle">&nbsp;</td><td valign="middle"><input type="image" name="imageField" src="/IB/images/login.gif">&nbsp;<input type="image" name="cancle" src="/IB/images/cancle.gif" width="53" height="23" onClick="cancle();return false"></td></tr></table>';
                         document.getElementById("errMsg").innerHTML= text;
                     }
-                    // alert(text);
-
-                    // document.getElementById("flash").innerHTML="<strong>提示：</strong>" + http_request.responseText;
                 }
                 catch(e)
                 {
@@ -357,5 +362,38 @@
 
     %>
 </SCRIPT>
+
+<script src="resources/vendor/snapsvg/classie.js"></script>
+<script src="resources/vendor/snapsvg/svgLoader.js"></script>
+<script>
+    (function() {
+        var pageWrap = document.getElementById( 'pagewrap' ),
+                pages = [].slice.call( pageWrap.querySelectorAll( 'div.container' ) ),
+                currentPage = 0,
+                triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
+                loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
+
+        function init() {
+            triggerLoading.forEach( function( trigger ) {
+                trigger.addEventListener( 'click', function( ev ) {
+                    ev.preventDefault();
+                    loader.show();
+                    // after some time hide loader
+                    setTimeout( function() {
+                        loader.hide();
+
+                        classie.removeClass( pages[ currentPage ], 'show' );
+                        // update..
+                        currentPage = currentPage ? 0 : 1;
+                        classie.addClass( pages[ currentPage ], 'show' );
+
+                    }, 2000 );
+                } );
+            } );
+        }
+
+        init();
+    })();
+</script>
 </body>
 </html>
