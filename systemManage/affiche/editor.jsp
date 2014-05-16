@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script language="javascript" type="text/javascript" src="/IB/common/list.js"></script>
 <script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
-<script src="/IB/resources/vendor/tinymce/tinymce-4.0.26.min.js"></script>
+<script src="/IB/resources/vendor/tinymce4.0.26/tinymce.min.js"></script>
 
 <script>
 $(function() {
@@ -18,7 +18,6 @@ $(function() {
         "searchreplace wordcount visualblocks visualchars code insertdatetime media nonbreaking",
         "table contextmenu directionality emoticons template textcolor paste"],
         toolbar: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table | fontsizeselect forecolor backcolor"
-
     });
 });
 
