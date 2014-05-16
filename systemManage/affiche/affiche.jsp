@@ -12,10 +12,23 @@
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
     <script>
         $(document).ready(function(){
+            //onclick event does not work for iCheck now,please use 'ifChanged' event instead
+            //$("input").click(function(){
+                //alert("clicked");
+            //});
+
             $('input').iCheck({
                 checkboxClass: 'icheckbox_square-blue',
                 radioClass: 'iradio_square',
                 increaseArea: '20%' // optional
+            });
+
+            $('#selectAll').on('ifChanged', function(){
+               if ($(this).prop('checked')) {
+                    $('input').iCheck("check");
+                } else {
+                    $('input').iCheck("uncheck");
+                }
             });
         });
     </script>
@@ -58,7 +71,7 @@
                             <div id="innerTable_divLis" style="width:96%;height:98%">
                                 <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
                                     <thead>
-                                        <th>#</th>
+                                        <th><input type="checkbox" id="selectAll"></th>
                                         <th><h5><strong>编号</strong></h5></th>
                                         <th><h5><strong>标题</strong></h5></th>
                                         <th><h5><strong>发布人</strong></h5></th>
@@ -74,8 +87,9 @@
                                             }%>
                                             <td>
                                                 <div align="left">
-                                                    <input type="checkbox" name="id" value="<bean:write name='list' property='id' />">
-                                                </div></td><span onClick="openReplace('announcement.do?sign=updateBe&id=<bean:write name='list' property='id'/>')">
+                                                    <input type="checkbox" class="check" name="id" value="<bean:write name='list' property='id' />">
+                                                </div>
+                                            </td><span onClick="openReplace('announcement.do?sign=updateBe&id=<bean:write name='list' property='id'/>')">
 
                               <td align="left"><bean:write name="list" property="id" /></td>
                                 <td align="left"><bean:write name="list" property="title" /></td>
