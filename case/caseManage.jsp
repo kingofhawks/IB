@@ -66,13 +66,14 @@
 				<div id="innerTable_divLis" style="width:96%">
 					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table" >
                         <thead>
-                            <td>#</td>
-                            <td><strong>案例编号</strong></td>
-                            <td><strong>案例类</strong></td>
-                            <td><strong>案例名</strong></td>
-                            <td><strong>教师</strong></td>
-                            <td><strong>浏览案例</strong></td>
+                            <th>#</th>
+                            <th><h5><strong>案例编号</strong></h5></th>
+                            <th><h5><strong>案例类</strong></h5></th>
+                            <th><h5><strong>案例名</strong></h5></th>
+                            <th><h5><strong>教师</strong></h5></th>
+                            <th><h5><strong>浏览案例</strong></h5></th>
                         </thead>
+
 						<logic:notEmpty name="list">
 							<logic:iterate id="list" name="list" indexId="index" scope="request">
  <%if ((index.intValue() % 2) == 1) {

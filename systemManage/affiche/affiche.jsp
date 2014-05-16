@@ -8,6 +8,7 @@
     <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
+    <link href="/IB/common/default.css" rel="stylesheet" type="text/css">
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -55,14 +56,14 @@
                         <td class="innerTable_left_y"></td>
                         <td align="center" class="innerTable_main">
                             <div id="innerTable_divLis" style="width:96%;height:98%">
-                                <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list">
-                                    <tr height="20">
-                                        <th width="6%" align="center"><strong>选择</strong></th>
-                                        <th width="8%" align="left"><strong>编号</strong></th>
-                                        <th width="54%" align="left"><strong>标题</strong></th>
-                                        <th width="12%" align="left"><strong>发布人</strong></th>
-                                        <th width="20%"align="left"><strong>发布时间</strong></th>
-                                    </tr>
+                                <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
+                                    <thead>
+                                        <th>#</th>
+                                        <th><h5><strong>编号</strong></h5></th>
+                                        <th><h5><strong>标题</strong></h5></th>
+                                        <th><h5><strong>发布人</strong></h5></th>
+                                        <th><h5><strong>发布时间</strong></h5></th>
+                                    </thead>
 
                                     <logic:notEmpty name="list">
                                         <logic:iterate id="list" name="list" indexId="index" scope="request">

@@ -143,8 +143,7 @@
                 
                 
 <div id="innerTable_divLis" style="width:96%"><!--内容开始-->
-                <table width="100%" border="0" cellpadding="0"
-                    cellspacing="1" id="item_list" style="cursor:auto;" class="table">
+                <table width="100%" border="0" cellpadding="0"  cellspacing="1" id="item_list" style="cursor:auto;" class="table">
                     <tr>
                         <th width="13%">学生姓名</th>
                         <th width="12%">用户名</th>

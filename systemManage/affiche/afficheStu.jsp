@@ -96,12 +96,13 @@ height:160px;
                 <td align="left" valign="top">
                 <div id="innerTable_divLis" style='width:98%;height:200;'>
                 <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
-                    <tr height="20">
-                        <th width="8%" align="left"><strong>编号</strong></th>
-                        <th width="52%" align="left"><strong>标题</strong></th>
-                        <th width="12%" align="left"><strong>发布人</strong></th>
-                        <th width="28%" align="left"><strong>发布时间</strong></th>
-                    </tr>
+                    <thead>
+                        <th><h5><strong>编号</strong></h5></th>
+                        <th><h5><strong>标题</strong></h5></th>
+                        <th><h5><strong>发布人</strong></h5></th>
+                        <th><h5><strong>发布时间</strong></h5></th>
+                    </thead>
+
                     <logic:notEmpty name="list">
                         <logic:iterate id="list" name="list"
                             indexId="index" scope="request">
