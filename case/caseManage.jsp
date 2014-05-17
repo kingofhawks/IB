@@ -18,6 +18,14 @@
           radioClass: 'iradio_square',
           increaseArea: '20%' // optional
       });
+
+      $('#selectAll').on('ifChanged', function(){
+          if ($(this).prop('checked')) {
+              $('input').iCheck("check");
+          } else {
+              $('input').iCheck("uncheck");
+          }
+      });
   });
 </script>
 
@@ -66,7 +74,7 @@
 				<div id="innerTable_divLis" style="width:96%">
 					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table" >
                         <thead>
-                            <th>#</th>
+                            <th><input type="checkbox" id="selectAll"></th>
                             <th><h5><strong>案例编号</strong></h5></th>
                             <th><h5><strong>案例类</strong></h5></th>
                             <th><h5><strong>案例名</strong></h5></th>
