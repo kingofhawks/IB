@@ -68,7 +68,7 @@
                     <tr>
                         <td class="innerTable_left_y"></td>
                         <td align="center" class="innerTable_main">
-                            <div id="innerTable_divLis" style="width:96%;height:98%">
+                            <div  style="width:96%;height:98%">
                                 <table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
                                     <thead>
                                         <th><input type="checkbox" id="selectAll"></th>
@@ -89,13 +89,14 @@
                                                 <div align="left">
                                                     <input type="checkbox" class="check" name="id" value="<bean:write name='list' property='id' />">
                                                 </div>
-                                            </td><span onClick="openReplace('announcement.do?sign=updateBe&id=<bean:write name='list' property='id'/>')">
-
-                              <td align="left"><bean:write name="list" property="id" /></td>
-                                <td align="left"><bean:write name="list" property="title" /></td>
-                                <td align="left"><bean:write name="list" property="mkus" /></td>
-                                <td align="left"><bean:write name="list" property="mkdt" /></td>
-                              </span></tr>
+                                            </td>
+                                            <span onClick="openReplace('announcement.do?sign=updateBe&id=<bean:write name='list' property='id'/>')">
+                                                <td align="left"><bean:write name="list" property="id" /></td>
+                                                <td align="left"><bean:write name="list" property="title" /></td>
+                                                <td align="left"><bean:write name="list" property="mkus" /></td>
+                                                <td align="left"><bean:write name="list" property="mkdt" /></td>
+                                            </span>
+                                            </tr>
                                         </logic:iterate>
                                     </logic:notEmpty>
                                 </table>

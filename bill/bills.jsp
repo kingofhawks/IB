@@ -36,7 +36,7 @@ h2 {text-align:center}
             <tr>
                 <td class="innerTable_left_y"></td>
                 <td align="center" class="innerTable_main">
-                <div id="innerTable_divLis" style="width:94%; height:98%"><!--内容开始-->
+                <div style="width:94%; height:98%"><!--内容开始-->
                 <table width="100%"  cellpadding="3" cellspacing="1" id="item_list" class="table">
                     <tr>
                         <th width="8%" align="center">编号</th>
