@@ -7,16 +7,24 @@
 <meta name="Description" content="国际结算模拟系统5.0版" />
 <meta name="Copyright" content="本页版权北京永基实创科技有限公司所有。All Rights Reserved" />
 <base onmouseover="window.status='国际结算模拟系统 V5.0 ';return true" />
+    <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <style type="text/css">
-<!--
-body {	margin: 0px;}
-.treetitle{
-border: #ccc 1px solid ; height:28;text-align:left;cursor:hand;}
-.casetitle
-{
-border-top: #ccc 1px solid ; border-bottom: #ccc 1px solid ; border-right: #ccc 1px solid ; height:38;text-align:left;cursor:hand;
-}
--->
+    .navbar-default {
+        background-color: #428bca;
+        border-color: #428bca;
+    }
+
+    i {
+        width:108px;
+        border: 0;
+    }
+
+    .menu:hover
+    {
+        background-color:#FFCC99;
+    }
+
 </style>
 <%
  com.witsoft.common.UserBean user = (com.witsoft.common.UserBean) session
@@ -70,14 +78,16 @@ function tipCase()
 </head>
 <input type="hidden" id="clickstate">
 <body>
-<table width="100%" height="38" border="0" cellpadding="0" cellspacing="0" background="images/treebg.gif" >
-  <tr>
-    <td width="108" height="38" align="left" valign="top" class="treetitle" ><a onFocus="this.blur()" onClick="caseTree()"  href="/IB/menu.jsp?id=<%=id%>"  target="leftFrame"><img src="images/tree_o.gif"   width="108" height="38" border="0" id="Image1"  onMouseOver="tipTree()" onMouseOut="oPopup.hide();"></a></td>
-   <td width="108" height="38" align="left" valign="top"  class="casetitle" >
-   <a onFocus="this.blur()" onClick="caseRes()">
-   <img src="images/case.gif" name="Image2" width="108" height="38" border="0" id="Image2"  onMouseOver="tipCase()" onMouseOut="oPopup.hide();"></a>
-   </td>
-  </tr>
-</table>
+
+<div class="navbar-default" role="navigation">
+<nav >
+    <a onClick="caseTree()"  href="/IB/menu.jsp?id=<%=id%>"  target="leftFrame">
+        <i class="fa fa-sitemap menu" style="color:white;padding: 10px;text-align: center">导航</i>
+    </a>
+    <a href="#" onFocus="this.blur()" onClick="caseRes()">
+        <i class="fa fa-briefcase menu" style="color:white;padding: 10px;text-align: center">案例</i>
+    </a>
+</nav>
+</div>
 </body>
 </html>
