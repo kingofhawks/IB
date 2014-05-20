@@ -3,6 +3,29 @@
 	src="/IB/common/list.js"></script>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html>
+<head>
+    <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+    <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
+    <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square',
+                increaseArea: '20%' // optional
+            });
+
+            $('#selectAll').on('ifChanged', function(){
+                if ($(this).prop('checked')) {
+                    $('input').iCheck("check");
+                } else {
+                    $('input').iCheck("uncheck");
+                }
+            });
+        });
+    </script>
+</head>
 <body>
 <FORM></FORM>
 <table width="100%" height="100%" border="0" align="center"
@@ -15,13 +38,10 @@
 	<tr>
 		<td height="22" class="outerTable_left_y"></td>
 		<td class="outerTable_head">
-		<table border="0" cellpadding="0" cellspacing="0" align="left"
-			valign="bottom" class="tab_blank">
-			<tr>
-				<td class="tab_active_left" id="tab_left"></td>
-				<td class="tab_active_btn" id="tab_btn"><nobr>客户资料</nobr></td>
-				<td class="tab_active_right" id="tab_right"></td>
-			</tr>
+		<table border="0" cellpadding="0" cellspacing="0" align="center" 	valign="bottom" class="tab_blank">
+            <tr>
+                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>客户资料</strong></h2></td>
+            </tr>
 		</table>
 
 		<script language="javascript">showOperation("clientInfoNew.do");</script></td>
@@ -43,9 +63,9 @@
 				<td class="innerTable_left_y"></td>
 				<td align="center" class="innerTable_main">
 				<div id="innerTable_divLis" style="width:96%"><!--内容开始-->
-				<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list">
+				<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
 					<tr>
-						<th width="6%">&nbsp;</th>
+						<th width="6%"><input type="checkbox" id="selectAll"></th>
 						<th width="14%"><bean:message key="common.clno" /></th>
 						<!--客户号-->
 						<th width="20%">银行编号</th>

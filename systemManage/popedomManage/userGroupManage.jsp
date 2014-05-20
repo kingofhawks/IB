@@ -3,16 +3,33 @@
 <%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html"%>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html>
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title><bean:message key="common.systemName" /></title>
-<link href="/IB/common/default.css" rel="stylesheet"
-    type="text/css">
-<script language="javascript" type="text/javascript"
-    src="/IB/common/default.js"></script>
-<script language="javascript" type="text/javascript"
-    src="/IB/common/list.js"></script>
+<link href="/IB/common/default.css" rel="stylesheet" type="text/css">
+<link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<script language="javascript" type="text/javascript"  src="/IB/common/default.js"></script>
+<script language="javascript" type="text/javascript"  src="/IB/common/list.js"></script>
+<script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+<link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
+<script src="resources/vendor/iCheck/icheck.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('input').iCheck({
+            checkboxClass: 'icheckbox_square-blue',
+            radioClass: 'iradio_square',
+            increaseArea: '20%' // optional
+        });
+
+        $('#selectAll').on('ifChanged', function(){
+            if ($(this).prop('checked')) {
+                $('input').iCheck("check");
+            } else {
+                $('input').iCheck("uncheck");
+            }
+        });
+    });
+</script>
 </head>
 
 <body>
@@ -29,22 +46,18 @@
     <tr>
         <td height="22" class="outerTable_left_y"></td>
         <td class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="left"
-            valign="bottom" class="tab_blank">
+        <table border="0" cellpadding="0" cellspacing="0" align="left"  valign="bottom" class="tab_blank">
             <tr>
-                <td class="tab_active_left" id="tab_left"></td>
-                <td class="tab_active_btn" id="tab_btn"><nobr>班级管理</nobr></td>
-                <td class="tab_active_right" id="tab_right"></td>
+                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>班级管理</strong></h2></td>
             </tr>
         </table>
         <table  width="100%" border="0" align="right" cellpadding="0" cellspacing="0" style="margin-left:2px">
-            <tr><td width="20%"></td>
-		      <td width="50%" align="right"><script language="javascript">showOperation("/IB/systemManage/popedomManage/userGroupManageNew.jsp?prid=UGMT");</script></td>
-			 
-                <td width="30%" align="left" class="opertion"><a  href="/IB/userManageBind.do?mode=user"  onClick="return openReplace(this.href)"><img   src="/IB/images/userBlind2Group.gif"   alt="用户绑定到用户组" width="80" height="22" border="0" hspace="0"></a></td>
+            <tr>
+                <td width="20%"></td>
+		        <td width="50%" align="right"><script language="javascript">showOperation("/IB/systemManage/popedomManage/userGroupManageNew.jsp?prid=UGMT");</script></td>
+			    <td width="30%" align="left" class="opertion"><a  href="/IB/userManageBind.do?mode=user"  onClick="return openReplace(this.href)"><img   src="/IB/images/userBlind2Group.gif"   alt="用户绑定到用户组" width="80" height="22" border="0" hspace="0"></a></td>
             </tr>
         </table>
-        
         </td>
         <td class="outerTable_right_y"></td>
     </tr>
@@ -52,8 +65,7 @@
         <td class="outerTable_left_y"></td>
         <td class="outerTable_main"><!--内表格开始-->
         <form method="post" action="deleteUserInfo.do?sign=2">
-        <table width="100%" height="100%" border="0" align="center"
-            cellpadding="0" cellspacing="0">
+        <table width="100%" height="100%" border="0" align="center"  cellpadding="0" cellspacing="0">
             <tr>
                 <td class="innerTable_top_left"></td>
                 <td class="innerTable_top_x"></td>
@@ -65,16 +77,15 @@
                 <td class="innerTable_left_y"></td>
                 <td align="center" class="innerTable_main">
                 <div id="innerTable_divLis" style="width:96%"><!--内容开始-->
-                <table width="100%" border="0" cellpadding="0"
-                    cellspacing="1" id="item_list">
-                    <tr>
-                        <th width="5%"></th>
-                        <th width="15%">班级编号</th>
-                        <th width="15%">班级名称</th>
-                        <th width="15%">银行编号</th>
-                        <th width="35%">备注</th>
-                        <th width="15%">班级教师</th>
-                    </tr>
+                <table width="100%" border="0" cellpadding="0"  cellspacing="1" id="item_list" class="table">
+                    <thead>
+                        <th><input type="checkbox" id="selectAll"></th>
+                        <th><h5><strong>班级编号</strong></h5></th>
+                        <th><h5><strong>班级名称</strong></h5></th>
+                        <th><h5><strong>银行编号</strong></h5></th>
+                        <th><h5><strong>备注</strong></h5></th>
+                        <th><h5><strong>班级教师</strong></h5></th>
+                    </thead>
                     <logic:notEmpty name="list">
                         <logic:iterate id="list" name="list" indexId="index" scope="request">
 										 <%if ((index.intValue() % 2) == 1) {
