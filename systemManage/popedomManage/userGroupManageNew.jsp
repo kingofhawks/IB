@@ -13,7 +13,7 @@
 <body>
 
 <div class="container col-sm-4">
-    <form class="form-horizontal" role="form" action="/IB/userUgNew.do" onsubmit="checkForm(this)"   method="post" styleClass="form-horizontal">
+    <form class="form-horizontal" role="form" action="/IB/userUgNew.do" onsubmit="checkForm(this)"   method="post">
         <div class="form-group">
             <label for="ugds" class="col-sm-2 control-label">°à¼¶Ãû</label>
             <div class="col-sm-10">
