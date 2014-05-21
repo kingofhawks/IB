@@ -9,11 +9,13 @@
 <link href="/IB/common/default.css" rel="stylesheet"  type="text/css">
 <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 <script language="javascript" type="text/javascript"   src="/IB/common/default.js"></script>
+
 </head>
 <body>
 
-<div class="container col-sm-4">
+<div class="container col-sm-10">
     <form class="form-horizontal" role="form" action="/IB/userUgNew.do" onsubmit="checkForm(this)"   method="post">
+        <br >
         <div class="form-group">
             <label for="ugds" class="col-sm-2 control-label">°à¼¶Ãû</label>
             <div class="col-sm-10">

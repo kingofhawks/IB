@@ -3,6 +3,7 @@
     src="/IB/common/list.js"></script>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html:html>
+    <link href="resources/css/app.css" rel="stylesheet">
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
@@ -69,14 +70,14 @@
                      <%
                      String usid = user.getUsid();%>
                     <thead>
-                        <th width="6%"><input type="checkbox" id="selectAll"></th>
-                        <th width="17%">用户编号</th>
-                        <th width="17%"><bean:message
-                            key="systemManage.popedomManage.userName2" /></th>
-                        <th width="15%">银行编号</th>
-                        <th width="15%">用户密码</th>
-                        <th width="12%"><bean:message key="systemManage.popedomManage.yesOrNo" /></th>
-                        <th width="18%">操作教师</th>
+                        <th><input type="checkbox" id="selectAll"></th>
+                        <th class="table_title">角色编号</th>
+                        <th class="table_title"><bean:message
+                                key="systemManage.popedomManage.userName2" /></th>
+                        <th class="table_title">银行编号</th>
+                        <th class="table_title">用户密码</th>
+                        <th class="table_title"><bean:message key="systemManage.popedomManage.yesOrNo" /></th>
+                        <th class="table_title">操作教师</th>
                     </thead>
                     <logic:notEmpty name="list">
                         <logic:iterate id="list" name="list"

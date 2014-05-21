@@ -13,43 +13,43 @@
 </head>
 
 <body>
-<div class="container col-sm-4">
+<div class="container">
     <form class="form-horizontal" role="form" action="/IB/clientAccountNew.do" onsubmit="checkForm(this)"   method="post">
         <div class="form-group">
-            <label for="brno" class="col-sm-4 control-label">银行编号</label>
-            <div class="col-sm-8">
+            <label for="brno" class="col-sm-2 control-label">银行编号</label>
+            <div class="col-sm-10">
                 <select property="brno" id="brno" title="brno" styleClass="select_280">
                     <%out.println(request.getAttribute("OPTION_BRNO"));%>
                 </select>
             </div>
         </div>
         <div class="form-group">
-            <label for="acno" class="col-sm-4 control-label">客户帐号</label>
-            <div class="col-sm-8">
+            <label for="acno" class="col-sm-2 control-label">客户帐号</label>
+            <div class="col-sm-10">
                 <input type="text" class="form-control" name="acno" id="acno" placeholder="客户帐号">
             </div>
         </div>
         <div class="form-group">
-            <label for="clno" class="col-sm-4 control-label">客户号</label>
-            <div class="col-sm-8">
+            <label for="clno" class="col-sm-2 control-label">客户号</label>
+            <div class="col-sm-10">
                 <input type="text" class="form-control" name="clno" id="clno" placeholder="客户号">
             </div>
         </div>
         <div class="form-group">
-            <label for="clnona" class="col-sm-4 control-label">客户中文名称</label>
-            <div class="col-sm-8">
+            <label for="clnona" class="col-sm-2 control-label">客户中文名称</label>
+            <div class="col-sm-10">
                 <input type="text" class="form-control" name="clnona" id="clnona" placeholder="客户中文名称">
             </div>
         </div>
         <div class="form-group">
-            <label for="clnoad" class="col-sm-4 control-label">客户中文名称及地址</label>
-            <div class="col-sm-8">
+            <label for="clnoad" class="col-sm-2 control-label">客户中文名称及地址</label>
+            <div class="col-sm-10">
                 <input type="text" class="form-control" name="clnoad" id="clnoad" placeholder="客户中文名称及地址">
             </div>
         </div>
         <div class="form-group">
-            <label for="cyno" class="col-sm-4 control-label">帐号币种</label>
-            <div class="col-sm-8">
+            <label for="cyno" class="col-sm-2 control-label">帐号币种</label>
+            <div class="col-sm-10">
                 <select styleClass="select_122" property="cyno" id="cyno">
                     <logic:notEmpty name="OPTION_CYNO">
                         <logic:iterate id="list" name="OPTION_CYNO">
@@ -61,8 +61,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="itcd" class="col-sm-4 control-label">业务代码</label>
-            <div class="col-sm-8">
+            <label for="itcd" class="col-sm-2 control-label">业务代码</label>
+            <div class="col-sm-10">
                 <input type="text" class="form-control" name="itcd" id="itcd" placeholder="业务代码">
             </div>
         </div>

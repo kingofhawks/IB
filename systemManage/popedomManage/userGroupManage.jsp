@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title><bean:message key="common.systemName" /></title>
 <link href="/IB/common/default.css" rel="stylesheet" type="text/css">
+<link href="resources/css/app.css" rel="stylesheet">
 <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 <script language="javascript" type="text/javascript"  src="/IB/common/default.js"></script>
 <script language="javascript" type="text/javascript"  src="/IB/common/list.js"></script>
@@ -80,11 +81,11 @@
                 <table width="100%" border="0" cellpadding="0"  cellspacing="1" id="item_list" class="table">
                     <thead>
                         <th><input type="checkbox" id="selectAll"></th>
-                        <th><h5><strong>班级编号</strong></h5></th>
-                        <th><h5><strong>班级名称</strong></h5></th>
-                        <th><h5><strong>银行编号</strong></h5></th>
-                        <th><h5><strong>备注</strong></h5></th>
-                        <th><h5><strong>班级教师</strong></h5></th>
+                        <th class="table_title">班级编号</th>
+                        <th class="table_title">班级名称</th>
+                        <th class="table_title">银行编号</th>
+                        <th class="table_title">备注</th>
+                        <th class="table_title">班级教师</th>
                     </thead>
                     <logic:notEmpty name="list">
                         <logic:iterate id="list" name="list" indexId="index" scope="request">

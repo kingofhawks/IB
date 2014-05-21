@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<div class="container col-sm-4">
+<div class="container col-sm-10">
     <form class="form-horizontal" role="form" action="/IB/roleNew.do" onsubmit="checkForm(this)"   method="post">
         <div class="form-group">
             <label for="rlnm" class="col-sm-2 control-label">½ÇÉ«Ãû³Æ</label>

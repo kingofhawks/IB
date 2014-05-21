@@ -4,6 +4,7 @@
 <%@ page contentType="text/html; charset=GB2312"%>
 <html>
 <head>
+    <link href="resources/css/app.css" rel="stylesheet">
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
@@ -64,17 +65,13 @@
 				<td align="center" class="innerTable_main">
 				<div id="innerTable_divLis" style="width:96%"><!--内容开始-->
 				<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
-					<tr>
-						<th width="6%"><input type="checkbox" id="selectAll"></th>
-						<th width="14%"><bean:message key="common.clno" /></th>
-						<!--客户号-->
-						<th width="20%">银行编号</th>
-						<!--机构号-->
-						<th width="15%"><bean:message key="common.cltp" /></th>
-						<!--客户类型-->
-						<th width="43%"><bean:message key="common.clcm" /></th>
-						<!--客户中文名-->
-					</tr>
+                    <thead>
+                        <th><input type="checkbox" id="selectAll"></th>
+                        <th class="table_title"><bean:message key="common.clno" /></th>
+                        <th class="table_title">银行编号</th>
+                        <th class="table_title"><bean:message key="common.cltp" /></th>
+                        <th class="table_title"><bean:message key="common.clcm" /></th>
+                    </thead>
 					<logic:notEmpty name="list">
 						 <logic:iterate id="list" name="list" indexId="index" scope="request">
 						 <%if ((index.intValue() % 2) == 1) {

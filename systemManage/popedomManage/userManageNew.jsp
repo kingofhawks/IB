@@ -45,7 +45,7 @@ function switchNewUserType(n)
 </head>
 
 <body onLoad="init()">
-<div class="container col-sm-4">
+<div class="container">
     <form class="form-horizontal" role="form" action="/IB/userManageNew.do" onsubmit="checkForm(this)" method="post">
         <div class="form-group">
             <label for="usnm" class="col-sm-2 control-label">用户名</label>
@@ -56,7 +56,7 @@ function switchNewUserType(n)
         <div class="form-group">
             <label for="ustl" class="col-sm-2 control-label">电话号码</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="ustl" id="ustl" placeholder="电话号码">
+                <input type="tel" class="form-control" name="ustl" id="ustl" placeholder="电话号码">
             </div>
         </div>
         <div class="form-group">
@@ -68,7 +68,7 @@ function switchNewUserType(n)
         <div class="form-group">
             <label for="pnct" class="col-sm-2 control-label">用户数</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="pnct" id="pnct" placeholder="用户数">
+                <input type="number" class="form-control" name="pnct" id="pnct" placeholder="用户数">
             </div>
         </div>
         <div class="form-group">

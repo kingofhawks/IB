@@ -10,6 +10,7 @@
 <script language="javascript" type="text/javascript"    src="/IB/common/default.js"></script>
 <script language="javascript" type="text/javascript"    src="/IB/common/list.js"></script>
 <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/css/app.css" rel="stylesheet">
 <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
 <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
 <script src="resources/vendor/iCheck/icheck.min.js"></script>
@@ -81,13 +82,13 @@
   <%com.witsoft.common.UserBean user = (com.witsoft.common.UserBean)session.getAttribute("user");
                      String usid = user.getUsid();%>
                     <thead>
-                        <th width="5%"><input type="checkbox" id="selectAll"></th>
-                        <th width="12%">角色编号</th>
-                        <th width="25%">角色名称</th>
-                        <th width="11%"><bean:message
+                        <th><input type="checkbox" id="selectAll"></th>
+                        <th class="table_title">角色编号</th>
+                        <th class="table_title">角色名称</th>
+                        <th class="table_title"><bean:message
                             key="systemManage.popedomManage.frameworkNum" /></th>
-                        <th width="32%">备注</th>
-                         <th width="15%">操作用户</th>
+                        <th class="table_title">备注</th>
+                        <th class="table_title">操作用户</th>
                     </thead>
                
                     <logic:notEmpty name="list">

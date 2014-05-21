@@ -97,3 +97,9 @@
 .sidebar-module-inset ol:last-child {
     margin-bottom: 0;
 }
+
+/*HTML table style */
+.table_title{
+    font-weight: bold;
+    font-size: 14px;
+}
