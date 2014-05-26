@@ -14,7 +14,11 @@
     <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
     <style>
         #toolbar {
-            margin-left:30px;
+            margin-left:20px;
+            margin-right: 20px;
+            border:1px solid darkgrey;
+            padding: 5px;
+
         }
     </style>
     <script>
@@ -32,6 +36,8 @@
                     $('input').iCheck("uncheck");
                 }
             });
+
+            $( ".form-with-toolbar" ).after( "<div class=\"form-group\" id=\"toolbar\"><a href=\"/IB/userManageNew.do?prid=USMT\" class=\"btn btn-primary active\" role=\"button\">新建</a><a href=\"#\" class=\"btn btn-primary active\" role=\"button\"  onclick=\"doDelete2()\">删除</a></div>" );
         });
 
         function doDelete2()
@@ -48,7 +54,7 @@
             }
             if (chked)
             {
-                alertify.confirm("Message", function (e) {
+                alertify.confirm("请确认您要删除所选的项目？", function (e) {
                     if (e) {
                         // user clicked "ok"
                         document.forms[1].submit();
@@ -59,10 +65,9 @@
             }
             else
             {
-                alert("???????????????")
+                alertify.alert("请至少选择一个项目");
                 return false;
             }
-
         }
     </script>
 <body>
@@ -92,20 +97,8 @@
     <tr>
         <td class="outerTable_left_y"></td>
         <td class="outerTable_main"><!--内表格开始-->
-        <form method="post" action="deleteUserInfo.do?sign=1">
-            <div class="form-group" id="toolbar">
-                <a href="/IB/userManageNew.do?prid=USMT" class="btn btn-primary active" role="button">新建</a>
-                <a href="#" class="btn btn-primary active" role="button" onclick="doDelete()">删除</a>
-                <a href="#" class="btn btn-primary active" role="button"  onclick="doDelete2()">Test</a>
-            </div>
-            <div id="myModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <h1>Model Test</h1>
-                        <p>hhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                    </div>
-                </div>
-            </div>
+        <form  method="post" action="deleteUserInfo.do?sign=1">
+            <div class="form-with-toolbar"></div>
         <table width="100%" height="100%" border="0" align="center"
             cellpadding="0" cellspacing="0">
             <tr>
