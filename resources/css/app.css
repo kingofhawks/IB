@@ -103,3 +103,10 @@
     font-weight: bold;
     font-size: 14px;
 }
+/*HTML table toolbar */
+#toolbar {
+    margin-left:20px;
+    margin-right: 20px;
+    border:1px solid darkgrey;
+    padding: 5px;
+}

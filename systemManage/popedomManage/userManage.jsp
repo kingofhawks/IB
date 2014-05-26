@@ -3,43 +3,21 @@
     src="/IB/common/list.js"></script>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html:html>
+    <head>
     <link href="resources/css/app.css" rel="stylesheet">
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.core.css" />
     <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.bootstrap.css" />
+        <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
     <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
-    <style>
-        #toolbar {
-            margin-left:20px;
-            margin-right: 20px;
-            border:1px solid darkgrey;
-            padding: 5px;
+    <!---->
+        <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
 
-        }
-    </style>
     <script>
-        $(document).ready(function(){
-            $('input').iCheck({
-                checkboxClass: 'icheckbox_square-blue',
-                radioClass: 'iradio_square',
-                increaseArea: '20%' // optional
-            });
-
-            $('#selectAll').on('ifChanged', function(){
-                if ($(this).prop('checked')) {
-                    $('input').iCheck("check");
-                } else {
-                    $('input').iCheck("uncheck");
-                }
-            });
-
-            $( ".form-with-toolbar" ).after( "<div class=\"form-group\" id=\"toolbar\"><a href=\"/IB/userManageNew.do?prid=USMT\" class=\"btn btn-primary active\" role=\"button\">ÐÂ½¨</a><a href=\"#\" class=\"btn btn-primary active\" role=\"button\"  onclick=\"doDelete2()\">É¾³ý</a></div>" );
-        });
-
         function doDelete2()
         {
             var a = document.getElementsByName("id");
@@ -70,6 +48,7 @@
             }
         }
     </script>
+    </head>
 <body>
 <%com.witsoft.common.UserBean user = (com.witsoft.common.UserBean) session
                 .getAttribute("user");%>
