@@ -5,9 +5,13 @@
 <html:html>
     <link href="resources/css/app.css" rel="stylesheet">
     <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.core.css" />
+    <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.bootstrap.css" />
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+    <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
     <style>
         #toolbar {
             margin-left:30px;
@@ -29,6 +33,37 @@
                 }
             });
         });
+
+        function doDelete2()
+        {
+            var a = document.getElementsByName("id");
+            var chked = false;
+            for (i=0; i<a.length; i++)
+            {
+                if (a[i].checked)
+                {
+                    chked = true;
+                    break;
+                }
+            }
+            if (chked)
+            {
+                alertify.confirm("Message", function (e) {
+                    if (e) {
+                        // user clicked "ok"
+                        document.forms[1].submit();
+                    } else {
+                        // user clicked "cancel"
+                    }
+                });
+            }
+            else
+            {
+                alert("???????????????")
+                return false;
+            }
+
+        }
     </script>
 <body>
 <%com.witsoft.common.UserBean user = (com.witsoft.common.UserBean) session
@@ -61,6 +96,15 @@
             <div class="form-group" id="toolbar">
                 <a href="/IB/userManageNew.do?prid=USMT" class="btn btn-primary active" role="button">ÐÂ½¨</a>
                 <a href="#" class="btn btn-primary active" role="button" onclick="doDelete()">É¾³ý</a>
+                <a href="#" class="btn btn-primary active" role="button"  onclick="doDelete2()">Test</a>
+            </div>
+            <div id="myModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <h1>Model Test</h1>
+                        <p>hhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                    </div>
+                </div>
             </div>
         <table width="100%" height="100%" border="0" align="center"
             cellpadding="0" cellspacing="0">
