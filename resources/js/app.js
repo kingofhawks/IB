@@ -42,6 +42,8 @@ $(document).ready(function(){
             $('input').iCheck("uncheck");
         }
     });
-
-    $( ".form-with-toolbar" ).after( "<div class=\"form-group\" id=\"toolbar\"><a href=\"/IB/userManageNew.do?prid=USMT\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-plus\"></i></a><a href=\"#\" class=\"btn btn-primary active\" role=\"button\"  onclick=\"doDelete2()\"><i class=\"fa fa-trash-o\"></i></a></div>" );
 });
+  //\"/IB/userManageNew.do?prid=USMT\"
+function create_toolbar(create_url){
+    $( ".form-with-toolbar" ).after( "<div class=\"form-group\" id=\"toolbar\"><a href=\"" + create_url + "\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-plus\"></i></a><a href=\"#\" class=\"btn btn-primary active\" role=\"button\"  onclick=\"doDelete2()\"><i class=\"fa fa-trash-o\"></i></a></div>" );
+}

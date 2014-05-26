@@ -3,34 +3,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="resources/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.core.css" />
+    <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.bootstrap.css" />
+    <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <script language="javascript" type="text/javascript" src="/IB/common/list.js"></script>
 
     <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
-    <link href="/IB/common/default.css" rel="stylesheet" type="text/css">
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
+    <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
     <script>
         $(document).ready(function(){
-            //onclick event does not work for iCheck now,please use 'ifChanged' event instead
-            //$("input").click(function(){
-                //alert("clicked");
-            //});
-
-            $('input').iCheck({
-                checkboxClass: 'icheckbox_square-blue',
-                radioClass: 'iradio_square',
-                increaseArea: '20%' // optional
-            });
-
-            $('#selectAll').on('ifChanged', function(){
-               if ($(this).prop('checked')) {
-                    $('input').iCheck("check");
-                } else {
-                    $('input').iCheck("uncheck");
-                }
-            });
+            create_toolbar("/IB/systemManage/affiche/editor.jsp?sign=add");
         });
+
+        function doDelete2()
+        {
+            var a = document.getElementsByName("id");
+            var chked = false;
+            for (i=0; i<a.length; i++)
+            {
+                if (a[i].checked)
+                {
+                    chked = true;
+                    break;
+                }
+            }
+            if (chked)
+            {
+                alertify.confirm("请确认您要删除所选的项目？", function (e) {
+                    if (e) {
+                        // user clicked "ok"
+                        document.forms[1].submit();
+                    } else {
+                        // user clicked "cancel"
+                    }
+                });
+            }
+            else
+            {
+                alertify.alert("请至少选择一个项目");
+                return false;
+            }
+        }
     </script>
 </head>
 <body>
@@ -44,9 +62,8 @@
     </tr>
     <tr>
         <td height="22" class="outerTable_left_y"></td>
-        <td align="right" class="outerTable_head"><span class="tab_unactive_right">
-		    <script language="javascript">showOperation("/IB/systemManage/affiche/editor.jsp?sign=add");</script>
-		</span>
+        <td align="right" class="outerTable_head">
+
             <table border="0" cellpadding="0" cellspacing="0" align="center" valign="bottom" >
                 <tr>
                     <td class="tab_unactive_btn" id="tab_btn"><h2><strong>公告信息管理</strong></h2></td>
@@ -59,6 +76,7 @@
         <td class="outerTable_left_y"></td>
         <td class="outerTable_main"><!--内表格开始-->
             <form method="post" action="announcement.do?sign=delete">
+                <div class="form-with-toolbar"></div>
                 <table width="100%" height="100%" border="0" align="center"  cellpadding="0" cellspacing="0" >
                     <tr>
                         <td class="innerTable_top_left"></td>

@@ -6,6 +6,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title><bean:message key="common.systemName" /></title>
+    <link href="resources/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.core.css" />
+    <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.bootstrap.css" />
+    <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <link href="/IB/common/default.css" rel="stylesheet"    type="text/css">
 <script language="javascript" type="text/javascript"    src="/IB/common/default.js"></script>
 <script language="javascript" type="text/javascript"    src="/IB/common/list.js"></script>
@@ -14,22 +18,42 @@
 <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
 <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
 <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
+    <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
 <script>
     $(document).ready(function(){
-        $('input').iCheck({
-            checkboxClass: 'icheckbox_square-blue',
-            radioClass: 'iradio_square',
-            increaseArea: '20%' // optional
-        });
-
-        $('#selectAll').on('ifChanged', function(){
-            if ($(this).prop('checked')) {
-                $('input').iCheck("check");
-            } else {
-                $('input').iCheck("uncheck");
-            }
-        });
+        create_toolbar("/IB/systemManage/popedomManage/roleManageNew.jsp?prid=RLM");
     });
+
+    function doDelete2()
+    {
+        var a = document.getElementsByName("id");
+        var chked = false;
+        for (i=0; i<a.length; i++)
+        {
+            if (a[i].checked)
+            {
+                chked = true;
+                break;
+            }
+        }
+        if (chked)
+        {
+            alertify.confirm("请确认您要删除所选的项目？", function (e) {
+                if (e) {
+                    // user clicked "ok"
+                    document.forms[1].submit();
+                } else {
+                    // user clicked "cancel"
+                }
+            });
+        }
+        else
+        {
+            alertify.alert("请至少选择一个项目");
+            return false;
+        }
+    }
 </script>
 </head>
 
@@ -47,13 +71,13 @@
     <tr>
         <td height="22" class="outerTable_left_y"></td>
         <td class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="left"  valign="bottom" class="tab_blank">
+        <table border="0" cellpadding="0" cellspacing="0" align="center"  valign="bottom" class="tab_blank">
             <tr>
                 <td class="tab_unactive_btn" id="tab_btn"><h2><strong>角色管理</strong></h2></td>
             </tr>
         </table>
         <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
-            <tr><td width="558" align="right"><script language="javascript">showOperation("/IB/systemManage/popedomManage/roleManageNew.jsp?prid=RLMT");</script></td>
+            <tr>
                 <td width="80" align="left"><a href="/IB/popedomShow.do" onClick="return openReplace(this.href)"><img
                     src="/IB/images/rightBlind.gif" alt="角色绑定权限" width="80" height="22" border="0"></a></td>
 					<td width="243" align="left"><a  href="/IB/userManageBind.do?mode=role" onClick="return openReplace(this.href)"><img  src="/IB/images/userGroupBlind.gif"  alt="角色绑定班级" width="90" height="22" border="0"></a></td>
@@ -67,6 +91,7 @@
         <td class="outerTable_left_y"></td>
         <td class="outerTable_main"><!--内表格开始-->
         <form method="post" action="deleteUserInfo.do?sign=3">
+            <div class="form-with-toolbar"></div>
         <table width="100%" height="100%" border="0" align="center"
             cellpadding="0" cellspacing="0">
             <tr>

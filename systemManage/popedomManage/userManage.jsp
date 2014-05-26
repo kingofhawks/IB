@@ -18,6 +18,10 @@
         <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
 
     <script>
+        $(document).ready(function(){
+            create_toolbar("/IB/userManageNew.do?prid=USMT");
+        });
+
         function doDelete2()
         {
             var a = document.getElementsByName("id");
