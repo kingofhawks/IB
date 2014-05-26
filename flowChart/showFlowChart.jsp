@@ -2,6 +2,7 @@
 <script language="javascript" type="text/javascript"  src="/IB/common/list.js"></script>
 <%@ page contentType="text/html; charset=GB2312"%>
 <html:html>
+<link href="/IB/resources/css/app.css" rel="stylesheet">
 <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script src="/IB/resources/vendor/modernizr/modernizr.min.js"></script>
@@ -144,13 +145,13 @@
                 
 <div id="innerTable_divLis" style="width:96%"><!--内容开始-->
                 <table width="100%" border="0" cellpadding="0"  cellspacing="1" id="item_list" style="cursor:auto;" class="table">
-                    <tr>
-                        <th width="13%">学生姓名</th>
-                        <th width="12%">用户名</th>
-                        <th width="32%">操作名称</th>
-                        <th width="15%">业务编号</th>
-                        <th width="28%">操作时间</th>
-                    </tr>
+                    <thead>
+                        <th class="table_title">学生姓名</th>
+                        <th class="table_title">用户名</th>
+                        <th class="table_title">操作名称</th>
+                        <th class="table_title">业务编号</th>
+                        <th class="table_title">操作时间</th>
+                    </thead>
 
 
 

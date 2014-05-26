@@ -9,6 +9,7 @@
     <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="/IB/resources/vendor/select2/select2.css" />
+    <link href="/IB/resources/css/app.css" rel="stylesheet">
     <script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <script src="/IB/resources/vendor/select2/select2.min.js"></script>
 <style>
@@ -114,15 +115,15 @@ String casesId=manage.getCaseId(null,null);
                     <div id="innerTable_divLis" style="width:90%;height:220px" >
                         <div id="grade">
                             <table width="100%" border="0" cellspacing="1" cellpadding="1" id="item_list" style="cursor:auto;" class="table">
-                                <tr>
-                                <th width="12%">用户编号</th>
-                                <th width="16%">姓名</th>
-                                <th width="13%">班级</th>
-                                <th width="11%">案例总分</th>
-                                <th width="18%">学生所做案例操作总分</th>
-                                <th width="12%">扣除分数</th>
-                                <th width="18%">实际得分&#8249;百分制&#8250;</th>
-                                </tr>
+                                <thead>
+                                    <th class="table_title" width="100px">角色编号</th>
+                                    <th class="table_title" width="50px">姓名</th>
+                                    <th class="table_title">班级</th>
+                                    <th class="table_title">案例总分</th>
+                                    <th class="table_title">学生所做案例操作总分</th>
+                                    <th class="table_title">扣除分数</th>
+                                    <th class="table_title">实际得分&#8249;百分制&#8250;</th>
+                                </thead>
                             </table>
                         </div>
                     </div>
