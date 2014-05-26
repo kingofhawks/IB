@@ -8,6 +8,11 @@
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <style>
+        #toolbar {
+            margin-left:30px;
+        }
+    </style>
     <script>
         $(document).ready(function(){
             $('input').iCheck({
@@ -41,13 +46,11 @@
     <tr>
         <td height="22" class="outerTable_left_y"></td>
         <td class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="center" valign="bottom" class="tab_blank">
-            <tr>
-                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>用户管理</strong></h2></td>
-            </tr>
-        </table>
-
-        <script language="javascript">showOperation("/IB/userManageNew.do?prid=USMT");</script>
+            <table border="0" cellpadding="0" cellspacing="0" align="center" valign="bottom" class="tab_blank">
+                <tr>
+                    <td class="tab_unactive_btn" id="tab_btn"><h2><strong>用户管理</strong></h2></td>
+                </tr>
+            </table>
         </td>
         <td class="outerTable_right_y"></td>
     </tr>
@@ -55,6 +58,10 @@
         <td class="outerTable_left_y"></td>
         <td class="outerTable_main"><!--内表格开始-->
         <form method="post" action="deleteUserInfo.do?sign=1">
+            <div class="form-group" id="toolbar">
+                <a href="/IB/userManageNew.do?prid=USMT" class="btn btn-primary active" role="button">新建</a>
+                <a href="#" class="btn btn-primary active" role="button" onclick="doDelete()">删除</a>
+            </div>
         <table width="100%" height="100%" border="0" align="center"
             cellpadding="0" cellspacing="0">
             <tr>
