@@ -23,6 +23,7 @@
 <script>
     $(document).ready(function(){
         create_toolbar("/IB/systemManage/popedomManage/roleManageNew.jsp?prid=RLM");
+        $('#toolbar').append("<a  href=\"/IB/popedomShow.do\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-lock\"></i></a><a  href=\"/IB/userManageBind.do?mode=role\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-users\"></i></a>");
     });
 
     function doDelete2()
@@ -71,19 +72,11 @@
     <tr>
         <td height="22" class="outerTable_left_y"></td>
         <td class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="center"  valign="bottom" class="tab_blank">
-            <tr>
-                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>角色管理</strong></h2></td>
-            </tr>
-        </table>
-        <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
-            <tr>
-                <td width="80" align="left"><a href="/IB/popedomShow.do" onClick="return openReplace(this.href)"><img
-                    src="/IB/images/rightBlind.gif" alt="角色绑定权限" width="80" height="22" border="0"></a></td>
-					<td width="243" align="left"><a  href="/IB/userManageBind.do?mode=role" onClick="return openReplace(this.href)"><img  src="/IB/images/userGroupBlind.gif"  alt="角色绑定班级" width="90" height="22" border="0"></a></td>
-            </tr>
-        </table>
-        
+            <table border="0" cellpadding="0" cellspacing="0" align="center"  valign="bottom" class="tab_blank">
+                <tr>
+                    <td class="tab_unactive_btn" id="tab_btn"><h2><strong>角色管理</strong></h2></td>
+                </tr>
+            </table>
         </td>
         <td class="outerTable_right_y"></td>
     </tr>

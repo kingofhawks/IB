@@ -23,6 +23,7 @@
 <script>
     $(document).ready(function(){
         create_toolbar("/IB/systemManage/popedomManage/userGroupManageNew.jsp?prid=UGMT");
+        $('#toolbar').append("<a  href=\"/IB/userManageBind.do?mode=user\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-users\"></i></a>");
     });
 
     function doDelete2()
@@ -71,17 +72,11 @@
     <tr>
         <td height="22" class="outerTable_left_y"></td>
         <td class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="center"  valign="bottom" class="tab_blank">
-            <tr>
-                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>班级管理</strong></h2></td>
-            </tr>
-        </table>
-        <table  width="100%" border="0" align="right" cellpadding="0" cellspacing="0" style="margin-left:2px">
-            <tr>
-                <td width="20%"></td>
-		        <td width="30%" align="left" class="opertion"><a  href="/IB/userManageBind.do?mode=user"  onClick="return openReplace(this.href)"><img   src="/IB/images/userBlind2Group.gif"   alt="用户绑定到用户组" width="80" height="22" border="0" hspace="0"></a></td>
-            </tr>
-        </table>
+            <table border="0" cellpadding="0" cellspacing="0" align="center"  valign="bottom" class="tab_blank">
+                <tr>
+                    <td class="tab_unactive_btn" id="tab_btn"><h2><strong>班级管理</strong></h2></td>
+                </tr>
+            </table>
         </td>
         <td class="outerTable_right_y"></td>
     </tr>
