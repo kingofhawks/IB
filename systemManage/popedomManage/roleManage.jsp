@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title><bean:message key="common.systemName" /></title>
-    <link href="resources/css/app.css" rel="stylesheet">
+
     <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.core.css" />
     <link rel="stylesheet" href="resources/vendor/alertify.js/themes/alertify.bootstrap.css" />
     <link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">

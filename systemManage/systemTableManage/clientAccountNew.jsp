@@ -18,7 +18,7 @@
             <div class="form-group">
                 <label for="brno" class="col-sm-2 control-label">“¯––±‡∫≈</label>
                 <div class="col-sm-10">
-                    <select name="brno" id="brno" title="brno" styleClass="select_280" class="form-control">
+                    <select name="brno" id="brno" title="brno"  class="form-control">
                         <%out.println(request.getAttribute("OPTION_BRNO"));%>
                     </select>
                 </div>
@@ -50,7 +50,7 @@
             <div class="form-group">
                 <label for="cyno" class="col-sm-2 control-label">’ ∫≈±“÷÷</label>
                 <div class="col-sm-10">
-                    <select styleClass="select_122" name="cyno" id="cyno">
+                    <select  name="cyno" id="cyno" class="form-control">
                         <logic:notEmpty name="OPTION_CYNO">
                             <logic:iterate id="list" name="OPTION_CYNO">
                                 <%String[] cyno = (String[]) list;%>

@@ -6,10 +6,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title>国际结算模拟系统</title>
-<link href="/IB/common/rightsManage.css" rel="stylesheet" type="text/css">
+    <link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
+    <style>
+        .table{
+            margin-top:20px;
+            width:96%;
+        }
+    </style>
+
 <script language="javascript" src="/IB/common/rightsManage.js"></script>
 </head>
-<body><table width="100%" height="100%" border="0" align="center"
+<body>
+<table width="100%" height="100%" border="0" align="center"
 	cellpadding="0" cellspacing="0">
 	<tr>
 		<td class="outerTable_top_left"></td>
@@ -41,26 +51,23 @@
 								<%out.println(request.getAttribute("OPTION_RLID"));%>
 						  </html:select></td>
 							<td width="10%">
-							<div id="progress" align="right"><img src="images/loading.gif"
-								width="16" height="16" hspace="6" align="bottom">正在执行……</div>						  </td>
+
+                            </td>
 						</tr>
 		  </table>
-							<table width="80%" border="0" cellpadding="0" cellspacing="1" style="color:#ffffff;">
-                              <tr>
-                                <td style="height:3px" colspan="9"></td>
-                              </tr>
-                              <tr>
-                                <th width="180" nowrap bgcolor="#0066CC">交易名称</th>
-                                <th width="40" nowrap bgcolor="#0066CC" >经办</th>
-                                <th width="40" nowrap bgcolor="#0066CC" >复核</th>
-                                <th width="40" nowrap bgcolor="#0066CC" >授权</th>
-                                <th width="60" nowrap bgcolor="#0066CC" >金额授权</th>
-                                <th width="30" nowrap bgcolor="#0066CC" >期限</th>
-                                <th width="100" nowrap bgcolor="#0066CC">金额</th>
-                                <th width="50" nowrap bgcolor="#0066CC" >交易码</th>
-                                <th width="25" bgcolor="#0066CC"></th>
-                              </tr>
-          </table>
+							<table width="80%" border="0" cellpadding="0" cellspacing="1" class="table table-bordered" >
+                                <thead>
+                                    <th class="table_title">交易名称</th>
+                                    <th class="table_title">经办</th>
+                                    <th class="table_title">复核</th>
+                                    <th class="table_title">授权</th>
+                                    <th class="table_title">金额授权</th>
+                                    <th class="table_title">期限</th>
+                                    <th class="table_title">金额</th>
+                                    <th class="table_title">交易码</th>
+                                    <th width="25"></th>
+                                </thead>
+                             </table>
 							<div id="container" style="overflow:auto; width:80%; height:280">
 							<table width="99%" border="0" cellpadding="0" cellspacing="1" bgcolor="#C0C0C0" id="rightsEnabled"
 								style="table-layout:fixed; word-break:keep-all; ">
@@ -130,10 +137,12 @@
 	<table width="80%" height="35" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" valign="bottom">
-	<input type="image" name="cancel" src='<bean:message key="common.cancel" />' onClick="JavaScript:document.location='/IB/roleManage.do?prid=RLMT';return false">	</td>
+	    <button class="btn btn-primary" onclick="JavaScript:document.location='/IB/roleManage.do?prid=RLMT';return false">
+            <i class="fa fa-level-up fa-2x"></i>返 回
+        </button>
+    </td>
   </tr>
 </table>
-
 
 	</html:form>
 <!--内表结束-->
