@@ -18,12 +18,17 @@
 <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
 <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
 <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
     <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
     <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
+    <style>
+
+    </style>
 <script>
     $(document).ready(function(){
         create_toolbar("/IB/systemManage/popedomManage/roleManageNew.jsp?prid=RLM");
-        $('#toolbar').append("<a  href=\"/IB/popedomShow.do\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-lock\"></i></a><a  href=\"/IB/userManageBind.do?mode=role\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-users\"></i></a>");
+        $('#toolbar').append("<a  href=\"/IB/popedomShow.do\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\" data-toggle=\"tooltip\"  title=\"权限绑定\"><i class=\"fa fa-lock\"></i></a><a  href=\"/IB/userManageBind.do?mode=role\" data-toggle=\"tooltip\"  title=\"用户组绑定\" onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-users\"></i></a>");
+        $("a").tooltip();
     });
 
     function doDelete2()

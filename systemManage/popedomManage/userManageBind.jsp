@@ -9,17 +9,26 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title><bean:message key="common.systemName" /></title>
-<link href="/IB/common/default.css" rel="stylesheet"    type="text/css">
+    <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
+<link href="resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <style>
 div.sele_div{border:1px solid #000000; width:185px; height:18px; clip:rect(0px,175px,17px,0px);overflow:hidden;}
 select {position:relative; margin:-2px;width:187px;border:0px;behavior:url('/IB/common/select.htc'); }
 div.list_div{border:1px solid #000000; width:185px; height:352px; clip:rect(0px,175px,17px,0px);overflow:hidden;}
-</style>	
-<script language="javascript" type="text/javascript"
-    src="/IB/common/default.js"></script>
+    #save{
+        width:160px;
+        margin-top:20px;
+    }
+</style>
+
+    <!--    -->
+    <script src="resources/js/util.js"  type="text/javascript" charset="GB2312"></script>
+
 <script>
 function smtUsrBlnd()
 {
+    /**
   var sobj = document.getElementById("titalUsers");
   sobj.multiple = true;
   for (i=0; i<sobj.options.length; i++)
@@ -27,8 +36,8 @@ function smtUsrBlnd()
   var sobj2 = document.getElementById("leaveUsers");
   sobj2.multiple = true;
   for (i=0; i<sobj2.options.length; i++)
-    sobj2.options[i].selected = true;
-  document.getElementById("userManageBindForm").submit();
+    sobj2.options[i].selected = true; **/
+  document.getElementById("main-form").submit();
 }
 
 </script>
@@ -56,9 +65,8 @@ function smtUsrBlnd()
             <tr>
                 <td class="innerTable_left_y"></td>
                 <td align="center" class="innerTable_main">
-                <div id="innerTable_div"><!--内容开始--> <html:form
-                    method="post" action="userManageBind.do"
-                    onsubmit="checkForm(this)">
+                <div id="innerTable_div" class="container"><!--内容开始-->
+                    <html:form   styleId="main-form" method="post" action="userManageBind.do">
                     <%String mode = ((UserManageBindForm) request
                 .getAttribute("userManageBindForm")).getMode();
         String change = "";
@@ -100,35 +108,37 @@ function smtUsrBlnd()
                         </tr>
                         <tr>
                             <td width="182">
-                            <div class="list_div"><html:select
-                                property="titalUsers" size="25"
-                                ondblclick="moveOption(this, leaveUsers)"
-                                multiple="false">
-                                <%out.println(request.getAttribute("OPTION_TITAL"));%>
-                            </html:select></div>
+                            <div class="list_div">
+                                <html:select  property="titalUsers" styleId="titalUsers" size="25"  ondblclick="moveOption(this, leaveUsers)"  multiple="false">
+                                    <%out.println(request.getAttribute("OPTION_TITAL"));%>
+                                </html:select>
+                            </div>
                             </td>
                             <td width="30%" align="center" valign="middle">
                             <p>
-                              <input type="button"
-                                value="<bean:message key="common.all"/>>"
-                                onClick="moveOptionAll(titalUsers, leaveUsers)">
+                                <a href="#" class="btn btn-primary" onClick="moveOptionAll(titalUsers, leaveUsers)">
+                                    <bean:message key="common.all"/><i class="fa fa-angle-double-right fa-2x"></i>
+                                </a>
                             </p>
-                            <p><input type="button"
-                                value="<bean:message key="common.add"/>>"
-                                onClick="moveOption(titalUsers, leaveUsers)">
+                            <p>
+                                <a href="#" class="btn btn-primary" onClick="moveOption(titalUsers, leaveUsers)">
+                                    <bean:message key="common.add"/><i class="fa fa-angle-right fa-2x"></i>
+                                </a>
                             </p>
-                            <p><input type="button"
-                                value="<<bean:message key="common.delete"/>"
-                                onClick="moveOption(leaveUsers, titalUsers)">
+                            <p>
+                                <a href="#" class="btn btn-primary" onClick="moveOption(leaveUsers, titalUsers)">
+                                    <bean:message key="common.delete"/><i class="fa fa-angle-left fa-2x"></i>
+                                </a>
                             </p>
-                            <p><input type="button"
-                                value="<<bean:message key="common.all"/>"
-                                onClick="moveOptionAll(leaveUsers, titalUsers)">
+                            <p>
+                                <a href="#" class="btn btn-primary" onClick="moveOptionAll(leaveUsers, titalUsers)">
+                                    <bean:message key="common.all"/><i class="fa fa-angle-double-left fa-2x"></i>
+                                </a>
                             </p>
                           </td>
                             <td width="182">
-                            <div class="list_div"><html:select
-                                property="leaveUsers" size="25"
+                            <div class="list_div">
+                                <html:select  property="leaveUsers" styleId="leaveUsers" size="25"
                                 ondblclick="moveOption(this, titalUsers)"
                                 multiple="false">
                                 <%out.println(request.getAttribute("OPTION_LEAVE"));%>
@@ -139,14 +149,16 @@ function smtUsrBlnd()
 
                     
 
-                    <div class="footer"><html:hidden property="errCode" />
-                    <html:hidden property="mode" />  <%
-        if (request.getParameter("mode") != null) {
-            out.println("<input type=\"image\" name=\"sub\" onclick=\"smtUsrBlnd();submitKind(0,'submit" + mode.trim() + "')\" src=\"/IB/images/effect.gif\">");
-        } else {
-            out.println("<input type=\"image\" name=\"sub\" onclick=\"smtUsrBlnd();submitKind(0,'submit')\" src=\"/IB/images/effect.gif\">");
-        }%></div>
-                </html:form> <!--内容结束--></div>
+                    <div class="footer">
+                        <html:hidden property="errCode" />
+                        <html:hidden property="mode" />
+                    </div>
+
+                        <a  id="save" href="/IB/userManageBind.do?mode=user"  onClick="smtUsrBlnd();submitKind(0,'submit')" class="btn btn-primary btn-lg active" role="button">
+                            保 存 <i class="fa fa-save fa-2x"></i>
+                        </a>
+                </html:form> <!--内容结束-->
+                </div>
                 </td>
                 <td class="innerTable_right_y"></td>
             </tr>

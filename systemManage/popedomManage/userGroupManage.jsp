@@ -18,12 +18,14 @@
 <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
 <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
 <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
     <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
     <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
 <script>
     $(document).ready(function(){
         create_toolbar("/IB/systemManage/popedomManage/userGroupManageNew.jsp?prid=UGMT");
-        $('#toolbar').append("<a  href=\"/IB/userManageBind.do?mode=user\"  onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-users\"></i></a>");
+        $('#toolbar').append("<a  href=\"/IB/userManageBind.do?mode=user\" data-toggle=\"tooltip\"  title=\"ÓÃ»§°ó¶¨\" onClick=\"return openReplace(this.href)\" class=\"btn btn-primary active\" role=\"button\"><i class=\"fa fa-users\"></i></a>");
+        $("a").tooltip();
     });
 
     function doDelete2()

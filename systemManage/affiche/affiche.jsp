@@ -13,11 +13,13 @@
     <script src="resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <link href="resources/vendor/iCheck/skins/square/blue.css" rel="stylesheet">
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
+    <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
     <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
     <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
     <script>
         $(document).ready(function(){
             create_toolbar("/IB/systemManage/affiche/editor.jsp?sign=add");
+            $("a").tooltip();
         });
 
         function doDelete2()

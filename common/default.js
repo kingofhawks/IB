@@ -1,7 +1,7 @@
 // JavaScript Document
 
 //adding 10 2005/09/21
-//????×?·????°?ó??????
+//????锟斤拷?锟斤拷????锟斤拷?锟斤拷??????
 String.prototype.Trim = function()
 {
 	return this.replace(/(^\s*)|(\s*$)/g, "");
@@ -9,30 +9,14 @@ String.prototype.Trim = function()
 //end of adding
 
 
-//?ù??<html:errors>±ê????????·????÷??·????í?ó
-/*
-function showErrorMsg(Err)
-{
-    try
-    {
-		Err = Err.Trim();
-        if (Err != "" && Err != null && Err != "undefined")
-        {
-            document.write("<div id=\"errMsgDiv\">"+Err+"</div>");
-			setTimeout("document.getElementById('errMsgDiv').style.display='none';",2000);
-        }
-    } catch(e) {}
-}
-*/
-
-//?ò??URL???é??????????
+//?锟斤拷??URL???锟斤拷??????????
 function openReplace(oprtURL)
 {
     window.location.replace(oprtURL);
     return false;
 }
 
-//?ì?é±í??
+//?锟斤拷?锟斤拷锟斤拷锟斤拷??
 function checkForm(nForm)
 {
 	//alert(nForm.name)
@@ -51,34 +35,6 @@ function checkForm(nForm)
     }
 }
 
-//·????¨??
-function moveOption(e1, e2){
-    try{
-        var e = e1.options[e1.selectedIndex];
-        var sIndex = e1.selectedIndex;
-        if (sIndex == e1.options.length - 1)
-        {
-            sIndex -= 1;
-        }
-        e2.options.add(new Option(e.text, e.value));
-        e1.options.remove(e1.selectedIndex);
-        e1.options[sIndex].selected = true;
-    }   catch(e){}
-}
-
-function moveOptionAll(e1, e2)
-{
-    try{
-        var e1len = e1.options.length;
-        for (i=0; i<e1len; i++)
-        {
-            var e = e1.options[0];
-            e2.options.add(new Option(e.text, e.value));
-            e1.options.remove(e1[0]);
-        }
-    }catch(e){}
-}
-
 //
 function openWin(type, vName)
 {
@@ -95,8 +51,8 @@ function openWin(type, vName)
                 eval(str);
             }
 			break;
-	    
-	    //在单证里面选择用户号
+
+	    //????????????????
 	     case "client":
             var str =window.showModalDialog("/IB/emclmgpAction.do?adl1=reports", vName, "dialogWidth:650px; dialogHeight:300px; center:1; status:0; resizable:0; help:0;")
             if (str)
@@ -104,7 +60,7 @@ function openWin(type, vName)
                 eval(str);
             }
 			break;
-			
+
 		//????????
 		case "accountNum":
 		   var str =window.showModalDialog("/IB/accountsAction.do?adl1=acno",vName, "dialogWidth:650px; dialogHeight:300px; center:1; status:0; resizable:0; help:0;")
@@ -127,44 +83,44 @@ function openWin(type, vName)
 			var str =window.showModalDialog("/IB/file/date.htm", dValue, "dialogWidth:205px; dialogHeight:225px; center:1; scroll:no; status:0; resizable:0; help:0;")
 			if (str) document.getElementById(vName).value = str.replace(/\//g,"")
 			break;
-		
+
 		//????????
 		case "bank":
             var str =window.showModalDialog("/IB/file/bank.jsp", vName, "dialogWidth:780px; dialogHeight:355px; center:1; status:0; resizable:0; help:0;")
-           
+
             if (str)
             {
                 eval(str);
             }
 			break;
 		  case "bank1":
-        
+
             var str =window.showModalDialog("/IB/file/bank1.jsp", vName, "dialogWidth:780px; dialogHeight:355px; center:1; status:0; resizable:0; help:0;")
-           
+
             if (str)
             {
                 eval(str);
             }
             break;
-			
+
 			case "test":
             var str =window.showModalDialog("/IB/casesList.do", document.getElementById(vName), "dialogWidth:617px; dialogHeight:600px; center:1; status:0; resizable:0; help:0;scroll:no")
-           
+
           if (str)
             {
                 eval(str);
             }
 			break;
 
-			
-			
+
+
 		default :
-			alert("?í?ó");
+			alert("??????");
 
     }
 }
 
-function openWinNum(type, vName,brno)//在案例中打开收款人帐号列表
+function openWinNum(type, vName,brno)//??????写??????????斜?
 {
     switch (type)
     {
@@ -182,8 +138,9 @@ function openDialog(url, dForm, dWidth, dHeight)
 {
     window.showModalDialog(url, dForm, "dialogWidth:" + dWidth + "; dialogHeight:" + dHeight + "; center:1; status:0; resizable:0; help:0;")
 }
+
 function submitKind(i,mode){
- 
+
     var url = document.forms[i].action
     if(url.indexOf('?mode=')!=-1){
      url=url.substr(0,url.indexOf('?mode='));
@@ -196,14 +153,14 @@ function submitKind(i,mode){
 
 
 function submitParent(i,mode){
- 
+
     var url = window.parent.content.document.lantk.forms[i].action
     if(url.indexOf('?mode=')!=-1){
      url=url.substr(0,url.indexOf('?mode='));
      }
-   
+
     url = url +'?mode='+mode
- 
+
     document.forms[i].action = url
     //alert(document.forms[i].action)
     checkForm(document.forms[i])
@@ -213,19 +170,19 @@ function submitParent(i,mode){
 
 //??????2005-12-30 Start
 function $()
-{ 
+{
 	var elements = new Array();
 	for (var i = 0; i < arguments.length; i++)
 	{
-	    var element = arguments[i]; 
-		if (typeof element == 'string') 
-			element = document.getElementById(element); 
+	    var element = arguments[i];
+		if (typeof element == 'string')
+			element = document.getElementById(element);
 			if (arguments.length == 1)
 				return element;
 		elements.push(element);
 	}
-	return elements; 
-} 
+	return elements;
+}
 if (!Array.prototype.push)
 {
 	Array.prototype.push = function()
@@ -276,22 +233,22 @@ function readOnlyForm(tId)
     }
 //end of adding in 2006/0313
 
-//得到业务费用
+//?????????
 /**
-cyno 业务货币币种
-cyam 业务金额
-prid 业务prid
+cyno ?????????
+cyam ?????
+prid ???prid
 **/
 var http_request = false;
 var variablet;
 
 function getCharge(vars,cyno,cyam,prid){
 
-if($("chcy").selectedIndex == 0)//如果收费方式是免收，不需计算业务费用
+if($("chcy").selectedIndex == 0)//????????????????????????????
 return false;
-if(cyno==null||cyno=="")//业务货币币种，不需要计算业务费用
+if(cyno==null||cyno=="")//?????????????????????????
 return false;
-if(cyam==null||cyam==""){//无业务金额，取零
+if(cyam==null||cyam==""){//??????????
 cyam=0;
 }
 variablet=vars;
@@ -299,7 +256,7 @@ setChco(cyno,cyam,prid);
 }
 
 /**
-设置手续费Ajax
+?????????Ajax
 **/
 
 
@@ -307,8 +264,8 @@ setChco(cyno,cyam,prid);
 function setChco(cyno,cyam,prid)
 {
   var url = "/IB/setChcoAction.do?prid=" + prid+"&cyno="+cyno+"&cyam="+cyam;
-  
-   
+
+
   http_request = false;
   if (window.XMLHttpRequest)
   {
@@ -342,7 +299,7 @@ function setChco(cyno,cyam,prid)
   }
   http_request.onreadystatechange = showChco;
   http_request.open('GET', url, true);
-  http_request.send(); 
+  http_request.send();
 }
 
 function showChco()
@@ -363,18 +320,18 @@ function showChco()
 }
 
 
-function document.oncontextmenu() {event.returnValue = false;} //屏蔽鼠标右键
+function document.oncontextmenu() {event.returnValue = false;} //??????????
 function document.ondragstart() {event.returnValue = false;} //
-function window.onhelp() {return false;} //屏蔽F1帮助
+function window.onhelp() {return false;} //????F1????
 function document.onkeydown()
 {
   if ((window.event.altKey) && ((window.event.keyCode==37) || (window.event.keyCode==39))) {
-    //屏蔽 Alt+方向键← 和 Alt+方向键→
+    //???? Alt+?????? ?? Alt+??????
     event.returnValue = false;
   }
 
   if (event.keyCode==8) {
-    //屏蔽退格删除键
+    //???????????
     if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password") {
       event.keyCode = 0;
       event.returnValue = false;
@@ -382,18 +339,18 @@ function document.onkeydown()
   }
 
   if ((event.keyCode==116) || (event.ctrlKey && event.keyCode==82)) {
-    //屏蔽 F5 刷新键  Ctrl+R
+    //???? F5 ????  Ctrl+R
     event.keyCode = 0;
     event.returnValue = false;
   }
 
-  if (event.keyCode == 122) {event.keyCode = 0; event.returnValue = false;} //屏蔽F11
-  if (event.ctrlKey && event.keyCode == 78) event.returnValue = false; //屏蔽Ctrl+n
-  if (event.shiftKey && event.keyCode == 121) event.returnValue = false; //屏蔽shift+F10
+  if (event.keyCode == 122) {event.keyCode = 0; event.returnValue = false;} //????F11
+  if (event.ctrlKey && event.keyCode == 78) event.returnValue = false; //????Ctrl+n
+  if (event.shiftKey && event.keyCode == 121) event.returnValue = false; //????shift+F10
   if (window.event.srcElement.tagName == "A" && window.event.shiftKey)
-    window.event.returnValue = false; //屏蔽shift加鼠标左键新开一网页
+    window.event.returnValue = false; //????shift???????????????
   if ((window.event.altKey) && (window.event.keyCode == 115)) {
-    //屏蔽Alt+F4
+    //????Alt+F4
     window.showModelessDialog("about:blank","","dialogWidth:1px;dialogheight:1px");
     return false;
   }
