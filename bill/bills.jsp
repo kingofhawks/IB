@@ -12,6 +12,7 @@
 background-color:#efefef;}
 -->
 h2 {text-align:center}
+
 </style>
 <body>
 
@@ -28,8 +29,7 @@ h2 {text-align:center}
         <td valign="top" class="outerTable_main"><!--内表格开始-->
         <form method="post" action="">
             <h2><strong>贸易单证</strong></h2>
-          <table width="100%" height="100%" border="0" align="center"
-            cellpadding="0" cellspacing="0">
+          <table width="100%" height="100%" border="0" align="center"   cellpadding="0" cellspacing="0">
             <tr>
                 <td class="innerTable_top_left"></td>
                 <td class="innerTable_top_x"></td>
@@ -47,7 +47,7 @@ h2 {text-align:center}
                         <th width="1%" align="center" class="bg"></th>
                         <th class="table_title">编号</th>
                         <th class="table_title">单证名</th>
-                        <th width="17%" align="left">下载</th>
+                        <th class="table_title">下载</th>
                     </thead>
 
                     

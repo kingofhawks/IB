@@ -15,6 +15,8 @@
 <html:html>
 <head>
 <link href="/IB/case/case.css" rel="stylesheet" type="text/css">
+    <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script language="javascript" type="text/javascript" src="/IB/common/default.js"></script>
 <script language="javascript" type="text/javascript" src="/IB/case/case.js"></script></head>
 <body onLoad="checkChc()">
@@ -57,13 +59,18 @@
 	  <tr>
         <td width="11%" align="left" valign="top">&nbsp;&nbsp;<strong>案例名称：</strong></td>
         <td width="89%" align="left" valign="top">
-          <html:text styleClass="kuang"  property="detai" size="30" maxlength="30"/>
+            <label for="detai">
+                <input type="text" class="form-control"  id="detai" name="detai" size="60" required="required" autofocus="autofocus"/>
+            </label>
         </td>
       </tr>
       <tr>
-        <td align="left" valign="top">&nbsp;&nbsp;<strong>案例分数：</strong></td>
-        <td align="left" valign="top"><html:text property="grade" size="3" onkeypress="regInput(/^\d{1,}\.?\d{0,2}$/)"  maxlength="3" styleClass="kuang"/>
-          分</td>
+        <td align="left" valign="top">&nbsp;&nbsp;<strong>案例分数(分)：</strong></td>
+        <td align="left" valign="top">
+            <label for="grade">
+                <input type="number" class="form-control"  id="grade" name="grade"/>
+            </label>
+        </td>
       </tr>
       <tr>
         <td height="3" colspan="2" align="left" valign="top" background="/IB/images/case_bg.gif"></td>
@@ -1015,8 +1022,15 @@
                     <td align="center" class="innerTable_bottom_x"> <input type="hidden" name="NEH" id="NEH" value="">
             <input type="hidden" name="LCHVAL" id="LCHVAL" value="">
 			<input type="hidden" name="idPS" id="idPS" value="">
-            <input type="image" src="/IB/images/submit.gif" onClick="checkType('NEH','NE');return false">
-			&nbsp;&nbsp;&nbsp;&nbsp;<input type="image" src="/IB/images/returnInto.gif" onClick="openReplace('/IB/cases.do?flag=list');return false">
+
+            <button class="btn btn-primary" onclick="checkType('NEH','NE');return false" type="submit">
+                <i class="fa fa-plus fa-2x"></i>增加
+            </button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-primary" onclick="openReplace('cases.do?flag=list');return false">
+                <i class="fa fa-level-up fa-2x"></i>返回
+            </button>
+
 			<html:hidden property="aveValue"/>
 			<html:hidden value="02" property="type"/>
 			<html:hidden property="idM"/>

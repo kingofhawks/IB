@@ -3,6 +3,14 @@
 <html>
   <head><title><bean:message key="common.systemName" /></title>
   <script language="javascript" type="text/javascript" src="/IB/common/list.js"></script>
+      <link href="/IB/resources/css/app.css" rel="stylesheet">
+      <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
+      <style>
+          .img{
+              margin-bottom:20px;
+          }
+      </style>
   </head>
 <html:form action="telegramTextManageAction.do">
     <html:hidden property="tabID"/>
@@ -21,10 +29,13 @@
 	<tr>
 		<td height="22" class="outerTable_left_y"></td>
 		<td align="right" class="outerTable_head">
-         <table border="0" cellpadding="0" cellspacing="0" align="left"
-			valign="bottom" class="tab_blank">
+         <table border="0" cellpadding="0" cellspacing="0" align="left" valign="bottom" class="tab_blank">
 			<tr>
-				<td><img src="/IB/images/LCchoose.gif" width="440" height="32"></td>
+				<td>
+                    <div class="img">
+                        <img src="/IB/images/LCchoose.gif" width="440" height="32">
+                    </div>
+                </td>
 			</tr>
 		</table>
 		</td>
@@ -45,13 +56,14 @@
 				<td class="innerTable_left_y"></td>
 				<td align="center" class="innerTable_main">
 				<div id="innerTable_divLis" style="width:96%">
-					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list">
-						<tr>
-						    <th width="6%" align="left">选择</th>
-							<th width="24%" align="left">信用证案例编号</th>
-							<th width="50%" align="left">已生成的信用证案例</th>
-							<th width="20%" align="left">浏览案例</th>
-					  </tr>
+					<table width="100%" border="0" cellpadding="0" cellspacing="1" id="item_list" class="table">
+                        <thead>
+                            <th class="table_title">选择</th>
+                            <th class="table_title">信用证案例编号</th>
+                            <th class="table_title">已生成的信用证案例</th>
+                            <th class="table_title">浏览案例</th>
+                        </thead>
+
 						<logic:notEmpty name="list">
 							<logic:iterate id="list" name="list" indexId="index" scope="request">
 			                <%if ((index.intValue() % 2) == 1) {
@@ -65,7 +77,10 @@
 		                             </div></td>
 									<td><bean:write name="list" property="id" /></td>
 									<td><bean:write name="list" property="casesname" /></td>
-									<td><a href="cases.do?flag=load&id=<bean:write name='list' property='id'/>" target="_blank"><img src="/IB/images/view.gif" width="16" height="16" border="0" /></a></td>
+									<td>
+                                        <a href="cases.do?flag=load&id=<bean:write name='list' property='id'/>" target="_blank">
+                                            <i class="fa fa-search fa-2x"></i>
+                                        </a></td>
 									</tr>
 							</logic:iterate>
 						</logic:notEmpty>
@@ -77,11 +92,17 @@
 			</tr>
 			<tr>
 				<td class="innerTable_bottom_left"></td>
-				<td height="50" valign="middle" class="innerTable_bottom_x"><div align="center">			
-			 
-			      <input type="image" value="提  交" src="/IB/images/submit.gif">	
-			&nbsp;&nbsp;&nbsp;&nbsp;<input type="image" src="/IB/images/returnInto.gif" class="btnb"  onClick="openReplace('cases.do?flag=list');return false" >				
-			</div></td>
+				<td height="50" valign="middle" class="innerTable_bottom_x">
+                    <div align="center">
+                        <button class="btn btn-primary"  type="submit">
+                            <i class="fa fa-plus fa-2x"></i>增加
+                        </button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button class="btn btn-primary" onclick="openReplace('cases.do?flag=list');return false">
+                            <i class="fa fa-level-up fa-2x"></i>返回
+                        </button>
+			        </div>
+                </td>
 				<td class="innerTable_bottom_right"></td>
 			</tr>
 		</table>

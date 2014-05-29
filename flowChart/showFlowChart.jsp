@@ -101,35 +101,38 @@
     <tr>
         <td height="22" class="outerTable_left_y"></td>
         <td align="right" valign="bottom" class="outerTable_head">
-        <table border="0" cellpadding="0" cellspacing="0" align="left"
-            valign="bottom" class="tab_blank">
-            <tr>
-                <td class="tab_unactive_btn" id="tab_btn"><h2><strong>公告信息</strong></h2></td>
-            </tr>
-        </table>
+
             <div>
-            <table>
-                    <form action="showFlowChart.jsp">
+                <table>
+                        <form action="showFlowChart.jsp">
+                        <tr>
+                            <%if (user.getRole() != null
+                    && (user.getRole().equals("9998") || user.getRole().equals(
+                            "9999"))) {%>
+                            <td>
+                                <input type="text" name="usid" class="form-control" placeholder="用户编号">
+                            </td>
+                            <%}%>
+                            <td>&nbsp;开始时间：</td>
+                            <td><input type="date" name="startDate"  class="form-control datepicker"></td>
+                            <td>&nbsp;结束时间：</td>
+                            <td><input type="date" name="endDate" class="form-control datepicker"></td>
+                            <td align="right">
+                                <button name="submit" type="submit" class="btn btn-primary">
+                                    <i class="fa fa-search"></i> 查看
+                                </button>
+                            &nbsp;&nbsp;</td></tr>
+                        </form>
+                </table>
+            </div>
+            <div>
+                <table border="0" cellpadding="0" cellspacing="0" align="center"   valign="bottom" class="tab_blank">
                     <tr>
-                        <%if (user.getRole() != null
-                && (user.getRole().equals("9998") || user.getRole().equals(
-                        "9999"))) {%>
-                        <td>
-                            <input type="text" name="usid" class="form-control" placeholder="用户编号">
-                        </td>
-                        <%}%>
-                        <td>&nbsp;开始时间：</td>
-                        <td><input type="date" name="startDate"  class="form-control datepicker"></td>
-                        <td>&nbsp;结束时间：</td>
-                        <td><input type="date" name="endDate" class="form-control datepicker"></td>
-                        <td align="right">
-                            <button name="submit" type="submit" class="btn btn-primary">
-                                <i class="fa fa-search"></i> 查看
-                            </button>
-                        &nbsp;&nbsp;</td></tr>
-                    </form>
-        </table>
-            </div></td>
+                        <td class="tab_unactive_btn" id="tab_btn"><h2><strong>公告信息</strong></h2></td>
+                    </tr>
+                </table>
+            </div>
+        </td>
         <td class="outerTable_right_y"></td>
     </tr>
     <tr>
@@ -157,10 +160,6 @@
                         <th class="table_title">业务编号</th>
                         <th class="table_title">操作时间</th>
                     </thead>
-
-
-
-
                     <%
         java.util.Map list1 = (java.util.HashMap) request.getAttribute("list");
         if (list != null) {

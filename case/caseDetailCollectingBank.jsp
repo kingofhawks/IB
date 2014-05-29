@@ -9,10 +9,10 @@
 <html:html>
 <head>
 <link href="/IB/case/case.css" rel="stylesheet" type="text/css">
-<script language="javascript" type="text/javascript"
-	src="/IB/common/default.js"></script>
-<script language="javascript" type="text/javascript"
-	src="/IB/common/list.js"></script>
+    <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
+<script language="javascript" type="text/javascript" 	src="/IB/common/default.js"></script>
+<script language="javascript" type="text/javascript" 	src="/IB/common/list.js"></script>
 <script language="javascript" type="text/javascript" src="/IB/case/case.js"></script>	
 </head>
 <body onLoad="checkChc()">
@@ -49,14 +49,19 @@
       </tr>
 	  <tr>
         <td width="11%" align="left" valign="top">&nbsp;&nbsp;<strong>案例名称：</strong></td>
-        <td width="89%" align="left" valign="top"><label>
-          <html:text styleClass="kuang"  property="detai" size="30" maxlength="30"/>
-        </label></td>
+        <td width="89%" align="left" valign="top">
+            <label for="detai">
+                <input type="text" class="form-control"  id="detai" name="detai" size="60" required="required" autofocus="autofocus"/>
+            </label>
+        </td>
       </tr>
       <tr>
-        <td align="left" valign="top">&nbsp;&nbsp;<strong>案例分数：</strong></td>
-        <td align="left" valign="top"><html:text property="grade" size="3" onkeypress="regInput(/^\d{1,}\.?\d{0,2}$/)" onblur="checkGrade()"  maxlength="3" styleClass="kuang"/>
-          分</td>
+        <td align="left" valign="top">&nbsp;&nbsp;<strong>案例分数(分)：</strong></td>
+        <td align="left" valign="top">
+            <label for="grade">
+                <input type="number" class="form-control"  id="grade" name="grade"/>
+            </label>
+        </td>
       </tr>
       <tr>
         <td height="3" colspan="2" align="left" valign="top" background="/IB/images/case_bg.gif"></td>
@@ -702,7 +707,7 @@
 					<td>
 						<strong>托收行－出口托收－承兑登记</strong>
 						<div id="ocac" style="display:none">在出口商远期项下的出口托收业务中，托收行收到代收行发来的进口商承兑电文，做承兑登记，所做的承兑金额为
-						<html:text styleClass="text_red" maxlength="12" title="ocac_dlam" property="ocac_dlam"  size="12" onblur="addDot(this)"，到期日为
+						<html:text styleClass="text_red" maxlength="12" title="ocac_dlam" property="ocac_dlam"  size="12" onblur="addDot(this)"/>到期日为
 						<html:text styleClass="text_red" maxlength="8" title="ocac_dudt" property="ocac_dudt" onclick="openWin('date','ocac_dudt')" size="8"/>
 						。</div>					</td>
 				</tr>
@@ -848,8 +853,14 @@
             <input type="hidden" name="LCHVAL" id="LCHVAL" value="">
 			<input type="hidden" name="idPS" id="idPS" value="">
 			<input type="hidden" name="lastprid" id="lastprid" value="">
-            <input type="image"  src="/IB/images/submit.gif" onClick="checkType('DCH','DC');return false">    
-			&nbsp;&nbsp;&nbsp;&nbsp;	<input type="image" src="/IB/images/returnInto.gif"  onClick="openReplace('cases.do?flag=list');return false" >
+
+                        <button class="btn btn-primary" onclick="checkType('DCH','DC');return false" type="submit">
+                            <i class="fa fa-plus fa-2x"></i>增加
+                        </button>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button class="btn btn-primary" onclick="openReplace('cases.do?flag=list');return false">
+                            <i class="fa fa-level-up fa-2x"></i>返回
+                        </button>
 			<html:hidden property="aveValue"/>
 		    <html:hidden property="idM"/>
 		    <html:hidden value="03" property="type"/>

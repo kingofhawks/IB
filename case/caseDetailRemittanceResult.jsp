@@ -9,6 +9,9 @@
 <head>
 <link href="/IB/case/case.css" rel="stylesheet" type="text/css">
 <title></title>
+    <link href="/IB/resources/css/app.css" rel="stylesheet" type="text/css">
+    <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script language="javascript" type="text/javascript"    src="/IB/common/default.js"></script>
 <script language="javascript" type="text/javascript"    src="/IB/case/case.js"></script>
 	<script language="javascript" type="text/javascript" src="/IB/case/xmlCase.js"></script>
@@ -108,15 +111,19 @@
                   <td height="3" align="left" valign="top" background="/IB/images/case_bg.gif"></td>
                 </tr>
                 <tr>
-                  <td height="20" align="left" valign="middle"><span onClick="flash()"><strong>演示：</strong><img src="/IB/images/demo.gif" alt="案例演示" width="16" height="16"></span></td>
+                  <td height="20" align="left" valign="middle"><span onClick="flash()"><strong>演示：</strong>
+                        <i class="fa fa-play-circle-o fa-2x"></i>
+                  </span></td>
                 </tr>
                 <tr>
                   <td height="3" align="left" valign="top" background="/IB/images/case_bg.gif"></td>
                 </tr>
                 <tr>
                   <td align="left" height="20"><strong>查询：</strong>
-                      <input class="search" type="text" name="lable" id="lable" size="15">
-                      <img src="/IB/images/search.gif" alt="查询" onClick="searchCase()" style="cursor:hand"></td>
+                      <input class="search input-case-search" type="search" name="lable" id="lable" size="15">
+                      <button class="btn btn-primary" onclick="searchCase()" type="button">
+                          <i class="fa fa-search"></i>
+                      </button>
                 </tr>
                 <tr>
                   <td height="3" align="left" valign="top" background="/IB/images/case_bg.gif"></td>
@@ -334,7 +341,10 @@
 				<td class="innerTable_bottom_x"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
                   <tr>
                     <td align="center" valign="middle"><div class="footer">
-<input type="image" src="/IB/images/print.gif" onClick="self.print();return false"></div></td>
+                        <button class="btn btn-primary" onclick="self.print();return false">
+                            <i class="fa fa-print fa-2x"></i> 打印
+                        </button>
+                    </div></td>
                   </tr>
                   </table></td>
 				<td class="innerTable_bottom_right"></td>
