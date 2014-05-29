@@ -15,42 +15,13 @@
     <script src="resources/vendor/iCheck/icheck.min.js"></script>
     <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
     <script src="resources/vendor/alertify.js/lib/alertify.min.js"></script>
-    <script src="resources/js/app.js"  type="text/javascript" charset="GB2312"></script>
+    <script src="resources/js/app.js"  type="text/javascript" charset="UTF-8"></script>
     <script>
         $(document).ready(function(){
             create_toolbar("/IB/systemManage/affiche/editor.jsp?sign=add");
             $("a").tooltip();
         });
 
-        function doDelete2()
-        {
-            var a = document.getElementsByName("id");
-            var chked = false;
-            for (i=0; i<a.length; i++)
-            {
-                if (a[i].checked)
-                {
-                    chked = true;
-                    break;
-                }
-            }
-            if (chked)
-            {
-                alertify.confirm("请确认您要删除所选的项目？", function (e) {
-                    if (e) {
-                        // user clicked "ok"
-                        document.forms[1].submit();
-                    } else {
-                        // user clicked "cancel"
-                    }
-                });
-            }
-            else
-            {
-                alertify.alert("请至少选择一个项目");
-                return false;
-            }
-        }
     </script>
 </head>
 <body>

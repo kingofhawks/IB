@@ -4,17 +4,22 @@
 <html:html>
 <link href="/IB/resources/css/app.css" rel="stylesheet">
 <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="/IB/resources/vendor/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet">
 <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script src="/IB/resources/vendor/modernizr/modernizr.min.js"></script>
 <script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
 <script src="/IB/resources/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="/IB/resources/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
+
  <script>
      $(function() {
          if (!Modernizr.inputtypes.date){
-             $('.datepicker').datepicker({todayHighlight: true})
+             $('.datepicker').datepicker({
+                 todayHighlight: true,
+                 language: 'zh-CN'
+             })
          }
      });
-
 </script>
 <body>
 <%com.witsoft.common.UserBean user = (com.witsoft.common.UserBean) session

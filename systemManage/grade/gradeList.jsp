@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="/IB/resources/vendor/select2/select2.css" />
     <link href="/IB/resources/css/app.css" rel="stylesheet">
+    <script src="/IB/resources/js/util.js"></script>
     <script src="/IB/resources/vendor/jquery/jquery-2.1.1.min.js"></script>
     <script src="/IB/resources/vendor/select2/select2.min.js"></script>
     <style>
