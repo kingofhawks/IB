@@ -4,6 +4,8 @@
 <%@ page contentType="text/html; charset=GB2312"%>
 <html:html>
 <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/IB/resources/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="/IB/resources/font-awesome-4.1.0/css/font-awesome.min.css">
 <style type="text/css">
 <!--
 .bg {
@@ -38,15 +40,16 @@ h2 {text-align:center}
                 <td align="center" class="innerTable_main">
                 <div style="width:94%; height:98%"><!--内容开始-->
                 <table width="100%"  cellpadding="3" cellspacing="1" id="item_list" class="table">
-                    <tr>
-                        <th width="8%" align="center">编号</th>
-                        <th width="24%" align="center">单证名</th>
-                        <th width="17%" align="left">下载</th>
+                    <thead>
+                        <th class="table_title">编号</th>
+                        <th class="table_title">单证名</th>
+                        <th class="table_title">下载</th>
                         <th width="1%" align="center" class="bg"></th>
-                        <th width="8%" align="center">编号</th>
-                        <th width="24%">单证名</th>
+                        <th class="table_title">编号</th>
+                        <th class="table_title">单证名</th>
                         <th width="17%" align="left">下载</th>
-                    </tr>
+                    </thead>
+
                     
                     <%
                     com.witsoft.bean.common.StaticManageBean bean=new com.witsoft.bean.common.StaticManageBean();
@@ -68,7 +71,7 @@ h2 {text-align:center}
                     out.println("</td>"); 
 				   out.println("</span>"); 
 				   out.println("<td align='left' style='padding-left:20px'>"); 
-				   out.println("<a title=\"点击下载word文档\" target=\"_blank\" href=\"/IB/bill/doc/"+bills[i][0]+".doc"+"\"><img src='/IB/images/word.gif' width='20' height='20' border='0' /></a>");                    
+				   out.println("<a title=\"点击下载word文档\" target=\"_blank\" href=\"/IB/bill/doc/"+bills[i][0]+".doc"+"\"><i class='fa fa-file-word-o'></i></a>");
                     out.println("</td>");	
 					 out.println("<td class='bg'>"); 
                     out.println("</td>");	
@@ -83,7 +86,7 @@ h2 {text-align:center}
                     out.println("</td>");                    
                     out.println("</span>"); 
 					out.println("<td align='left' style='padding-left:20px'>"); 
-					out.println("<a title=\"点击下载word文档\" target=\"_blank\" href=\"/IB/bill/doc/"+bills[i][0]+".doc"+"\"><img src='/IB/images/word.gif' width='20' height='20' border='0' /></a>");                   
+					out.println("<a title=\"点击下载word文档\" target=\"_blank\" href=\"/IB/bill/doc/"+bills[i][0]+".doc"+"\"><i class='fa fa-file-word-o'></i></a>");
                     out.println("</td>");   
                     out.println("</tr>");    
 					}
