@@ -855,11 +855,11 @@
 			<input type="hidden" name="lastprid" id="lastprid" value="">
 
                         <button class="btn btn-primary" onclick="checkType('DCH','DC');return false" type="submit">
-                            <i class="fa fa-plus fa-2x"></i>增加
+                            <i class="fa fa-plus fa-2x"></i> 增加
                         </button>
 			&nbsp;&nbsp;&nbsp;&nbsp;
                         <button class="btn btn-primary" onclick="openReplace('cases.do?flag=list');return false">
-                            <i class="fa fa-level-up fa-2x"></i>返回
+                            <i class="fa fa-level-up fa-2x"></i> 返回
                         </button>
 			<html:hidden property="aveValue"/>
 		    <html:hidden property="idM"/>

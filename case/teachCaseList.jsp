@@ -61,7 +61,7 @@
                 <tr>                  <td>
                     <div>
 		                <button class="btn btn-primary" onclick="openReplace('/IB/cases.do?flag=list');return false">
-                            <i class="fa fa-level-up fa-2x"></i>·µ»Ø
+                            <i class="fa fa-level-up fa-2x"></i> ·µ»Ø
                         </button>
                     </div>
                 </td>

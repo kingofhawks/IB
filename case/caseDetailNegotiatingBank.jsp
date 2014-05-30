@@ -14,11 +14,16 @@
 <%--本页操作需从caseDetailLC.jsp获取即期("0")/远期("1")值--%>
 <html:html>
 <head>
+
 <link href="/IB/case/case.css" rel="stylesheet" type="text/css">
+
     <link href="/IB/resources/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/IB/resources/font-awesome-4.0.3/css/font-awesome.min.css">
 <script language="javascript" type="text/javascript" src="/IB/common/default.js"></script>
-<script language="javascript" type="text/javascript" src="/IB/case/case.js"></script></head>
+<script language="javascript" type="text/javascript" src="/IB/case/case.js"></script>
+
+</head>
+
 <body onLoad="checkChc()">
 <script language="javascript" for="document" event="onkeydown">
   if(event.keyCode==13)
@@ -1024,11 +1029,11 @@
 			<input type="hidden" name="idPS" id="idPS" value="">
 
             <button class="btn btn-primary" onclick="checkType('NEH','NE');return false" type="submit">
-                <i class="fa fa-plus fa-2x"></i>增加
+                <i class="fa fa-plus fa-2x"></i> 增加
             </button>
 			&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="btn btn-primary" onclick="openReplace('cases.do?flag=list');return false">
-                <i class="fa fa-level-up fa-2x"></i>返回
+                <i class="fa fa-level-up fa-2x"></i> 返回
             </button>
 
 			<html:hidden property="aveValue"/>
